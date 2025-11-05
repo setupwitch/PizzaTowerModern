@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_ratmountmushroombounce",
   "bboxMode":0,
   "bbox_bottom":142,
@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ea9a051b-9434-4942-8a9a-11facac04b71","name":"ea9a051b-9434-4942-8a9a-11facac04b71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ea709363-b50a-4529-823d-28e032d480d4","name":"ea709363-b50a-4529-823d-28e032d480d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f4084764-a5c4-40ff-a653-99095d84d310","name":"f4084764-a5c4-40ff-a653-99095d84d310","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"199902c6-984d-4632-b87f-08b55aa02c16","name":"199902c6-984d-4632-b87f-08b55aa02c16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea9a051b-9434-4942-8a9a-11facac04b71","name":"ea9a051b-9434-4942-8a9a-11facac04b71","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ea709363-b50a-4529-823d-28e032d480d4","name":"ea709363-b50a-4529-823d-28e032d480d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f4084764-a5c4-40ff-a653-99095d84d310","name":"f4084764-a5c4-40ff-a653-99095d84d310","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"199902c6-984d-4632-b87f-08b55aa02c16","name":"199902c6-984d-4632-b87f-08b55aa02c16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,15 +76,33 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea9a051b-9434-4942-8a9a-11facac04b71","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e2ff6090-e77e-44bd-8f95-8dfa766619f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea709363-b50a-4529-823d-28e032d480d4","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"46613a3b-ffc3-43cd-a98e-31a72e34f3a5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"678fe7ef-f108-4b87-84bb-4ccfc2e283cf","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3a005ee1-2364-440d-b90d-5378003b3643","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1ea39538-f812-42a1-9817-e8020c0adc0e","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4084764-a5c4-40ff-a653-99095d84d310","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"729c2e7b-792a-4e51-842b-2f6e23114532","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"199902c6-984d-4632-b87f-08b55aa02c16","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"50c4565b-daef-4f0b-8ee4-c6eab4bb3dbc","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"98094e90-494d-4671-8705-4a8d4bef89fb","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8959c28c-bacf-476a-a52e-2bae75a90b28","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea9a051b-9434-4942-8a9a-11facac04b71","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e2ff6090-e77e-44bd-8f95-8dfa766619f4","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ea709363-b50a-4529-823d-28e032d480d4","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"46613a3b-ffc3-43cd-a98e-31a72e34f3a5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87a0ba7b-af07-4da8-8a5d-3240a3ae04ad","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"678fe7ef-f108-4b87-84bb-4ccfc2e283cf","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3e77df0-e1dc-4ddd-9fe4-1f20cd0f2d03","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3a005ee1-2364-440d-b90d-5378003b3643","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a91b5f10-3ac3-4021-93ed-50ab62deba3f","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1ea39538-f812-42a1-9817-e8020c0adc0e","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f4084764-a5c4-40ff-a653-99095d84d310","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"729c2e7b-792a-4e51-842b-2f6e23114532","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"199902c6-984d-4632-b87f-08b55aa02c16","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"50c4565b-daef-4f0b-8ee4-c6eab4bb3dbc","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c0a47b0-bb36-4f58-98aa-72aa2927e00b","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"98094e90-494d-4671-8705-4a8d4bef89fb","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52b41cec-bacd-4a50-b95e-afe9ab10d051","path":"sprites/spr_player_ratmountmushroombounce/spr_player_ratmountmushroombounce.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8959c28c-bacf-476a-a52e-2bae75a90b28","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

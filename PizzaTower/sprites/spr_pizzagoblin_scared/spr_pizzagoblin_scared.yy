@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzagoblin_scared",
   "bboxMode":0,
   "bbox_bottom":120,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"260e3eb4-1039-49cf-8183-baa697020050","name":"260e3eb4-1039-49cf-8183-baa697020050","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"affce8ab-d460-4a93-af41-0eee239e8374","name":"affce8ab-d460-4a93-af41-0eee239e8374","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"260e3eb4-1039-49cf-8183-baa697020050","name":"260e3eb4-1039-49cf-8183-baa697020050","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"affce8ab-d460-4a93-af41-0eee239e8374","name":"affce8ab-d460-4a93-af41-0eee239e8374","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Pizza Goblin",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Pizza Goblin.yy",
+    "path":"folders/Sprites/Baddies/Pizza Goblin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"260e3eb4-1039-49cf-8183-baa697020050","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a7e4f0a1-f68f-42d0-9e5a-46f9d9a69f3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"48efcf11-6ba0-4cb0-b83a-f854be666d21","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e12a6842-a532-4b4d-9fb0-9cf32024e7be","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"affce8ab-d460-4a93-af41-0eee239e8374","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7cfbd88a-6091-4a09-b2ae-5d7f842df19c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"260e3eb4-1039-49cf-8183-baa697020050","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a7e4f0a1-f68f-42d0-9e5a-46f9d9a69f3f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f78c4d1-7bb6-4907-aff4-476c68b93467","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"48efcf11-6ba0-4cb0-b83a-f854be666d21","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9434b05-1d1f-4ba7-b1ff-846d7fb051f2","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e12a6842-a532-4b4d-9fb0-9cf32024e7be","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"affce8ab-d460-4a93-af41-0eee239e8374","path":"sprites/spr_pizzagoblin_scared/spr_pizzagoblin_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7cfbd88a-6091-4a09-b2ae-5d7f842df19c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

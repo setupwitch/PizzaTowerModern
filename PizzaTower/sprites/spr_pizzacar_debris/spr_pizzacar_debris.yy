@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzacar_debris",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fce8cd96-4654-4615-901e-260ea78507a8","name":"fce8cd96-4654-4615-901e-260ea78507a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fce8cd96-4654-4615-901e-260ea78507a8","name":"fce8cd96-4654-4615-901e-260ea78507a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a14cb0fc-34a0-485a-a81c-071418e44f73","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6dad5604-44e0-4951-968d-48a39670040d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fce8cd96-4654-4615-901e-260ea78507a8","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"abd2bb2a-b3d5-46d2-b22c-4818565f44f0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"35b1ce28-09a3-4d73-b85e-e34cd8628d1e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"04ac507c-fa04-4480-be88-93527a666413","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1281f0bc-ffd8-47bf-a236-4a064a8fc5af","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a14cb0fc-34a0-485a-a81c-071418e44f73","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"914fdd1e-0be4-4423-95ab-a2cb81afd717","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6dad5604-44e0-4951-968d-48a39670040d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fce8cd96-4654-4615-901e-260ea78507a8","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"abd2bb2a-b3d5-46d2-b22c-4818565f44f0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d06c8af-3ee7-4c24-9eb7-e9806858f5c7","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"35b1ce28-09a3-4d73-b85e-e34cd8628d1e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38760ec5-4ce7-49dc-9fd4-9ec602f75124","path":"sprites/spr_pizzacar_debris/spr_pizzacar_debris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"04ac507c-fa04-4480-be88-93527a666413","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

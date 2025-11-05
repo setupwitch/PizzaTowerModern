@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gusbrickfightball",
   "bboxMode":0,
   "bbox_bottom":142,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"063ea340-ff0d-4703-9870-33e8f7e87a08","name":"063ea340-ff0d-4703-9870-33e8f7e87a08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"063ea340-ff0d-4703-9870-33e8f7e87a08","name":"063ea340-ff0d-4703-9870-33e8f7e87a08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"646dea6d-4ed9-43f9-92eb-9f4806e5fe0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"063ea340-ff0d-4703-9870-33e8f7e87a08","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"96d831ee-cdda-44ef-b713-e80df6b01fc5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"80d1c22d-df27-4718-a20a-c1aecde0ebe9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"66c6defb-9f7e-40d6-889a-98c9fd35ee2c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06e0bf6f-00d4-446b-a66f-b5f8323a1548","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"646dea6d-4ed9-43f9-92eb-9f4806e5fe0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"063ea340-ff0d-4703-9870-33e8f7e87a08","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96d831ee-cdda-44ef-b713-e80df6b01fc5","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c01a9c85-8f79-4c20-a631-21adf7961ea3","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"80d1c22d-df27-4718-a20a-c1aecde0ebe9","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2216ab4-2c7a-46a0-95c3-529358debe2a","path":"sprites/spr_gusbrickfightball/spr_gusbrickfightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"66c6defb-9f7e-40d6-889a-98c9fd35ee2c","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

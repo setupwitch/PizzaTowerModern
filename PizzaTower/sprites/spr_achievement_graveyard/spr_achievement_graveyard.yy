@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_graveyard",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"76e2557e-e1bf-4254-b876-041d68e159b9","name":"76e2557e-e1bf-4254-b876-041d68e159b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"895f65f0-6296-4e99-9664-4d65e9476f7e","name":"895f65f0-6296-4e99-9664-4d65e9476f7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7470874d-ced0-4e0a-812f-c2fd692af17d","name":"7470874d-ced0-4e0a-812f-c2fd692af17d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"76e2557e-e1bf-4254-b876-041d68e159b9","name":"76e2557e-e1bf-4254-b876-041d68e159b9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"895f65f0-6296-4e99-9664-4d65e9476f7e","name":"895f65f0-6296-4e99-9664-4d65e9476f7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7470874d-ced0-4e0a-812f-c2fd692af17d","name":"7470874d-ced0-4e0a-812f-c2fd692af17d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"76e2557e-e1bf-4254-b876-041d68e159b9","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9de1c007-d9cc-41ab-a536-0c6558d316fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"895f65f0-6296-4e99-9664-4d65e9476f7e","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6c0d5ef9-b966-410b-9d47-00d386ea3375","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4da37ec2-4dd1-45bb-8f5f-d6e70fa436b6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7470874d-ced0-4e0a-812f-c2fd692af17d","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c16bcd43-3628-44d8-9d37-645356c35754","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"439fda14-4aec-4f22-a746-146a9d701722","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e91f7997-937e-4d7d-8611-0f8bb1b14cd3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"76e2557e-e1bf-4254-b876-041d68e159b9","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9de1c007-d9cc-41ab-a536-0c6558d316fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"895f65f0-6296-4e99-9664-4d65e9476f7e","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c0d5ef9-b966-410b-9d47-00d386ea3375","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bfc4e871-5361-4c22-855c-3dba63f3e4e6","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4da37ec2-4dd1-45bb-8f5f-d6e70fa436b6","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7470874d-ced0-4e0a-812f-c2fd692af17d","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c16bcd43-3628-44d8-9d37-645356c35754","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0998e6f7-0a15-4154-afeb-f83c2b68343d","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"439fda14-4aec-4f22-a746-146a9d701722","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f7c42a14-b960-4f9d-8e13-90e274a3bd34","path":"sprites/spr_achievement_graveyard/spr_achievement_graveyard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e91f7997-937e-4d7d-8611-0f8bb1b14cd3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

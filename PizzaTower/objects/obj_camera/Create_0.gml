@@ -1,4 +1,7 @@
 state = states.normal;
+detach = false;
+detachedby = -1;
+follow_golf = false;
 targetgolf = noone;
 camzoom = 1;
 max_zoom = 100;
@@ -54,6 +57,8 @@ spr_speedbar_index = 0;
 shoving = false;
 bang = false;
 image_speed = 0.35;
+p2pdistance = 0;
+p2pdistancex = 0;
 bound_camera = false;
 global.timedgate = false;
 healthshake = 0;

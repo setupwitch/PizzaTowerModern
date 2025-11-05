@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noisetterabbit_takemoney",
   "bboxMode":0,
   "bbox_bottom":97,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a7ac26e6-910c-4fbc-818d-c49506efb941","name":"a7ac26e6-910c-4fbc-818d-c49506efb941","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a7ac26e6-910c-4fbc-818d-c49506efb941","name":"a7ac26e6-910c-4fbc-818d-c49506efb941","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ca148fa0-3afb-42bc-9552-bdd5ee4e0efd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f14a3a4f-1873-4872-845f-13a650dba423","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7ac26e6-910c-4fbc-818d-c49506efb941","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cde7086a-7ff5-4faa-bf8b-e453f0b2a988","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"98e9d6cb-e728-4968-a9cc-4ee6820727b8","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ca148fa0-3afb-42bc-9552-bdd5ee4e0efd","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ccd7f0c-01e1-4735-b3b8-6c8286950666","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f14a3a4f-1873-4872-845f-13a650dba423","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7ac26e6-910c-4fbc-818d-c49506efb941","path":"sprites/spr_noisetterabbit_takemoney/spr_noisetterabbit_takemoney.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cde7086a-7ff5-4faa-bf8b-e453f0b2a988","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

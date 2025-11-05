@@ -16,7 +16,7 @@
   "exportToGame":true,
   "extensionVersion":"0.0.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"fmod-gamemaker.dll","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"fmod-gamemaker.dll","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"fmod_init","argCount":1,"args":[2,],"documentation":"","externalName":"FMOD_Init","help":"","hidden":false,"kind":1,"name":"fmod_init","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"fmod_destroy","argCount":0,"args":[],"documentation":"","externalName":"FMOD_Destroy","help":"","hidden":false,"kind":1,"name":"fmod_destroy","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"fmod_bank_load","argCount":2,"args":[1,2,],"documentation":"","externalName":"FMOD_Bank_Load","help":"","hidden":false,"kind":1,"name":"fmod_bank_load","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
@@ -43,7 +43,7 @@
         {"$GMExtensionFunction":"","%Name":"fmod_event_instance_set_timeline_pos","argCount":2,"args":[2,2,],"documentation":"","externalName":"FMOD_EventInstance_SetTimelinePosition","help":"","hidden":false,"kind":1,"name":"fmod_event_instance_set_timeline_pos","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"fmod_bank_load_sample_data","argCount":1,"args":[1,],"documentation":"","externalName":"FMOD_Bank_LoadSampleData","help":"","hidden":false,"kind":1,"name":"fmod_bank_load_sample_data","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
         {"$GMExtensionFunction":"","%Name":"fmod_event_get_length","argCount":1,"args":[1,],"documentation":"","externalName":"FMOD_Event_GetLength","help":"","hidden":false,"kind":1,"name":"fmod_event_get_length","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":1,"name":"","order":[],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":1,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_playerN_pogofall",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"11cd3cd7-529a-4e9b-a5ef-5c030e39a139","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"20c1c7a6-6153-4d2c-ae01-517b08fe338e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"37b9a94d-c1fe-4c91-878c-7cff7ee1ac00","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b24eae6f-e75e-45e7-b1ab-1dc50719a942","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"11cd3cd7-529a-4e9b-a5ef-5c030e39a139","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c0eac0f-2be6-45ba-b05d-1c5cbe85bc94","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"20c1c7a6-6153-4d2c-ae01-517b08fe338e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"872f3d7b-9a39-4d4d-9e40-b6ca0649cfac","path":"sprites/spr_playerN_pogofall/spr_playerN_pogofall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"37b9a94d-c1fe-4c91-878c-7cff7ee1ac00","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

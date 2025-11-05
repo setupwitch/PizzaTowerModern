@@ -12,8 +12,8 @@
   "name":"obj_soldier",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Baddies",
+    "path":"folders/Objects/Baddies.yy",
   },
   "parentObjectId":{
     "name":"obj_baddie",

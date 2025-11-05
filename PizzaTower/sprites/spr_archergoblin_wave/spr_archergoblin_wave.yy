@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_archergoblin_wave",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8366b905-cc6a-4708-9691-bf00299a6bb5","name":"8366b905-cc6a-4708-9691-bf00299a6bb5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8366b905-cc6a-4708-9691-bf00299a6bb5","name":"8366b905-cc6a-4708-9691-bf00299a6bb5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -30,7 +30,7 @@
   "origin":4,
   "parent":{
     "name":"Archer Goblin",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Archer Goblin.yy",
+    "path":"folders/Sprites/Baddies/Archer Goblin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f4a7eb38-7383-4b46-98dc-b1257878010e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c4bcde7c-5d13-45db-86ab-113b7d57c72f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8366b905-cc6a-4708-9691-bf00299a6bb5","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c0c6a93b-148c-4ec6-b393-a68fe4a5e0fc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b2cbf01c-d2b0-4bd7-b9c2-e827c27f8f7a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2f9cfea6-fda5-4f2a-94b9-746699673129","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"62fb0dd3-4f3c-42a4-b2b9-6269855a93c4","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f4a7eb38-7383-4b46-98dc-b1257878010e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e404c6c-f376-42bf-a878-f59dfa70fe0f","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c4bcde7c-5d13-45db-86ab-113b7d57c72f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8366b905-cc6a-4708-9691-bf00299a6bb5","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0c6a93b-148c-4ec6-b393-a68fe4a5e0fc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d093b5ac-cfb2-4c3c-be1d-75dd89e5484b","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b2cbf01c-d2b0-4bd7-b9c2-e827c27f8f7a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04013941-1877-4a1d-b6b7-e3de8f5ddff4","path":"sprites/spr_archergoblin_wave/spr_archergoblin_wave.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2f9cfea6-fda5-4f2a-94b9-746699673129","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Unused",
-    "path":"folders/Tile Sets/Unused.yy",
+    "name":"Floor 4",
+    "path":"folders/Tile Sets/Floor 4.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

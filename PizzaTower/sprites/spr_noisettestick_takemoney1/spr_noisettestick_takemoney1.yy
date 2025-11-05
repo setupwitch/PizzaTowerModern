@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noisettestick_takemoney1",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c05bee08-49f2-4a59-9b08-85bb8355f687","name":"c05bee08-49f2-4a59-9b08-85bb8355f687","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"523318cc-3919-4c8e-9c34-a690d74470a2","name":"523318cc-3919-4c8e-9c34-a690d74470a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"496ad293-c617-47df-9697-4e0cf2b866bb","name":"496ad293-c617-47df-9697-4e0cf2b866bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f5728dda-156c-444b-8396-34f406f0aeb5","name":"f5728dda-156c-444b-8396-34f406f0aeb5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c05bee08-49f2-4a59-9b08-85bb8355f687","name":"c05bee08-49f2-4a59-9b08-85bb8355f687","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"523318cc-3919-4c8e-9c34-a690d74470a2","name":"523318cc-3919-4c8e-9c34-a690d74470a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"496ad293-c617-47df-9697-4e0cf2b866bb","name":"496ad293-c617-47df-9697-4e0cf2b866bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f5728dda-156c-444b-8396-34f406f0aeb5","name":"f5728dda-156c-444b-8396-34f406f0aeb5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,14 +75,30 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c05bee08-49f2-4a59-9b08-85bb8355f687","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"84eb1969-4353-48c4-94be-58a3faba608f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"523318cc-3919-4c8e-9c34-a690d74470a2","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dc7269f4-b64b-414d-92f9-cf7768ccc78a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e9922607-4770-4cba-87a8-940902415fdb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fd9adb33-dbe4-49a9-8e4c-ca857048d151","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9ccb8fc1-2115-44ad-87ff-4ac64b0483a2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5d66d64d-061d-4f57-92ff-c4db4b5d372e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"496ad293-c617-47df-9697-4e0cf2b866bb","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4c24152b-91b0-4713-bbc0-832505ffa992","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5728dda-156c-444b-8396-34f406f0aeb5","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8b0f5a2e-47ef-4afd-a1ab-034529081122","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c05bee08-49f2-4a59-9b08-85bb8355f687","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"84eb1969-4353-48c4-94be-58a3faba608f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"523318cc-3919-4c8e-9c34-a690d74470a2","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dc7269f4-b64b-414d-92f9-cf7768ccc78a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd9fcb52-33c5-4e5d-a507-f03c021b72ef","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e9922607-4770-4cba-87a8-940902415fdb","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52a3ab6e-8e8a-4e16-b2c9-80fb3ceb0f39","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd9adb33-dbe4-49a9-8e4c-ca857048d151","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4878a91c-77c5-42c0-9825-2c5e50733f6f","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9ccb8fc1-2115-44ad-87ff-4ac64b0483a2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4eb48292-c29c-4735-9b28-4f8fde02f7a4","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5d66d64d-061d-4f57-92ff-c4db4b5d372e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"496ad293-c617-47df-9697-4e0cf2b866bb","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4c24152b-91b0-4713-bbc0-832505ffa992","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5728dda-156c-444b-8396-34f406f0aeb5","path":"sprites/spr_noisettestick_takemoney1/spr_noisettestick_takemoney1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8b0f5a2e-47ef-4afd-a1ab-034529081122","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

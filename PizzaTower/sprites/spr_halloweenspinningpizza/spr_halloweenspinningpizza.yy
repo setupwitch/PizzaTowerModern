@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_halloweenspinningpizza",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,22 +12,22 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"63e428ba-4577-4836-845b-2b2447aa84ef","name":"63e428ba-4577-4836-845b-2b2447aa84ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"374866f4-16b2-4874-903a-d42abb538df5","name":"374866f4-16b2-4874-903a-d42abb538df5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"26276fbd-4136-4853-9718-88179b5b0c20","name":"26276fbd-4136-4853-9718-88179b5b0c20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ef22565c-9264-41b7-b6e3-2246a013cea1","name":"ef22565c-9264-41b7-b6e3-2246a013cea1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"40b496df-a365-437f-880e-8859922b9c56","name":"40b496df-a365-437f-880e-8859922b9c56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"63e428ba-4577-4836-845b-2b2447aa84ef","name":"63e428ba-4577-4836-845b-2b2447aa84ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"374866f4-16b2-4874-903a-d42abb538df5","name":"374866f4-16b2-4874-903a-d42abb538df5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"26276fbd-4136-4853-9718-88179b5b0c20","name":"26276fbd-4136-4853-9718-88179b5b0c20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef22565c-9264-41b7-b6e3-2246a013cea1","name":"ef22565c-9264-41b7-b6e3-2246a013cea1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40b496df-a365-437f-880e-8859922b9c56","name":"40b496df-a365-437f-880e-8859922b9c56","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -83,22 +83,54 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c37dd711-ccb7-4dc3-bfbd-1252973fd005","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe47b3c8-4eb7-4013-8a51-bea487452eb6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8c7cbe6c-097e-4351-88ce-3b6f6c42123e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"398b5c90-8087-4a6a-901f-0b23eaa2a400","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"428941f9-54cb-4a32-8f6f-79f610d0729d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"63e428ba-4577-4836-845b-2b2447aa84ef","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"99e45516-6f31-4bfd-8c70-24c3a7119ed9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"374866f4-16b2-4874-903a-d42abb538df5","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c3b9cedf-71de-47c7-9a4d-69ff61d406f2","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6730099d-00ec-4e0c-bed4-58c7fa56b685","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"26276fbd-4136-4853-9718-88179b5b0c20","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"55a7b679-ea87-4529-9077-a85fd2898b6e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef22565c-9264-41b7-b6e3-2246a013cea1","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f002b77b-be17-49c2-92b6-62604f248e42","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0b179dc4-de86-42bd-aa7a-b89a1a0b1171","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"794ed1eb-3800-478c-b7b7-09a44ae7c21a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7227c2bf-e0c5-4d4c-973c-cc4092aa40b0","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"358c55b1-a87e-4626-88f5-8a5ac063144e","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40b496df-a365-437f-880e-8859922b9c56","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0163ba5f-e845-4efc-9cd6-bd58f003180b","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4dc7d986-e788-4c95-9593-feac18a8e61d","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc0ded14-76e2-4f11-bd87-f8b79c5e3600","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c37dd711-ccb7-4dc3-bfbd-1252973fd005","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b1fa3c2-3a28-49cf-9164-2ee84538039f","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe47b3c8-4eb7-4013-8a51-bea487452eb6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3852a34d-0a69-4ef9-ba78-63df5f2cfbc9","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8c7cbe6c-097e-4351-88ce-3b6f6c42123e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2b6b861-f37e-4756-8dc2-9df907021dd9","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"398b5c90-8087-4a6a-901f-0b23eaa2a400","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f9cce19e-b0aa-48b9-a104-b9669de6adab","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"428941f9-54cb-4a32-8f6f-79f610d0729d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"63e428ba-4577-4836-845b-2b2447aa84ef","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"99e45516-6f31-4bfd-8c70-24c3a7119ed9","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"374866f4-16b2-4874-903a-d42abb538df5","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c3b9cedf-71de-47c7-9a4d-69ff61d406f2","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5165ecec-43b1-45cb-b223-1fa743d7d1bc","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6730099d-00ec-4e0c-bed4-58c7fa56b685","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"26276fbd-4136-4853-9718-88179b5b0c20","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"55a7b679-ea87-4529-9077-a85fd2898b6e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef22565c-9264-41b7-b6e3-2246a013cea1","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f002b77b-be17-49c2-92b6-62604f248e42","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cf699e85-fe20-48c4-9e7e-0f156471bf4f","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0b179dc4-de86-42bd-aa7a-b89a1a0b1171","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab7da934-1e83-460b-9c1d-b29c33e19ee1","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"794ed1eb-3800-478c-b7b7-09a44ae7c21a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a78b5cec-5cff-4122-9ad3-f3882b68d45a","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7227c2bf-e0c5-4d4c-973c-cc4092aa40b0","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4d44fa15-07b5-46c7-9dbb-3cb84992fb84","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"358c55b1-a87e-4626-88f5-8a5ac063144e","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40b496df-a365-437f-880e-8859922b9c56","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0163ba5f-e845-4efc-9cd6-bd58f003180b","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b6e8392a-bae9-4d86-ad34-6e0fc6a2fabb","path":"sprites/spr_halloweenspinningpizza/spr_halloweenspinningpizza.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4dc7d986-e788-4c95-9593-feac18a8e61d","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

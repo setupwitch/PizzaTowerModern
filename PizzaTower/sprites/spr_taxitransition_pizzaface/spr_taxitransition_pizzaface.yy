@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_taxitransition_pizzaface",
   "bboxMode":0,
   "bbox_bottom":570,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a2a52e53-bbff-4edd-b178-48db89d856f4","name":"a2a52e53-bbff-4edd-b178-48db89d856f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2a52e53-bbff-4edd-b178-48db89d856f4","name":"a2a52e53-bbff-4edd-b178-48db89d856f4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"80d37241-3978-461d-bd2e-0401e09a5081","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"52611c25-9908-4cfc-a84b-d28bd397b212","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2a52e53-bbff-4edd-b178-48db89d856f4","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7cb856b8-7e82-4ae5-a3cb-51bd8a18ec6e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d28c36f2-128a-4572-af94-01bbf2fcb88b","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"80d37241-3978-461d-bd2e-0401e09a5081","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1c126eb-3e9d-4a48-afe5-8bd0d74c8048","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"52611c25-9908-4cfc-a84b-d28bd397b212","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2a52e53-bbff-4edd-b178-48db89d856f4","path":"sprites/spr_taxitransition_pizzaface/spr_taxitransition_pizzaface.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7cb856b8-7e82-4ae5-a3cb-51bd8a18ec6e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -15,8 +15,8 @@
   "name":"obj_vigilanteshot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Vigilante",
+    "path":"folders/Objects/Boss/Vigilante.yy",
   },
   "parentObjectId":null,
   "persistent":false,

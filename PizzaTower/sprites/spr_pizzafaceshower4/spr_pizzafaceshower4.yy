@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzafaceshower4",
   "bboxMode":0,
   "bbox_bottom":245,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4085d240-62b0-4d22-b552-90528dbadc04","name":"4085d240-62b0-4d22-b552-90528dbadc04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4085d240-62b0-4d22-b552-90528dbadc04","name":"4085d240-62b0-4d22-b552-90528dbadc04","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4085d240-62b0-4d22-b552-90528dbadc04","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38ad51e5-a260-464b-86e5-c832c76cb915","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7b2e10cd-6acc-464a-8a25-42b627b00e04","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8df6bd3a-e772-43ef-b586-34275bb25c34","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4085d240-62b0-4d22-b552-90528dbadc04","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38ad51e5-a260-464b-86e5-c832c76cb915","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12034fa1-cc1b-41f4-aefe-015dc4c5ec79","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7b2e10cd-6acc-464a-8a25-42b627b00e04","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7dbbc205-d8f8-4c1f-ab2c-6585a034fab1","path":"sprites/spr_pizzafaceshower4/spr_pizzafaceshower4.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8df6bd3a-e772-43ef-b586-34275bb25c34","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

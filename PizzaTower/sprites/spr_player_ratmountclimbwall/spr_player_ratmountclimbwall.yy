@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_ratmountclimbwall",
   "bboxMode":0,
   "bbox_bottom":131,
@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f2120d8-e69f-489d-8538-e31c903c5aef","name":"5f2120d8-e69f-489d-8538-e31c903c5aef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5545d4d9-4528-4d64-897f-1be6103559cf","name":"5545d4d9-4528-4d64-897f-1be6103559cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d76b640-9eae-42b1-b782-1f48817c7b77","name":"9d76b640-9eae-42b1-b782-1f48817c7b77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d7e69671-d9d8-4380-83fd-6bd380657127","name":"d7e69671-d9d8-4380-83fd-6bd380657127","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f2120d8-e69f-489d-8538-e31c903c5aef","name":"5f2120d8-e69f-489d-8538-e31c903c5aef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5545d4d9-4528-4d64-897f-1be6103559cf","name":"5545d4d9-4528-4d64-897f-1be6103559cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d76b640-9eae-42b1-b782-1f48817c7b77","name":"9d76b640-9eae-42b1-b782-1f48817c7b77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d7e69671-d9d8-4380-83fd-6bd380657127","name":"d7e69671-d9d8-4380-83fd-6bd380657127","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,15 +76,33 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f2120d8-e69f-489d-8538-e31c903c5aef","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"059a6ea9-0a3b-4ae5-b61f-5407c932e7a0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"06fb14b6-d998-460c-8d3c-cdbe0548bef9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"478828de-3ed3-4edf-b368-e2f0bb1ee647","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"96fbfea4-5c3f-430e-bdbf-d8d9d70a1454","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5545d4d9-4528-4d64-897f-1be6103559cf","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"23e3267b-6031-4764-9759-89ece0d2e3f2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d76b640-9eae-42b1-b782-1f48817c7b77","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"938b6da3-da2b-4c5e-8e87-e0af79f99522","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7e69671-d9d8-4380-83fd-6bd380657127","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c58f3d8e-232b-4b33-8ea6-10285cdd9d52","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"778f4de5-d30a-41ba-9f0c-a3691150fb3d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9e802031-824c-4f64-aad8-6fa0334c8a65","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f2120d8-e69f-489d-8538-e31c903c5aef","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"059a6ea9-0a3b-4ae5-b61f-5407c932e7a0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"39b97353-09d8-4e20-86c4-a02ada5e78dd","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"06fb14b6-d998-460c-8d3c-cdbe0548bef9","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5ca34f9b-8cc4-4b7a-84cc-9989e6454273","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"478828de-3ed3-4edf-b368-e2f0bb1ee647","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d1ac58a7-bac7-4171-916c-d31607f7cd32","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96fbfea4-5c3f-430e-bdbf-d8d9d70a1454","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5545d4d9-4528-4d64-897f-1be6103559cf","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"23e3267b-6031-4764-9759-89ece0d2e3f2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9d76b640-9eae-42b1-b782-1f48817c7b77","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"938b6da3-da2b-4c5e-8e87-e0af79f99522","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7e69671-d9d8-4380-83fd-6bd380657127","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c58f3d8e-232b-4b33-8ea6-10285cdd9d52","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da6ab4ad-d2f3-4fc9-9a92-7a51521d41cd","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"778f4de5-d30a-41ba-9f0c-a3691150fb3d","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c84dbe08-e1e9-4750-b385-b7a9dd822736","path":"sprites/spr_player_ratmountclimbwall/spr_player_ratmountclimbwall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9e802031-824c-4f64-aad8-6fa0334c8a65","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

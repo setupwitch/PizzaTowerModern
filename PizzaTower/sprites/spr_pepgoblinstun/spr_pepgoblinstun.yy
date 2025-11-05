@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pepgoblinstun",
   "bboxMode":0,
   "bbox_bottom":98,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -28,7 +28,7 @@
   "origin":9,
   "parent":{
     "name":"Pepperoni Goblin",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Pepperoni Goblin.yy",
+    "path":"folders/Sprites/Baddies/Pepperoni Goblin.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"152e92f6-f0e5-4e3d-8980-04e06bb7b4a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a2d46cb3-eabf-41fc-b270-84d33432a8e8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b68a4ae0-2f5a-4e7d-a977-b851d5c4d2b5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b8e589e6-8658-4e75-97c5-3c8bce052ee4","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"152e92f6-f0e5-4e3d-8980-04e06bb7b4a8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a0891d8-6dcf-470d-b0e1-21ac20ecf144","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a2d46cb3-eabf-41fc-b270-84d33432a8e8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b1586bf5-6f77-4d1a-82b2-94eccf7b7bd7","path":"sprites/spr_pepgoblinstun/spr_pepgoblinstun.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b68a4ae0-2f5a-4e7d-a977-b851d5c4d2b5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noisettestick_takemoney2",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2210aca2-48a9-469c-a2be-c5187378efe6","name":"2210aca2-48a9-469c-a2be-c5187378efe6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"79ea9749-275c-4970-879f-6415b4492e9d","name":"79ea9749-275c-4970-879f-6415b4492e9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2210aca2-48a9-469c-a2be-c5187378efe6","name":"2210aca2-48a9-469c-a2be-c5187378efe6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79ea9749-275c-4970-879f-6415b4492e9d","name":"79ea9749-275c-4970-879f-6415b4492e9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"792d516a-8550-4fca-96d6-c0c71a474b26","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2210aca2-48a9-469c-a2be-c5187378efe6","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49589a8c-861c-4084-8a52-22c96ae765db","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"941ea0e5-f92d-4312-a4a9-064847925440","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"79ea9749-275c-4970-879f-6415b4492e9d","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7481bc22-7150-4f88-b1e6-34d114d09bb6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f6b7174-56a1-45dc-a4f8-c94bd4fa8c43","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"792d516a-8550-4fca-96d6-c0c71a474b26","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2210aca2-48a9-469c-a2be-c5187378efe6","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49589a8c-861c-4084-8a52-22c96ae765db","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ceb8f65a-d5a9-40b5-9276-6c48918a8426","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"941ea0e5-f92d-4312-a4a9-064847925440","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79ea9749-275c-4970-879f-6415b4492e9d","path":"sprites/spr_noisettestick_takemoney2/spr_noisettestick_takemoney2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7481bc22-7150-4f88-b1e6-34d114d09bb6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

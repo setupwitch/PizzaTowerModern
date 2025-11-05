@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bazooka_missile",
   "bboxMode":2,
   "bbox_bottom":56,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5b1fff78-d6c8-42fb-b391-2e463d471399","name":"5b1fff78-d6c8-42fb-b391-2e463d471399","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9425cecd-064f-42f1-97f3-5546fa1f8052","name":"9425cecd-064f-42f1-97f3-5546fa1f8052","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b1fff78-d6c8-42fb-b391-2e463d471399","name":"5b1fff78-d6c8-42fb-b391-2e463d471399","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9425cecd-064f-42f1-97f3-5546fa1f8052","name":"9425cecd-064f-42f1-97f3-5546fa1f8052","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Unused",
-    "path":"folders/Sprites/Unused.yy",
+    "name":"Tank",
+    "path":"folders/Sprites/Baddies/Tank.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -74,13 +74,27 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fd513613-a82a-4682-baf2-efa379ff5a3e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e8f3b4b9-41cb-4a4b-84d5-17441daaf7e1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2fa0d954-06dd-4530-bd15-574c1988cbf5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"275efe35-48cd-4cc5-884c-2f7c242f07ed","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b1fff78-d6c8-42fb-b391-2e463d471399","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3d9d3a50-5c1f-4425-b23b-26ecc6a32c3a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c9e769e9-dd28-4ece-9396-6a04bc3f491b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9425cecd-064f-42f1-97f3-5546fa1f8052","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"679d908a-c329-4393-8945-d450b352644f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb1b39de-1ea4-4285-bfb2-19c03ac0263a","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fd513613-a82a-4682-baf2-efa379ff5a3e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44f88d8a-9e91-41a7-a0b7-f46e99f6554a","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e8f3b4b9-41cb-4a4b-84d5-17441daaf7e1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"26c7f9cb-ea88-4ca5-8d5d-108186efc307","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2fa0d954-06dd-4530-bd15-574c1988cbf5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9c2fdae-2be0-4bdf-bc35-a305836e9b9b","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"275efe35-48cd-4cc5-884c-2f7c242f07ed","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b1fff78-d6c8-42fb-b391-2e463d471399","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3d9d3a50-5c1f-4425-b23b-26ecc6a32c3a","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"718e51d5-bddd-4d74-867e-c7c7d6d877c3","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c9e769e9-dd28-4ece-9396-6a04bc3f491b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9425cecd-064f-42f1-97f3-5546fa1f8052","path":"sprites/spr_bazooka_missile/spr_bazooka_missile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"679d908a-c329-4393-8945-d450b352644f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

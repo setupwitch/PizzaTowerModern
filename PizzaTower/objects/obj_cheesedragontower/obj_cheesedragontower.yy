@@ -10,8 +10,8 @@
   "name":"obj_cheesedragontower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Details",
+    "path":"folders/Objects/Room Structure/Hub Structure/Details.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzacoin",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4ed68a94-d416-4629-861d-b13407de4e87","name":"4ed68a94-d416-4629-861d-b13407de4e87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9f48e2eb-b317-4684-a62e-69885d5b7352","name":"9f48e2eb-b317-4684-a62e-69885d5b7352","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"39609964-ed27-487c-9aca-81dbfd656263","name":"39609964-ed27-487c-9aca-81dbfd656263","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0d99764a-729d-475c-adc1-264a09066c79","name":"0d99764a-729d-475c-adc1-264a09066c79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5346ccf-6586-4924-892a-82abe4a03914","name":"b5346ccf-6586-4924-892a-82abe4a03914","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8e219f09-1d30-4a76-bc32-1e37c096d244","name":"8e219f09-1d30-4a76-bc32-1e37c096d244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1702c640-c427-45d7-a3f3-5888ad12e089","name":"1702c640-c427-45d7-a3f3-5888ad12e089","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ed68a94-d416-4629-861d-b13407de4e87","name":"4ed68a94-d416-4629-861d-b13407de4e87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f48e2eb-b317-4684-a62e-69885d5b7352","name":"9f48e2eb-b317-4684-a62e-69885d5b7352","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39609964-ed27-487c-9aca-81dbfd656263","name":"39609964-ed27-487c-9aca-81dbfd656263","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0d99764a-729d-475c-adc1-264a09066c79","name":"0d99764a-729d-475c-adc1-264a09066c79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5346ccf-6586-4924-892a-82abe4a03914","name":"b5346ccf-6586-4924-892a-82abe4a03914","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8e219f09-1d30-4a76-bc32-1e37c096d244","name":"8e219f09-1d30-4a76-bc32-1e37c096d244","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1702c640-c427-45d7-a3f3-5888ad12e089","name":"1702c640-c427-45d7-a3f3-5888ad12e089","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,21 +82,51 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ed68a94-d416-4629-861d-b13407de4e87","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dc9753b6-4c8d-4f18-a1f7-040385c8bf16","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f48e2eb-b317-4684-a62e-69885d5b7352","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d947e6db-8d32-494d-92f8-9c93ade22199","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a7556454-6825-4546-a55b-94d0c165973a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"39609964-ed27-487c-9aca-81dbfd656263","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e00776d8-b4d2-4f0a-8a6f-f9d8a236bc2a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fbf712ee-910c-450d-86bb-db79f641ea87","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"45dc2779-a402-4569-ada5-26c38ab0157b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d99764a-729d-475c-adc1-264a09066c79","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"19a75894-08f4-46ae-9763-5c2b20a55c1a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5346ccf-6586-4924-892a-82abe4a03914","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"08ea1163-8fa8-4f91-9da9-4339da4c75d3","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"167c25b8-cac2-476a-86fc-ee77fb19cf3d","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4cbc9cad-272b-4e6f-b92f-b19b644de849","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7e7b8367-53b5-465f-a0f3-8a6e8b842395","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e219f09-1d30-4a76-bc32-1e37c096d244","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e0e63fd2-76bf-46fe-b84d-3e09fdeb6674","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1702c640-c427-45d7-a3f3-5888ad12e089","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7899902f-7e0a-41ea-9d41-c1326e7c4db2","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b72c51ee-42fc-41ef-992b-6e79ed24518a","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d52d95a6-b050-4ff4-9ab9-64625324547a","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4ed68a94-d416-4629-861d-b13407de4e87","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dc9753b6-4c8d-4f18-a1f7-040385c8bf16","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f48e2eb-b317-4684-a62e-69885d5b7352","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d947e6db-8d32-494d-92f8-9c93ade22199","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1ed72c6-ef7a-4875-bbb6-9d380f266f1a","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a7556454-6825-4546-a55b-94d0c165973a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"39609964-ed27-487c-9aca-81dbfd656263","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e00776d8-b4d2-4f0a-8a6f-f9d8a236bc2a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0584eb64-0a58-49cf-91bd-5faf321d3b61","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fbf712ee-910c-450d-86bb-db79f641ea87","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44b8cb18-dee6-451d-955f-9c6296aef9cc","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"45dc2779-a402-4569-ada5-26c38ab0157b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0d99764a-729d-475c-adc1-264a09066c79","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"19a75894-08f4-46ae-9763-5c2b20a55c1a","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5346ccf-6586-4924-892a-82abe4a03914","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08ea1163-8fa8-4f91-9da9-4339da4c75d3","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59447ac0-127b-4ad4-9b39-ac82b0e63e0b","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"167c25b8-cac2-476a-86fc-ee77fb19cf3d","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcf2b96c-4377-4ea9-88de-a89e72d01ff0","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4cbc9cad-272b-4e6f-b92f-b19b644de849","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d951b9e5-9057-4169-8c6f-de5e3724ce36","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7e7b8367-53b5-465f-a0f3-8a6e8b842395","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e219f09-1d30-4a76-bc32-1e37c096d244","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e0e63fd2-76bf-46fe-b84d-3e09fdeb6674","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1702c640-c427-45d7-a3f3-5888ad12e089","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7899902f-7e0a-41ea-9d41-c1326e7c4db2","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a8e57bf-87e3-4c93-88cd-0fd49a3fe014","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b72c51ee-42fc-41ef-992b-6e79ed24518a","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"297cd96a-eeaf-467a-8cd4-7ff84b4ebd4e","path":"sprites/spr_pizzacoin/spr_pizzacoin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d52d95a6-b050-4ff4-9ab9-64625324547a","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

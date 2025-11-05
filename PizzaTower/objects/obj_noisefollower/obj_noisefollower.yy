@@ -8,8 +8,8 @@
   "name":"obj_noisefollower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Escape",
+    "path":"folders/Objects/Room Structure/Hub Structure/Escape.yy",
   },
   "parentObjectId":{
     "name":"obj_exitfollowercollect",

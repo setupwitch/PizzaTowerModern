@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_peasanto_flameattack",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"39973239-eaee-49ba-a9b7-628a6fc9da54","name":"39973239-eaee-49ba-a9b7-628a6fc9da54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"750e24bd-744f-43b7-a63d-362c10380dd3","name":"750e24bd-744f-43b7-a63d-362c10380dd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e4018f14-3e6b-490a-b896-3580113c503a","name":"e4018f14-3e6b-490a-b896-3580113c503a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"21282615-083d-40d8-bd88-6dc3b66561aa","name":"21282615-083d-40d8-bd88-6dc3b66561aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39973239-eaee-49ba-a9b7-628a6fc9da54","name":"39973239-eaee-49ba-a9b7-628a6fc9da54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"750e24bd-744f-43b7-a63d-362c10380dd3","name":"750e24bd-744f-43b7-a63d-362c10380dd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e4018f14-3e6b-490a-b896-3580113c503a","name":"e4018f14-3e6b-490a-b896-3580113c503a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"21282615-083d-40d8-bd88-6dc3b66561aa","name":"21282615-083d-40d8-bd88-6dc3b66561aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -31,7 +31,7 @@
   "origin":4,
   "parent":{
     "name":"Peasanto",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Peasanto.yy",
+    "path":"folders/Sprites/Baddies/Peasanto.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f1c614a9-c9fc-49c1-9f55-78d6385e783c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"39973239-eaee-49ba-a9b7-628a6fc9da54","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b4f58a49-2358-4dc3-8d05-c71083567071","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"750e24bd-744f-43b7-a63d-362c10380dd3","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a0533058-8b46-452f-8d79-a89e99ae74a5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5711bc3d-ddbe-4661-82bd-bc474d0b0f40","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4018f14-3e6b-490a-b896-3580113c503a","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"67ed239b-f3c2-4688-9609-3f81eb459bac","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"21282615-083d-40d8-bd88-6dc3b66561aa","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a053fea7-8ac0-4b8b-a597-a0dc4704691e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e1649aa-0f3c-4cdb-bb68-e1c642a8c578","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f1c614a9-c9fc-49c1-9f55-78d6385e783c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"39973239-eaee-49ba-a9b7-628a6fc9da54","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b4f58a49-2358-4dc3-8d05-c71083567071","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"750e24bd-744f-43b7-a63d-362c10380dd3","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a0533058-8b46-452f-8d79-a89e99ae74a5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f2caeb0-fdb9-4691-beea-333d0b196e8c","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5711bc3d-ddbe-4661-82bd-bc474d0b0f40","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e4018f14-3e6b-490a-b896-3580113c503a","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"67ed239b-f3c2-4688-9609-3f81eb459bac","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"21282615-083d-40d8-bd88-6dc3b66561aa","path":"sprites/spr_peasanto_flameattack/spr_peasanto_flameattack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a053fea7-8ac0-4b8b-a597-a0dc4704691e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

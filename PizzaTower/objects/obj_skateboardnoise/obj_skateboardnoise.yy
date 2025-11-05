@@ -13,8 +13,8 @@
   "name":"obj_skateboardnoise",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Noise",
+    "path":"folders/Objects/Boss/Noise.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_kingghost_pinball2",
   "bboxMode":0,
   "bbox_bottom":69,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ef44ee35-f750-4df9-bdb1-6fd36a1d9a15","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e12e05a7-bf5b-4c0f-9b95-39ca9a97f2d2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"66a31421-f16a-441e-b341-0069c36b2d1e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd5a4f80-9cfc-49d8-b7af-5a452b404ab0","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ef44ee35-f750-4df9-bdb1-6fd36a1d9a15","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f5fe002-bb4e-489f-abd2-f86db1e671cb","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e12e05a7-bf5b-4c0f-9b95-39ca9a97f2d2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46d4c11a-b00d-4b85-97a7-517ffec4d758","path":"sprites/spr_kingghost_pinball2/spr_kingghost_pinball2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"66a31421-f16a-441e-b341-0069c36b2d1e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

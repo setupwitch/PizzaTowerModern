@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzacutterthwomp",
   "bboxMode":0,
   "bbox_bottom":81,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a03d771d-b8de-4942-87e5-49cd28530e49","name":"a03d771d-b8de-4942-87e5-49cd28530e49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9580f586-0ef0-4166-badd-05cb7a8141f2","name":"9580f586-0ef0-4166-badd-05cb7a8141f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a03d771d-b8de-4942-87e5-49cd28530e49","name":"a03d771d-b8de-4942-87e5-49cd28530e49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9580f586-0ef0-4166-badd-05cb7a8141f2","name":"9580f586-0ef0-4166-badd-05cb7a8141f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a03d771d-b8de-4942-87e5-49cd28530e49","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a8884a93-27fa-41f3-9fe8-1e4cc6b735c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9580f586-0ef0-4166-badd-05cb7a8141f2","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e3c4d576-2bae-40f3-ae35-3237d900febc","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49068e08-7d64-4503-b49c-a2c5983b979d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a03d771d-b8de-4942-87e5-49cd28530e49","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a8884a93-27fa-41f3-9fe8-1e4cc6b735c8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9580f586-0ef0-4166-badd-05cb7a8141f2","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e3c4d576-2bae-40f3-ae35-3237d900febc","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a0e4af1-cb9d-4f6b-b1f5-fd2c1e3e1564","path":"sprites/spr_pizzacutterthwomp/spr_pizzacutterthwomp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49068e08-7d64-4503-b49c-a2c5983b979d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

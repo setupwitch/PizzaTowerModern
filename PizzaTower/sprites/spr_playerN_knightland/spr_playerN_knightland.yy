@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_playerN_knightland",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"07979121-0f71-4be5-9b38-31475c068712","name":"07979121-0f71-4be5-9b38-31475c068712","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0e855259-a609-4402-9314-f68c5d6d50e4","name":"0e855259-a609-4402-9314-f68c5d6d50e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07979121-0f71-4be5-9b38-31475c068712","name":"07979121-0f71-4be5-9b38-31475c068712","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e855259-a609-4402-9314-f68c5d6d50e4","name":"0e855259-a609-4402-9314-f68c5d6d50e4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8ab6ba78-2e57-42ff-818f-c1d843c5e020","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"07979121-0f71-4be5-9b38-31475c068712","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d19a3744-b210-43d9-8d2b-36020cc26fad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d8c0673-e81c-40ef-8953-0efc7b497b2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3a57e9f0-fd5c-483d-8994-18e8f46d0e0b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"492d4b81-5f3f-4be8-a476-f02d8598c57b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e855259-a609-4402-9314-f68c5d6d50e4","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9e0835a0-7dfb-479d-8ec8-212bff218cbb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5387676-8f34-45b2-b826-2bf410b8bf3f","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8ab6ba78-2e57-42ff-818f-c1d843c5e020","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07979121-0f71-4be5-9b38-31475c068712","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d19a3744-b210-43d9-8d2b-36020cc26fad","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"866f22da-f6cb-40c4-87d8-0c0f6d99fb46","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2d8c0673-e81c-40ef-8953-0efc7b497b2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bbb54314-043d-41d5-b6a7-3a55fc63d7d1","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3a57e9f0-fd5c-483d-8994-18e8f46d0e0b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d3c6bc23-d4fc-428b-81f7-dd49f9a6bd26","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"492d4b81-5f3f-4be8-a476-f02d8598c57b","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0e855259-a609-4402-9314-f68c5d6d50e4","path":"sprites/spr_playerN_knightland/spr_playerN_knightland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9e0835a0-7dfb-479d-8ec8-212bff218cbb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

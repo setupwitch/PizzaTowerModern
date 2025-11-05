@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_ratmountgroundpoundfall",
   "bboxMode":0,
   "bbox_bottom":84,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"29b0c1e3-7da8-431c-a7a7-2d86fa3e5531","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ab386f4f-a532-4bc1-b3f5-8859fdc9ea24","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7e4d8998-748b-423e-b512-841a9f8aba96","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e7465c5a-8a2a-4d4a-a9ea-cf65d0d0d334","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"29b0c1e3-7da8-431c-a7a7-2d86fa3e5531","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b4ffb75-ba1a-4410-817e-8e9e805d9c9b","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ab386f4f-a532-4bc1-b3f5-8859fdc9ea24","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d2745f5c-a4a7-47f2-beee-ea34611ec1ff","path":"sprites/spr_player_ratmountgroundpoundfall/spr_player_ratmountgroundpoundfall.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7e4d8998-748b-423e-b512-841a9f8aba96","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

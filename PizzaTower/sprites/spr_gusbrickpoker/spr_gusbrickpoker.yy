@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gusbrickpoker",
   "bboxMode":0,
   "bbox_bottom":114,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6883739d-752f-4030-b86c-b3c8bc608b63","name":"6883739d-752f-4030-b86c-b3c8bc608b63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4004643d-7d13-4e8a-99fe-288f345ac818","name":"4004643d-7d13-4e8a-99fe-288f345ac818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6883739d-752f-4030-b86c-b3c8bc608b63","name":"6883739d-752f-4030-b86c-b3c8bc608b63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4004643d-7d13-4e8a-99fe-288f345ac818","name":"4004643d-7d13-4e8a-99fe-288f345ac818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8020009b-6442-4978-8a40-049516eb9c69","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6883739d-752f-4030-b86c-b3c8bc608b63","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d9628e8a-e298-4dc0-842d-6bbf7de5b66b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4004643d-7d13-4e8a-99fe-288f345ac818","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1cbe86fc-3aa8-4d2e-9d75-2932c5f64b4a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4ae809e-a2c4-4fcc-a80b-5ba4d7ab9d82","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8020009b-6442-4978-8a40-049516eb9c69","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6883739d-752f-4030-b86c-b3c8bc608b63","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d9628e8a-e298-4dc0-842d-6bbf7de5b66b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4004643d-7d13-4e8a-99fe-288f345ac818","path":"sprites/spr_gusbrickpoker/spr_gusbrickpoker.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1cbe86fc-3aa8-4d2e-9d75-2932c5f64b4a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

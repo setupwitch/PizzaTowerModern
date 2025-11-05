@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_kidsparty",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"de601ff1-7050-4987-add9-79b21b3f5675","name":"de601ff1-7050-4987-add9-79b21b3f5675","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"00c1ab39-b4f2-466e-869e-287156c5b975","name":"00c1ab39-b4f2-466e-869e-287156c5b975","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"23646f8c-8efe-444e-be94-a00c215b47df","name":"23646f8c-8efe-444e-be94-a00c215b47df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3f42d66a-a743-412e-bb81-effb01cd7046","name":"3f42d66a-a743-412e-bb81-effb01cd7046","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"de601ff1-7050-4987-add9-79b21b3f5675","name":"de601ff1-7050-4987-add9-79b21b3f5675","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"00c1ab39-b4f2-466e-869e-287156c5b975","name":"00c1ab39-b4f2-466e-869e-287156c5b975","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"23646f8c-8efe-444e-be94-a00c215b47df","name":"23646f8c-8efe-444e-be94-a00c215b47df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f42d66a-a743-412e-bb81-effb01cd7046","name":"3f42d66a-a743-412e-bb81-effb01cd7046","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a9e432b5-bbaf-41ae-b9d3-332e7e064513","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"de601ff1-7050-4987-add9-79b21b3f5675","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fdded7dd-e6d8-4023-af84-ee175b3c94fe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"70f8c9fa-8799-41d7-94b2-9ad34592cf88","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"00c1ab39-b4f2-466e-869e-287156c5b975","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a67f1911-1e09-43e6-bd6f-b33ecd88be3f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"23646f8c-8efe-444e-be94-a00c215b47df","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5d9a1d9c-7125-4916-b020-e680b2b938d0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f42d66a-a743-412e-bb81-effb01cd7046","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2f57b544-1930-44ba-a9ec-63cf6c98e67e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3cc7ed18-3c64-48cf-8f55-42ca4548112a","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a9e432b5-bbaf-41ae-b9d3-332e7e064513","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de601ff1-7050-4987-add9-79b21b3f5675","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fdded7dd-e6d8-4023-af84-ee175b3c94fe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d85bcc4c-2821-4a61-b5dc-db48aff0dd66","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"70f8c9fa-8799-41d7-94b2-9ad34592cf88","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"00c1ab39-b4f2-466e-869e-287156c5b975","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a67f1911-1e09-43e6-bd6f-b33ecd88be3f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"23646f8c-8efe-444e-be94-a00c215b47df","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5d9a1d9c-7125-4916-b020-e680b2b938d0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f42d66a-a743-412e-bb81-effb01cd7046","path":"sprites/spr_achievement_kidsparty/spr_achievement_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2f57b544-1930-44ba-a9ec-63cf6c98e67e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

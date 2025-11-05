@@ -8,8 +8,8 @@
   "name":"obj_skateboarddebris1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Effects",
+    "path":"folders/Objects/Effects.yy",
   },
   "parentObjectId":{
     "name":"obj_parentparticle",

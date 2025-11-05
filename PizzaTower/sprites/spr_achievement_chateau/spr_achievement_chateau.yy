@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_chateau",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"05032344-8f92-4a72-80d4-9dbfad5700c2","name":"05032344-8f92-4a72-80d4-9dbfad5700c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e762fe95-d73f-4067-a68d-965e180fc33d","name":"e762fe95-d73f-4067-a68d-965e180fc33d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"50512d0e-7b51-49ac-bff5-2ef753594766","name":"50512d0e-7b51-49ac-bff5-2ef753594766","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05032344-8f92-4a72-80d4-9dbfad5700c2","name":"05032344-8f92-4a72-80d4-9dbfad5700c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e762fe95-d73f-4067-a68d-965e180fc33d","name":"e762fe95-d73f-4067-a68d-965e180fc33d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50512d0e-7b51-49ac-bff5-2ef753594766","name":"50512d0e-7b51-49ac-bff5-2ef753594766","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"05032344-8f92-4a72-80d4-9dbfad5700c2","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"99cfe4ae-51cf-4b18-a4cc-b3c4a45beb88","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"da8b56a1-db8d-44ab-aa3b-10c60ade1055","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e762fe95-d73f-4067-a68d-965e180fc33d","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f0962997-34ad-420e-adcb-1bb80d5efd54","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"50512d0e-7b51-49ac-bff5-2ef753594766","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d6b37fc5-6f14-49da-b9bf-3839d19a37f6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"21162d2f-ebfb-4988-9e2d-1a4ffba27a86","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"57f37c45-aab0-4cb0-ae65-2b527f8fceef","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05032344-8f92-4a72-80d4-9dbfad5700c2","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"99cfe4ae-51cf-4b18-a4cc-b3c4a45beb88","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c666de72-2c65-4d11-8da5-2bfb660dd9c7","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"da8b56a1-db8d-44ab-aa3b-10c60ade1055","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e762fe95-d73f-4067-a68d-965e180fc33d","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f0962997-34ad-420e-adcb-1bb80d5efd54","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50512d0e-7b51-49ac-bff5-2ef753594766","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d6b37fc5-6f14-49da-b9bf-3839d19a37f6","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94c9eae7-1f7a-414a-a83c-6a3d07ea96a3","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21162d2f-ebfb-4988-9e2d-1a4ffba27a86","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1d062ab9-5617-4f4f-98ac-db3d2b7b7c55","path":"sprites/spr_achievement_chateau/spr_achievement_chateau.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"57f37c45-aab0-4cb0-ae65-2b527f8fceef","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

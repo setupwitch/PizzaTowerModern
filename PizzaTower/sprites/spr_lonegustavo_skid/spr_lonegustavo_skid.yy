@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lonegustavo_skid",
   "bboxMode":0,
   "bbox_bottom":110,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7fb828e8-7ad1-45bb-997a-bc23b58be5bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a02431b5-815b-4120-a179-f6aaa82dc817","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c4dc1598-2980-4b6e-8009-c34cc05bc45e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2e25112f-4cb6-4f47-83d2-c3ece976ac82","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7fb828e8-7ad1-45bb-997a-bc23b58be5bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"07d9fa90-55b9-4e48-8e2f-a0a0d49fc2cf","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a02431b5-815b-4120-a179-f6aaa82dc817","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4107bf6-1655-40f5-9b80-ccdb5b8c2b8e","path":"sprites/spr_lonegustavo_skid/spr_lonegustavo_skid.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c4dc1598-2980-4b6e-8009-c34cc05bc45e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

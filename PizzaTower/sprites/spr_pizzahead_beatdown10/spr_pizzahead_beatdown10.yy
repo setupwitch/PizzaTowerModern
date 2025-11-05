@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzahead_beatdown10",
   "bboxMode":0,
   "bbox_bottom":182,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"87889d3a-df97-420d-9a37-657b0baaa2c6","name":"87889d3a-df97-420d-9a37-657b0baaa2c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"87889d3a-df97-420d-9a37-657b0baaa2c6","name":"87889d3a-df97-420d-9a37-657b0baaa2c6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"87889d3a-df97-420d-9a37-657b0baaa2c6","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ddc26624-2f7e-488b-af3f-9c08313c9295","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7e8ba631-c77c-41c6-8eca-faa14ab38cee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e44dfe4a-78ce-4c27-96b2-a9ef47784775","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"87889d3a-df97-420d-9a37-657b0baaa2c6","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ddc26624-2f7e-488b-af3f-9c08313c9295","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"911a6dd0-3d52-4b8e-b51e-0e7a65336721","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7e8ba631-c77c-41c6-8eca-faa14ab38cee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37d077d5-e4b4-4e98-a615-b03121bdb14d","path":"sprites/spr_pizzahead_beatdown10/spr_pizzahead_beatdown10.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e44dfe4a-78ce-4c27-96b2-a9ef47784775","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

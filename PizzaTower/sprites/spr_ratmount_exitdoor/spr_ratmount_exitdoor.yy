@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ratmount_exitdoor",
   "bboxMode":0,
   "bbox_bottom":114,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"767c4a22-6824-47aa-892a-d745e42db807","name":"767c4a22-6824-47aa-892a-d745e42db807","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"74128932-daac-4d58-863e-24966e4b635a","name":"74128932-daac-4d58-863e-24966e4b635a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"24622e1f-2da0-4c30-a45c-6cce37231a51","name":"24622e1f-2da0-4c30-a45c-6cce37231a51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"767c4a22-6824-47aa-892a-d745e42db807","name":"767c4a22-6824-47aa-892a-d745e42db807","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"74128932-daac-4d58-863e-24966e4b635a","name":"74128932-daac-4d58-863e-24966e4b635a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"24622e1f-2da0-4c30-a45c-6cce37231a51","name":"24622e1f-2da0-4c30-a45c-6cce37231a51","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -39,8 +39,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Unused",
-    "path":"folders/Sprites/Unused.yy",
+    "name":"Gustavo & Brick",
+    "path":"folders/Sprites/Player/Gustavo & Brick.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -82,21 +82,51 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ec7ef600-2080-44c7-b569-cac9e59541db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"767c4a22-6824-47aa-892a-d745e42db807","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b491c02e-69ee-44de-af8e-0836dc986b69","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"74128932-daac-4d58-863e-24966e4b635a","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"764d00d6-e9ec-4c37-a67b-99a958c3ae63","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f3c359ea-558c-4172-ac8e-7abfa011c00d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"aefb1e3e-e7f3-4bc9-a83f-bade90aea9f5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"24622e1f-2da0-4c30-a45c-6cce37231a51","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7082f1e2-f145-47f0-9c93-76dbd7ef8deb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c5736cf1-9040-4575-878c-4337d9e57c28","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f0d95aa4-1317-4084-8257-c37b80426970","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"649958b5-a44d-458a-a4a5-512a81241e0a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7eaa142e-9fda-4bac-b3c5-80c45d2b6052","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"196c8905-a1af-4dd7-9b54-a1c5b8026d6c","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"69671c2f-a0ba-4a98-9745-88dca8e54d85","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"caad1d72-bdc7-47d7-a800-b943c9b191bd","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b65852eb-32e0-40ee-96c4-88cd3c61043f","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"df1f3eaa-3850-4dca-a66b-6cecc5c1c92d","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ff79662b-7e59-4bdb-9a40-66640b7e6295","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ec7ef600-2080-44c7-b569-cac9e59541db","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"767c4a22-6824-47aa-892a-d745e42db807","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b491c02e-69ee-44de-af8e-0836dc986b69","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"74128932-daac-4d58-863e-24966e4b635a","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"764d00d6-e9ec-4c37-a67b-99a958c3ae63","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d63b34ff-79c9-4e6e-91e3-3733621d022c","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f3c359ea-558c-4172-ac8e-7abfa011c00d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ade18c6d-2a7e-4a6b-819f-bad6ad911f94","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aefb1e3e-e7f3-4bc9-a83f-bade90aea9f5","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24622e1f-2da0-4c30-a45c-6cce37231a51","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7082f1e2-f145-47f0-9c93-76dbd7ef8deb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"848b0174-7acd-4cb5-b39f-4bf69b42db74","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c5736cf1-9040-4575-878c-4337d9e57c28","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"90914a5a-6d8e-4950-970f-ac3e6a52c5b5","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f0d95aa4-1317-4084-8257-c37b80426970","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c8740d35-c1db-4f81-8493-8e807ed1bac7","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"649958b5-a44d-458a-a4a5-512a81241e0a","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d223295-5f7f-4033-bed5-8cf702c95e4e","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7eaa142e-9fda-4bac-b3c5-80c45d2b6052","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df3f7e2f-93f8-4caf-a9fe-d03fb5c69c1b","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"196c8905-a1af-4dd7-9b54-a1c5b8026d6c","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25d89f39-3c29-4c5e-935d-24fe5698f7e9","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"69671c2f-a0ba-4a98-9745-88dca8e54d85","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8e8fcf17-4182-4616-862c-6e1d5693e37e","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"caad1d72-bdc7-47d7-a800-b943c9b191bd","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e790639d-8266-4a87-b3e6-dca5c8d721b6","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b65852eb-32e0-40ee-96c4-88cd3c61043f","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f26fbcc-fde5-4f79-809e-e8685434bc61","path":"sprites/spr_ratmount_exitdoor/spr_ratmount_exitdoor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"df1f3eaa-3850-4dca-a66b-6cecc5c1c92d","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_monsterpineapple_pose2",
   "bboxMode":0,
   "bbox_bottom":219,
@@ -12,15 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"936eba37-5c44-4360-be71-b685e20ca740","name":"936eba37-5c44-4360-be71-b685e20ca740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"342697cb-6ae7-403a-a82d-9a79e024bb21","name":"342697cb-6ae7-403a-a82d-9a79e024bb21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f05cf7eb-e33f-489a-8e05-f751305cccce","name":"f05cf7eb-e33f-489a-8e05-f751305cccce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"936eba37-5c44-4360-be71-b685e20ca740","name":"936eba37-5c44-4360-be71-b685e20ca740","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"342697cb-6ae7-403a-a82d-9a79e024bb21","name":"342697cb-6ae7-403a-a82d-9a79e024bb21","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f05cf7eb-e33f-489a-8e05-f751305cccce","name":"f05cf7eb-e33f-489a-8e05-f751305cccce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,15 +76,33 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"85968203-02f1-42f8-a6ea-f87e959a9915","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9c8d403a-9f44-4a3d-b314-54806715b5c8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"936eba37-5c44-4360-be71-b685e20ca740","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"05b36c43-3fc0-404b-befd-d9671d5e015a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3f154054-40e1-4aa3-8ab4-20b1c66b9cb7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"342697cb-6ae7-403a-a82d-9a79e024bb21","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"33465c2c-cd47-4185-9adc-93b867f8af5d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"264e5d8f-a40c-48a0-a9ff-10813d28a828","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0de09004-5bdc-48a5-b893-2217477bc8ae","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9e3ba395-04ab-4b5e-8817-1f8acdf15345","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f05cf7eb-e33f-489a-8e05-f751305cccce","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7d522b38-1065-411b-808b-8129bf836251","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b835a0fb-ea1c-4ba2-8c2d-fe99468c5df1","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"85968203-02f1-42f8-a6ea-f87e959a9915","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"422826ed-5585-4fd2-b0cd-d6c9bdbd3f97","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9c8d403a-9f44-4a3d-b314-54806715b5c8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"936eba37-5c44-4360-be71-b685e20ca740","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"05b36c43-3fc0-404b-befd-d9671d5e015a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ffc7acae-a953-44d0-ae32-97f19f3197aa","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3f154054-40e1-4aa3-8ab4-20b1c66b9cb7","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"342697cb-6ae7-403a-a82d-9a79e024bb21","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33465c2c-cd47-4185-9adc-93b867f8af5d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6b9bbda1-d3d0-4928-a1a5-e38f9a4c3d5a","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"264e5d8f-a40c-48a0-a9ff-10813d28a828","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7621a5e9-2641-4e7d-87e4-95e8b007eca8","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0de09004-5bdc-48a5-b893-2217477bc8ae","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b7cd3e2a-d21c-445a-9e9c-f5c9dd8d1b9d","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9e3ba395-04ab-4b5e-8817-1f8acdf15345","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f05cf7eb-e33f-489a-8e05-f751305cccce","path":"sprites/spr_monsterpineapple_pose2/spr_monsterpineapple_pose2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7d522b38-1065-411b-808b-8129bf836251","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

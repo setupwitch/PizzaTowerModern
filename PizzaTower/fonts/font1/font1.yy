@@ -133,7 +133,10 @@
   "sdfSpread":8,
   "size":14.0,
   "styleName":"Bold",
-  "textureGroupId":null,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
   "TTFName":null,
   "usesSDF":false,
 }

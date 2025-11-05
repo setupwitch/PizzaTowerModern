@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lonegustavo_groundpound",
   "bboxMode":0,
   "bbox_bottom":112,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1a52155c-477a-400a-83dc-346f869bea07","name":"1a52155c-477a-400a-83dc-346f869bea07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a52155c-477a-400a-83dc-346f869bea07","name":"1a52155c-477a-400a-83dc-346f869bea07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b708d39c-07c5-4e1f-8484-3340f3302179","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a52155c-477a-400a-83dc-346f869bea07","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bd7b3cc0-bc9d-4922-951d-ffdcf3c16910","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d47b0ad0-66ce-4787-9bff-50ccb59ff1e2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37c1a8e7-3f9d-4868-b7bb-01151454bbcf","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b708d39c-07c5-4e1f-8484-3340f3302179","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1a52155c-477a-400a-83dc-346f869bea07","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bd7b3cc0-bc9d-4922-951d-ffdcf3c16910","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c26d30c-b2c2-4360-89bd-faa1b80f9997","path":"sprites/spr_lonegustavo_groundpound/spr_lonegustavo_groundpound.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d47b0ad0-66ce-4787-9bff-50ccb59ff1e2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pizzaheadTV1",
   "bboxMode":0,
   "bbox_bottom":227,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c73aca5e-bfe0-44a9-b420-ca2288329705","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"80d64658-f0d6-49b7-9daa-f4807ecd458d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"041c932e-8d4c-44c8-a357-e6794123a039","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c28ccd3b-e26d-4d73-8889-cdb1095fe754","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c73aca5e-bfe0-44a9-b420-ca2288329705","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"47aaa1f1-d30c-4534-a227-7affa1f3997c","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"80d64658-f0d6-49b7-9daa-f4807ecd458d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0a1647b9-6e23-4543-a70d-b3b1a20b3ca6","path":"sprites/spr_pizzaheadTV1/spr_pizzaheadTV1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"041c932e-8d4c-44c8-a357-e6794123a039","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

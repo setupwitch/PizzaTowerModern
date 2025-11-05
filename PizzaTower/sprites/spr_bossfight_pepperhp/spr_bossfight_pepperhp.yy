@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bossfight_pepperhp",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3d1725dd-d658-4e33-8e19-401b4464d570","name":"3d1725dd-d658-4e33-8e19-401b4464d570","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"820650ca-216f-4c5b-b362-19c1d138aa12","name":"820650ca-216f-4c5b-b362-19c1d138aa12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a98d41b6-7551-4a5d-9257-3693cea44f79","name":"a98d41b6-7551-4a5d-9257-3693cea44f79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"77955a32-eccf-4f9d-85ef-ea89092ff094","name":"77955a32-eccf-4f9d-85ef-ea89092ff094","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"631532ff-cadb-44cc-a16a-cf30ad01608c","name":"631532ff-cadb-44cc-a16a-cf30ad01608c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f2b0ce37-0ee1-4220-a135-751c41803683","name":"f2b0ce37-0ee1-4220-a135-751c41803683","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"467147fc-e63b-44fa-948f-6f88f1b8f431","name":"467147fc-e63b-44fa-948f-6f88f1b8f431","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3d1725dd-d658-4e33-8e19-401b4464d570","name":"3d1725dd-d658-4e33-8e19-401b4464d570","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"820650ca-216f-4c5b-b362-19c1d138aa12","name":"820650ca-216f-4c5b-b362-19c1d138aa12","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a98d41b6-7551-4a5d-9257-3693cea44f79","name":"a98d41b6-7551-4a5d-9257-3693cea44f79","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77955a32-eccf-4f9d-85ef-ea89092ff094","name":"77955a32-eccf-4f9d-85ef-ea89092ff094","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"631532ff-cadb-44cc-a16a-cf30ad01608c","name":"631532ff-cadb-44cc-a16a-cf30ad01608c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2b0ce37-0ee1-4220-a135-751c41803683","name":"f2b0ce37-0ee1-4220-a135-751c41803683","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"467147fc-e63b-44fa-948f-6f88f1b8f431","name":"467147fc-e63b-44fa-948f-6f88f1b8f431","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -79,18 +79,42 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"20516245-c0d3-4c28-b9a0-3f8c0077b18f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d1725dd-d658-4e33-8e19-401b4464d570","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d7b6af06-d2be-45f0-a202-5e940cee8eae","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ce759ff2-d0fe-4fec-a398-d01c777e3b9c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"820650ca-216f-4c5b-b362-19c1d138aa12","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6927adc0-62cf-4712-9601-d55da9f9e48f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a98d41b6-7551-4a5d-9257-3693cea44f79","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"99f8a25f-181d-4792-8617-ee4ae79e1af8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"facf6996-63ea-43e4-8d89-a172538058e6","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"46ce7145-2d90-4277-aa27-ae5feecb89b8","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"77955a32-eccf-4f9d-85ef-ea89092ff094","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ae38c517-1467-4641-8987-94d5f1eb8cc0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"631532ff-cadb-44cc-a16a-cf30ad01608c","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5fbac768-65d0-43e0-8654-a7af823541b3","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2b0ce37-0ee1-4220-a135-751c41803683","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4e0d7136-0a61-42a2-a456-e5a269cd775c","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c8406e0f-c492-42f6-94ac-6c7360ed71ef","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"467147fc-e63b-44fa-948f-6f88f1b8f431","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e5603ad4-8f5b-468a-b9ee-ba0f8194a92c","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbb525d2-c3e3-4ff5-aee4-4ba423b832cd","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"20516245-c0d3-4c28-b9a0-3f8c0077b18f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3d1725dd-d658-4e33-8e19-401b4464d570","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7b6af06-d2be-45f0-a202-5e940cee8eae","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2e77076-1f97-44b6-8b98-c44acac01a4c","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ce759ff2-d0fe-4fec-a398-d01c777e3b9c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"820650ca-216f-4c5b-b362-19c1d138aa12","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6927adc0-62cf-4712-9601-d55da9f9e48f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a98d41b6-7551-4a5d-9257-3693cea44f79","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"99f8a25f-181d-4792-8617-ee4ae79e1af8","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c78f4b8c-dc73-464b-81a3-6188f4cf69e5","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"facf6996-63ea-43e4-8d89-a172538058e6","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"339146b2-d35b-484a-9c9d-3fac489fbb2d","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"46ce7145-2d90-4277-aa27-ae5feecb89b8","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77955a32-eccf-4f9d-85ef-ea89092ff094","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ae38c517-1467-4641-8987-94d5f1eb8cc0","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"631532ff-cadb-44cc-a16a-cf30ad01608c","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5fbac768-65d0-43e0-8654-a7af823541b3","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f2b0ce37-0ee1-4220-a135-751c41803683","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4e0d7136-0a61-42a2-a456-e5a269cd775c","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ef2ec93-7ea6-4cfe-aeed-aa70f7e7b023","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c8406e0f-c492-42f6-94ac-6c7360ed71ef","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"467147fc-e63b-44fa-948f-6f88f1b8f431","path":"sprites/spr_bossfight_pepperhp/spr_bossfight_pepperhp.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e5603ad4-8f5b-468a-b9ee-ba0f8194a92c","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

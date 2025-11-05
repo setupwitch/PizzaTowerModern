@@ -6,8 +6,8 @@
   "name":"obj_halloweenfollow",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Room Structure",
+    "path":"folders/Objects/Room Structure.yy",
   },
   "parentObjectId":{
     "name":"obj_ghostfollow",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_shotgunjump2",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"30423908-2df1-4406-889b-8fcb74dc21bd","name":"30423908-2df1-4406-889b-8fcb74dc21bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30423908-2df1-4406-889b-8fcb74dc21bd","name":"30423908-2df1-4406-889b-8fcb74dc21bd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bb8126c2-bd44-44ae-aed6-9e46b4b48328","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"898fa021-b56b-4da5-baee-29bcb4f2d7af","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"30423908-2df1-4406-889b-8fcb74dc21bd","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10e6eb37-b607-40ff-9f7b-3c379fcdca59","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3b12aeca-4fe4-4245-b2b0-690138d9c1c3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b2c769be-dd11-4c26-9908-e3fcb8a3b1ad","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06eb5c21-d3c5-4fbf-89b9-82b399f0386a","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bb8126c2-bd44-44ae-aed6-9e46b4b48328","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fbf218b0-d685-40b8-94e5-03aa4592dd87","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"898fa021-b56b-4da5-baee-29bcb4f2d7af","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30423908-2df1-4406-889b-8fcb74dc21bd","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"10e6eb37-b607-40ff-9f7b-3c379fcdca59","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3c5044a1-ea37-47d4-a1bb-d0eac78d6cbe","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3b12aeca-4fe4-4245-b2b0-690138d9c1c3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f87b9031-6c4f-4c00-a961-16e6cabf34c3","path":"sprites/spr_player_shotgunjump2/spr_player_shotgunjump2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b2c769be-dd11-4c26-9908-e3fcb8a3b1ad","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_ruin",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59618b6b-c357-462b-b834-fa93993a5c5f","name":"59618b6b-c357-462b-b834-fa93993a5c5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"189bf15c-171c-4af8-b10d-5bcce7032019","name":"189bf15c-171c-4af8-b10d-5bcce7032019","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b4dd3f44-f915-4108-9435-5a56acb697d7","name":"b4dd3f44-f915-4108-9435-5a56acb697d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59618b6b-c357-462b-b834-fa93993a5c5f","name":"59618b6b-c357-462b-b834-fa93993a5c5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"189bf15c-171c-4af8-b10d-5bcce7032019","name":"189bf15c-171c-4af8-b10d-5bcce7032019","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4dd3f44-f915-4108-9435-5a56acb697d7","name":"b4dd3f44-f915-4108-9435-5a56acb697d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d0ce10a7-7bb1-465a-9905-012740900bad","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59618b6b-c357-462b-b834-fa93993a5c5f","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4cbafa93-2c8b-4063-84cf-124ce2031e7d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b55f75c9-3a45-4c20-95eb-ac58593568bc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"189bf15c-171c-4af8-b10d-5bcce7032019","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a4a40186-2ea0-4805-888f-752d7dd0f289","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4dd3f44-f915-4108-9435-5a56acb697d7","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1af98607-7647-452f-9df5-f604d36c2de6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a5a84ff4-671f-4697-8822-28656ca2140f","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8d88dc59-d18d-4f6b-bad9-4996e9077ba8","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d0ce10a7-7bb1-465a-9905-012740900bad","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59618b6b-c357-462b-b834-fa93993a5c5f","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4cbafa93-2c8b-4063-84cf-124ce2031e7d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"aed7634a-f39a-4644-9b37-5c328c1c8eea","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b55f75c9-3a45-4c20-95eb-ac58593568bc","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"189bf15c-171c-4af8-b10d-5bcce7032019","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4a40186-2ea0-4805-888f-752d7dd0f289","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b4dd3f44-f915-4108-9435-5a56acb697d7","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1af98607-7647-452f-9df5-f604d36c2de6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3607762c-d477-4a92-b7f9-c3ba13b8d9bf","path":"sprites/spr_achievement_ruin/spr_achievement_ruin.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a5a84ff4-671f-4697-8822-28656ca2140f","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

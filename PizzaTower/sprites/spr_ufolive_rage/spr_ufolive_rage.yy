@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ufolive_rage",
   "bboxMode":0,
   "bbox_bottom":85,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3dc017db-3852-49be-89dc-2152f0b07a2e","name":"3dc017db-3852-49be-89dc-2152f0b07a2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e31a665d-c384-4f95-a8d6-297421b33da1","name":"e31a665d-c384-4f95-a8d6-297421b33da1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3dc017db-3852-49be-89dc-2152f0b07a2e","name":"3dc017db-3852-49be-89dc-2152f0b07a2e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e31a665d-c384-4f95-a8d6-297421b33da1","name":"e31a665d-c384-4f95-a8d6-297421b33da1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Ufolive",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Ufolive.yy",
+    "name":"Unused",
+    "path":"folders/Sprites/Unused.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3dc017db-3852-49be-89dc-2152f0b07a2e","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"19a05cc5-7284-4e5a-af14-9fcd2c0c3875","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c0afa282-6cfd-4d19-bc1c-ca557e754fd6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b1e74b33-3c11-4d11-aea0-849a2b38d184","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e31a665d-c384-4f95-a8d6-297421b33da1","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1b7b5990-dcae-4b9d-9a9f-933057fc8592","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"399d0b73-58ee-4e9b-affd-0913378d07e6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f316533f-1779-4ad6-8a1f-fc0daaae073e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3dc017db-3852-49be-89dc-2152f0b07a2e","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"19a05cc5-7284-4e5a-af14-9fcd2c0c3875","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ae6aa3ef-aab3-4f32-92aa-ec5555d68834","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0afa282-6cfd-4d19-bc1c-ca557e754fd6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fba9b9f3-d259-44af-9504-110dcc7be6d0","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b1e74b33-3c11-4d11-aea0-849a2b38d184","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e31a665d-c384-4f95-a8d6-297421b33da1","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b7b5990-dcae-4b9d-9a9f-933057fc8592","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0021b7c4-fd29-4269-a3fa-70f3b7a10c5d","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"399d0b73-58ee-4e9b-affd-0913378d07e6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7da95c82-b548-4e97-a045-8fdb0e695c1f","path":"sprites/spr_ufolive_rage/spr_ufolive_rage.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f316533f-1779-4ad6-8a1f-fc0daaae073e","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

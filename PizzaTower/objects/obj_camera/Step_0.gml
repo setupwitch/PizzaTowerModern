@@ -1,7 +1,12 @@
 if (room == editor_room)
+{
 	exit;
-
+}
 player = (obj_player1.spotlight == true) ? obj_player1 : obj_player2;
+if (!instance_exists(obj_pizzaball))
+{
+	targetgolf = noone;
+}
 if (collect_shake > 0)
 {
 	collect_shake *= 0.5;
@@ -33,7 +38,17 @@ else if (obj_player1.character == "P")
 		healthold = global.hp;
 	}
 }
-
+if (global.coop == true)
+{
+	var p1 = player;
+	var p2 = (obj_player1.spotlight == true) ? obj_player2 : obj_player1;
+	p2pdistance = point_distance(p1.x, 0, p2.x, 0);
+	p2pdistancex = (p1.x >= p2.x) ? (-p2pdistance / 5) : (p2pdistance / 5);
+}
+else
+{
+	p2pdistancex = 0;
+}
 if (floor(image_index) == 10)
 {
 	shoving = false;
@@ -150,6 +165,9 @@ if (shake_mag > 0)
 		shake_mag = 0;
 	}
 }
+detachedby = -1;
+detach = false;
+follow_golf = false;
 if (instance_exists(player) && !lock && player.state != states.timesup && player.state != states.gameover)
 {
 	switch (state)
@@ -221,12 +239,16 @@ if (instance_exists(player) && !lock && player.state != states.timesup && player
 			}
 			var cam_width = camera_get_view_width(view_camera[0]);
 			var cam_height = camera_get_view_height(view_camera[0]);
+			if (targetgolf != noone && !instance_exists(targetgolf))
+			{
+				targetgolf = noone;
+			}
 			var cam_x, cam_y;
 			if (targetgolf == noone)
 			{
 				if (!global.coop || room == characterselect || room == rm_levelselect || room == Realtitlescreen)
 				{
-					cam_x = (tx - (cam_width / 2)) + chargecamera;
+					cam_x = (tx - (cam_width / 2)) + chargecamera + p2pdistancex;
 					cam_y = ty - (cam_height / 2) - 50;
 					cam_x = clamp(cam_x, 0, room_width - cam_width);
 					cam_y = clamp(cam_y, 0, room_height - cam_height);

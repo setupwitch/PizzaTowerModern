@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_beach",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38a21279-4449-4c81-b0fd-c506f5be589e","name":"38a21279-4449-4c81-b0fd-c506f5be589e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b50419b3-b460-421d-9598-0415c9a00d61","name":"b50419b3-b460-421d-9598-0415c9a00d61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d382bbd1-1e56-4bd0-bd91-137734422d46","name":"d382bbd1-1e56-4bd0-bd91-137734422d46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38a21279-4449-4c81-b0fd-c506f5be589e","name":"38a21279-4449-4c81-b0fd-c506f5be589e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b50419b3-b460-421d-9598-0415c9a00d61","name":"b50419b3-b460-421d-9598-0415c9a00d61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d382bbd1-1e56-4bd0-bd91-137734422d46","name":"d382bbd1-1e56-4bd0-bd91-137734422d46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"38a21279-4449-4c81-b0fd-c506f5be589e","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"70eeaab3-25fa-40cb-9362-2c6494430f9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9b512a7d-9908-46aa-8c53-bf1485e6f297","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"45570d20-f3c4-4ad7-a4af-bfab60c7995e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b50419b3-b460-421d-9598-0415c9a00d61","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1fec51e8-3739-4819-ad83-cd6cbd5214a4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d382bbd1-1e56-4bd0-bd91-137734422d46","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1d8d9be6-49fd-47a9-93d2-0c043a26ac70","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f7cb5ae3-3bc8-4c24-afc7-d7ff5a81e40d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38a21279-4449-4c81-b0fd-c506f5be589e","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"70eeaab3-25fa-40cb-9362-2c6494430f9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03240723-9398-4fc9-a6d0-2c32fd1bcdde","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9b512a7d-9908-46aa-8c53-bf1485e6f297","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"12d7b3bf-ca86-4726-aea7-8cfefd1d0d34","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"45570d20-f3c4-4ad7-a4af-bfab60c7995e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b50419b3-b460-421d-9598-0415c9a00d61","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1fec51e8-3739-4819-ad83-cd6cbd5214a4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d382bbd1-1e56-4bd0-bd91-137734422d46","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1d8d9be6-49fd-47a9-93d2-0c043a26ac70","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"df7ad867-786c-4c1c-94b3-bb0184e290d5","path":"sprites/spr_achievement_beach/spr_achievement_beach.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f7cb5ae3-3bc8-4c24-afc7-d7ff5a81e40d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

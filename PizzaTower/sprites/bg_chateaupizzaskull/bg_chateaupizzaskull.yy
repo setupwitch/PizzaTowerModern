@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"bg_chateaupizzaskull",
   "bboxMode":0,
   "bbox_bottom":271,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e197f966-8633-4957-adc8-191444b9178e","name":"e197f966-8633-4957-adc8-191444b9178e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e197f966-8633-4957-adc8-191444b9178e","name":"e197f966-8633-4957-adc8-191444b9178e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e197f966-8633-4957-adc8-191444b9178e","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"12f81916-aab2-4e4b-a407-6805a84839e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d8081c11-a31a-4600-8704-f9b0e27b2a5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"30f3bb8b-84dc-4608-bbbc-6883e0b3fa98","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e197f966-8633-4957-adc8-191444b9178e","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"12f81916-aab2-4e4b-a407-6805a84839e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf5cc64c-7a49-4947-aa31-53e1c2ea130c","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d8081c11-a31a-4600-8704-f9b0e27b2a5a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d44a4fcf-e30b-4e7a-ab18-0f57b31c1ad0","path":"sprites/bg_chateaupizzaskull/bg_chateaupizzaskull.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"30f3bb8b-84dc-4608-bbbc-6883e0b3fa98","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

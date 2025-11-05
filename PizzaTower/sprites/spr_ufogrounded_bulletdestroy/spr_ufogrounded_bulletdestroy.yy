@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ufogrounded_bulletdestroy",
   "bboxMode":0,
   "bbox_bottom":85,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bca3c7cb-38a2-4064-92f1-310010e95845","name":"bca3c7cb-38a2-4064-92f1-310010e95845","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"545a9601-f6df-43da-9cef-fd0008088bc6","name":"545a9601-f6df-43da-9cef-fd0008088bc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bca3c7cb-38a2-4064-92f1-310010e95845","name":"bca3c7cb-38a2-4064-92f1-310010e95845","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"545a9601-f6df-43da-9cef-fd0008088bc6","name":"545a9601-f6df-43da-9cef-fd0008088bc6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -29,7 +29,7 @@
   "origin":4,
   "parent":{
     "name":"Olive",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Olive.yy",
+    "path":"folders/Sprites/Baddies/Olive.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"64f94e00-2584-4ba3-9049-2ec72a5681cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bca3c7cb-38a2-4064-92f1-310010e95845","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"521b94a9-ad72-4962-9d08-17e2394653ee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5de903b6-91f2-455b-b6e9-4e3824244e27","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"545a9601-f6df-43da-9cef-fd0008088bc6","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"95d872b0-af3e-48b3-af26-0bafaa9de246","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"beb20a87-1075-4c1b-87ed-2608b1bedc5b","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"64f94e00-2584-4ba3-9049-2ec72a5681cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bca3c7cb-38a2-4064-92f1-310010e95845","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"521b94a9-ad72-4962-9d08-17e2394653ee","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6cfc4ec-e66e-43b3-8c70-24e0c0e61bc5","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5de903b6-91f2-455b-b6e9-4e3824244e27","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"545a9601-f6df-43da-9cef-fd0008088bc6","path":"sprites/spr_ufogrounded_bulletdestroy/spr_ufogrounded_bulletdestroy.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95d872b0-af3e-48b3-af26-0bafaa9de246","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

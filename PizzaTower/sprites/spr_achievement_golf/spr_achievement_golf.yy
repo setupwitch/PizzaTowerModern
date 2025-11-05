@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_golf",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c7cc6aac-4f77-4d68-8be9-369da95720da","name":"c7cc6aac-4f77-4d68-8be9-369da95720da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a51187f5-ae63-4f54-bcab-a965a6320c55","name":"a51187f5-ae63-4f54-bcab-a965a6320c55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7cc6aac-4f77-4d68-8be9-369da95720da","name":"c7cc6aac-4f77-4d68-8be9-369da95720da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a51187f5-ae63-4f54-bcab-a965a6320c55","name":"a51187f5-ae63-4f54-bcab-a965a6320c55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58b63c12-839d-4b32-8f57-166d8ad1c794","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"21375182-33d8-4934-a30a-7b67ff129df1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3eb684ab-16e4-438f-9744-74722fee0ced","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7cc6aac-4f77-4d68-8be9-369da95720da","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2cde576a-fe83-47e5-9911-096d7be8feb9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a51187f5-ae63-4f54-bcab-a965a6320c55","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"059d7d25-3999-43df-bcb2-36a6228218bc","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"161a8a61-c43e-4c54-b0e3-55091845e4a7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e3e8f3e6-7c36-4f26-8ac7-099e6bdb0774","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58b63c12-839d-4b32-8f57-166d8ad1c794","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6f3c2cd-27e2-496e-b051-841bafedc32a","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21375182-33d8-4934-a30a-7b67ff129df1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43eaafea-9fa5-4e64-b603-4196ac127b3d","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3eb684ab-16e4-438f-9744-74722fee0ced","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7cc6aac-4f77-4d68-8be9-369da95720da","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2cde576a-fe83-47e5-9911-096d7be8feb9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a51187f5-ae63-4f54-bcab-a965a6320c55","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"059d7d25-3999-43df-bcb2-36a6228218bc","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"37eae2c5-48f0-4354-9a7d-a70bf57a7150","path":"sprites/spr_achievement_golf/spr_achievement_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"161a8a61-c43e-4c54-b0e3-55091845e4a7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

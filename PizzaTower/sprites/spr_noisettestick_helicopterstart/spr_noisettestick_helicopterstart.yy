@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noisettestick_helicopterstart",
   "bboxMode":0,
   "bbox_bottom":98,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d38b6885-c979-47bd-a282-b007e1f3bc18","name":"d38b6885-c979-47bd-a282-b007e1f3bc18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"43a71fae-1160-4115-b527-fcbaf61d8d27","name":"43a71fae-1160-4115-b527-fcbaf61d8d27","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"133ab506-bd57-4a96-933a-f75319135086","name":"133ab506-bd57-4a96-933a-f75319135086","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d38b6885-c979-47bd-a282-b007e1f3bc18","name":"d38b6885-c979-47bd-a282-b007e1f3bc18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43a71fae-1160-4115-b527-fcbaf61d8d27","name":"43a71fae-1160-4115-b527-fcbaf61d8d27","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"133ab506-bd57-4a96-933a-f75319135086","name":"133ab506-bd57-4a96-933a-f75319135086","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d38b6885-c979-47bd-a282-b007e1f3bc18","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6012d53c-a2c5-44e3-83d6-9fe9b9229cf3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"43a71fae-1160-4115-b527-fcbaf61d8d27","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5e1c2a4b-8cd1-4b84-97ed-201b7fb42e40","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"133ab506-bd57-4a96-933a-f75319135086","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"820fb4b2-b5ad-4d4c-884b-73d00d3b5f92","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d3bc3492-d7b6-4a00-b85f-bab43186a3bc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"547db92a-a4f4-4abc-9f31-e189f9d95a00","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d38b6885-c979-47bd-a282-b007e1f3bc18","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6012d53c-a2c5-44e3-83d6-9fe9b9229cf3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"43a71fae-1160-4115-b527-fcbaf61d8d27","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5e1c2a4b-8cd1-4b84-97ed-201b7fb42e40","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"133ab506-bd57-4a96-933a-f75319135086","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"820fb4b2-b5ad-4d4c-884b-73d00d3b5f92","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d22777ab-4dc6-4ffb-83ce-c501e522415b","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d3bc3492-d7b6-4a00-b85f-bab43186a3bc","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"391bf330-7ddc-49cb-8de4-bf7137d72f80","path":"sprites/spr_noisettestick_helicopterstart/spr_noisettestick_helicopterstart.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"547db92a-a4f4-4abc-9f31-e189f9d95a00","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

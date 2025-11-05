@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_bossfight_blackoutpunch1",
   "bboxMode":0,
   "bbox_bottom":196,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95464047-53d2-4498-9f56-4d410de13fed","name":"95464047-53d2-4498-9f56-4d410de13fed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95464047-53d2-4498-9f56-4d410de13fed","name":"95464047-53d2-4498-9f56-4d410de13fed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e92e2432-be91-4cb9-bfde-f389862c9952","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"95464047-53d2-4498-9f56-4d410de13fed","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"475fd93d-ab40-4d7c-b4cd-4febcc8e1e0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a27b9849-4b8e-4261-8d1a-3a01c8ade197","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cd6f0da7-666e-487f-a3de-dfe27951c99d","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e92e2432-be91-4cb9-bfde-f389862c9952","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"95464047-53d2-4498-9f56-4d410de13fed","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"475fd93d-ab40-4d7c-b4cd-4febcc8e1e0a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b8113ac1-983d-4797-a14b-97f14de4d8bf","path":"sprites/spr_bossfight_blackoutpunch1/spr_bossfight_blackoutpunch1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a27b9849-4b8e-4261-8d1a-3a01c8ade197","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_minigunprojectile",
   "bboxMode":2,
   "bbox_bottom":41,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c0891da4-91e6-4da9-adf3-151407729dcc","name":"c0891da4-91e6-4da9-adf3-151407729dcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"50414d67-a1cd-4e61-b5e2-472c043780de","name":"50414d67-a1cd-4e61-b5e2-472c043780de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c0891da4-91e6-4da9-adf3-151407729dcc","name":"c0891da4-91e6-4da9-adf3-151407729dcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50414d67-a1cd-4e61-b5e2-472c043780de","name":"50414d67-a1cd-4e61-b5e2-472c043780de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0335b1f3-70df-470c-98f6-7b219ba330a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"92fdfd32-f256-4032-907e-0815fe8d134b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"efe97173-a11a-4b0d-b201-874d6265a9ad","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0891da4-91e6-4da9-adf3-151407729dcc","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"369a9509-974d-456a-a39a-dca4ba0f06f5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"50414d67-a1cd-4e61-b5e2-472c043780de","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"22a36df9-b075-465d-a6a5-816307ce6d26","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bcbb32c6-5d36-4e15-b3c4-4c7014a276f2","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0335b1f3-70df-470c-98f6-7b219ba330a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8da8ed0b-244c-43b1-b0eb-f8374ffbc76d","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"92fdfd32-f256-4032-907e-0815fe8d134b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a5cf8f-bc8c-41a6-9f0f-8dd3d9b41d3b","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"efe97173-a11a-4b0d-b201-874d6265a9ad","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c0891da4-91e6-4da9-adf3-151407729dcc","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"369a9509-974d-456a-a39a-dca4ba0f06f5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"50414d67-a1cd-4e61-b5e2-472c043780de","path":"sprites/spr_minigunprojectile/spr_minigunprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22a36df9-b075-465d-a6a5-816307ce6d26","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

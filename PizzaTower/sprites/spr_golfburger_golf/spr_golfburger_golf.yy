@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_golfburger_golf",
   "bboxMode":0,
   "bbox_bottom":108,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"425d9f94-8765-48ff-b507-943a79ca4d0a","name":"425d9f94-8765-48ff-b507-943a79ca4d0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05686e06-236c-4b32-88b8-c0b7f2280531","name":"05686e06-236c-4b32-88b8-c0b7f2280531","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"289d67a7-693c-4dc8-a070-db4be9a64346","name":"289d67a7-693c-4dc8-a070-db4be9a64346","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e2a41709-54a9-44e7-abbe-672095084bc0","name":"e2a41709-54a9-44e7-abbe-672095084bc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5772f688-b11d-4d89-aba9-bb54b640841d","name":"5772f688-b11d-4d89-aba9-bb54b640841d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b10c18cc-1477-4590-9591-632b295f1ea4","name":"b10c18cc-1477-4590-9591-632b295f1ea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"425d9f94-8765-48ff-b507-943a79ca4d0a","name":"425d9f94-8765-48ff-b507-943a79ca4d0a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05686e06-236c-4b32-88b8-c0b7f2280531","name":"05686e06-236c-4b32-88b8-c0b7f2280531","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"289d67a7-693c-4dc8-a070-db4be9a64346","name":"289d67a7-693c-4dc8-a070-db4be9a64346","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e2a41709-54a9-44e7-abbe-672095084bc0","name":"e2a41709-54a9-44e7-abbe-672095084bc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5772f688-b11d-4d89-aba9-bb54b640841d","name":"5772f688-b11d-4d89-aba9-bb54b640841d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b10c18cc-1477-4590-9591-632b295f1ea4","name":"b10c18cc-1477-4590-9591-632b295f1ea4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -37,7 +37,7 @@
   "origin":9,
   "parent":{
     "name":"Golf Burger",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Golf Burger.yy",
+    "path":"folders/Sprites/Baddies/Golf Burger.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -79,18 +79,42 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b08946a7-4fd0-4344-b54b-6bef1cc606ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"97e06bf8-ea0c-478a-b62c-9c58597b9802","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"425d9f94-8765-48ff-b507-943a79ca4d0a","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d48131c6-4cac-40b9-a950-88367e4a7e2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"05686e06-236c-4b32-88b8-c0b7f2280531","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fa76c5f3-60bd-4919-8cb5-6e4343835612","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ca27f1c5-c788-4329-883a-b6e4bd47aa54","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fcad3f0d-7f7c-4d7b-b589-aa0b6b755c4c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"289d67a7-693c-4dc8-a070-db4be9a64346","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"58e8508c-f9af-4e72-b0ac-c947f7f351f8","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b4f6a5c1-625e-4c7c-a329-629cae0deb46","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2a41709-54a9-44e7-abbe-672095084bc0","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6f4e86a8-4c18-4917-b4f1-738ddc74cbdd","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5772f688-b11d-4d89-aba9-bb54b640841d","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e61493e7-a44d-4cda-8a2d-16f15f873f15","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4622e4fd-451c-485b-9242-4ac5b3b2d770","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b10c18cc-1477-4590-9591-632b295f1ea4","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"05101e2e-37b6-46a2-b076-2c1a48680837","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4fc9c8a-5b0a-4774-9561-f8fdd7d782ed","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b08946a7-4fd0-4344-b54b-6bef1cc606ac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ce1388c-82c3-4eab-b2ac-030f27cc600a","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"97e06bf8-ea0c-478a-b62c-9c58597b9802","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"425d9f94-8765-48ff-b507-943a79ca4d0a","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d48131c6-4cac-40b9-a950-88367e4a7e2f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"05686e06-236c-4b32-88b8-c0b7f2280531","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fa76c5f3-60bd-4919-8cb5-6e4343835612","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"25a3d4f3-d528-49e8-9565-9a2e43d84065","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ca27f1c5-c788-4329-883a-b6e4bd47aa54","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bc1ac2a2-9d60-4bdc-8104-5cfab407ede5","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fcad3f0d-7f7c-4d7b-b589-aa0b6b755c4c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"289d67a7-693c-4dc8-a070-db4be9a64346","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"58e8508c-f9af-4e72-b0ac-c947f7f351f8","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f44e305-57b6-4f5a-be8b-7ad36a2595a8","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b4f6a5c1-625e-4c7c-a329-629cae0deb46","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e2a41709-54a9-44e7-abbe-672095084bc0","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6f4e86a8-4c18-4917-b4f1-738ddc74cbdd","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5772f688-b11d-4d89-aba9-bb54b640841d","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e61493e7-a44d-4cda-8a2d-16f15f873f15","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3aa6f7d6-6941-41af-b1e6-cdd92c17054d","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4622e4fd-451c-485b-9242-4ac5b3b2d770","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b10c18cc-1477-4590-9591-632b295f1ea4","path":"sprites/spr_golfburger_golf/spr_golfburger_golf.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"05101e2e-37b6-46a2-b076-2c1a48680837","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

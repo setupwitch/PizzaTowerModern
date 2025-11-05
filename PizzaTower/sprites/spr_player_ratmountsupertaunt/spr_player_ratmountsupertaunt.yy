@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_ratmountsupertaunt",
   "bboxMode":0,
   "bbox_bottom":192,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"93281556-3fdc-46a9-a0c8-5199621f7e20","name":"93281556-3fdc-46a9-a0c8-5199621f7e20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"866df642-ab01-4d5c-b099-8efdba9d9077","name":"866df642-ab01-4d5c-b099-8efdba9d9077","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9b3e0654-1f25-4843-b186-c48655a29af1","name":"9b3e0654-1f25-4843-b186-c48655a29af1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2b8284c4-5937-49af-a263-9a9a9494df0b","name":"2b8284c4-5937-49af-a263-9a9a9494df0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"93281556-3fdc-46a9-a0c8-5199621f7e20","name":"93281556-3fdc-46a9-a0c8-5199621f7e20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"866df642-ab01-4d5c-b099-8efdba9d9077","name":"866df642-ab01-4d5c-b099-8efdba9d9077","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b3e0654-1f25-4843-b186-c48655a29af1","name":"9b3e0654-1f25-4843-b186-c48655a29af1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b8284c4-5937-49af-a263-9a9a9494df0b","name":"2b8284c4-5937-49af-a263-9a9a9494df0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,16 +77,36 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"93281556-3fdc-46a9-a0c8-5199621f7e20","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a4fc2174-e569-4dc9-b435-8eba3764feee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6ec9ead3-099a-40ae-96d4-d58c905fd4b1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"86230ec9-4016-4d48-816e-44ecf65dbcee","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c4a808cc-3696-4b2b-b8b8-b4cad2102c14","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8fad9c99-ecfd-40de-825f-c3708cbc4d9d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"866df642-ab01-4d5c-b099-8efdba9d9077","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f75de29e-8b89-4e9f-a1d0-eb19c33e9c08","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad686c9a-3080-4891-8e08-6b0d80b21dad","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b3e0654-1f25-4843-b186-c48655a29af1","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"95e2ba2c-210b-4e2c-b57d-1b5e90221f23","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b8284c4-5937-49af-a263-9a9a9494df0b","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dcc229f0-09c9-4477-af7e-ec3e6430e7c1","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"22758d93-a44b-4cd2-b585-8cf0fc30b2f5","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"93281556-3fdc-46a9-a0c8-5199621f7e20","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4fc2174-e569-4dc9-b435-8eba3764feee","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"298b9d40-dbe0-48a1-8652-2c8ddaca37c5","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6ec9ead3-099a-40ae-96d4-d58c905fd4b1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8a2887a5-cd22-4a48-a938-0182d273ef5d","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"86230ec9-4016-4d48-816e-44ecf65dbcee","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d8a86f4c-2da3-47e4-a5aa-c002e056571a","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c4a808cc-3696-4b2b-b8b8-b4cad2102c14","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"81b3c02a-89a2-4b68-aa0b-5a7e56592ee5","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8fad9c99-ecfd-40de-825f-c3708cbc4d9d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"866df642-ab01-4d5c-b099-8efdba9d9077","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f75de29e-8b89-4e9f-a1d0-eb19c33e9c08","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e602fbd4-d51c-4184-b9c2-630b25b64cdb","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad686c9a-3080-4891-8e08-6b0d80b21dad","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b3e0654-1f25-4843-b186-c48655a29af1","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"95e2ba2c-210b-4e2c-b57d-1b5e90221f23","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b8284c4-5937-49af-a263-9a9a9494df0b","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dcc229f0-09c9-4477-af7e-ec3e6430e7c1","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab528002-99bb-4f4d-909d-7d28b39c9a57","path":"sprites/spr_player_ratmountsupertaunt/spr_player_ratmountsupertaunt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22758d93-a44b-4cd2-b585-8cf0fc30b2f5","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

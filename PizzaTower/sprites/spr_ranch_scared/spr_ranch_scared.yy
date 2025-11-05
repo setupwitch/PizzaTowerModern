@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ranch_scared",
   "bboxMode":0,
   "bbox_bottom":137,
@@ -12,11 +12,11 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38f3f2d7-89d3-4764-af33-9c57c2956825","name":"38f3f2d7-89d3-4764-af33-9c57c2956825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2998518e-439b-4995-8647-ae1e03cf33d3","name":"2998518e-439b-4995-8647-ae1e03cf33d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38f3f2d7-89d3-4764-af33-9c57c2956825","name":"38f3f2d7-89d3-4764-af33-9c57c2956825","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2998518e-439b-4995-8647-ae1e03cf33d3","name":"2998518e-439b-4995-8647-ae1e03cf33d3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -30,7 +30,7 @@
   "origin":9,
   "parent":{
     "name":"Ranch Shooter",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Ranch Shooter.yy",
+    "path":"folders/Sprites/Baddies/Ranch Shooter.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -72,11 +72,21 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"38f3f2d7-89d3-4764-af33-9c57c2956825","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b50a522f-2377-42f9-8b22-104888b4e43f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"487bc770-1f63-43b9-b2e1-ddd2298a6e5b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2998518e-439b-4995-8647-ae1e03cf33d3","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad83957a-a5a2-460b-adba-e480f64e9fa0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe179a5a-df82-42a4-b6f8-a6975beaef0a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f5da129c-501c-4c70-88c9-eda509d2fcc6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"38f3f2d7-89d3-4764-af33-9c57c2956825","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b50a522f-2377-42f9-8b22-104888b4e43f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1354f067-9a55-4b6f-b8ba-e9892e03a818","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"487bc770-1f63-43b9-b2e1-ddd2298a6e5b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2998518e-439b-4995-8647-ae1e03cf33d3","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad83957a-a5a2-460b-adba-e480f64e9fa0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"061854b3-9f1a-4aab-8167-f40d9c3c330e","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe179a5a-df82-42a4-b6f8-a6975beaef0a","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83e05f98-da8f-46a5-9cd6-4921fca4d1b2","path":"sprites/spr_ranch_scared/spr_ranch_scared.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f5da129c-501c-4c70-88c9-eda509d2fcc6","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

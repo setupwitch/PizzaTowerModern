@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_medieval",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c9f490d8-f2b9-4859-b004-ddce78c257de","name":"c9f490d8-f2b9-4859-b004-ddce78c257de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9f490d8-f2b9-4859-b004-ddce78c257de","name":"c9f490d8-f2b9-4859-b004-ddce78c257de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6b3c8881-19f2-44f1-968b-cd8f02f43885","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8368452e-f2e5-4117-beb3-7b7a99b7ba6f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ba096ee2-af0a-4024-8aa8-8b5fe6f27e7a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9f490d8-f2b9-4859-b004-ddce78c257de","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"babd1d47-db00-45fe-9959-54ff45ffc490","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cc1bda69-e8b6-4f17-84b1-8d5255ec58d7","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3504bf65-5631-4489-9e44-95fa7b944bcc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"04c6e6f6-0fce-4cf2-b5e0-5aa72c34c967","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6b3c8881-19f2-44f1-968b-cd8f02f43885","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68df852b-9185-4aaf-b4e1-6643b4d011ff","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8368452e-f2e5-4117-beb3-7b7a99b7ba6f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2a4d0e05-8ac2-40f3-a004-d733418f9367","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ba096ee2-af0a-4024-8aa8-8b5fe6f27e7a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c9f490d8-f2b9-4859-b004-ddce78c257de","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"babd1d47-db00-45fe-9959-54ff45ffc490","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f90d9f4-87eb-4c85-abe9-b4a472cde2b3","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cc1bda69-e8b6-4f17-84b1-8d5255ec58d7","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"be304941-bc22-4e2a-b033-d2dfec11f1cd","path":"sprites/spr_achievement_medieval/spr_achievement_medieval.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3504bf65-5631-4489-9e44-95fa7b944bcc","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

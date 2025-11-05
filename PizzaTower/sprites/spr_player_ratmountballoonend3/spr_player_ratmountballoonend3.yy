@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_ratmountballoonend3",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c85183db-4068-4af4-9967-470211472ea8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"724bca08-c915-485f-a883-be3bb3d9da2a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3960bab5-bcda-47f7-92db-be7a87c99d27","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f52e59e6-3c42-4b25-9d6c-74bd64e02205","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c85183db-4068-4af4-9967-470211472ea8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9174357d-b0b6-4785-a8a8-7b53f6fd6592","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"724bca08-c915-485f-a883-be3bb3d9da2a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da1a1917-8a09-45b7-91d2-9f6e4de8b726","path":"sprites/spr_player_ratmountballoonend3/spr_player_ratmountballoonend3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3960bab5-bcda-47f7-92db-be7a87c99d27","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

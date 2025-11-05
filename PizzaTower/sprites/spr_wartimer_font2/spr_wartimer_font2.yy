@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_wartimer_font2",
   "bboxMode":0,
   "bbox_bottom":70,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c05e9139-3041-4d10-91c3-76aeb897c321","name":"c05e9139-3041-4d10-91c3-76aeb897c321","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"54220770-7911-4139-b9ba-4347094e5666","name":"54220770-7911-4139-b9ba-4347094e5666","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"54da31b1-9c40-4884-8ca3-aae1101c7704","name":"54da31b1-9c40-4884-8ca3-aae1101c7704","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"75917d21-887b-4b4e-9fcc-1f875be09620","name":"75917d21-887b-4b4e-9fcc-1f875be09620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c05e9139-3041-4d10-91c3-76aeb897c321","name":"c05e9139-3041-4d10-91c3-76aeb897c321","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54220770-7911-4139-b9ba-4347094e5666","name":"54220770-7911-4139-b9ba-4347094e5666","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54da31b1-9c40-4884-8ca3-aae1101c7704","name":"54da31b1-9c40-4884-8ca3-aae1101c7704","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"75917d21-887b-4b4e-9fcc-1f875be09620","name":"75917d21-887b-4b4e-9fcc-1f875be09620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,16 +77,36 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"08f3ce92-aff0-489b-84c8-35c18c8390f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b935bc3d-f4c9-4826-b06e-762425153305","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c05e9139-3041-4d10-91c3-76aeb897c321","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"36a970da-8dde-45f8-befb-2b2aadebe291","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"54220770-7911-4139-b9ba-4347094e5666","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"070e5840-b6b5-4c65-9b5f-ca9af54fffc4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6fb9d984-de6d-423c-bb57-964f82528a54","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e737679e-594d-44c8-9163-5ad6bc130316","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"54da31b1-9c40-4884-8ca3-aae1101c7704","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4f601840-e6c3-4fcb-b597-c73240ebdfee","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"38918aea-0a04-4e1f-a6fe-1fb38e6cec85","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4347a43e-a0a8-4ff9-bdd5-37ae3796d9a4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"75917d21-887b-4b4e-9fcc-1f875be09620","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f7c61ae0-2caf-4fe1-a83e-2fae21ff35e5","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b853a909-055e-498e-bb3c-9ffd3fbd1101","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"08f3ce92-aff0-489b-84c8-35c18c8390f1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"30b1ef70-e44a-46f8-87d6-5e7be560942e","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b935bc3d-f4c9-4826-b06e-762425153305","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c05e9139-3041-4d10-91c3-76aeb897c321","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"36a970da-8dde-45f8-befb-2b2aadebe291","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54220770-7911-4139-b9ba-4347094e5666","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"070e5840-b6b5-4c65-9b5f-ca9af54fffc4","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2bb3c468-268e-4579-94b1-35a08d63a5f6","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6fb9d984-de6d-423c-bb57-964f82528a54","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e8456f3d-922b-49da-9b54-94ca221bbbc1","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e737679e-594d-44c8-9163-5ad6bc130316","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"54da31b1-9c40-4884-8ca3-aae1101c7704","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f601840-e6c3-4fcb-b597-c73240ebdfee","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1487b5fa-c49e-4911-90e3-3d1f511f78dd","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"38918aea-0a04-4e1f-a6fe-1fb38e6cec85","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0061f1dc-1c7e-47ee-80d2-2e1997a9659a","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4347a43e-a0a8-4ff9-bdd5-37ae3796d9a4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"75917d21-887b-4b4e-9fcc-1f875be09620","path":"sprites/spr_wartimer_font2/spr_wartimer_font2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f7c61ae0-2caf-4fe1-a83e-2fae21ff35e5","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

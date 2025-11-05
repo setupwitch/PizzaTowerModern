@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_johnresurrected_pizzahead",
   "bboxMode":0,
   "bbox_bottom":182,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"56f8a8ee-1712-4614-94ea-12d6e42fac98","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"26f9b2a1-e10c-461f-b5db-1ac7d9387a87","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5dc400b2-4f9a-4685-9976-17ab575b5cab","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"729301bb-bbb0-4c4f-9a79-0b3f315a3775","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"56f8a8ee-1712-4614-94ea-12d6e42fac98","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"de82b6ed-f5ba-4344-a7d7-625a53eda9ea","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"26f9b2a1-e10c-461f-b5db-1ac7d9387a87","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ebd5de76-9fb7-4be5-acf4-d2322ddfb993","path":"sprites/spr_johnresurrected_pizzahead/spr_johnresurrected_pizzahead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5dc400b2-4f9a-4685-9976-17ab575b5cab","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

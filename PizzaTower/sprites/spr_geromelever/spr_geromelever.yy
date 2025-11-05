@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_geromelever",
   "bboxMode":0,
   "bbox_bottom":69,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"45db39c1-1981-4b0f-aed9-f72e7160751b","name":"45db39c1-1981-4b0f-aed9-f72e7160751b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06573c93-107c-448d-9539-076fd6405f72","name":"06573c93-107c-448d-9539-076fd6405f72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e955bbf-1ac1-4b9c-a843-01a815456763","name":"1e955bbf-1ac1-4b9c-a843-01a815456763","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"45db39c1-1981-4b0f-aed9-f72e7160751b","name":"45db39c1-1981-4b0f-aed9-f72e7160751b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06573c93-107c-448d-9539-076fd6405f72","name":"06573c93-107c-448d-9539-076fd6405f72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e955bbf-1ac1-4b9c-a843-01a815456763","name":"1e955bbf-1ac1-4b9c-a843-01a815456763","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,14 +75,30 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d107f909-2953-49c2-95e1-c84ec7e4d5a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"45db39c1-1981-4b0f-aed9-f72e7160751b","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"91cd4d1f-944b-4bd0-9762-153b3844ee6f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"07eeb0b3-d67c-467f-9cc1-b5209ccfab57","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"06573c93-107c-448d-9539-076fd6405f72","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d1443f16-977c-46d2-9ca5-58a07253e7c3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8c4d7852-93a3-4f8b-93d4-a89f361cccd0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a314530e-2dd8-4e57-a7c5-b3852d7c281a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e955bbf-1ac1-4b9c-a843-01a815456763","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0507dcb7-46e7-45ff-8819-c9c7376d7b88","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d7f9295e-f7fa-43af-ad42-02998a3f9908","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ab23d05c-7841-4485-9e82-b62c9b6457cd","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d107f909-2953-49c2-95e1-c84ec7e4d5a7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45db39c1-1981-4b0f-aed9-f72e7160751b","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"91cd4d1f-944b-4bd0-9762-153b3844ee6f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b56ab5c2-6177-491f-97d8-b34fc1a45236","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"07eeb0b3-d67c-467f-9cc1-b5209ccfab57","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06573c93-107c-448d-9539-076fd6405f72","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d1443f16-977c-46d2-9ca5-58a07253e7c3","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b63a9b8a-2cf4-47af-a514-e9b62ab78f0d","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8c4d7852-93a3-4f8b-93d4-a89f361cccd0","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e10367d3-ca8d-44f5-b238-d4c1fbbea9ba","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a314530e-2dd8-4e57-a7c5-b3852d7c281a","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e955bbf-1ac1-4b9c-a843-01a815456763","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0507dcb7-46e7-45ff-8819-c9c7376d7b88","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80d9ceee-57a9-4fb0-a9ce-4bfd4ba1d240","path":"sprites/spr_geromelever/spr_geromelever.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d7f9295e-f7fa-43af-ad42-02998a3f9908","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

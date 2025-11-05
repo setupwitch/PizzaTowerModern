@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_crosspriest_cross",
   "bboxMode":0,
   "bbox_bottom":108,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eac59403-673f-418c-89bf-62252241f08c","name":"eac59403-673f-418c-89bf-62252241f08c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5a46236d-e794-42f9-b815-f791895cfd76","name":"5a46236d-e794-42f9-b815-f791895cfd76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eac59403-673f-418c-89bf-62252241f08c","name":"eac59403-673f-418c-89bf-62252241f08c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a46236d-e794-42f9-b815-f791895cfd76","name":"5a46236d-e794-42f9-b815-f791895cfd76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"09b7d2db-cac0-4a98-a3a3-efd4793ae66f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"165fdea5-2ac0-46d1-b99a-ef5ed2fbb18e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"eac59403-673f-418c-89bf-62252241f08c","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bb6b0d68-cdc9-4818-be93-a0f8f2707777","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a46236d-e794-42f9-b815-f791895cfd76","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1c343514-9bcb-4fdb-8901-13817debef99","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"21271f63-a381-45c5-9fbe-f1cf5367bd07","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"887e1b3b-60e9-49c9-975a-ac06da749a8c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6422d9a3-81bb-4f3e-865d-b85b0ab4f146","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"09b7d2db-cac0-4a98-a3a3-efd4793ae66f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4617e9cc-c839-44c3-a4c5-b006f0862a42","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"165fdea5-2ac0-46d1-b99a-ef5ed2fbb18e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eac59403-673f-418c-89bf-62252241f08c","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bb6b0d68-cdc9-4818-be93-a0f8f2707777","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a46236d-e794-42f9-b815-f791895cfd76","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c343514-9bcb-4fdb-8901-13817debef99","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0b896d5a-f545-442d-b99f-e16ef4bf4f3d","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"21271f63-a381-45c5-9fbe-f1cf5367bd07","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"492bccdc-2e8c-4902-9cfa-3bc4ffdcada6","path":"sprites/spr_crosspriest_cross/spr_crosspriest_cross.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"887e1b3b-60e9-49c9-975a-ac06da749a8c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

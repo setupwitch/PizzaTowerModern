@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_vigilante_vulnerable",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"687497ff-6628-4854-9a27-af2150022fa7","name":"687497ff-6628-4854-9a27-af2150022fa7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"812d3f09-ca3e-41d0-9968-e967800ade67","name":"812d3f09-ca3e-41d0-9968-e967800ade67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"687497ff-6628-4854-9a27-af2150022fa7","name":"687497ff-6628-4854-9a27-af2150022fa7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"812d3f09-ca3e-41d0-9968-e967800ade67","name":"812d3f09-ca3e-41d0-9968-e967800ade67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f93bedd9-68c4-4205-b1c3-a198900012eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"687497ff-6628-4854-9a27-af2150022fa7","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2c7f56f0-f83b-47e5-bff9-97ae19f3f8fe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"812d3f09-ca3e-41d0-9968-e967800ade67","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b6ad9da1-0390-4097-a10e-460994238793","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3f5e056d-42d9-4141-8d97-be98e8788d76","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3ab34dc-feeb-468f-a81d-83f1f92b4a55","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f93bedd9-68c4-4205-b1c3-a198900012eb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"687497ff-6628-4854-9a27-af2150022fa7","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2c7f56f0-f83b-47e5-bff9-97ae19f3f8fe","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"812d3f09-ca3e-41d0-9968-e967800ade67","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b6ad9da1-0390-4097-a10e-460994238793","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"783c3cc7-2a38-4c4f-98c3-12b89cd9767a","path":"sprites/spr_vigilante_vulnerable/spr_vigilante_vulnerable.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3f5e056d-42d9-4141-8d97-be98e8788d76","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

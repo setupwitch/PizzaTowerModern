@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_santasleightempty",
   "bboxMode":0,
   "bbox_bottom":169,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"992a9b2b-a86f-4a94-a703-d52b04ff1882","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"232756ac-8186-4e1c-bded-e39a0f0480c0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cd26da23-ca69-4e84-9ace-3c0057ab5887","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"630797bf-85a0-47ee-bae1-3e91f0acfe42","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0ca08d6c-989f-4e47-9dbd-cb00e13157fe","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5c7739ea-17f2-4f67-b156-49bd3594e41b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c2eb079f-fb6c-4dad-97f2-1d1d422e75a6","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"992a9b2b-a86f-4a94-a703-d52b04ff1882","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"71915d0b-2eaa-49d9-a2dc-533144a147a8","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"232756ac-8186-4e1c-bded-e39a0f0480c0","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"377ef449-1697-4cbd-96c7-3bc8f56efcbd","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cd26da23-ca69-4e84-9ace-3c0057ab5887","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bee363dd-9fca-46a1-8dfc-a6e3d16f8b6d","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"630797bf-85a0-47ee-bae1-3e91f0acfe42","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a53df3e-7d53-49d2-a4f1-c756053dabdd","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0ca08d6c-989f-4e47-9dbd-cb00e13157fe","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ccc4c8c0-09bc-45c1-898f-36a5de4b68a4","path":"sprites/spr_santasleightempty/spr_santasleightempty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5c7739ea-17f2-4f67-b156-49bd3594e41b","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

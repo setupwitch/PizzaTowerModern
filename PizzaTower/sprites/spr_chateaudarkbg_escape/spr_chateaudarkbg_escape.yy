@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_chateaudarkbg_escape",
   "bboxMode":0,
   "bbox_bottom":599,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"117a8f6d-b340-4084-a894-d9b7d0404188","name":"117a8f6d-b340-4084-a894-d9b7d0404188","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"117a8f6d-b340-4084-a894-d9b7d0404188","name":"117a8f6d-b340-4084-a894-d9b7d0404188","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"117a8f6d-b340-4084-a894-d9b7d0404188","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"921fcbfb-c2ad-4301-9af7-6d91328368e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cd24e42b-4bf2-4355-bb4c-c3ef44f2023c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"869d62ce-6a89-40c5-b82a-99b6f792776b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"117a8f6d-b340-4084-a894-d9b7d0404188","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"921fcbfb-c2ad-4301-9af7-6d91328368e7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b2596e7-e416-4a4c-bc59-fd61cc9f4ba2","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cd24e42b-4bf2-4355-bb4c-c3ef44f2023c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d171658e-753d-4e05-9c83-23a3b66e9bc8","path":"sprites/spr_chateaudarkbg_escape/spr_chateaudarkbg_escape.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"869d62ce-6a89-40c5-b82a-99b6f792776b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

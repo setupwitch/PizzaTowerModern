@@ -12,5 +12,7 @@ if (global.collect != global.lastcollect)
 	var diff = global.collect - global.lastcollect;
 	global.lastcollect = global.collect;
 	if (global.swapmode)
+	{
 		global.collect_player[player_index] += diff;
+	}
 }

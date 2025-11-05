@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_noisette_kidsparty",
   "bboxMode":0,
   "bbox_bottom":235,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02e08d47-8985-49c0-bffd-18120beff29f","name":"02e08d47-8985-49c0-bffd-18120beff29f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f59653a1-b57b-4606-a171-0673f7201b8d","name":"f59653a1-b57b-4606-a171-0673f7201b8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2b49089e-5731-4663-9706-696340259e9b","name":"2b49089e-5731-4663-9706-696340259e9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f1e9423d-73aa-4b10-9e8b-507af87da981","name":"f1e9423d-73aa-4b10-9e8b-507af87da981","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02e08d47-8985-49c0-bffd-18120beff29f","name":"02e08d47-8985-49c0-bffd-18120beff29f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f59653a1-b57b-4606-a171-0673f7201b8d","name":"f59653a1-b57b-4606-a171-0673f7201b8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2b49089e-5731-4663-9706-696340259e9b","name":"2b49089e-5731-4663-9706-696340259e9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1e9423d-73aa-4b10-9e8b-507af87da981","name":"f1e9423d-73aa-4b10-9e8b-507af87da981","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,16 +77,36 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"957da607-b32d-4439-8afc-67041ba377d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"44d9fc57-7895-47ea-a512-8388d43452df","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"02e08d47-8985-49c0-bffd-18120beff29f","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"75d62a39-55d8-42fb-8bf7-3886393766c4","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2964c5f9-4bde-4919-992e-d4764846503b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cd1c6667-6e68-4b83-9e37-b73ba48384c2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f59653a1-b57b-4606-a171-0673f7201b8d","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f52dcbee-5e0e-41c4-bae2-d14825c9e81d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b49089e-5731-4663-9706-696340259e9b","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9da6584d-8b42-4714-8b18-f62df41a144b","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fff997f8-0842-43db-a586-718b6d22f4f7","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"64c79fcd-7638-4ae3-a524-897186112bd4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1e9423d-73aa-4b10-9e8b-507af87da981","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1ef589ba-737d-4573-9b22-7ea200dcd961","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c7ec6dea-a079-4f5f-aa2b-67770c82c1c0","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"957da607-b32d-4439-8afc-67041ba377d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"71c3a381-1e28-4007-805f-ddaeb8db9d0e","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"44d9fc57-7895-47ea-a512-8388d43452df","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02e08d47-8985-49c0-bffd-18120beff29f","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"75d62a39-55d8-42fb-8bf7-3886393766c4","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"541bba96-ca3e-492a-b3ba-9e3948d3e59e","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2964c5f9-4bde-4919-992e-d4764846503b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac4fc8b6-e3ef-41f3-b541-366183e56c2f","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cd1c6667-6e68-4b83-9e37-b73ba48384c2","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f59653a1-b57b-4606-a171-0673f7201b8d","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f52dcbee-5e0e-41c4-bae2-d14825c9e81d","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2b49089e-5731-4663-9706-696340259e9b","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9da6584d-8b42-4714-8b18-f62df41a144b","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"52c91601-395c-4cc4-a23a-71bdcd6568e1","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fff997f8-0842-43db-a586-718b6d22f4f7","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3b7519b-8a50-4903-a599-6290d4a4fda1","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"64c79fcd-7638-4ae3-a524-897186112bd4","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f1e9423d-73aa-4b10-9e8b-507af87da981","path":"sprites/spr_noisette_kidsparty/spr_noisette_kidsparty.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1ef589ba-737d-4573-9b22-7ea200dcd961","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

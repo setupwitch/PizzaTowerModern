@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_fightball",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"402485e1-3308-4c2e-b218-1826f798098f","name":"402485e1-3308-4c2e-b218-1826f798098f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b2e19fec-c201-4a5c-96fe-1d8182568317","name":"b2e19fec-c201-4a5c-96fe-1d8182568317","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"28d00925-b9f0-4380-8e22-7732311aea30","name":"28d00925-b9f0-4380-8e22-7732311aea30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3505877d-9435-4ab8-8194-6a25412afa3d","name":"3505877d-9435-4ab8-8194-6a25412afa3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"acf793c1-821a-431e-aaba-b16607460feb","name":"acf793c1-821a-431e-aaba-b16607460feb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8f024118-004a-4354-8c2b-7681b696dda1","name":"8f024118-004a-4354-8c2b-7681b696dda1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"402485e1-3308-4c2e-b218-1826f798098f","name":"402485e1-3308-4c2e-b218-1826f798098f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b2e19fec-c201-4a5c-96fe-1d8182568317","name":"b2e19fec-c201-4a5c-96fe-1d8182568317","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"28d00925-b9f0-4380-8e22-7732311aea30","name":"28d00925-b9f0-4380-8e22-7732311aea30","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3505877d-9435-4ab8-8194-6a25412afa3d","name":"3505877d-9435-4ab8-8194-6a25412afa3d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"acf793c1-821a-431e-aaba-b16607460feb","name":"acf793c1-821a-431e-aaba-b16607460feb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8f024118-004a-4354-8c2b-7681b696dda1","name":"8f024118-004a-4354-8c2b-7681b696dda1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -77,16 +77,36 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"900f3da6-0e92-45de-8c29-25d02d039a1b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a15d38e2-5fba-4357-a1ce-099f7bb65461","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"402485e1-3308-4c2e-b218-1826f798098f","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"87eb230f-fc73-4e22-9147-a94ab0119e6e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2e19fec-c201-4a5c-96fe-1d8182568317","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b36fdc1d-38f4-432d-9fa2-677327017d31","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"28d00925-b9f0-4380-8e22-7732311aea30","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c009b082-9fac-43be-a450-1c6942a87217","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3505877d-9435-4ab8-8194-6a25412afa3d","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1472f25c-23af-4b81-8a3e-56c7844a89e3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"acf793c1-821a-431e-aaba-b16607460feb","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10b86fa2-68c4-4591-b4a4-543cb95f898f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4f66dc7c-af23-4945-b3e5-1155eed6cd25","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"22689800-9cf7-416a-9e78-5cd4e4aa2f4b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f024118-004a-4354-8c2b-7681b696dda1","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f165fbed-6960-45c7-b2c7-68fac99a1d66","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc63658d-cbfa-48ec-8119-8a4eaa15134a","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"900f3da6-0e92-45de-8c29-25d02d039a1b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bd6d2e46-1ba4-4089-81a7-7700dc7f545a","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a15d38e2-5fba-4357-a1ce-099f7bb65461","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"402485e1-3308-4c2e-b218-1826f798098f","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"87eb230f-fc73-4e22-9147-a94ab0119e6e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b2e19fec-c201-4a5c-96fe-1d8182568317","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b36fdc1d-38f4-432d-9fa2-677327017d31","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"28d00925-b9f0-4380-8e22-7732311aea30","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c009b082-9fac-43be-a450-1c6942a87217","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3505877d-9435-4ab8-8194-6a25412afa3d","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1472f25c-23af-4b81-8a3e-56c7844a89e3","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"acf793c1-821a-431e-aaba-b16607460feb","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"10b86fa2-68c4-4591-b4a4-543cb95f898f","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ba1c1fa0-bd9d-48ba-a69d-8dd58bb5444d","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f66dc7c-af23-4945-b3e5-1155eed6cd25","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2474cf7f-1a65-4c1c-b98e-1616a12d5b23","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22689800-9cf7-416a-9e78-5cd4e4aa2f4b","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8f024118-004a-4354-8c2b-7681b696dda1","path":"sprites/spr_player_fightball/spr_player_fightball.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f165fbed-6960-45c7-b2c7-68fac99a1d66","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

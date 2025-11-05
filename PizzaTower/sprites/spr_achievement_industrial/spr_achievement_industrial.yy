@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_industrial",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a866f789-1b62-4d9d-ab45-36b6d355222a","name":"a866f789-1b62-4d9d-ab45-36b6d355222a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"193a928d-12a9-4314-b74b-1fd2949cae1e","name":"193a928d-12a9-4314-b74b-1fd2949cae1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a866f789-1b62-4d9d-ab45-36b6d355222a","name":"a866f789-1b62-4d9d-ab45-36b6d355222a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"193a928d-12a9-4314-b74b-1fd2949cae1e","name":"193a928d-12a9-4314-b74b-1fd2949cae1e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a866f789-1b62-4d9d-ab45-36b6d355222a","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cc92050a-864b-4463-9106-15a82d90e819","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"26bafb9d-340b-4c88-8b09-14c709b8e8f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"46e1f41f-ca46-4c7e-b21d-f38801597151","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7851c112-3ed4-4df4-9185-a27c7ab73559","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"193a928d-12a9-4314-b74b-1fd2949cae1e","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4ecd2b8e-364c-409b-93a0-72f425a75070","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4a4014d7-0f23-474e-8801-4ce5909bb7d7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a866f789-1b62-4d9d-ab45-36b6d355222a","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cc92050a-864b-4463-9106-15a82d90e819","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5adab4ef-9061-4f70-bb0e-13f2cc4df6c1","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"26bafb9d-340b-4c88-8b09-14c709b8e8f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"46c96c26-5c1e-4e30-83d5-4dadf8674479","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"46e1f41f-ca46-4c7e-b21d-f38801597151","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"632c3ee1-2456-4238-aa4b-cbfae6deffa5","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7851c112-3ed4-4df4-9185-a27c7ab73559","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"193a928d-12a9-4314-b74b-1fd2949cae1e","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4ecd2b8e-364c-409b-93a0-72f425a75070","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a9019a4f-c85d-4f8c-9a4a-790f95fe0cd0","path":"sprites/spr_achievement_industrial/spr_achievement_industrial.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4a4014d7-0f23-474e-8801-4ce5909bb7d7","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

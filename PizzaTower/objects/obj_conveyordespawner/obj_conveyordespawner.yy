@@ -9,8 +9,8 @@
   "name":"obj_conveyordespawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Gimmicks",
+    "path":"folders/Objects/Room Structure/Level Structure/Gimmicks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

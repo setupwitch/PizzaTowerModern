@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_dungeon",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6861315a-253d-4375-8fb3-19d8d60e36d8","name":"6861315a-253d-4375-8fb3-19d8d60e36d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e21ee9dc-a920-478f-a441-c330153c0810","name":"e21ee9dc-a920-478f-a441-c330153c0810","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6861315a-253d-4375-8fb3-19d8d60e36d8","name":"6861315a-253d-4375-8fb3-19d8d60e36d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e21ee9dc-a920-478f-a441-c330153c0810","name":"e21ee9dc-a920-478f-a441-c330153c0810","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3dc02be5-086c-41e7-9ec4-db23e11aa2ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4f27cf37-1f50-4e92-9f5a-a3410b502757","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6861315a-253d-4375-8fb3-19d8d60e36d8","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b0aa14d3-aa5c-4d60-a446-b8a80aa663b2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5d1564cb-a5a0-4650-9416-edfde6e02c2d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"25c21053-0ca1-41f9-8f0e-0f6f20f15940","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e21ee9dc-a920-478f-a441-c330153c0810","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2aeb7121-8623-47d3-b519-f6962cdb2e12","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ed65c208-1f7b-4ea3-b65b-6f1ba9dcff94","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3dc02be5-086c-41e7-9ec4-db23e11aa2ce","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ad10d7e1-0cc2-42a2-9249-012a4f4b9b6b","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4f27cf37-1f50-4e92-9f5a-a3410b502757","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6861315a-253d-4375-8fb3-19d8d60e36d8","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b0aa14d3-aa5c-4d60-a446-b8a80aa663b2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e099d2c7-0918-4a2c-8f51-8bb8bebfb4a9","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5d1564cb-a5a0-4650-9416-edfde6e02c2d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"02c4b629-58f9-43bd-b784-cfcfe25a655a","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"25c21053-0ca1-41f9-8f0e-0f6f20f15940","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e21ee9dc-a920-478f-a441-c330153c0810","path":"sprites/spr_achievement_dungeon/spr_achievement_dungeon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2aeb7121-8623-47d3-b519-f6962cdb2e12","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

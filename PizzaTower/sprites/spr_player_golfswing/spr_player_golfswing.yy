@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_golfswing",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5abc96bb-0599-4f7d-a7d0-be869603e988","name":"5abc96bb-0599-4f7d-a7d0-be869603e988","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0170256e-e321-41ec-b20b-034a15a2d8ba","name":"0170256e-e321-41ec-b20b-034a15a2d8ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a1464125-ab61-4595-8579-07e655cd764f","name":"a1464125-ab61-4595-8579-07e655cd764f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"68db7316-4444-4a70-8e56-9c7f51994583","name":"68db7316-4444-4a70-8e56-9c7f51994583","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5abc96bb-0599-4f7d-a7d0-be869603e988","name":"5abc96bb-0599-4f7d-a7d0-be869603e988","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0170256e-e321-41ec-b20b-034a15a2d8ba","name":"0170256e-e321-41ec-b20b-034a15a2d8ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1464125-ab61-4595-8579-07e655cd764f","name":"a1464125-ab61-4595-8579-07e655cd764f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"68db7316-4444-4a70-8e56-9c7f51994583","name":"68db7316-4444-4a70-8e56-9c7f51994583","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -82,21 +82,51 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"708227b8-1b8a-4c84-9bff-cdae2661e16a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5abc96bb-0599-4f7d-a7d0-be869603e988","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"012de3f5-2d39-4937-8381-62d9ac6346f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d769e260-02a3-42b6-b26c-a5fcf40cd41f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0170256e-e321-41ec-b20b-034a15a2d8ba","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f640d3fb-fd98-42c3-af05-7fd671c26eec","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8df80b0a-cfe3-4cbd-9dd1-d2f75ed9f32e","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f189936f-6db5-4e84-8766-a8ec0d56d298","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"10a53a6e-686f-4c55-997c-b151b65bfbad","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"72230540-169b-46da-842b-8dab3ae68216","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"53acd520-b544-4ec9-9e2b-5d8617832d28","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"caf8d225-4d0f-4c2c-9e43-10d1030f451e","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1464125-ab61-4595-8579-07e655cd764f","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"aa1637d0-1e5f-482b-be95-5c64d9c7a13a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"01862369-4676-4fa6-b7ec-5ef2b994d83a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"68db7316-4444-4a70-8e56-9c7f51994583","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fe44842f-00b9-4377-90a8-625f5a0d5210","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6c67b7d0-93a0-4395-9ad9-0720b0839ea2","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eae3ac22-c64a-45b4-a972-b4a90c37dad2","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a66712d5-cc8f-4f47-8fcb-8e99cc538d72","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"708227b8-1b8a-4c84-9bff-cdae2661e16a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5abc96bb-0599-4f7d-a7d0-be869603e988","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"012de3f5-2d39-4937-8381-62d9ac6346f2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2a37d8d-a702-4acc-8a6b-0c38e8bce6a9","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d769e260-02a3-42b6-b26c-a5fcf40cd41f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0170256e-e321-41ec-b20b-034a15a2d8ba","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f640d3fb-fd98-42c3-af05-7fd671c26eec","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ebcb023-b2ab-43b8-99eb-e68db4149113","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8df80b0a-cfe3-4cbd-9dd1-d2f75ed9f32e","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"263d0769-4327-4162-b9ef-0a419a0a6b8d","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f189936f-6db5-4e84-8766-a8ec0d56d298","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a7ffc5a4-9e5f-43db-ba51-34189b6124c2","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"10a53a6e-686f-4c55-997c-b151b65bfbad","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d9916f77-a11a-41db-958b-5987d3f3bb1a","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"72230540-169b-46da-842b-8dab3ae68216","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f7b2ffb-9511-4e08-9f15-07304df01e67","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"53acd520-b544-4ec9-9e2b-5d8617832d28","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f563c758-0faf-4065-bf90-cd8c93ae4df0","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"caf8d225-4d0f-4c2c-9e43-10d1030f451e","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1464125-ab61-4595-8579-07e655cd764f","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aa1637d0-1e5f-482b-be95-5c64d9c7a13a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"77cd1042-3a6d-4bcf-b307-4a6f7c4eeacb","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"01862369-4676-4fa6-b7ec-5ef2b994d83a","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"68db7316-4444-4a70-8e56-9c7f51994583","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe44842f-00b9-4377-90a8-625f5a0d5210","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6e61376c-e88b-4b98-8d22-27fa6a563a24","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c67b7d0-93a0-4395-9ad9-0720b0839ea2","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"477c579d-c4bb-45eb-8353-3ab745d8c75f","path":"sprites/spr_player_golfswing/spr_player_golfswing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eae3ac22-c64a-45b4-a972-b4a90c37dad2","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

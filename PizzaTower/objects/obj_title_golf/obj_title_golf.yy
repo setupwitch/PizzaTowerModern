@@ -6,8 +6,8 @@
   "name":"obj_title_golf",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Hub Structure",
+    "path":"folders/Objects/Room Structure/Hub Structure.yy",
   },
   "parentObjectId":{
     "name":"par_title",

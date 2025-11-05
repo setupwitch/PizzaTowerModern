@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_playerN_minigunslamland",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,13 +12,13 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1838314b-6d1f-4341-854d-b1852935a4e5","name":"1838314b-6d1f-4341-854d-b1852935a4e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e83417d-9fa3-4155-8190-56b0c207418b","name":"1e83417d-9fa3-4155-8190-56b0c207418b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"124da209-1c88-4374-8263-fce9cc757268","name":"124da209-1c88-4374-8263-fce9cc757268","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1838314b-6d1f-4341-854d-b1852935a4e5","name":"1838314b-6d1f-4341-854d-b1852935a4e5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e83417d-9fa3-4155-8190-56b0c207418b","name":"1e83417d-9fa3-4155-8190-56b0c207418b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"124da209-1c88-4374-8263-fce9cc757268","name":"124da209-1c88-4374-8263-fce9cc757268","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -74,13 +74,27 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1838314b-6d1f-4341-854d-b1852935a4e5","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3271919c-ed0f-4550-98ba-89df2f339b8f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b6aa3891-88c6-4b1d-83f7-3bc9f847db5f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e83417d-9fa3-4155-8190-56b0c207418b","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9ecddb9f-f00b-4e1e-9709-b9ef2b99f330","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4834e54c-7b36-402a-b8e3-982cc58da32d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4e768b69-3a85-4ea0-9e1b-d35c8834f492","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"124da209-1c88-4374-8263-fce9cc757268","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2abe4224-9b45-4bf5-b217-a72fdcd236ac","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"39bc46a4-858b-4572-b9e5-2ee98cfb7fe0","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1838314b-6d1f-4341-854d-b1852935a4e5","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3271919c-ed0f-4550-98ba-89df2f339b8f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"57ba9b3d-03f0-4d19-bd14-de05f05c4d2f","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b6aa3891-88c6-4b1d-83f7-3bc9f847db5f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e83417d-9fa3-4155-8190-56b0c207418b","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9ecddb9f-f00b-4e1e-9709-b9ef2b99f330","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ae19468-f0a8-43bd-a24e-59fa325d4165","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4834e54c-7b36-402a-b8e3-982cc58da32d","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c8e0b9b-33c4-4212-8ca6-927128e8fd9d","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4e768b69-3a85-4ea0-9e1b-d35c8834f492","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"124da209-1c88-4374-8263-fce9cc757268","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2abe4224-9b45-4bf5-b217-a72fdcd236ac","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"565702d2-2d9a-408a-8200-dc1cb5c2b7bb","path":"sprites/spr_playerN_minigunslamland/spr_playerN_minigunslamland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"39bc46a4-858b-4572-b9e5-2ee98cfb7fe0","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

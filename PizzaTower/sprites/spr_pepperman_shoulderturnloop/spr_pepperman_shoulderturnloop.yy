@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_pepperman_shoulderturnloop",
   "bboxMode":0,
   "bbox_bottom":142,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7b975129-051c-472a-b91f-f7b18bc7e97f","name":"7b975129-051c-472a-b91f-f7b18bc7e97f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b975129-051c-472a-b91f-f7b18bc7e97f","name":"7b975129-051c-472a-b91f-f7b18bc7e97f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b3386008-bf0c-458b-ac5b-2cd264eda202","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b975129-051c-472a-b91f-f7b18bc7e97f","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"69f9d2ab-4247-43aa-9504-4252c7f506f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"715e09f7-fe63-48ab-9330-9abbde2c2495","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9b78db2f-e6a4-49bd-8b51-c3b538ce22cb","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b3386008-bf0c-458b-ac5b-2cd264eda202","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7b975129-051c-472a-b91f-f7b18bc7e97f","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"69f9d2ab-4247-43aa-9504-4252c7f506f6","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4f7f3c7-3288-4d01-bd9a-0b5ca96a7e46","path":"sprites/spr_pepperman_shoulderturnloop/spr_pepperman_shoulderturnloop.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"715e09f7-fe63-48ab-9330-9abbde2c2495","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_policecar",
   "bboxMode":2,
   "bbox_bottom":111,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c5a55350-53e4-4054-85f5-834d6c826b6b","name":"c5a55350-53e4-4054-85f5-834d6c826b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7452012c-3b27-4596-b734-f745442cae55","name":"7452012c-3b27-4596-b734-f745442cae55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06caa78b-3e72-4360-9444-4493ad17526b","name":"06caa78b-3e72-4360-9444-4493ad17526b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d865609b-846e-460a-8310-71ebcf86e49d","name":"d865609b-846e-460a-8310-71ebcf86e49d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c5a55350-53e4-4054-85f5-834d6c826b6b","name":"c5a55350-53e4-4054-85f5-834d6c826b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7452012c-3b27-4596-b734-f745442cae55","name":"7452012c-3b27-4596-b734-f745442cae55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06caa78b-3e72-4360-9444-4493ad17526b","name":"06caa78b-3e72-4360-9444-4493ad17526b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d865609b-846e-460a-8310-71ebcf86e49d","name":"d865609b-846e-460a-8310-71ebcf86e49d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -79,18 +79,42 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1b81cf62-52ba-4b8f-9f6c-f73ad8fbfc84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ec6d630b-f71a-415e-801b-9f8cffbf9295","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5a55350-53e4-4054-85f5-834d6c826b6b","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"01a4b132-d9ee-41c8-aff9-a479ec6a0231","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3dc0b7e9-eace-4ad6-b338-915093396c3f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"24768269-12ab-4b1c-bb3b-40b999a15dd3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2464a7ec-6d0b-47ef-9140-6ef187a6f727","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"96db0490-6a7f-43d6-a9a5-28e50659cfb0","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2adbe134-526c-41bb-b6ff-d7658bae4f83","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7452012c-3b27-4596-b734-f745442cae55","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b10c0f6f-7632-42e8-9e50-de876734a2c7","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"06caa78b-3e72-4360-9444-4493ad17526b","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cced57cc-c819-4c31-9681-85d4f6b600ff","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e6925ebd-29ad-4dc4-8d52-db14e4b04ec7","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d865609b-846e-460a-8310-71ebcf86e49d","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"090a2e62-984f-451b-aa10-ae15ca6220ec","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"851279ae-3d9d-4b78-bcb5-55a93ac6c645","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1b81cf62-52ba-4b8f-9f6c-f73ad8fbfc84","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"32b16386-b98f-4dca-9efd-1a3085fc1e34","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ec6d630b-f71a-415e-801b-9f8cffbf9295","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5a55350-53e4-4054-85f5-834d6c826b6b","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"01a4b132-d9ee-41c8-aff9-a479ec6a0231","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4eebe4ed-c3bb-4070-8624-0eed34172daf","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3dc0b7e9-eace-4ad6-b338-915093396c3f","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b6ee0ec-1db0-4935-9851-14a5b709ff74","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"24768269-12ab-4b1c-bb3b-40b999a15dd3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1e286625-c6c7-4ae1-a8e0-784639bbd815","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2464a7ec-6d0b-47ef-9140-6ef187a6f727","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6d8cdfae-38f5-4f3c-948c-5b53089aa877","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"96db0490-6a7f-43d6-a9a5-28e50659cfb0","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9dd897c5-52d4-49a7-92da-7ef3aed45c00","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2adbe134-526c-41bb-b6ff-d7658bae4f83","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7452012c-3b27-4596-b734-f745442cae55","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b10c0f6f-7632-42e8-9e50-de876734a2c7","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06caa78b-3e72-4360-9444-4493ad17526b","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cced57cc-c819-4c31-9681-85d4f6b600ff","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ef3033c7-b5fa-46b2-9a8c-14b6d0e18706","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e6925ebd-29ad-4dc4-8d52-db14e4b04ec7","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d865609b-846e-460a-8310-71ebcf86e49d","path":"sprites/spr_policecar/spr_policecar.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"090a2e62-984f-451b-aa10-ae15ca6220ec","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_playerN_knightarmor",
   "bboxMode":0,
   "bbox_bottom":87,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"40340559-8cc1-4f8e-b770-b149394189c3","name":"40340559-8cc1-4f8e-b770-b149394189c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7c13652a-069a-4bdd-878e-033fed6ca427","name":"7c13652a-069a-4bdd-878e-033fed6ca427","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40340559-8cc1-4f8e-b770-b149394189c3","name":"40340559-8cc1-4f8e-b770-b149394189c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7c13652a-069a-4bdd-878e-033fed6ca427","name":"7c13652a-069a-4bdd-878e-033fed6ca427","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40340559-8cc1-4f8e-b770-b149394189c3","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"74e9a395-3e4b-445d-ac10-bd1da1650efa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3c3f0a8f-dd64-4c90-b42b-234a6ae29c9f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"8aad71e4-7eb8-4270-9478-1dbfcf93187a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c13652a-069a-4bdd-878e-033fed6ca427","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7830be36-9c84-423c-b551-ef90f8f46583","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40340559-8cc1-4f8e-b770-b149394189c3","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"74e9a395-3e4b-445d-ac10-bd1da1650efa","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f84c294b-b2d9-4de8-b4e6-c299bc1a1e46","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3c3f0a8f-dd64-4c90-b42b-234a6ae29c9f","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99696abd-d9f6-4f9c-ac60-3f752e0aa64a","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"8aad71e4-7eb8-4270-9478-1dbfcf93187a","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7c13652a-069a-4bdd-878e-033fed6ca427","path":"sprites/spr_playerN_knightarmor/spr_playerN_knightarmor.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7830be36-9c84-423c-b551-ef90f8f46583","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

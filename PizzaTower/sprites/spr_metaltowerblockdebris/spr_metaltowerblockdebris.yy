@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_metaltowerblockdebris",
   "bboxMode":0,
   "bbox_bottom":37,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22acad34-4dba-4c82-929f-4738f513d558","name":"22acad34-4dba-4c82-929f-4738f513d558","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e11dc11b-208f-47e8-a27e-aa35943a3add","name":"e11dc11b-208f-47e8-a27e-aa35943a3add","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22acad34-4dba-4c82-929f-4738f513d558","name":"22acad34-4dba-4c82-929f-4738f513d558","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e11dc11b-208f-47e8-a27e-aa35943a3add","name":"e11dc11b-208f-47e8-a27e-aa35943a3add","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,14 +75,30 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"48f793b6-a9df-4aae-bbdc-09b4e627f2e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"16ab5c49-9964-4e9d-9e63-574b0e45d926","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cf9d7b9e-7210-43c4-bbfc-d4d944da5211","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"22acad34-4dba-4c82-929f-4738f513d558","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4a3d8d0b-6b67-4ac6-a1d5-99dd87f22191","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3b5b1658-8b2b-4cd6-900d-e55b82779c97","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"760f0c14-1323-471e-88f8-a92db8427cfb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e11dc11b-208f-47e8-a27e-aa35943a3add","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e6a04f23-cdd9-4949-9714-ed7abfca3804","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9683397f-6db5-43b1-9f19-d5362e44150f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b9b36bc6-3bc2-472f-b54b-1ab0baf08fd5","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"48f793b6-a9df-4aae-bbdc-09b4e627f2e0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c13b2ff9-f357-4a5c-a274-e84169da6b9d","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"16ab5c49-9964-4e9d-9e63-574b0e45d926","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ee4a7e1-15f6-4a01-8640-4a4b3324230e","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cf9d7b9e-7210-43c4-bbfc-d4d944da5211","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"22acad34-4dba-4c82-929f-4738f513d558","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4a3d8d0b-6b67-4ac6-a1d5-99dd87f22191","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6010e8dd-93ee-4fb1-ba61-0fe9633a995e","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3b5b1658-8b2b-4cd6-900d-e55b82779c97","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"259dabc5-0daa-4ba9-b417-bb5780e8042a","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"760f0c14-1323-471e-88f8-a92db8427cfb","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e11dc11b-208f-47e8-a27e-aa35943a3add","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e6a04f23-cdd9-4949-9714-ed7abfca3804","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"45d8d071-1998-41ef-a0a8-e41ebdb1c609","path":"sprites/spr_metaltowerblockdebris/spr_metaltowerblockdebris.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9683397f-6db5-43b1-9f19-d5362e44150f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

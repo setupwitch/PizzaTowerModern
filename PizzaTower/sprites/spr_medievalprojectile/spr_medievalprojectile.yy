@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_medievalprojectile",
   "bboxMode":2,
   "bbox_bottom":127,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"83696192-c915-42ea-b2b1-3aef93e43d2f","name":"83696192-c915-42ea-b2b1-3aef93e43d2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83696192-c915-42ea-b2b1-3aef93e43d2f","name":"83696192-c915-42ea-b2b1-3aef93e43d2f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -75,14 +75,30 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4e12e125-964e-4c0e-b428-01e10c6303c3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f9ebc027-6d7f-4308-99e4-6f91046665a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"83696192-c915-42ea-b2b1-3aef93e43d2f","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"698d53d3-422e-4a75-8541-1cb3a388858c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ca210155-edc4-4ab3-b9f4-91f0b38ed54e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"36450a91-9be5-44e7-9988-a54fbdce9784","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1c3726b1-591e-4d94-a56d-63cb5ea04f57","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2046e970-8597-43be-b9cd-a4479b318195","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b3337115-45e3-45c4-a7b8-1218b6d92be7","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"55924e45-5f72-4b6d-b2c9-6183f54eed5f","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4e12e125-964e-4c0e-b428-01e10c6303c3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b74fd1af-05ef-45f0-a4c5-b4a944793932","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f9ebc027-6d7f-4308-99e4-6f91046665a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"83696192-c915-42ea-b2b1-3aef93e43d2f","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"698d53d3-422e-4a75-8541-1cb3a388858c","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5291072c-e9d0-4fa5-9d3e-1154877bc80b","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ca210155-edc4-4ab3-b9f4-91f0b38ed54e","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64a2daae-f32b-4ca4-b8ac-fec9618f35ff","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"36450a91-9be5-44e7-9988-a54fbdce9784","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"856429fc-9e24-4ff6-95db-4786e8b61a6d","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c3726b1-591e-4d94-a56d-63cb5ea04f57","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2df60bba-044d-432f-b1fc-17ccd9fc079d","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2046e970-8597-43be-b9cd-a4479b318195","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0ee3ceaa-965e-49c3-b06a-0782b1489a2a","path":"sprites/spr_medievalprojectile/spr_medievalprojectile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b3337115-45e3-45c4-a7b8-1218b6d92be7","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

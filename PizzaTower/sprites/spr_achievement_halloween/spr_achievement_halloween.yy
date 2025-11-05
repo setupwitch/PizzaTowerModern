@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_achievement_halloween",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -71,10 +71,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"325c0fa4-e1f1-4f66-9143-6bd1ee3b923f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"18455d74-336d-4f37-b369-dfcb40974894","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"af0a0e29-71b0-420c-890e-916163bff03d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6079829e-3689-4109-b24a-1adc1606be41","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9ef2e8da-a6e7-4197-9a8f-56a5066edaf1","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"325c0fa4-e1f1-4f66-9143-6bd1ee3b923f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4bb62814-4164-4c55-b0ce-5986bba09ff2","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"18455d74-336d-4f37-b369-dfcb40974894","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a083b87-f38a-4aa9-bbc6-43a5a38e9f6b","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"af0a0e29-71b0-420c-890e-916163bff03d","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d48cfa41-e2c4-4c92-82ac-25ffb8ea3e5d","path":"sprites/spr_achievement_halloween/spr_achievement_halloween.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6079829e-3689-4109-b24a-1adc1606be41","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

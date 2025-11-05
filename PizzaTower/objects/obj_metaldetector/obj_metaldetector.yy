@@ -8,8 +8,8 @@
   "name":"obj_metaldetector",
   "overriddenProperties":[],
   "parent":{
-    "name":"Unused",
-    "path":"folders/Objects/Unused.yy",
+    "name":"Destroyables",
+    "path":"folders/Objects/Room Structure/Destroyables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

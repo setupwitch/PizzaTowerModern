@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_totemcloud_spawn",
   "bboxMode":0,
   "bbox_bottom":80,
@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c3800b64-7531-4493-9243-49717d89684b","name":"c3800b64-7531-4493-9243-49717d89684b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c3800b64-7531-4493-9243-49717d89684b","name":"c3800b64-7531-4493-9243-49717d89684b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -37,7 +37,7 @@
   "origin":4,
   "parent":{
     "name":"Indian Cheese",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Indian Cheese.yy",
+    "path":"folders/Sprites/Baddies/Indian Cheese.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -79,18 +79,42 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"e63377f0-6062-4178-b5cf-6d835850fa68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2ea49716-82ec-4791-a77e-eef3f97f1c7c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c3800b64-7531-4493-9243-49717d89684b","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"364cea3c-b2f6-4611-898a-0f98812c13b5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"43e7ea59-8a15-4af4-8b8f-154ac80ee3d5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c19a3c38-ab98-432b-96bc-65648f7328fe","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ee30a6a8-cf18-431d-8fc2-c8a22c6c1263","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ad64cdc7-6bcc-40d2-b4b8-d713881593f2","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1029bbdc-8128-4c3d-b3b9-dbf7e3e6f4f6","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a4873426-3825-4666-849b-f5c205613b8e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"521422d5-4895-4dab-ba01-e73f31b22fe2","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"cba9d43b-e94b-49ac-a780-ec89bc6c56cf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b9cea12f-4f2c-49f7-8868-9a99ef19b6e0","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d4249112-6b5b-4f3a-905f-a0b2f63c98ea","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e63377f0-6062-4178-b5cf-6d835850fa68","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"112adfbc-f8ae-43d1-83c2-40a15804e84f","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2ea49716-82ec-4791-a77e-eef3f97f1c7c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c3800b64-7531-4493-9243-49717d89684b","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"364cea3c-b2f6-4611-898a-0f98812c13b5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4e55f0f-71e1-45b7-9688-3aa4d1bc914e","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"43e7ea59-8a15-4af4-8b8f-154ac80ee3d5","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"008331f7-3f7f-4426-92fd-8a29a1bbc7df","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c19a3c38-ab98-432b-96bc-65648f7328fe","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f469242d-49cd-47a3-91f2-eb3dd8c0b10b","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ee30a6a8-cf18-431d-8fc2-c8a22c6c1263","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f0a77f13-0ffd-4e5d-b2ee-63ea738e5e8f","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ad64cdc7-6bcc-40d2-b4b8-d713881593f2","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"368cefef-a0ff-456a-b7b2-6c4d4424bb2d","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1029bbdc-8128-4c3d-b3b9-dbf7e3e6f4f6","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8cebc1cb-b9c1-417e-9565-220c082e1ea9","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a4873426-3825-4666-849b-f5c205613b8e","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a911eac0-5a3e-43f6-8059-6faae4a273e8","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"521422d5-4895-4dab-ba01-e73f31b22fe2","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"659265dd-b2d0-4dd0-8a71-6fc11a3c6d08","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"cba9d43b-e94b-49ac-a780-ec89bc6c56cf","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59bbab35-e915-4ea2-bfa7-651e44e508f7","path":"sprites/spr_totemcloud_spawn/spr_totemcloud_spawn.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b9cea12f-4f2c-49f7-8868-9a99ef19b6e0","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

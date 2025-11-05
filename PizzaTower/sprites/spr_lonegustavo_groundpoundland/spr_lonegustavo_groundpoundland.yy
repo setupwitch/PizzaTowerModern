@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_lonegustavo_groundpoundland",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,12 +12,12 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"85a3678d-c218-4d45-9ce1-305a64df14c3","name":"85a3678d-c218-4d45-9ce1-305a64df14c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"307b4cee-822f-486e-890c-35a5970d7662","name":"307b4cee-822f-486e-890c-35a5970d7662","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85a3678d-c218-4d45-9ce1-305a64df14c3","name":"85a3678d-c218-4d45-9ce1-305a64df14c3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"307b4cee-822f-486e-890c-35a5970d7662","name":"307b4cee-822f-486e-890c-35a5970d7662","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -73,12 +73,24 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"5c5dd1cb-c983-4fb1-b2e4-26228e6e04cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"85a3678d-c218-4d45-9ce1-305a64df14c3","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6da0224b-ad27-4dee-8d24-2019661a9f48","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"3be36baa-1b37-44a3-af47-4ad5986d2692","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6627fabb-7240-48d6-a550-9165937bd526","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7f99347c-7a74-41bc-9eb4-1d361641dc00","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"307b4cee-822f-486e-890c-35a5970d7662","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"1c8a37d5-0809-42f5-b7f2-0b137bd9e067","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f80ee8b3-cfb8-4a22-b9c1-1ff951b5ee7e","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5c5dd1cb-c983-4fb1-b2e4-26228e6e04cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"85a3678d-c218-4d45-9ce1-305a64df14c3","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6da0224b-ad27-4dee-8d24-2019661a9f48","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fffedd7f-d804-42dd-8f71-29024ed58fa9","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"3be36baa-1b37-44a3-af47-4ad5986d2692","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99bae7ed-8794-4eb4-92e3-a1e5fe0eb441","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6627fabb-7240-48d6-a550-9165937bd526","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c83bc05-5d2f-46d0-9265-e6d0d231e4b7","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7f99347c-7a74-41bc-9eb4-1d361641dc00","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"307b4cee-822f-486e-890c-35a5970d7662","path":"sprites/spr_lonegustavo_groundpoundland/spr_lonegustavo_groundpoundland.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1c8a37d5-0809-42f5-b7f2-0b137bd9e067","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_banditochicken_wake",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"816a79ea-b54d-4f39-bd26-a543909a4390","name":"816a79ea-b54d-4f39-bd26-a543909a4390","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9abc0a01-718c-43f5-9c84-a626acad3f87","name":"9abc0a01-718c-43f5-9c84-a626acad3f87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2324355f-3140-4989-a3b5-435e0b889955","name":"2324355f-3140-4989-a3b5-435e0b889955","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"467af99c-2ec7-4209-8329-d78d34ad81b3","name":"467af99c-2ec7-4209-8329-d78d34ad81b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"754d602e-a5f8-46dd-9a47-0531c8996b25","name":"754d602e-a5f8-46dd-9a47-0531c8996b25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"816a79ea-b54d-4f39-bd26-a543909a4390","name":"816a79ea-b54d-4f39-bd26-a543909a4390","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9abc0a01-718c-43f5-9c84-a626acad3f87","name":"9abc0a01-718c-43f5-9c84-a626acad3f87","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2324355f-3140-4989-a3b5-435e0b889955","name":"2324355f-3140-4989-a3b5-435e0b889955","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"467af99c-2ec7-4209-8329-d78d34ad81b3","name":"467af99c-2ec7-4209-8329-d78d34ad81b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"754d602e-a5f8-46dd-9a47-0531c8996b25","name":"754d602e-a5f8-46dd-9a47-0531c8996b25","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -35,7 +35,7 @@
   "origin":4,
   "parent":{
     "name":"Bandito Chicken",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Bandito Chicken.yy",
+    "path":"folders/Sprites/Baddies/Bandito Chicken.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -77,16 +77,36 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"518784a1-7490-4661-9114-bbb7443252f5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"30b2be41-b30d-42b7-a31c-785988ea888a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"816a79ea-b54d-4f39-bd26-a543909a4390","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"93fefdbc-f9d3-4eee-b19b-4381db565f78","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9abc0a01-718c-43f5-9c84-a626acad3f87","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"2d11eb2c-bdb2-4430-87c6-03931034ca99","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"78fc51c3-aa2f-49c0-967a-08781ed7381d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0bf7532e-6c44-44e4-a390-0a9f05dd1e16","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2324355f-3140-4989-a3b5-435e0b889955","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a89c300b-8695-4f39-9897-62f3362910a1","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"eb3abab1-6612-4967-880d-5ca38acb2ed8","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"467af99c-2ec7-4209-8329-d78d34ad81b3","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"de11a882-027b-4f2a-bf5f-875c6032ef85","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"754d602e-a5f8-46dd-9a47-0531c8996b25","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"03087e8f-464b-4ce6-ac35-afca621a91e3","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7daedf8a-e726-4c53-9a08-e83ad8910a95","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"518784a1-7490-4661-9114-bbb7443252f5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e30b14be-0233-4dcb-9c99-d8dfe9b98df0","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"30b2be41-b30d-42b7-a31c-785988ea888a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"816a79ea-b54d-4f39-bd26-a543909a4390","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"93fefdbc-f9d3-4eee-b19b-4381db565f78","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9abc0a01-718c-43f5-9c84-a626acad3f87","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2d11eb2c-bdb2-4430-87c6-03931034ca99","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c5baaa2-8736-4b9e-b38d-1796f2fe0304","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"78fc51c3-aa2f-49c0-967a-08781ed7381d","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7ab1ccc7-b932-4185-acdf-6247432cddfe","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0bf7532e-6c44-44e4-a390-0a9f05dd1e16","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2324355f-3140-4989-a3b5-435e0b889955","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a89c300b-8695-4f39-9897-62f3362910a1","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b96cd9da-090f-4325-bb8f-8ebd8bfe9132","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"eb3abab1-6612-4967-880d-5ca38acb2ed8","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"467af99c-2ec7-4209-8329-d78d34ad81b3","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"de11a882-027b-4f2a-bf5f-875c6032ef85","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"754d602e-a5f8-46dd-9a47-0531c8996b25","path":"sprites/spr_banditochicken_wake/spr_banditochicken_wake.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"03087e8f-464b-4ce6-ac35-afca621a91e3","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

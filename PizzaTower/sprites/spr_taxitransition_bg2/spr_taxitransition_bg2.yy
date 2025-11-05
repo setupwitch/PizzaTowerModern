@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_taxitransition_bg2",
   "bboxMode":0,
   "bbox_bottom":570,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -70,9 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"442368ee-646e-4ce3-8814-27c750d1169f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"05d54019-c11b-4263-a2a7-01892e5debe8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"09c473e0-b459-4634-93bb-a2bb05f2d7d0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"277e8dbf-fc5f-4060-99d8-a7ccc75b7207","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"442368ee-646e-4ce3-8814-27c750d1169f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4811a44a-ad8c-4e6b-8cc3-3371356fa4f7","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"05d54019-c11b-4263-a2a7-01892e5debe8","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"40f48a83-0331-4c73-84a5-4beeed83f4f5","path":"sprites/spr_taxitransition_bg2/spr_taxitransition_bg2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"09c473e0-b459-4634-93bb-a2bb05f2d7d0","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

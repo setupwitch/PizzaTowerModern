@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_grannypizzasign",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e92bf4e-b5fa-47fe-9679-6637f1b8f0ad","name":"0e92bf4e-b5fa-47fe-9679-6637f1b8f0ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e92bf4e-b5fa-47fe-9679-6637f1b8f0ad","name":"0e92bf4e-b5fa-47fe-9679-6637f1b8f0ad","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -63,8 +63,6 @@
     "playbackSpeedType":1,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
-    "seqHeight":117.0,
-    "seqWidth":134.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

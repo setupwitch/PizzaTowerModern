@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_ufogrounded_shoot",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,25 +12,25 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9084653f-37a4-415c-af82-7a4b9559c60a","name":"9084653f-37a4-415c-af82-7a4b9559c60a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3916c9cb-66b7-4009-968a-eec680776e01","name":"3916c9cb-66b7-4009-968a-eec680776e01","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"89304f4d-fdac-4616-bcd6-27fe14df7567","name":"89304f4d-fdac-4616-bcd6-27fe14df7567","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fd796ec8-68ab-4616-b359-feba65fff531","name":"fd796ec8-68ab-4616-b359-feba65fff531","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"99bd1636-c892-4466-be19-196844643972","name":"99bd1636-c892-4466-be19-196844643972","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6eb93941-93dd-40c7-9ced-929dadc9c865","name":"6eb93941-93dd-40c7-9ced-929dadc9c865","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9084653f-37a4-415c-af82-7a4b9559c60a","name":"9084653f-37a4-415c-af82-7a4b9559c60a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3916c9cb-66b7-4009-968a-eec680776e01","name":"3916c9cb-66b7-4009-968a-eec680776e01","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"89304f4d-fdac-4616-bcd6-27fe14df7567","name":"89304f4d-fdac-4616-bcd6-27fe14df7567","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fd796ec8-68ab-4616-b359-feba65fff531","name":"fd796ec8-68ab-4616-b359-feba65fff531","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"99bd1636-c892-4466-be19-196844643972","name":"99bd1636-c892-4466-be19-196844643972","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6eb93941-93dd-40c7-9ced-929dadc9c865","name":"6eb93941-93dd-40c7-9ced-929dadc9c865","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -44,7 +44,7 @@
   "origin":4,
   "parent":{
     "name":"Olive",
-    "path":"folders/Sprites/Room Structure/Level Structure/Baddies/Olive.yy",
+    "path":"folders/Sprites/Baddies/Olive.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -86,25 +86,63 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"fed77ead-4da2-404e-84e8-71108e37ee49","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9084653f-37a4-415c-af82-7a4b9559c60a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a7e3c5a3-27ce-4116-9167-c558e623042b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"4895143b-072c-4395-8aaa-0eba1726e294","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3916c9cb-66b7-4009-968a-eec680776e01","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"7c8b84b4-2a2c-47c5-835f-bf936db85995","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"bf17b280-4900-4770-85d7-d7b609c63f42","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"89304f4d-fdac-4616-bcd6-27fe14df7567","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d8323984-68f7-441e-9ebc-f841ed612442","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"de1e4d8c-b86c-44ca-8859-88e883f2e949","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd796ec8-68ab-4616-b359-feba65fff531","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"0169012a-7810-468f-afd4-61eae7de2c7f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"99bd1636-c892-4466-be19-196844643972","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"583d398e-4e51-49e9-8bae-fda5b6499ec0","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f29ea63d-1053-4d67-8cdd-ef8ef8a17b86","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"73cecd46-829a-49a2-adf5-ecc4a61608b8","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"ecddd0a3-248f-41a2-bda7-b481cc19d0ff","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"322935ec-f679-4053-8c65-b05cc4cc4fdd","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"dc79a257-4a6f-4782-8fde-d161059276f0","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"b5b52ab1-1df5-4a6d-91c7-af540912699a","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"6915619d-28d3-4201-8e60-85a796544904","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"49f2f0fe-c20d-4b11-91d4-5646ee67d593","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"33f9b6ee-82d8-4786-b68a-941699640429","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"6eb93941-93dd-40c7-9ced-929dadc9c865","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"aab07edb-0aef-4e81-9e46-5d8885945044","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94a13053-5eb1-45db-9a2b-0a1b71ee4325","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fed77ead-4da2-404e-84e8-71108e37ee49","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9084653f-37a4-415c-af82-7a4b9559c60a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a7e3c5a3-27ce-4116-9167-c558e623042b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b462ad1c-c992-49e6-b3b6-99d2d80ac8aa","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4895143b-072c-4395-8aaa-0eba1726e294","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3916c9cb-66b7-4009-968a-eec680776e01","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"7c8b84b4-2a2c-47c5-835f-bf936db85995","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b3fa0aae-7917-4544-bccf-6f5a1547b499","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bf17b280-4900-4770-85d7-d7b609c63f42","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89304f4d-fdac-4616-bcd6-27fe14df7567","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d8323984-68f7-441e-9ebc-f841ed612442","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b925b9fd-7d2a-4967-b056-6fd62a75ebcb","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"de1e4d8c-b86c-44ca-8859-88e883f2e949","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fd796ec8-68ab-4616-b359-feba65fff531","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0169012a-7810-468f-afd4-61eae7de2c7f","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"99bd1636-c892-4466-be19-196844643972","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"583d398e-4e51-49e9-8bae-fda5b6499ec0","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"94a4e307-9ff4-474a-912d-ebeeaa05fe75","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f29ea63d-1053-4d67-8cdd-ef8ef8a17b86","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ecfa9a9d-7e13-4098-929b-e5eea1d6dab4","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"73cecd46-829a-49a2-adf5-ecc4a61608b8","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3a77758c-0595-43f8-889a-c5bc2fb8263c","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ecddd0a3-248f-41a2-bda7-b481cc19d0ff","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2905ae36-f037-4cfa-af7a-4969b28d52a2","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"322935ec-f679-4053-8c65-b05cc4cc4fdd","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c04bcdd6-6e59-42f9-b65d-99778ef73e9a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dc79a257-4a6f-4782-8fde-d161059276f0","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9cd512f2-e912-46e5-a7fb-59a0e7625d1a","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b5b52ab1-1df5-4a6d-91c7-af540912699a","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"083a536a-858d-4e07-a9b3-a277f75e2ebb","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6915619d-28d3-4201-8e60-85a796544904","IsCreationKey":false,"Key":15.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b5ce9f69-ba9a-409e-a3fa-13ca38735988","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49f2f0fe-c20d-4b11-91d4-5646ee67d593","IsCreationKey":false,"Key":16.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"27c157b6-62c0-4a4f-b6c5-8814561b93cd","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"33f9b6ee-82d8-4786-b68a-941699640429","IsCreationKey":false,"Key":17.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6eb93941-93dd-40c7-9ced-929dadc9c865","path":"sprites/spr_ufogrounded_shoot/spr_ufogrounded_shoot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"aab07edb-0aef-4e81-9e46-5d8885945044","IsCreationKey":false,"Key":18.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
