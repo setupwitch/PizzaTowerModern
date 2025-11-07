@@ -20,7 +20,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				with (obj_camera)
 				{
 					shake_mag = 5;
-					shake_mag_acc = 20 / room_speed;
+					shake_mag_acc = 20 / game_get_speed(gamespeed_fps);
 				}
 				instance_create(x, y, obj_baddiegibs);
 				instance_create(x, y, obj_baddiegibs);
@@ -35,7 +35,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 				with (obj_camera)
 				{
 					shake_mag = 5;
-					shake_mag_acc = 20 / room_speed;
+					shake_mag_acc = 20 / game_get_speed(gamespeed_fps);
 				}
 				instance_create(x, y, obj_baddiegibs);
 				instance_create(x, y, obj_baddiegibs);
@@ -52,7 +52,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 					with (obj_camera)
 					{
 						shake_mag = 5;
-						shake_mag_acc = 20 / room_speed;
+						shake_mag_acc = 20 / game_get_speed(gamespeed_fps);
 					}
 					instance_create(x, y, obj_baddiegibs);
 					instance_create(x, y, obj_baddiegibs);
@@ -70,7 +70,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 					with (obj_camera)
 					{
 						shake_mag = 5;
-						shake_mag_acc = 20 / room_speed;
+						shake_mag_acc = 20 / game_get_speed(gamespeed_fps);
 					}
 					instance_create(x, y, obj_baddiegibs);
 					instance_create(x, y, obj_baddiegibs);
@@ -90,7 +90,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 					with (obj_camera)
 					{
 						shake_mag = 20;
-						shake_mag_acc = 40 / room_speed;
+						shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 					}
 					instance_create(x, y, obj_baddiegibs);
 					instance_create(x, y, obj_baddiegibs);
@@ -111,7 +111,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 					with (obj_camera)
 					{
 						shake_mag = 20;
-						shake_mag_acc = 40 / room_speed;
+						shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 					}
 					instance_create(x, y, obj_baddiegibs);
 					instance_create(x, y, obj_baddiegibs);

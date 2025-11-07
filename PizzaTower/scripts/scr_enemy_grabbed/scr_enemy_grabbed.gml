@@ -75,7 +75,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
 		if (_obj_player.state == states.finishingblow)
@@ -124,7 +124,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
 		if (_obj_player.state == states.shoulder)
@@ -170,7 +170,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
 		if (_obj_player.state == states.finishingblow && (floor(_obj_player.image_index) >= 4 || (floor(_obj_player.image_index) < 1 && _obj_player.sprite_index == _obj_player.spr_swingdingend)))
@@ -227,7 +227,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 			with (_obj_player)
 			{
@@ -302,7 +302,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 			check_grabbed_solid(_obj_player);
 		}
@@ -413,7 +413,7 @@ function scr_enemy_grabbed()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 			with (_obj_player)
 			{

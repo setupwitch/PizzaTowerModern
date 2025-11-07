@@ -6,19 +6,19 @@ function scr_get_tutorial_key(_input)
 	switch (_input)
 	{
 		case ev_joystick2_button2:
-			spr = global.spr_gamepadbuttons;
+			spr = global.gamepadbuttonsprite;
 			ix = 16;
 			break;
 		case ev_joystick2_button4:
-			spr = global.spr_gamepadbuttons;
+			spr = global.gamepadbuttonsprite;
 			ix = 17;
 			break;
 		case ev_joystick2_button3:
-			spr = global.spr_gamepadbuttons;
+			spr = global.gamepadbuttonsprite;
 			ix = 4;
 			break;
 		case ev_joystick2_button5:
-			spr = global.spr_gamepadbuttons;
+			spr = global.gamepadbuttonsprite;
 			ix = 5;
 			break;
 		case vk_shift:
@@ -82,14 +82,14 @@ function scr_string_width(_str)
 	return w;
 }
 
-function scr_separate_text(_str, _font, _targetwidth)
+function scr_separate_text(_str, _font = noone, _targetwidth = 0)
 {
 	if (_font != noone)
 	{
 		draw_set_font(_font);
 	}
 	var separation = lang_get_value("separation_map");
-	separation = string_split(separation, ",");
+	separation = string_split_old(separation, ",");
 	var _start_pos = 0;
 	while (scr_string_width(_str) > (_targetwidth - string_width("a")))
 	{

@@ -15,7 +15,7 @@ if (image_index == 1 && global.panic == false && room != war_13)
 				with (obj_camera)
 				{
 					shake_mag = 10;
-					shake_mag_acc = 30 / room_speed;
+					shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 				}
 			}
 			if (global.coop == true)
@@ -28,7 +28,7 @@ if (image_index == 1 && global.panic == false && room != war_13)
 					with (obj_camera)
 					{
 						shake_mag = 10;
-						shake_mag_acc = 30 / room_speed;
+						shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 					}
 				}
 			}

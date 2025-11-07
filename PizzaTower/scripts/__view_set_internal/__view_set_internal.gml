@@ -3,7 +3,7 @@ function __view_set_internal(argument0, argument1, argument2)
     var __prop = argument0;
     var __index = argument1;
     var __val = argument2;
-    
+    var __cam
     switch(__prop)
     {
     case e__VW.XView: var __cam = view_get_camera(__index); camera_set_view_pos(__cam, __val, camera_get_view_y(__cam)); break;

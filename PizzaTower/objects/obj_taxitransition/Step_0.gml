@@ -30,12 +30,12 @@ else
 	if (shakecount < (4 + irandom(2)))
 	{
 		shake_mag = 5;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	else
 	{
 		shakecount = 0;
 		shake_mag = 15;
-		shake_mag_acc = 5 / room_speed;
+		shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 	}
 }

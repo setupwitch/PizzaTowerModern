@@ -28,7 +28,7 @@ function scr_playerN_hookshot()
 		with (obj_camera)
 		{
 			shake_mag = 5;
-			shake_mag_acc = 10 / room_speed;
+			shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 		}
 		vsp = -5;
 		with (instance_create(x, y + 35, obj_bangeffect))

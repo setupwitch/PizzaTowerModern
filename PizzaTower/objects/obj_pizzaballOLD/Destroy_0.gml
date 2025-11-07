@@ -39,13 +39,13 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == false)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	instance_create(x, y + 30, obj_bangeffect);
 	with (obj_camera)
 	{
 		shake_mag = 5;
-		shake_mag_acc = 20 / room_speed;
+		shake_mag_acc = 20 / game_get_speed(gamespeed_fps);
 	}
 	hsp = 0;
 	vsp = 0;

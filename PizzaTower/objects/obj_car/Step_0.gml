@@ -35,7 +35,7 @@ switch (state)
 					with (obj_camera)
 					{
 						shake_mag = 10;
-						shake_mag_acc = 10 / room_speed;
+						shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 					}
 				}
 			}

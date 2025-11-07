@@ -391,7 +391,7 @@ function scr_boss_playerN_phase1hurt(_func = noone)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 5 / room_speed;
+			shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 		}
 		instance_destroy(obj_blackoutline);
 		instance_destroy(obj_superattackeffect);
@@ -413,8 +413,10 @@ function scr_boss_playerN_phase1hurt(_func = noone)
 		linethrown = true;
 		override_throw = true;
 		image_speed = 0.35;
+		
 		if (_func != noone)
 		{
+			_func ??= function() {}; // calm down feather
 			_func();
 		}
 	}
@@ -532,7 +534,7 @@ function scr_boss_phase1hurt(_func = noone)
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 5 / room_speed;
+				shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 			}
 			with (player)
 			{
@@ -552,6 +554,7 @@ function scr_boss_phase1hurt(_func = noone)
 			image_speed = 0.35;
 			if (_func != noone)
 			{
+				_func ??= function() {};
 				_func();
 			}
 		}

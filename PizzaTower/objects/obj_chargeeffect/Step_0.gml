@@ -1,3 +1,5 @@
+EXECUTE_IN_ORDER;
+
 image_xscale = playerid.xscale;
 if (playerid.state != states.rocket && playerid.gusdashpadbuffer <= 0 && playerid.state != states.mach3 && playerid.ratmount_movespeed < 12 && playerid.state != states.crouchslide && playerid.state != states.shoulderbash)
 {

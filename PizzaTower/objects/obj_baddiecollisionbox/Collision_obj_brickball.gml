@@ -40,7 +40,7 @@ if (instance_exists(baddieID) && baddieID.invtime == 0 && baddieID.rattime <= 0 
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		baddieID.invtime = 30;
 		baddieID.hitvsp = -4;

@@ -1,6 +1,6 @@
 scr_initenemy();
 substate = states.walk;
-substate_max = 3 * room_speed;
+substate_max = 3 * game_get_speed(gamespeed_fps);
 substate_buffer = substate_max;
 hitboxcreate = false;
 shot = false;

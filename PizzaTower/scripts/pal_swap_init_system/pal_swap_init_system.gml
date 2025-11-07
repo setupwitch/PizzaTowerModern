@@ -1,4 +1,4 @@
-function pal_swap_init_system()
+function pal_swap_init_system(_uselessvar)
 {
 	// deprecated
 }

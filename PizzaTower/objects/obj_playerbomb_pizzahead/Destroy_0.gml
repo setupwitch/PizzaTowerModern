@@ -20,5 +20,5 @@ with (target)
 with (obj_camera)
 {
 	shake_mag = 10;
-	shake_mag_acc = 15 / room_speed;
+	shake_mag_acc = 15 / game_get_speed(gamespeed_fps);
 }

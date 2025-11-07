@@ -1517,7 +1517,7 @@ else
 }
 if (flash == true && alarm[0] <= 0)
 {
-	alarm[0] = 0.15 * room_speed;
+	alarm[0] = 0.15 * game_get_speed(gamespeed_fps);
 }
 if (state != states.ladder)
 {
@@ -1634,7 +1634,7 @@ if ((y > (room_height + 300) || y < -800) && !place_meeting(x, y, obj_verticalha
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		if (state == states.ghostpossess)
 		{
@@ -1802,3 +1802,5 @@ if (distance_to_object(obj_spike) < 500)
 		}
 	}
 }
+
+obj_execorder.event_execute(chargeeffectid, ev_step, ev_step_normal);

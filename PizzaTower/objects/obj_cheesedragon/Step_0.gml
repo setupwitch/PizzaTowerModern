@@ -25,7 +25,7 @@ if (attackcycle == 0 && attacked == false && floor(image_index) == 13 && sprite_
 	with (obj_camera)
 	{
 		shake_mag = 20;
-		shake_mag_acc = 60 / room_speed;
+		shake_mag_acc = 60 / game_get_speed(gamespeed_fps);
 	}
 	instance_create(playerid.x + -250, -10, obj_bowlingball);
 	instance_create(playerid.x + -125, -10, obj_bowlingball);

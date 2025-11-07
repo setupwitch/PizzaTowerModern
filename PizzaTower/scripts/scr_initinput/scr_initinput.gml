@@ -1,7 +1,7 @@
 function scr_initinput(_openINI = true)
 {
 	tdp_input_init();
-	global.spr_gamepadbuttons = spr_gamepadbuttons_style1;
+	global.gamepadbuttonsprite = spr_gamepadbuttons_style1;
 	global.spr_joystick = spr_joystick_style1;
 	if (_openINI)
 	{

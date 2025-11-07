@@ -64,28 +64,20 @@ function component_get_dock(_str)
 	{
 		case "BottomRight":
 			return docks.bottom_right;
-			break;
 		case "Bottom":
 			return docks.bottom;
-			break;
 		case "BottomLeft":
 			return docks.bottom_left;
-			break;
 		case "TopRight":
 			return docks.top_right;
-			break;
 		case "Top":
 			return docks.top;
-			break;
 		case "TopLeft":
 			return docks.top_left;
-			break;
 		case "Right":
 			return docks.right;
-			break;
 		case "Left":
 			return docks.left;
-			break;
 	}
 	return noone;
 }

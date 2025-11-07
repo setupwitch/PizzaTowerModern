@@ -2,7 +2,7 @@ function scr_pistolshoot(_state, _enable_charge = false)
 {
 	if (!ispeppino)
 	{
-		scr_bombshoot();
+		scr_bombshoot(0);
 		exit;
 	}
 	if (!_enable_charge && pistolchargeshooting)

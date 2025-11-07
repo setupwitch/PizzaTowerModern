@@ -40,6 +40,6 @@ function scr_playerN_throwkick()
 	}
 	if (input_buffer_shoot > 0)
 	{
-		scr_bombshoot();
+		scr_bombshoot(0);
 	}
 }

@@ -27,7 +27,7 @@ fmod_event_one_shot_3d("event:/sfx/misc/explosion", irandom_range(50, room_width
 with (obj_camera)
 {
 	shake_mag = 30;
-	shake_mag_acc = 30 / room_speed;
+	shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 }
 explosionsnum += 0.5;
 alarm[0] = timermax;

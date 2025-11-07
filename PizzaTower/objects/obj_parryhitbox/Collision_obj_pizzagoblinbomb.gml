@@ -1,5 +1,5 @@
 var b = false;
-var p = (player_id == 1) ? obj_player1.id : obj_player2.id;
+var p = (player_num == 1) ? obj_player1.id : obj_player2.id;
 with (other)
 {
 	if (defused)

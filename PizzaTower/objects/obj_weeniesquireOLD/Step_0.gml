@@ -44,7 +44,7 @@ if (charge == true)
 }
 if (flash == true && alarm[2] <= 0)
 {
-	alarm[2] = 0.05 * room_speed;
+	alarm[2] = 0.05 * game_get_speed(gamespeed_fps);
 }
 if (place_meeting(x + hsp, y, obj_solid) && !place_meeting(x, y, obj_slope) && charge == true)
 {
@@ -56,7 +56,7 @@ if (place_meeting(x + hsp, y, obj_solid) && !place_meeting(x, y, obj_slope) && c
 	with (obj_camera)
 	{
 		shake_mag = 10;
-		shake_mag_acc = 30 / room_speed;
+		shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 	}
 	sprite_index = spr_weeniesquire_stun;
 	charge = false;

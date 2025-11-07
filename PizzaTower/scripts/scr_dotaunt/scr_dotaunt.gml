@@ -70,7 +70,7 @@ function scr_create_parryhitbox()
 	}
 	with (parry_inst)
 	{
-		player_id = _playerid;
+		player_num = _playerid;
 		image_xscale = other.xscale;
 	}
 }

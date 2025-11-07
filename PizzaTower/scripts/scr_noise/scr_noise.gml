@@ -1230,7 +1230,7 @@ function scr_noise_freefall()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 5 / room_speed;
+			shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 		}
 		create_particle(x, y, particletypes.groundpoundeffect);
 		sprite_index = spr_playerN_bodyslamland;
@@ -1330,7 +1330,7 @@ function scr_noise_noisecrusher()
 		with (obj_camera)
 		{
 			shake_mag = 5;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 }
@@ -1573,7 +1573,7 @@ function scr_noise_finale()
 					with (obj_camera)
 					{
 						shake_mag = 5;
-						shake_mag_acc = 10 / room_speed;
+						shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 					}
 					with (obj_player1)
 					{

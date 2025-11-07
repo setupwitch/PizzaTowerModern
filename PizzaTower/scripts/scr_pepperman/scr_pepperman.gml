@@ -445,7 +445,7 @@ function scr_pepperman_freefall()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 5 / room_speed;
+				shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 			}
 		}
 		else
@@ -488,7 +488,7 @@ function scr_pepperman_freefall()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 5 / room_speed;
+				shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 			}
 		}
 	}
@@ -640,7 +640,7 @@ function scr_pepperman_shoulderbash()
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 5 / room_speed;
+				shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 			}
 			repeat (4)
 			{

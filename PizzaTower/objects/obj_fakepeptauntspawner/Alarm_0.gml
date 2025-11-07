@@ -30,7 +30,6 @@ switch (dir)
 		alarm[0] = -1;
 		alarm[1] = 140;
 		exit;
-		break;
 }
 var dis = 50;
 var spd = 5;

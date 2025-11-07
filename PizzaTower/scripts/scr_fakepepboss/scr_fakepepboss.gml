@@ -1178,7 +1178,7 @@ function scr_fakepepboss_backbreaker()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 5 / room_speed;
+			shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 		}
 		fmod_event_one_shot_3d("event:/sfx/fakepep/taunt", x, y);
 		instance_create(x, y, obj_baddietaunteffect);

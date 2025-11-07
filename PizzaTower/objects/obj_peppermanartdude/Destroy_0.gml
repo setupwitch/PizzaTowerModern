@@ -10,7 +10,7 @@ if (noshake == false)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	instance_create(x, y, obj_bangeffect);
 	with (create_debris(x, y, sprite_index, false))

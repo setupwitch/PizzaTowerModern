@@ -12,7 +12,7 @@ function cutscene_medieval_middle()
 	with (obj_camera)
 	{
 		shake_mag = 5;
-		shake_mag_acc = 10 / room_speed;
+		shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 	}
 	if (_finish)
 	{

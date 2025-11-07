@@ -102,7 +102,7 @@ if (global.levelcomplete && !global.freezercutscene)
 			}
 		}],
 		[cutscene_soundeffect, sfx_groundpound],
-		[cutscene_camera_shake, 5, 3 / room_speed],
+		[cutscene_camera_shake, 5, 3 / game_get_speed(gamespeed_fps)],
 		[function()
 		{
 			with (dragonactor)
@@ -131,7 +131,7 @@ if (global.levelcomplete && !global.freezercutscene)
 		[cutscene_set_player_visible, false],
 		[cutscene_set_player_pos, 190, 600],
 		[cutscene_soundeffect, sfx_groundpound],
-		[cutscene_camera_shake, 5, 3 / room_speed],
+		[cutscene_camera_shake, 5, 3 / game_get_speed(gamespeed_fps)],
 		[cutscene_wait, 50],
 		[function()
 		{

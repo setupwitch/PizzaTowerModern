@@ -1,3 +1,5 @@
+EXECUTE_IN_ORDER;
+
 if (room == timesuproom)
 {
 	scale_xs = 1;

@@ -149,12 +149,12 @@ if (!instance_exists(obj_ghostcollectibles))
 	if ((global.panic == true && global.minutes < 1) || player.sprite_index == spr_player_timesup)
 	{
 		shake_mag = 2;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	else if (global.panic == true && basement == false)
 	{
 		shake_mag = 2;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 }
 if (shake_mag > 0)

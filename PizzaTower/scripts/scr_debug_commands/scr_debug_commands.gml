@@ -1,4 +1,4 @@
-function string_split(_str, _splitter)
+function string_split_old(_str, _splitter)
 {
 	_str += " ";
 	var _current_str = "";

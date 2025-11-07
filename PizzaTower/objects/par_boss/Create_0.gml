@@ -51,7 +51,7 @@ function SUPER_player_destroy(_player)
 	with (_player)
 	{
 		camera_zoom(1, 0.1);
-		var lag = room_speed * 3;
+		var lag = game_get_speed(gamespeed_fps) * 3;
 		other.hitLag = lag;
 		other.hitX = room_width / 2;
 		other.hitY = room_height / 2;
@@ -77,7 +77,7 @@ function SUPER_player_destroy(_player)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 }
@@ -103,7 +103,7 @@ function SUPER_boss_destroy(_boss)
 			tauntstoredsprite = sprite_index;
 			tauntstoredstate = state;
 		}
-		var lag = room_speed * 3;
+		var lag = game_get_speed(gamespeed_fps) * 3;
 		other.image_xscale = -xscale;
 		other.hitLag = lag;
 		other.hitX = (room_width / 2) + (xscale * 16);
@@ -133,7 +133,7 @@ function SUPER_boss_destroy(_boss)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 }
@@ -205,7 +205,7 @@ function SUPER_boss_hurt(_dmg, _player)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 }
@@ -246,7 +246,7 @@ function SUPER_boss_hurt_noplayer(_hp)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 }
 
@@ -306,7 +306,7 @@ function SUPER_player_hurt(_hp, _player)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 }

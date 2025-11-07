@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_hooks",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_hooks",
+  "parent":{
+    "name":"Modern",
+    "path":"folders/Scripts/Modern.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

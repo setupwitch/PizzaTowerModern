@@ -200,7 +200,7 @@ if (global.swapmode)
 with (obj_camera)
 {
 	shake_mag = other.shake;
-	shake_mag_acc = 10 / room_speed;
+	shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 }
 if (pizzahead.sprite_index == spr_pizzahead_phase3_intro3 && pizzahead.image_index >= 21)
 {

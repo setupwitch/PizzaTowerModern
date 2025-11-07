@@ -32,6 +32,7 @@ if (!got)
 						got = true;
 						if (got_func != noone)
 						{
+							got_func ??= function() {};
 							got_func();
 						}
 						alarm[0] = 150;

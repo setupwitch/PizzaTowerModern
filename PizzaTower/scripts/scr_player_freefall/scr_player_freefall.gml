@@ -160,7 +160,7 @@ function scr_player_freefall()
 			with (obj_camera)
 			{
 				shake_mag = 5;
-				shake_mag_acc = 15 / room_speed;
+				shake_mag_acc = 15 / game_get_speed(gamespeed_fps);
 			}
 			if (freefallsmash >= 10)
 			{
@@ -182,7 +182,7 @@ function scr_player_freefall()
 				with (obj_camera)
 				{
 					shake_mag = 10;
-					shake_mag_acc = 30 / room_speed;
+					shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 				}
 				combo = 0;
 				bounce = false;

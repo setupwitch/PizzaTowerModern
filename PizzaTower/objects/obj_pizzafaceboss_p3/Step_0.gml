@@ -135,7 +135,7 @@ if (state == states.stun && !savedthrown)
 }
 if (!invincible && alarm[5] < 0 && !flash)
 {
-	alarm[5] = 0.15 * room_speed;
+	alarm[5] = 0.15 * game_get_speed(gamespeed_fps);
 }
 if ((state == states.grabdash || (state == states.mach2 && attackspeed >= 10) || (state == states.throwing && sprite_index == spr_fakepeppino_flailing)) && alarm[4] < 0)
 {
@@ -152,7 +152,7 @@ if (state != states.stun)
 }
 if (flash == true && alarm[2] <= 0)
 {
-	alarm[2] = 0.15 * room_speed;
+	alarm[2] = 0.15 * game_get_speed(gamespeed_fps);
 }
 if (state != states.grabbed)
 {

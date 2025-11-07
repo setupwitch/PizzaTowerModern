@@ -12,6 +12,7 @@ if (num > 0)
 			if (state == states.normal)
 			{
 				state = states.transitioncutscene;
+				other.func ??= function(_arg0, _arg1) {}; // calm down feather
 				if (other.func(b, other.id))
 				{
 					t = true;

@@ -147,7 +147,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1 && important == false)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	if (object_index == obj_miniufo)
 	{
@@ -172,7 +172,7 @@ else if (ds_list_find_index(global.baddieroom, id) == -1 && important == true)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	ds_list_add(global.baddieroom, id);
 }

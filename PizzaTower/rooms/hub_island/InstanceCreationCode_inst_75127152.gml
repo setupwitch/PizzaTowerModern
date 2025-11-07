@@ -93,7 +93,7 @@ else if (global.levelcomplete && !global.beachcutscene && global.levelcompletena
 			}
 			global.beachcutscene = true;
 		}],
-		[cutscene_camera_shake, 4, 3 / room_speed],
+		[cutscene_camera_shake, 4, 3 / game_get_speed(gamespeed_fps)],
 		[cutscene_soundeffect, sfx_groundpound],
 		[cutscene_wait, 60],
 		[cutscene_change_room, currentroom],

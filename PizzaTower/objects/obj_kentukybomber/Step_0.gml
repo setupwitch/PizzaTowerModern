@@ -83,7 +83,7 @@ if ((player.x > (x - 200) && player.x < (x + 200)) && (player.y <= (y + 400) && 
 }
 if (flash == true && alarm[2] <= 0)
 {
-	alarm[2] = 0.15 * room_speed;
+	alarm[2] = 0.15 * game_get_speed(gamespeed_fps);
 }
 if (state == states.pizzagoblinthrow || state == states.rage)
 {

@@ -66,7 +66,7 @@ if (other.cutscene == false && other.state != states.actor && state != states.ac
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 			state = states.hurt;
 			x = obj_player1.x;

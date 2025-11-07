@@ -5,7 +5,7 @@ with (instance_create(1632, 1824, obj_boilingsauce))
 with (obj_camera)
 {
 	shake_mag = 15;
-	shake_mag_acc = 30 / room_speed;
+	shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 }
 repeat (5)
 {

@@ -12,7 +12,7 @@ if (!obj_player1.ispeppino)
 with (obj_camera)
 {
 	shake_mag = 3;
-	shake_mag_acc = 5 / room_speed;
+	shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 }
 var layid = layer_get_id("Backgrounds_3");
 layer_set_visible(layid, true);

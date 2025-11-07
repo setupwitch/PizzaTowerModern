@@ -9,7 +9,7 @@ function scr_player_animation()
 			with (obj_camera)
 			{
 				shake_mag = 2;
-				shake_mag_acc = 10 / room_speed;
+				shake_mag_acc = 10 / game_get_speed(gamespeed_fps);
 			}
 		}
 		global.combotimepause = 5;

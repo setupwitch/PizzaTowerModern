@@ -26,6 +26,6 @@ if (y == y_to)
 with (obj_camera)
 {
 	shake_mag = 3;
-	shake_mag_acc = 5 / room_speed;
+	shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 }
 fmod_event_instance_set_3d_attributes(snd, x, y);

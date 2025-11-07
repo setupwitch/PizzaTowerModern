@@ -1,7 +1,7 @@
 if (!instance_exists(bossID) && bossID != noone && state != states.victory && !fakedeath)
 {
 	state = states.victory;
-	alarm[1] = room_speed * 4;
+	alarm[1] = game_get_speed(gamespeed_fps) * 4;
 }
 if (player_hp <= 0)
 {
@@ -10,6 +10,7 @@ if (player_hp <= 0)
 	{
 		if (endroundfunc != noone)
 		{
+			endroundfunc ??= function() {}; // calm down feather
 			endroundfunc();
 		}
 		depth = obj_player1.depth + 1;
@@ -22,7 +23,7 @@ if (player_hp <= 0)
 	else if (bossID.state != states.chainsaw && state != states.gameover)
 	{
 		state = states.gameover;
-		alarm[1] = room_speed * 4;
+		alarm[1] = game_get_speed(gamespeed_fps) * 4;
 	}
 }
 if (instance_exists(bossID))
@@ -55,7 +56,7 @@ switch (state)
 		{
 			flash = true;
 			flashed = true;
-			alarm[2] = 0.15 * room_speed;
+			alarm[2] = 0.15 * game_get_speed(gamespeed_fps);
 		}
 		if (bossx != (room_width - sprite_get_width(bossspr)))
 		{

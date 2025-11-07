@@ -377,7 +377,7 @@ function scr_pizzaface_p3_stomp()
 		with (obj_camera)
 		{
 			shake_mag = 6;
-			shake_mag_acc = 5 / room_speed;
+			shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 		}
 		with (obj_player)
 		{

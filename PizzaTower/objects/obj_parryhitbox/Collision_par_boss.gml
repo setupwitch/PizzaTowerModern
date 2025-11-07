@@ -10,7 +10,7 @@ with (_boss)
 	var sb = ds_map_find_value(boss_hurtstates, state);
 	if (!is_undefined(sb) && is_undefined(upb))
 	{
-		var p = (hb.player_id == 1) ? obj_player1.id : obj_player2.id;
+		var p = (hb.player_num == 1) ? obj_player1.id : obj_player2.id;
 		var pstate = p.tauntstoredstate;
 		var pmovespeed = p.tauntstoredmovespeed;
 		var psprite = p.tauntstoredsprite;

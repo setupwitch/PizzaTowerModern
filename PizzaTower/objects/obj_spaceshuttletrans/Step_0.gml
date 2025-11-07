@@ -14,7 +14,7 @@ if (y > (obj_spaceshuttlestop.y - 18))
 			with (obj_camera)
 			{
 				shake_mag = 50;
-				shake_mag_acc = 80 / room_speed;
+				shake_mag_acc = 80 / game_get_speed(gamespeed_fps);
 			}
 			hsp = 0;
 			image_speed = 0.35;

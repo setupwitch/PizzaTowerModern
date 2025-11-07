@@ -1,5 +1,8 @@
 {
-  "FolderOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"Modern","order":243,"path":"folders/Objects/Modern.yy",},
+    {"name":"Modern","order":379,"path":"folders/Scripts/Modern.yy",},
+  ],
   "ResourceOrderSettings":[
     {"name":"fmod_gms","order":2,"path":"extensions/fmod_gms/fmod_gms.yy",},
     {"name":"font0","order":1,"path":"fonts/font0/font0.yy",},

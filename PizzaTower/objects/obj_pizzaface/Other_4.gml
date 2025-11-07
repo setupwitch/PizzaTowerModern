@@ -1,3 +1,5 @@
+EXECUTE_IN_ORDER;
+
 image_alpha = 0;
 savedx = x;
 savedy = y;

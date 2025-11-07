@@ -89,7 +89,7 @@ function pepperman_decide_attack_phase5()
 			target_x = targetplayer.x;
 			vsp = -18;
 			var d = abs(targetplayer.x - x);
-			var t = room_speed * 2;
+			var t = game_get_speed(gamespeed_fps) * 2;
 			var jump_spd = ceil(get_velocity(d, t)) * 3;
 			hsp = (target_x != x) ? (sign(target_x - x) * jump_spd) : (image_xscale * jump_spd);
 			if (hsp != 0)
@@ -160,7 +160,7 @@ function pepperman_decide_attack_phase1()
 			if (!jumping_pepper)
 			{
 				var d = abs(targetplayer.x - x);
-				var t = room_speed * 2;
+				var t = game_get_speed(gamespeed_fps) * 2;
 				var jump_spd = ceil(get_velocity(d, t)) * 3;
 				hsp = (target_x != x) ? (sign(target_x - x) * jump_spd) : (image_xscale * jump_spd);
 			}
@@ -168,7 +168,7 @@ function pepperman_decide_attack_phase1()
 			{
 				var tx = (x < (room_width / 2)) ? (room_width - (room_width / 5)) : (room_width / 5);
 				var d = abs(tx - x);
-				var t = room_speed * 1.2;
+				var t = game_get_speed(gamespeed_fps) * 1.2;
 				var jump_spd = ceil(get_velocity(d, t));
 				hsp = (x > (room_width / 2)) ? -jump_spd : jump_spd;
 			}
@@ -351,7 +351,7 @@ function boss_pepperman_freefall()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		state = states.freefallland;
 		sprite_index = spr_pepperman_jump;
@@ -398,7 +398,7 @@ function boss_pepperman_shoulderbash()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		state = states.stun;
 		stunned = 100;
@@ -433,7 +433,7 @@ function boss_pepperman_shoulderbash()
 			vsp = -18;
 			jumping_pepper = false;
 			var d = abs(targetplayer.x - x);
-			var t = room_speed * 2;
+			var t = game_get_speed(gamespeed_fps) * 2;
 			var jump_spd = ceil(get_velocity(d, t)) * 3;
 			hsp = (target_x != x) ? (sign(target_x - x) * jump_spd) : (image_xscale * jump_spd);
 			if (hsp != 0)
@@ -474,7 +474,7 @@ function boss_pepperman_supershoulderbash()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		state = states.stun;
 		stunned = 50;
@@ -512,7 +512,7 @@ function boss_pepperman_shoulder()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		if (phase >= 5)
 		{
@@ -610,7 +610,7 @@ function boss_pepperman_fistmatch()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		instance_create(other.x, other.y, obj_parryeffect);
 		instance_create(x, y, obj_slapstar);
@@ -640,7 +640,7 @@ function boss_pepperman_fistmatch()
 					with (obj_camera)
 					{
 						shake_mag = 3;
-						shake_mag_acc = 3 / room_speed;
+						shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 					}
 					sprite_index = choose(spr_suplexmash1, spr_suplexmash2, spr_suplexmash3, spr_suplexmash4);
 					image_index = 0;

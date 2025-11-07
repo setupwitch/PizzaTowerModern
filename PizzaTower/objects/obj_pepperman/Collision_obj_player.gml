@@ -18,7 +18,7 @@ if (state == states.shoulderbash && hsp != 0)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 5 / room_speed;
+			shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 		}
 		repeat (4)
 		{
@@ -39,7 +39,7 @@ else if (state == states.mini && ministate != states.transitioncutscene && (othe
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 5 / room_speed;
+		shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 	}
 	var lay1 = layer_get_id("Backgrounds_scroll");
 	var lay2 = layer_get_id("Backgrounds_2");

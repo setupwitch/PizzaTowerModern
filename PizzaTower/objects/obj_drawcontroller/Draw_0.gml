@@ -149,6 +149,10 @@ with (obj_pizzagoblinbomb)
 }
 with (obj_player1)
 {
+	// draw chargeeffect
+	if (instance_exists(chargeeffectid))
+		with (chargeeffectid) { draw_self(); }
+		
 	if (!other.hungrypillarflash && visible && state != states.titlescreen && bbox_in_camera(view_camera[0], 32))
 	{
 		draw_player();

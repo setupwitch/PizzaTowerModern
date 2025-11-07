@@ -61,14 +61,14 @@ function scr_player_backbreaker()
 					with (obj_camera)
 					{
 						shake_mag = 3;
-						shake_mag_acc = 3 / room_speed;
+						shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 					}
 				}
 			}
 			with (obj_camera)
 			{
 				shake_mag = 10;
-				shake_mag_acc = 30 / room_speed;
+				shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 			}
 			supercharge = 0;
 			supercharged = false;

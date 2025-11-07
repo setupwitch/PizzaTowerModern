@@ -217,7 +217,7 @@ function scr_pizzaface_p2_fall()
 				with (obj_camera)
 				{
 					shake_mag = 3;
-					shake_mag_acc = 5 / room_speed;
+					shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 				}
 			}
 			break;
@@ -424,7 +424,7 @@ function scr_pizzaface_p2_fishing()
 					with (obj_camera)
 					{
 						shake_mag = 3;
-						shake_mag_acc = 1 / room_speed;
+						shake_mag_acc = 1 / game_get_speed(gamespeed_fps);
 					}
 					break;
 				case pizzafacep2_attacks.ratball:

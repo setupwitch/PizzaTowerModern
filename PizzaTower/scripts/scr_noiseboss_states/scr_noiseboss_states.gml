@@ -106,14 +106,14 @@ function noise_do_attack_normal()
 			pogospeed = 0;
 			pogospeedprev = false;
 			pogochargeactive = false;
-			pogo_buffer = pogo_max + (room_speed * irandom(pogo_random));
+			pogo_buffer = pogo_max + (game_get_speed(gamespeed_fps) * irandom(pogo_random));
 			break;
 		case states.pogo:
 			bombpogo = false;
 			pogospeed = 0;
 			pogospeedprev = false;
 			pogochargeactive = false;
-			pogo_buffer = pogo_max + (room_speed * irandom(pogo_random));
+			pogo_buffer = pogo_max + (game_get_speed(gamespeed_fps) * irandom(pogo_random));
 			break;
 		case states.jetpackstart2:
 			state = states.jetpackstart;
@@ -207,14 +207,14 @@ function noise_do_attack_angry()
 			pogospeed = 0;
 			pogospeedprev = false;
 			pogochargeactive = false;
-			pogo_buffer = pogo_max + (room_speed * irandom(pogo_random));
+			pogo_buffer = pogo_max + (game_get_speed(gamespeed_fps) * irandom(pogo_random));
 			break;
 		case states.pogo:
 			bombpogo = false;
 			pogospeed = 0;
 			pogospeedprev = false;
 			pogochargeactive = false;
-			pogo_buffer = pogo_max + (room_speed * irandom(pogo_random));
+			pogo_buffer = pogo_max + (game_get_speed(gamespeed_fps) * irandom(pogo_random));
 			break;
 		case states.jetpackstart2:
 			jumpcount = 1;
@@ -559,7 +559,7 @@ function boss_noise_skateboard()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (sprite_index == spr_playerN_mach1 && image_index > (image_number - 1))
@@ -751,7 +751,7 @@ function boss_noise_jetpack()
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (jetpackcancel)

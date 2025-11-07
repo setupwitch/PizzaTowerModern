@@ -256,3 +256,11 @@ function heat_calculate(_val)
 {
 	return _val;
 }
+
+// https://github.com/YoYoGames/GameMaker-HTML5/blob/1962c6c12556f4bf453958c174ef3e31a66155ba/scripts/functions/Function_Texture.js#L19
+function index_from_image_index(_image_index, _image_num)
+{
+	var int_ind = floor(_image_index) % _image_num;
+	if (int_ind < 0) int_ind += _image_num;
+	return int_ind;
+}

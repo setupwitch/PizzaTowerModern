@@ -84,7 +84,7 @@ function scr_player_superslam()
 		with (obj_camera)
 		{
 			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
+			shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 		}
 		hsp = 0;
 		bounce = false;
@@ -114,7 +114,7 @@ function scr_player_superslam()
 			with (obj_camera)
 			{
 				shake_mag = 10;
-				shake_mag_acc = 30 / room_speed;
+				shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 			}
 			combo = 0;
 			bounce = false;

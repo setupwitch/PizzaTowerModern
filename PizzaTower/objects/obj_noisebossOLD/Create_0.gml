@@ -131,7 +131,7 @@ function boss_destroy(_boss)
 		destroyable = false;
 		with (obj_bosscontroller)
 		{
-			alarm[1] = room_speed * 4;
+			alarm[1] = game_get_speed(gamespeed_fps) * 4;
 			fakedeath = true;
 			state = states.transitioncutscene;
 			depth = other.depth + 1;
@@ -206,7 +206,7 @@ function player_hurt(_dmg, _player)
 			with (obj_camera)
 			{
 				shake_mag = 3;
-				shake_mag_acc = 3 / room_speed;
+				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 			hitstate = states.stun;
 			movespeed = 0;

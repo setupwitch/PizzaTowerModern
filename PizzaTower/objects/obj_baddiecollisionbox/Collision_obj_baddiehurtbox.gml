@@ -36,7 +36,7 @@ if (other.team == 1 && instance_exists(baddieID) && baddieID.parryable && baddie
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 		baddieID.hitvsp = -4;
 		baddieID.hithsp = other.image_xscale * 10;

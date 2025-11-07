@@ -44,7 +44,7 @@ function scr_enemy_pummel()
 				with (obj_camera)
 				{
 					shake_mag = 3;
-					shake_mag_acc = 3 / room_speed;
+					shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 				}
 			}
 			else if (key_slap)
@@ -62,7 +62,7 @@ function scr_enemy_pummel()
 					with (obj_camera)
 					{
 						shake_mag = 3;
-						shake_mag_acc = 3 / room_speed;
+						shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 					}
 					with (other)
 					{
@@ -88,7 +88,7 @@ function scr_enemy_pummel()
 					with (obj_camera)
 					{
 						shake_mag = 3;
-						shake_mag_acc = 3 / room_speed;
+						shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 					}
 					instance_create(x, y, obj_highjumpcloud2);
 					instance_create(x, y, obj_slapstar);

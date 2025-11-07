@@ -1,3 +1,5 @@
+EXECUTE_IN_ORDER;
+
 ini_open_from_string(obj_savesystem.ini_str);
 unlocked = ini_read_real(save, "door", false);
 key = ini_read_real(save, "bosskey", false);

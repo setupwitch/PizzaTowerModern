@@ -1,5 +1,5 @@
 var myplayer = obj_player1.id;
-if (player_id == 2)
+if (player_num == 2)
 {
 	myplayer = obj_player2.id;
 }

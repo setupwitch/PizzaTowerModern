@@ -362,7 +362,7 @@ function scr_player_mach3()
 					with (obj_camera)
 					{
 						shake_mag = 20;
-						shake_mag_acc = 40 / room_speed;
+						shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 					}
 					with (obj_baddie)
 					{

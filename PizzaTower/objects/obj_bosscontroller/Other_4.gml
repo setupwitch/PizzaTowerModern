@@ -4,6 +4,7 @@ player_maxhp = player_hp;
 persistent = false;
 if (boss_func != noone)
 {
+	boss_func ??= function() {};
 	boss_func();
 }
 boss_prevhp = boss_hp;

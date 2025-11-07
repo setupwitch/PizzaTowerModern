@@ -136,6 +136,7 @@ function scr_bosscontroller_normal()
 {
 	if (boss_func != noone)
 	{
+		boss_func ??= function() {};
 		boss_func();
 	}
 	if (boss_prevhp != boss_hp)

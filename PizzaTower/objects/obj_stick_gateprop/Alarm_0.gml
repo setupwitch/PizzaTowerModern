@@ -2,7 +2,7 @@ alarm[0] = 5;
 with (obj_camera)
 {
 	shake_mag = 4;
-	shake_mag_acc = 3 / room_speed;
+	shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 }
 var _x1 = bbox_left;
 var _x2 = bbox_right;

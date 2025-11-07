@@ -79,7 +79,7 @@ if (grabbed == true)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (obj_player.state == states.shoulder)
@@ -109,7 +109,7 @@ if (grabbed == true)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (obj_player.state == states.throwing)
@@ -138,7 +138,7 @@ if (grabbed == true)
 		with (obj_camera)
 		{
 			shake_mag = 3;
-			shake_mag_acc = 3 / room_speed;
+			shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (obj_player.state == states.tacklecharge)

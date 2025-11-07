@@ -222,7 +222,7 @@ if (obj_player.state != states.gameover)
 		color_array = array_create(num, 0);
 		for (var i = 0; i < array_length(color_array); i++)
 		{
-			color_array[i] = choose(irandom(3));
+			color_array[i] = irandom(3);
 		}
 		lastcollect = sc;
 	}

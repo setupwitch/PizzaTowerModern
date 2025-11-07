@@ -347,7 +347,7 @@ function state_player_jump()
 		with (obj_camera)
 		{
 			shake_mag = 10;
-			shake_mag_acc = 30 / room_speed;
+			shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 		}
 	}
 	if (input_buffer_slap > 0 && !key_up && sprite_index != spr_suplexbump && shotgunAnim == false && !global.pistol)
@@ -422,7 +422,7 @@ function state_player_jump()
 				}
 				with (parry_inst)
 				{
-					player_id = _playerid;
+					player_num = _playerid;
 					image_xscale = other.xscale;
 				}
 			}
@@ -440,7 +440,7 @@ function state_player_jump()
 				with (obj_camera)
 				{
 					shake_mag = 3;
-					shake_mag_acc = 3 / room_speed;
+					shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 				}
 			}
 			else if (character != "V" && shoot)
@@ -453,7 +453,7 @@ function state_player_jump()
 				with (obj_camera)
 				{
 					shake_mag = 3;
-					shake_mag = 3 / room_speed;
+					shake_mag = 3 / game_get_speed(gamespeed_fps);
 				}
 				if (ispeppino)
 				{

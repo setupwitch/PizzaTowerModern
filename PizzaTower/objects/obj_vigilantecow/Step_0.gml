@@ -19,7 +19,7 @@ if (y >= ystart && vsp > 0)
 	with (obj_camera)
 	{
 		shake_mag = 3;
-		shake_mag_acc = 3 / room_speed;
+		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
 	instance_create(x - 20, 448, obj_stampedecloud);
 	instance_create(x, 448, obj_stampedecloud);

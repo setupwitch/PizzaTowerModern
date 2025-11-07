@@ -464,7 +464,7 @@ function scr_pizzaface_ram()
 				with (obj_camera)
 				{
 					shake_mag = 3;
-					shake_mag_acc = 5 / room_speed;
+					shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 				}
 			}
 			break;

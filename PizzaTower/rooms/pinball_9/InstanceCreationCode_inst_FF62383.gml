@@ -1,1 +1,1 @@
-time_max = room_speed * 3;
+time_max = game_get_speed(gamespeed_fps) * 3;

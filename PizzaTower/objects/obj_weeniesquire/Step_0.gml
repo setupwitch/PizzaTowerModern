@@ -80,7 +80,7 @@ if (state != states.stun)
 }
 if (flash == true && alarm[2] <= 0)
 {
-	alarm[2] = 0.15 * room_speed;
+	alarm[2] = 0.15 * game_get_speed(gamespeed_fps);
 }
 var player = instance_nearest(x, y, obj_player);
 var check = player.x > (x - 300) && player.x < (x + 300);

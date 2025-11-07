@@ -15,7 +15,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 	with (obj_camera)
 	{
 		shake_mag = 4;
-		shake_mag_acc = 4 / room_speed;
+		shake_mag_acc = 4 / game_get_speed(gamespeed_fps);
 	}
 	with (instance_create(x, y, obj_smallnumber))
 	{

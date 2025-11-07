@@ -93,7 +93,7 @@ with (instance_place(x, y, obj_player))
 				with (obj_camera)
 				{
 					shake_mag = 20;
-					shake_mag_acc = 40 / room_speed;
+					shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 				}
 				global.boxhp -= 1;
 				instance_create(x, y, obj_slapstar);
@@ -115,7 +115,7 @@ with (instance_place(x, y, obj_player))
 				with (obj_camera)
 				{
 					shake_mag = 20;
-					shake_mag_acc = 40 / room_speed;
+					shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 				}
 				instance_create(x, y, obj_slapstar);
 				instance_create(x, y, obj_slapstar);
@@ -139,7 +139,7 @@ if (place_meeting(x, y, obj_baddie) && obj_baddie.thrown == true && sprite_index
 		with (obj_camera)
 		{
 			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
+			shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 		}
 		global.boxhp -= 1;
 		instance_create(x, y, obj_slapstar);
@@ -161,7 +161,7 @@ if (place_meeting(x, y, obj_baddie) && obj_baddie.thrown == true && sprite_index
 		with (obj_camera)
 		{
 			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
+			shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 		}
 		instance_create(x, y, obj_slapstar);
 		instance_create(x, y, obj_slapstar);
@@ -183,7 +183,7 @@ if (place_meeting(x, y, obj_shotgunbullet) && sprite_index != spr_present)
 		with (obj_camera)
 		{
 			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
+			shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 		}
 		global.boxhp -= 1;
 		instance_create(x, y, obj_slapstar);
@@ -205,7 +205,7 @@ if (place_meeting(x, y, obj_shotgunbullet) && sprite_index != spr_present)
 		with (obj_camera)
 		{
 			shake_mag = 20;
-			shake_mag_acc = 40 / room_speed;
+			shake_mag_acc = 40 / game_get_speed(gamespeed_fps);
 		}
 		instance_create(x, y, obj_slapstar);
 		instance_create(x, y, obj_slapstar);

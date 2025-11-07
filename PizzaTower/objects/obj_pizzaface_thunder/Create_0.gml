@@ -4,6 +4,6 @@ image_speed = 0.35;
 with (obj_camera)
 {
 	shake_mag = 8;
-	shake_mag_acc = 5 / room_speed;
+	shake_mag_acc = 5 / game_get_speed(gamespeed_fps);
 }
 fmod_event_one_shot("event:/sfx/pizzahead/thunder");

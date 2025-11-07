@@ -56,7 +56,7 @@ if (DEBUG)
 			{
 				var b = ds_list_find_value(command_list, i);
 				var s = b.command_id;
-				var d = string_split(input_text, " ");
+				var d = string_split_old(input_text, " ");
 				var t = d[0];
 				if (string_copy(s, 1, string_length(t)) == t)
 				{

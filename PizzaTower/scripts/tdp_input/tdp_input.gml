@@ -106,7 +106,7 @@ function tdp_input_serialize_array(_inputarray)
 
 function tdp_input_deserialize(_inputkey, _inputstr)
 {
-	var arr = string_split(_inputstr, ",");
+	var arr = string_split_old(_inputstr, ",");
 	var in = new tdp_input_key(_inputkey);
 	for (var i = 0; i < array_length(arr); i += 2)
 	{
@@ -238,119 +238,118 @@ function tdp_get_icon(_input)
 						str: scr_keyname(_input.value)
 					};
 			}
-			break;
 		case tdp_input_actiontypes.gamepad_button:
 			switch (_input.value)
 			{
 				case gp_face1:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 0,
 						str: ""
 					};
 				case gp_face2:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 1,
 						str: ""
 					};
 				case gp_face3:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 2,
 						str: ""
 					};
 				case gp_face4:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 3,
 						str: ""
 					};
 				case gp_shoulderlb:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 4,
 						str: ""
 					};
 				case gp_shoulderrb:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 5,
 						str: ""
 					};
 				case gp_shoulderr:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 6,
 						str: ""
 					};
 				case gp_shoulderl:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 7,
 						str: ""
 					};
 				case gp_stickl:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 8,
 						str: ""
 					};
 				case gp_stickr:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 9,
 						str: ""
 					};
 				case gp_padu:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 10,
 						str: ""
 					};
 				case gp_padr:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 11,
 						str: ""
 					};
 				case gp_padd:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 12,
 						str: ""
 					};
 				case gp_padl:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 13,
 						str: ""
 					};
 				case gp_start:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 14,
 						str: ""
 					};
 				case gp_select:
 					return 
 					{
-						sprite_index: global.spr_gamepadbuttons,
+						sprite_index: global.gamepadbuttonsprite,
 						image_index: 15,
 						str: ""
 					};

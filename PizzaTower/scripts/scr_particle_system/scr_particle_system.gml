@@ -75,10 +75,6 @@ function create_collect(_x, _y, _spr, _value = 0)
 
 function create_particle(_x, _y, _particletype, _spread = 0)
 {
-	if (_spread == undefined)
-	{
-		_spread = 0;
-	}
 	var _depth = ds_map_find_value(global.part_depth, _particletype);
 	if (is_undefined(_depth))
 	{

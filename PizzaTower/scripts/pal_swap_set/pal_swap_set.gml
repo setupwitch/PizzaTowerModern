@@ -1,4 +1,4 @@
-function pal_swap_set(_palspr, _palindex)
+function pal_swap_set(_palspr, _palindex, _uselessvar = noone)
 {
 	var _surface = false;
 	if (!_surface)

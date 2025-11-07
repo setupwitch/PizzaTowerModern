@@ -34,7 +34,6 @@ switch (state)
 			shader_reset();
 		}
 		exit;
-		break;
 }
 var _round = round_count - 1;
 if (_round > 5)

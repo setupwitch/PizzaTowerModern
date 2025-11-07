@@ -3,6 +3,7 @@ if (instance_number(object_index) > 1)
 	instance_destroy();
 	exit;
 }
+
 global.current_level = noone;
 resetdoisecount = 0;
 global.resetdoise = false;
