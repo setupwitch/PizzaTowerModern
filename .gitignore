@@ -4,7 +4,7 @@ PizzaTower/sprites/**/*.png
 PizzaTower/PizzaTower.resource_order
 
 # ignore steamworks.json because of varying steamworks SDK paths.
-# PizzaTower/extensions/Steamworks/Steamworks.yy
+PizzaTower/extensions/Steamworks/Steamworks.json
 
 # Do not ignore .yy files anywhere under sprites
 !PizzaTower/sprites/**/*.yy
