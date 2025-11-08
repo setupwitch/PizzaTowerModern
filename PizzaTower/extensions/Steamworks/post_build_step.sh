@@ -1,97 +1,148 @@
 #!/bin/bash
-set echo off
 
-# Useful for printing all variables
-# ( set -o posix ; set ) | less
+sed -i -e 's/\r$//' "$(dirname "$0")/scriptUtils.sh"
+chmod +x "$(dirname "$0")/scriptUtils.sh"
+source "$(dirname "$0")/scriptUtils.sh"
 
-# ############################################## WARNING ##############################################
-#      THIS FILE IS SHOULD NOT BE CHANGED AND THE OPTIONS SHOULD BE CONTROLLED THROUGH THE IDE.
-# #####################################################################################################
+# ######################################################################################
+# Script Functions
 
-function error_incorrect_STEAMWORKS_path () {
-    echo ""
-    echo "######################################################## ERROR ########################################################"
-    echo "The specified steamworks SDK path doesn't exist please edit the file 'post_build_step.sh' in your project's root folder"
-    echo "#######################################################################################################################"
-    echo ""
-    exit 1
-}
+setupmacOS() {
 
-function macOS_copy_dependencies () {
+    SDK_SOURCE="$SDK_PATH/redistributable_bin/osx/libsteam_api.dylib"
+    assertFileHashEquals $SDK_SOURCE $SDK_HASH_OSX "$ERROR_SDK_HASH"
+
+    for f in "${SDK_SOURCE}"; do
+        # Skip empty vars
+        [ -n "$f" ] || continue
+
+        if [ ! -e "$f" ]; then
+            logWarning "Not found: $f"
+            continue
+        fi
+
+        if xattr -p com.apple.quarantine "$f" >/dev/null 2>&1; then
+            logWarning "'$(basename "$f")' is quarantined. Removing com.apple.quarantine…"
+            if xattr -d com.apple.quarantine "$f" >/dev/null 2>&1; then
+                logInformation "Removed quarantine from '$f'"
+            else
+                logError "Failed to remove quarantine from '$f' (permissions/path?)."
+            fi
+        fi
+    done
 
     echo "Copying macOS (64 bit) dependencies"
+
     if [[ "$YYTARGET_runtime" == "VM" ]]; then
-        cp "${STEAM_SDK_PATH}redistributable_bin/osx/libsteam_api.dylib" "libsteam_api.dylib"
-        # debug check for VM
-        if [[ "$YYEXTOPT_Steamworks_Debug" == "Enabled" ]] || [[ "$YYtargetFile" == "" ]] || [[ "$YYtargetFile" == " " ]]; then
-            echo "Running VM macOS Steamworks project on macOS via IDE, enabling Debug..."
-            echo [SteamworksUtils]>>options.ini
-			echo RunningFromIDE=True>>options.ini
+
+        # Assert if xcode-tools are installed (required)
+        assertXcodeToolsInstalled
+
+        # Code sign the original library binary
+        codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libSteamworks.dylib"
+
+        # Copy and code sign dependencies
+        itemCopyTo "$SDK_SOURCE" "./libsteam_api.dylib"
+        codesign -s "${YYPLATFORM_option_mac_signing_identity}" -f --timestamp --verbose --options runtime "./libsteam_api.dylib"
+
+        # If there is an extra game.zip file here then this is a package command
+        # Update the libraries inside the zip file (used for packaging)
+        if [ -f "./game.zip" ]; then
+            TEMP_FOLDER="${YYprojectName}___temp___"
+
+            mkdir "./${TEMP_FOLDER}"
+
+            itemCopyTo "./libSteamworks.dylib" "${TEMP_FOLDER}/assets/libSteamworks.dylib"
+            itemCopyTo "./libsteam_api.dylib" "${TEMP_FOLDER}/assets/libsteam_api.dylib"
+    
+            zipUpdate "${TEMP_FOLDER}" "game.zip"
+            rm -r ${TEMP_FOLDER}
         fi
+
+
+        logError "Extension is not compatible with the macOS VM export, please use YYC."
     else
-        cp "${STEAM_SDK_PATH}redistributable_bin/osx/libsteam_api.dylib" "${YYprojectName}/${YYprojectName}/Supporting Files/libsteam_api.dylib"
-        # debug check for YYC
-        if [[ "$YYEXTOPT_Steamworks_Debug" == "Enabled" ]] || [[ "$YYtargetFile" == "" ]] || [[ "$YYtargetFile" == " " ]]; then
-            echo "Running YYC macOS Steamworks project on macOS via IDE, enabling Debug..."
-            echo [SteamworksUtils]>>"${YYprojectName}/${YYprojectName}/Supporting Files/options.ini"
-			echo RunningFromIDE=True>>"${YYprojectName}/${YYprojectName}/Supporting Files/options.ini"
+        # When running from CI the 'YYprojectName' will not be set use 'YYprojectPath' instead.
+        if [ -z "$YYprojectName" ]; then
+            YYprojectName=$(basename "${YYprojectPath%.*}")
         fi
+
+        # Replace spaces with underscores (this matches the assetcompiler output)
+        YYfixedProjectName="${YYprojectName// /_}"
+
+        itemCopyTo "$SDK_SOURCE" "${YYfixedProjectName}/${YYfixedProjectName}/Supporting Files/libsteam_api.dylib"
     fi
 }
 
-function Linux_copy_dependencies () {
+setupLinux() {
+
+    SDK_SOURCE="$SDK_PATH/redistributable_bin/linux64/libsteam_api.so"
+    assertFileHashEquals $SDK_SOURCE $SDK_HASH_LINUX "$ERROR_SDK_HASH"
 
     echo "Copying Linux (64 bit) dependencies"
-    unzip ${YYprojectName}.zip -d ./_temp
+    
+    # When running from CI the 'YYprojectName' will not be set use 'YYprojectPath' instead.
+    if [ -z "$YYprojectName" ]; then
+        YYprojectName=$(basename "${YYprojectPath%.*}")
+    fi
 
-    if [[ ! -f "_temp/assets/libsteam_api.so" ]]; then
-        cp "${STEAM_SDK_PATH}redistributable_bin/linux64/libsteam_api.so" "_temp/assets/libsteam_api.so"
-    fi
-	
-    if [[ "$YYEXTOPT_Steamworks_Debug" == "Enabled" ]] || [[ "$YYtargetFile" != "" ]]; then
-		echo "Running Linux Steamworks project on Linux via IDE, enabling Debug..."
-		echo [SteamworksUtils]>>"_temp/assets/options.ini"
-		echo RunningFromIDE=True>>"_temp/assets/options.ini"
-    fi
-	
-	cd _temp; zip -FS -r ../${YYprojectName}.zip *
-    cd ..
-    rm -r _temp
+    # Replace spaces with underscores (this matches the assetcompiler output)
+    YYfixedProjectName="${YYprojectName// /_}"
+
+    TEMP_FOLDER="${YYprojectName}___temp___"
+
+    # Update the zip file with the required SDKs
+    mkdir "./${TEMP_FOLDER}"
+    itemCopyTo "$SDK_SOURCE" "${TEMP_FOLDER}/assets/libsteam_api.so"
+    zipUpdate "${TEMP_FOLDER}" "${YYprojectName}.zip"
+    rm -r ${TEMP_FOLDER}
 }
 
-# Read extension options or use default (development) value
-if [[ "${YYEXTOPT_Steamworks_SteamSDK}" == "" ]]; then
-    STEAM_SDK_PATH=$(dirname $(dirname $(dirname $(dirname "$0"))))/steamworks_sdk
-else
-    STEAM_SDK_PATH=${YYEXTOPT_Steamworks_SteamSDK}
-fi
+# ######################################################################################
+# Script Logic
 
-# Ensure the provided path ends with a slash
-if [[ "$STEAM_SDK_PATH" !=  */ ]]; then
-    STEAM_SDK_PATH=${STEAM_SDK_PATH}/
-fi
+# Always init the script
+scriptInit
 
-# Ensure the path exists
-if [[ ! -d "$STEAM_SDK_PATH" ]]; then
-    error_incorrect_STEAMWORKS_path
-fi
+# Version locks
+optionGetValue "versionStable" RUNTIME_VERSION_STABLE
+optionGetValue "versionBeta" RUNTIME_VERSION_BETA
+optionGetValue "versionDev" RUNTIME_VERSION_DEV
+optionGetValue "versionLTS" RUNTIME_VERSION_LTS
+
+# SDK Hash
+optionGetValue "sdkHashWin" SDK_HASH_WIN
+optionGetValue "sdkHashMac" SDK_HASH_OSX
+optionGetValue "sdkHashLinux" SDK_HASH_LINUX
+
+# SDK Path
+optionGetValue "sdkPath" SDK_PATH
+optionGetValue "sdkVersion" SDK_VERSION
+
+# Debug Mode
+optionGetValue "debug" DEBUG_MODE
+
+# Error String
+ERROR_SDK_HASH="Invalid Steam SDK version, sha256 hash mismatch (expected v$SDK_VERSION)."
+
+# Checks IDE and Runtime versions
+versionLockCheck "$YYruntimeVersion" $RUNTIME_VERSION_STABLE $RUNTIME_VERSION_BETA $RUNTIME_VERSION_DEV $RUNTIME_VERSION_LTS
+
+# Resolve the SDK path (must exist)
+pathResolveExisting "$YYprojectDir" "$SDK_PATH" SDK_PATH
 
 # Ensure we are on the output path
-pushd "$YYoutputFolder" 1>/dev/null
+pushd "$YYoutputFolder" >/dev/null
 
 # Call setup method depending on the platform
-# NOTE: the setup method can be (:MacOS_copy_dependencies or :Linux_copy_dependencies)
-{ # try
-    ${YYPLATFORM_name}_copy_dependencies 2>/dev/null
-} || { # catch
-    echo ""
-    echo "#################################### INFORMATION ####################################"
-    echo "Steam Extension is not available in this target: $YYPLATFORM_name (no setup required)"
-    echo "#####################################################################################"
-    echo ""
-}
+# NOTE: the setup method can be (:setupmacOS or :setupLinux)
+setup$YYPLATFORM_name
 
-popd 1>/dev/null
+# If debug is set to 'Enabled' provide a warning to the user.
+if [ "$DEBUG_MODE" = "Enabled" ]; then
+    logWarning "Debug mode is set to 'Enabled', make sure to set it to 'Auto' before publishing."
+fi
 
-# exit
+popd >/dev/null
+
 exit 0

@@ -409,6 +409,7 @@
     {"$GMFolder":"","%Name":"The Crumbling Tower Of Pizza","folderPath":"folders/Sprites/World/Floor 5/The Crumbling Tower Of Pizza.yy","name":"The Crumbling Tower Of Pizza","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"WAR","folderPath":"folders/Sprites/World/Floor 5/WAR.yy","name":"WAR","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Soundtest","folderPath":"folders/Sprites/World/Soundtest.yy","name":"Soundtest","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Steamworks","folderPath":"folders/Steamworks.yy","name":"Steamworks","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Floor 1","folderPath":"folders/Tile Sets/Floor 1.yy","name":"Floor 1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ancient Cheese","folderPath":"folders/Tile Sets/Floor 1/Ancient Cheese.yy","name":"Ancient Cheese","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -540,7 +541,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.0.207",
+    "IDEVersion":"2024.1400.1.921",
   },
   "name":"PizzaTower",
   "resources":[
@@ -3093,6 +3094,7 @@
     {"id":{"name":"scr_vigilanteboss_states","path":"scripts/scr_vigilanteboss_states/scr_vigilanteboss_states.yy",},},
     {"id":{"name":"scr_warbg","path":"scripts/scr_warbg/scr_warbg.yy",},},
     {"id":{"name":"snap_tile","path":"scripts/snap_tile/snap_tile.yy",},},
+    {"id":{"name":"Steamworks_Definitions","path":"scripts/Steamworks_Definitions/Steamworks_Definitions.yy",},},
     {"id":{"name":"swap_mode","path":"scripts/swap_mode/swap_mode.yy",},},
     {"id":{"name":"tdp_bnvib_init","path":"scripts/tdp_bnvib_init/tdp_bnvib_init.yy",},},
     {"id":{"name":"tdp_bnvib_load","path":"scripts/tdp_bnvib_load/tdp_bnvib_load.yy",},},
