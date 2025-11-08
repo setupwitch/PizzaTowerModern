@@ -1266,5 +1266,5 @@ if (distance_to_object(obj_spike) < 500)
 		}
 	}
 }
-
+// charge effect
 obj_execorder.event_execute(chargeeffectid, ev_step, ev_step_normal);
