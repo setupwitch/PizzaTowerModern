@@ -1,4 +1,19 @@
 scr_initenemy();
+
+enemy_states = [];
+enemy_states[states.idle] = scr_enemy_idle;
+enemy_states[states.turn] = scr_enemy_turn;
+enemy_states[states.walk] = scr_enemy_walk;
+enemy_states[states.land] = scr_enemy_land;
+enemy_states[states.hit] = scr_enemy_hit;
+enemy_states[states.stun] = scr_enemy_stun;
+enemy_states[states.pizzagoblinthrow] = scr_pizzagoblin_throw;
+enemy_states[states.grabbed] = scr_enemy_grabbed;
+enemy_states[states.pummel] = scr_enemy_pummel;
+enemy_states[states.staggered] = scr_enemy_staggered;
+enemy_states[states.rage] = scr_enemy_rage;
+enemy_states[states.ghostpossess] = scr_enemy_ghostpossess;
+
 is_controllable = true;
 possess_movespeed = 0;
 grav = 0.5;
