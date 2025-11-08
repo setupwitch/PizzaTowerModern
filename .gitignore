@@ -1,7 +1,7 @@
 # Ignore all PNG files in sprites and subfolders
 PizzaTower/sprites/**/*.png
 
-
+PizzaTower/PizzaTower.resource_order
 
 # Do not ignore .yy files anywhere under sprites
 !PizzaTower/sprites/**/*.yy
