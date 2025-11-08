@@ -1,6 +1,5 @@
-function pal_swap_set(_palspr, _palindex, _uselessvar = noone)
+function pal_swap_set(_palspr, _palindex, _surface = false)
 {
-	var _surface = false;
 	if (!_surface)
 	{
 		var tex = sprite_get_texture(_palspr, 0);
