@@ -4,7 +4,7 @@ enemy_walk = function()
 {
 	if (state == states.pizzagoblinthrow)
 	{
-		break;
+		return;
 	}
 	if (substate_buffer > 0)
 	{
