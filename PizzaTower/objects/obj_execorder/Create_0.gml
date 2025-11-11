@@ -19,6 +19,7 @@ order =
 	obj_monstertrackingrooms
 ];
 len = array_length(order);
+
 // if not running from this object, exit.
 #macro EXECUTE_IN_ORDER if (other.object_index != obj_execorder) exit
 

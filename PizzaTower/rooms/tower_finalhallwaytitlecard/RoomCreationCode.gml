@@ -11,7 +11,7 @@ with (obj_player)
 	targetRoom = tower_finalhallway;
 	targetDoor = "C";
 }
-with (instance_create(x, y, obj_titlecard))
+with (instance_create(0, 0, obj_titlecard))
 {
 	titlecard_sprite = spr_titlecards;
 	titlecard_index = 15;

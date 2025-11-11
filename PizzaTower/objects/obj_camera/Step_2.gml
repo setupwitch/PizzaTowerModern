@@ -342,3 +342,6 @@ if (instance_exists(player) && !lock && player.state != states.timesup && player
 	offset_x = Approach(offset_x, 0, offset_speed);
 	offset_y = Approach(offset_y, 0, offset_speed);
 }
+
+// parallax
+obj_execorder.event_execute(obj_parrallax, ev_step, ev_step_normal);

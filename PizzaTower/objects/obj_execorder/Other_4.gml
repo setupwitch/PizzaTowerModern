@@ -1,5 +1,4 @@
-/// @desc Execute room_start_order
-
+/// @desc Execute order
 
 for (var i = 0; i < len; i++)
 {

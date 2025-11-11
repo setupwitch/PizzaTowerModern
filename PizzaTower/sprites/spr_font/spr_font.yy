@@ -89,7 +89,7 @@
   ],
   "name":"spr_font",
   "nineSlice":null,
-  "origin":9,
+  "origin":0,
   "parent":{
     "name":"Fonts",
     "path":"folders/Sprites/HUD/Fonts.yy",
@@ -340,7 +340,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":8,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":2.525,
