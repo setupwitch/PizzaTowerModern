@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"FMOD","folderPath":"folders/Extensions/FMOD.yy","name":"FMOD","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Unused","folderPath":"folders/Fonts/Unused.yy","name":"Unused","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Unreferenced","folderPath":"folders/Fonts/Unused/Unreferenced.yy","name":"Unreferenced","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -545,7 +546,7 @@
   },
   "name":"PizzaTower",
   "resources":[
-    {"id":{"name":"fmod_gms","path":"extensions/fmod_gms/fmod_gms.yy",},},
+    {"id":{"name":"FMOD","path":"extensions/FMOD/FMOD.yy",},},
     {"id":{"name":"gameframe_native","path":"extensions/gameframe_native/gameframe_native.yy",},},
     {"id":{"name":"Steamworks","path":"extensions/Steamworks/Steamworks.yy",},},
     {"id":{"name":"fnt_caption","path":"fonts/fnt_caption/fnt_caption.yy",},},
@@ -2721,6 +2722,10 @@
     {"id":{"name":"EditorLevel","path":"scripts/EditorLevel/EditorLevel.yy",},},
     {"id":{"name":"EditorObject","path":"scripts/EditorObject/EditorObject.yy",},},
     {"id":{"name":"EditorRoom","path":"scripts/EditorRoom/EditorRoom.yy",},},
+    {"id":{"name":"ExtBufferIO","path":"scripts/ExtBufferIO/ExtBufferIO.yy",},},
+    {"id":{"name":"Fmod_Compatibility","path":"scripts/Fmod_Compatibility/Fmod_Compatibility.yy",},},
+    {"id":{"name":"Fmod_Definitions","path":"scripts/Fmod_Definitions/Fmod_Definitions.yy",},},
+    {"id":{"name":"Fmod_Functions","path":"scripts/Fmod_Functions/Fmod_Functions.yy",},},
     {"id":{"name":"gameframe_macros","path":"scripts/gameframe_macros/gameframe_macros.yy",},},
     {"id":{"name":"gameframe","path":"scripts/gameframe/gameframe.yy",},},
     {"id":{"name":"GamepadSetVibration","path":"scripts/GamepadSetVibration/GamepadSetVibration.yy",},},
