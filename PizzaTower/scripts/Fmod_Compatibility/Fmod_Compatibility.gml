@@ -5,7 +5,22 @@
 
 function fmod_event_create_instance(_event_path)
 {
-	return fmod_studio_event_description_create_instance(fmod_studio_system_get_event(_event_path));
+	if (!obj_fmod.loaded)
+	{
+		scr_sleep(5);
+		// keep running until fmod is loaded
+		return fmod_event_create_instance(_event_path);
+	}
+		
+	var _inst = fmod_studio_event_description_create_instance(fmod_studio_system_get_event(_event_path));
+	
+	if (!fmod_studio_event_instance_is_valid(_inst))
+		show_debug_message("event instance not valid.");
+	
+	if (fmod_studio_event_description_get_sample_loading_state(_inst) == FMOD_STUDIO_LOADING_STATE.ERROR)
+		throw $"error loading FMOD instance.";
+		
+	return _inst;
 }
 
 function fmod_event_instance_play(_event_instance)

@@ -10,8 +10,8 @@
   "name":"obj_fmod",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game Structure",
-    "path":"folders/Objects/Game Structure.yy",
+    "name":"FMOD",
+    "path":"folders/Extensions/FMOD.yy",
   },
   "parentObjectId":null,
   "persistent":true,

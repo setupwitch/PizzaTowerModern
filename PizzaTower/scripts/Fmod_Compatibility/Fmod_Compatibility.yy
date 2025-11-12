@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"Fmod_Compatibility",
   "parent":{
-    "name":"Modern",
-    "path":"folders/Scripts/Modern.yy",
+    "name":"FMOD",
+    "path":"folders/Extensions/FMOD.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

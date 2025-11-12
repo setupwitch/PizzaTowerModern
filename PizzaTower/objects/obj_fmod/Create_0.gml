@@ -1,3 +1,4 @@
+loaded = false;
 show_debug_message("Obj_Fmod::Create");
 
 var _max_channels = 256
@@ -50,6 +51,12 @@ for (var i = 0; i < array_length(_bank_files); i++)
 		array_push(global.fmod_banks, _bank_handle);
 		// load the sample data
 		fmod_studio_bank_load_sample_data(_bank_handle);
+		
+		while (fmod_studio_bank_get_loading_state(_bank_handle) != FMOD_STUDIO_LOADING_STATE.LOADED)
+		{
+			show_debug_message("loading banks");
+			scr_sleep(5);
+		}
 	}
 	
 }
@@ -57,3 +64,5 @@ for (var i = 0; i < array_length(_bank_files); i++)
 global.sound_map = ds_map_create();
 global.steam_api = false;
 global.screenshotcount = 0;
+
+loaded = true;
