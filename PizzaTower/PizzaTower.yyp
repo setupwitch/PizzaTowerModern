@@ -442,8 +442,6 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"credits.txt","CopyToMask":-1,"filePath":"datafiles","name":"credits.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"fmod.dll","CopyToMask":-1,"filePath":"datafiles","name":"fmod.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"fmodstudio.dll","CopyToMask":-1,"filePath":"datafiles","name":"fmodstudio.dll","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"br.def","CopyToMask":-1,"filePath":"datafiles/lang","name":"br.def","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"br.txt","CopyToMask":-1,"filePath":"datafiles/lang","name":"br.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"english.def","CopyToMask":-1,"filePath":"datafiles/lang","name":"english.def","resourceType":"GMIncludedFile","resourceVersion":"2.0",},

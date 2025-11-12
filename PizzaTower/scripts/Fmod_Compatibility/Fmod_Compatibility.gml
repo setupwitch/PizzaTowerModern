@@ -10,9 +10,7 @@ function fmod_event_create_instance(_event_path)
 
 function fmod_event_instance_play(_event_instance)
 {
-	fmod_studio_event_instance_start(_event_instance);
-	// release the instance immediately, this will still play the sound.
-	fmod_studio_event_instance_release(_event_instance);
+	return fmod_studio_event_instance_start(_event_instance);
 }
 
 function fmod_event_one_shot(_event_path)
@@ -26,7 +24,7 @@ function fmod_event_one_shot(_event_path)
 function fmod_event_one_shot_3d(_event_path, _x, _y)
 {
 	var _inst = fmod_event_create_instance(_event_path);
-	var _oldattributes = fmod_studio_system_get_listener_attributes(0);
+	var _oldattributes = fmod_studio_system_get_listener_attributes(0).attributes;
 	
 	// set the attributes to new value
 	fmod_set_listener_attributes(0, _x, _y);
@@ -36,7 +34,7 @@ function fmod_event_one_shot_3d(_event_path, _x, _y)
 	fmod_studio_event_instance_release(_inst);
 	
 	// set the attributes back to original value
-	fmod_studio_system_set_listener_attributes(0, _oldattributes);
+	fmod_studio_system_set_listener_attributes(0, _oldattributes); 
 }
 
 
@@ -45,37 +43,35 @@ function fmod_event_instance_release(_event_instance)
 	return fmod_studio_event_instance_release(_event_instance);
 }
 
-function fmod_event_instance_stop(_event_instance)
+function fmod_event_instance_stop(_event_instance, _immediate)
 {
-	return fmod_studio_event_instance_stop(_event_instance);
+	return fmod_studio_event_instance_stop(_event_instance, _immediate ? FMOD_STUDIO_STOP_MODE.IMMEDIATE : FMOD_STUDIO_STOP_MODE.ALLOWFADEOUT);
 }
 
 
 
 function fmod_event_instance_set_3d_attributes(_event_instance, _x, _y)
 {
-	return fmod_studio_event_instance_set_3d_attributes(_event_instance,
+	var _attr = new Fmod3DAttributes();
+	with (_attr.position)
 	{
-		position:
-		{
-			x: _x, 
-			y: _y, 
-			z: 0
-		} 
-	});
+		x = _x; 
+		y = _y;
+		z = 0;	
+	}
+	return fmod_studio_event_instance_set_3d_attributes(_event_instance, _attr);
 }
 
 function fmod_set_listener_attributes(_listener_index, _x, _y)
 {
-	return fmod_studio_system_set_listener_attributes(_listener_index,
+	var _attr = new Fmod3DAttributes();
+	with (_attr.position)
 	{
-		position:
-		{
-			x: _x, 
-			y: _y, 
-			z: 0
-		} 
-	});
+		x = _x; 
+		y = _y;
+		z = 0;	
+	}
+	return fmod_studio_system_set_listener_attributes(_listener_index, _attr);
 }
 
 function fmod_event_instance_is_playing(_event_instance)
@@ -127,11 +123,44 @@ function fmod_event_instance_get_paused(_event_instance)
 {
 	return fmod_studio_event_instance_get_paused(_event_instance);
 }
-	
+
 function fmod_event_instance_set_paused_all(_pause)
 {
-	var _master_group = fmod_system_get_master_channel_group();
-
-	// pause all sounds in the channel group
-	return fmod_channel_control_set_paused(_master_group, _pause);
+	static _paused_sounds = ds_list_create();
+	if (_pause)
+	{
+		var _master_group = fmod_system_get_master_channel_group();
+		var _num_channels = fmod_channel_group_get_num_channels(_master_group);
+		
+		// iterate through all active channels
+		for (var i = 0; i < _num_channels; i++)
+		{
+			var _channel = fmod_channel_group_get_channel(_master_group, i);
+			
+			// check if not already paused
+			if (!fmod_channel_control_get_paused(_channel))
+			{
+				// set it to paused
+				fmod_channel_control_set_paused(_channel, true);
+				
+				// add it to the list for unpausing later
+				ds_list_add(_paused_sounds, _channel);
+			}
+		}
+	}
+	else
+	{	
+		// iterate through the list of paused sounds
+		var _list_size = ds_list_size(_paused_sounds);
+		for (var i = 0; i < _list_size; i++)
+		{
+			var _channel = _paused_sounds[| i];
+			
+			// set it to unpaused
+			fmod_channel_control_set_paused(_channel, false);
+		}
+		
+		// now that everything is unpaused, clear the list
+		ds_list_clear(_paused_sounds);
+	}
 }
