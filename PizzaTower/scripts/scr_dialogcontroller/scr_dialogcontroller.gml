@@ -46,85 +46,13 @@ function scr_get_tutorial_key(_input)
 
 function scr_string_width(_str)
 {
-	var pos = 0;
-	var w = 0;
-	var originalstr = _str;
-	var str_arr = array_create(0);
-	while (pos < string_length(originalstr))
-	{
-		if (string_copy(originalstr, pos, 2) == "\n")
-		{
-			array_push(str_arr, string_copy(originalstr, 1, pos));
-			string_delete(originalstr, 1, pos);
-			pos = 0;
-			if (originalstr == "")
-			{
-				break;
-			}
-		}
-		else
-		{
-			pos++;
-		}
-	}
-	if (array_length(str_arr) == 0)
-	{
-		w = string_width(_str);
-	}
-	for (var i = 0; i < array_length(str_arr); i++)
-	{
-		var b = str_arr[i];
-		if (string_width(b) > w)
-		{
-			w = string_width(b);
-		}
-	}
-	return w;
-}
-
-function scr_separate_text(_str, _font = noone, _targetwidth = 0)
-{
-	if (_font != noone)
-	{
-		draw_set_font(_font);
-	}
-	var separation = lang_get_value("separation_map");
-	separation = string_split_old(separation, ",");
-	var _start_pos = 0;
-	while (scr_string_width(_str) > (_targetwidth - string_width("a")))
-	{
-		var _pos = _start_pos;
-		var _sep_pos = _pos;
-		var len = string_length(_str);
-		var found = false;
-		while (_pos < len)
-		{
-			if (scr_is_separation(string_char_at(_str, _pos), separation))
-			{
-				var _prev_sep_pos = _sep_pos;
-				_sep_pos = _pos;
-				if (scr_string_width(string_copy(_str, _start_pos, _pos - _start_pos)) > (_targetwidth - string_width("a")))
-				{
-					_sep_pos = _prev_sep_pos;
-					_start_pos = _sep_pos;
-					_pos = _start_pos;
-					found = true;
-					break;
-				}
-			}
-			_pos++;
-		}
-		if (string_char_at(_str, _sep_pos) == " ")
-		{
-			_str = string_delete(_str, _sep_pos, 1);
-			_str = string_insert("\n", _str, _sep_pos);
-		}
-		else
-		{
-			_str = string_insert("\n", _str, _sep_pos + 1);
-		}
-	}
-	return _str;
+	var _max_w = 0;
+	var _lines = string_split(_str, "\n");
+	var _len = array_length(_lines);
+	
+	for (var i = 0; i < _len; i++)
+		_max_w = max(_max_w, string_width(_lines[i]));
+	return _max_w;
 }
 
 function scr_is_separation(_seperator, _seperation)
@@ -132,29 +60,113 @@ function scr_is_separation(_seperator, _seperation)
 	for (var i = 0; i < array_length(_seperation); i++)
 	{
 		if (_seperator == _seperation[i])
-		{
-			return true;
-		}
+		 	return true;
 	}
 	return false;
 }
 
-function scr_calculate_text(_str)
+function scr_separate_text(_str, _font = noone, _targetwidth = 0)
+{
+	if (_font != noone)
+		draw_set_font(_font);
+	
+	// get separation characters
+	var separation_string = lang_get_value("separation_map");
+	var separation = string_split(separation_string, ",");
+	
+	var _max_width = _targetwidth - string_width("a");
+	
+	// if width is 0 or less, just return the original string to avoid infinite loops
+	if (_max_width <= 0)
+		return _str;
+	
+	var _start_pos = 1;
+	var _len = string_length(_str);
+	
+	while (true) 
+	{
+		var _remaining_str = string_copy(_str, _start_pos, _len - _start_pos + 1);
+		if (string_width(_remaining_str) <= _max_width)
+		{
+			break;
+		}
+		
+		var _pos = _start_pos;
+		
+		var _prev_sep_pos = _start_pos; 
+		var _found_break = false;
+		
+		while (_pos <= _len)
+		{
+			var _current_line_width = string_width(string_copy(_str, _start_pos, _pos - _start_pos + 1));
+			
+			if (_current_line_width > _max_width)
+			{
+				_found_break = true;
+				break;
+			}
+			
+			var _char = string_char_at(_str, _pos);
+			if (scr_is_separation(_char, separation))
+			{
+				_prev_sep_pos = _pos;
+			}
+			
+			if (_pos == _len)
+			{
+				_found_break = true;
+				break;
+			}
+			
+			_pos++;
+		}
+		
+		if (!_found_break)
+			break; 
+
+		var _break_pos = 0;
+		
+		if (_prev_sep_pos > _start_pos)
+		{
+			_break_pos = _prev_sep_pos;
+		}
+		else
+		{
+			_break_pos = _pos - 1;
+			
+			if (_break_pos < _start_pos)
+				_break_pos = _start_pos; 
+		}
+		
+		// newline insertion
+		if (string_char_at(_str, _break_pos) == " ")
+		{
+			// replace space with a newline
+			_str = string_delete(_str, _break_pos, 1);
+			_str = string_insert("\n", _str, _break_pos);
+			_start_pos = _break_pos + 1;
+		}
+		else
+		{
+			_str = string_insert("\n", _str, _break_pos + 1);
+			_start_pos = _break_pos + 2;
+		}
+		
+		_len = string_length(_str);
+	}
+	
+	return _str;
+}
+
+function scr_calculate_text(_str, _targetwidth)
 {
 	draw_set_font(font2);
-	var pos = 0;
-	var str2 = "";
-	while (pos <= string_length(_str))
-	{
-		pos++;
-		str2 = string_insert(string_char_at(_str, pos), str2, string_length(str2) + 1);
-		str2 = scr_separate_text(str2);
-	}
+	var str2 = scr_separate_text(_str, font2, _targetwidth);
 	return str2;
 }
 
-function scr_calculate_height(_str)
+function scr_calculate_height(_str, _targetwidth)
 {
-	var str2 = scr_calculate_text(_str);
+	var str2 = scr_calculate_text(_str, _targetwidth);
 	return string_height(str2);
 }
