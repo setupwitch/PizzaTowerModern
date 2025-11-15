@@ -2,13 +2,8 @@ fmod_set_listener_attributes(0, camera_get_view_x(view_camera[0]) + (camera_get_
 
 for (var i = 0; i < array_length(global.active_sounds); i++)
 {
-	var _sound = global.active_sounds[i];
-	if (fmod_studio_event_instance_get_playback_state(_sound) == FMOD_STUDIO_PLAYBACK_STATE.STOPPED)
-	{
-		fmod_event_instance_release(_sound);
-		array_delete(global.active_sounds, i, 1);
-		i--;
-	}	
+    if (fmod_studio_event_instance_get_playback_state(global.active_sounds[i]) == FMOD_STUDIO_PLAYBACK_STATE.STOPPED)
+        array_delete(global.active_sounds, i--, 1);
 }
 
 fmod_studio_system_update(); 
