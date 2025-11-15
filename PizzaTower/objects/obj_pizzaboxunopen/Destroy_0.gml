@@ -22,7 +22,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 		{
 			image_index = 4;
 		}
-		fmod_event_one_shot_3d("event:/misc/breakblock", x, y);
+		fmod_event_one_shot_3d("event:/sfx/misc/breakblock", x, y);
 	}
 	ds_list_add(global.saveroom, id);
 }
