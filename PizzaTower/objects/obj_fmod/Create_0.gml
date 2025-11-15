@@ -64,5 +64,6 @@ for (var i = 0; i < array_length(_bank_files); i++)
 global.sound_map = ds_map_create();
 global.steam_api = false;
 global.screenshotcount = 0;
+global.active_sounds = [];
 
 loaded = true;
