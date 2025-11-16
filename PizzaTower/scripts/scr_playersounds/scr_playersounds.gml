@@ -158,7 +158,7 @@ function scr_playersounds()
 					fmod_event_instance_set_parameter(sjumpsnd, "state", 0, true);
 				}
 			}
-			if (sprite_index == spr_player_Sjumpcancelstart || sprite_index == spr_playerN_sidewayspin)
+			if (sprite_index == spr_player_Sjumpcancelstart || sprite_index == spr_playerN_sidewayspin || sprite_index == obj_player.spr_lookdoor)
 			{
 				fmod_event_instance_stop(sjumpsnd, true);
 			}

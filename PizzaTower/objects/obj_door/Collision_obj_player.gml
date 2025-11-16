@@ -49,21 +49,12 @@ if (!place_meeting(x, y, obj_doorblocked))
 			fmod_event_one_shot("event:/sfx/misc/door");
 			obj_camera.chargecamera = 0;
 			ds_list_add(global.saveroom, id);
+			
 			if (object_index == obj_player1)
-			{
-				if (obj_player1.isgustavo)
-				{
-					obj_player1.sprite_index = spr_ratmount_enterdoor;
-				}
-				else
-				{
-					obj_player1.sprite_index = obj_player1.spr_lookdoor;
-				}
-			}
+				obj_player1.sprite_index = obj_player1.isgustavo ? spr_ratmount_enterdoor : obj_player1.spr_lookdoor;
 			if (object_index == obj_player2)
-			{
 				obj_player2.sprite_index = obj_player2.spr_lookdoor;
-			}
+				
 			obj_player1.targetDoor = other.targetDoor;
 			obj_player1.targetRoom = other.targetRoom;
 			obj_player2.targetDoor = other.targetDoor;

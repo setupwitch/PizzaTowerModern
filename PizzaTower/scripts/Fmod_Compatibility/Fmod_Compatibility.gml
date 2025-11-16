@@ -157,7 +157,7 @@ function fmod_event_instance_set_parameter(_event_instance, _param, _value, _ign
 	fmod_studio_event_instance_set_parameter_by_name(_event_instance, _param, _value, _ignore_seek_speed);
 }
 
-function fmod_event_instance_get_parameter(_event_instance, _param, _value, _ignore_seek_speed)
+function fmod_event_instance_get_parameter(_event_instance, _param)
 {
 	// compatibility
 	return fmod_studio_event_instance_get_parameter_by_name(_event_instance, _param);
