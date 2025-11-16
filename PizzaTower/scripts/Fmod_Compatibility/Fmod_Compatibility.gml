@@ -199,9 +199,9 @@ function fmod_event_instance_set_paused_all(_pause)
 			if (fmod_studio_event_instance_get_paused(_event))
 				continue; // if paused already, dont.
 			
-			fmod_studio_event_instance_set_paused(global.active_sounds[i], true);
+			fmod_studio_event_instance_set_paused(_event, true);
 			// add to the list to unpause later
-			ds_list_add(_paused_sounds, global.active_sounds[i]);
+			ds_list_add(_paused_sounds, _event);
 		}
 	}
 	else
