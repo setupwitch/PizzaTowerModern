@@ -7,8 +7,8 @@ Basically rewriting half of the game.
 
 # Dependencies
 - [Pizza Tower release data file](https://store.steampowered.com/app/2231450/Pizza_Tower/)
-- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.8.2.0)
-- The Steamworks SDK 1.61.
+- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/bleeding-edge)
+- [The Steamworks SDK](https://partner.steamgames.com/downloads/steamworks_sdk_161.zip), version 1.61.
 # How To Install
 
 <details>
@@ -43,4 +43,4 @@ Basically rewriting half of the game.
 
 # Find an issue or inaccuracy?
 
-Please [report](https://github.com/crystallizedsparkle/Pizza-Tower-EXtracted/issues/new/choose) it!
+Please [report](https://github.com/crystallizedsparkle/PizzaTowerModern/issues/new/choose) it!
