@@ -18,7 +18,7 @@ Basically rewriting half of the game.
 
   (OPTIONAL) Disable `Real-time protection` in Windows Security, since this is going to copy a large amount of files it is heavily recommended.
 
-  1. Download the 0.8.2.0 release build for [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.8.2.0).
+  1. Download the bleeding-edge release build for [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/bleeding-edge).
 
   2. Open the data.win file for Pizza Tower.
 
