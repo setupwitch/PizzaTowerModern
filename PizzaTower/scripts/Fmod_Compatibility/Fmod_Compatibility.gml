@@ -6,11 +6,8 @@
 function fmod_event_create_instance(_event_path)
 {
 	// wait for FMOD to load, just in case.
-	while (!obj_fmod.loaded)
-    {
-        show_debug_message("Waiting for FMOD to load...");
-        scr_sleep(5);
-    }
+	if (!obj_fmod.loaded)
+		throw "FMOD not initialized!";
 	
 	// create an EventInstance
 	var _inst = fmod_studio_event_description_create_instance(fmod_studio_system_get_event(_event_path));

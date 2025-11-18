@@ -50,21 +50,13 @@ for (var i = 0; i < _bank_count; i++)
 		array_push(global.fmod_banks, _bank_handle);
 		// load the sample data
 		fmod_studio_bank_load_sample_data(_bank_handle);
-		
-		var _state = fmod_studio_bank_get_loading_state(_bank_handle);
-		while (_state != FMOD_STUDIO_LOADING_STATE.LOADED)
-		{
-			if (_state == FMOD_STUDIO_LOADING_STATE.ERROR)
-			{
-				show_debug_message("Bank loading error:" + fmod_last_result());
-				throw "Bank loading error! Check log for details.";
-			}
-			
-			show_debug_message("loading banks");
-			scr_sleep(5); // I believe loading FMOD banks is seperate from the game loop.
-			// update so its not an infinite loop
-			_state = fmod_studio_bank_get_loading_state(_bank_handle);
-		}
+        
+        if (fmod_studio_bank_get_loading_state(_bank_handle) == FMOD_STUDIO_LOADING_STATE.ERROR)
+        {
+            show_debug_message("Bank loading error:" + fmod_last_result());
+            throw "Bank loading error! Check log for details.";
+        }
+
 	}
 	
 }
