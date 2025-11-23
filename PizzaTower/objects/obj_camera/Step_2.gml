@@ -344,4 +344,4 @@ if (instance_exists(player) && !lock && player.state != states.timesup && player
 }
 
 // parallax
-obj_execorder.event_execute(obj_parrallax, ev_step, ev_step_normal);
+obj_execorder.event_execute(obj_parallax, ev_step, ev_step_normal);

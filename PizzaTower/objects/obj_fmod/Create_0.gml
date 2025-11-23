@@ -36,7 +36,7 @@ for (var i = 0; i < _bank_count; i++)
 	show_debug_message("Loading bank metadata: " + _file);
 	
 	// load the bank metadata and get its handle
-    var _bank_handle = fmod_studio_system_load_bank_file(_path, FMOD_STUDIO_LOAD_BANK.NORMAL);
+    var _bank_handle = fmod_studio_system_load_bank_file(_path, FMOD_STUDIO_LOAD_BANK.NONBLOCKING);
 	
 	// if the function failed, it should return undefined.
 	if (_bank_handle == undefined) 
@@ -50,13 +50,6 @@ for (var i = 0; i < _bank_count; i++)
 		array_push(global.fmod_banks, _bank_handle);
 		// load the sample data
 		fmod_studio_bank_load_sample_data(_bank_handle);
-        
-        if (fmod_studio_bank_get_loading_state(_bank_handle) == FMOD_STUDIO_LOADING_STATE.ERROR)
-        {
-            show_debug_message("Bank loading error:" + fmod_last_result());
-            throw "Bank loading error! Check log for details.";
-        }
-
 	}
 	
 }

@@ -12,7 +12,7 @@ else if (!scr_lang_load_update())
 		trace("Loading texture: ", tex);
 		texture_prefetch(tex);
 	}
-	else
+	else if (obj_fmod.loaded)
 	{
 		room_goto(Realtitlescreen);
 		screen_apply_vsync();

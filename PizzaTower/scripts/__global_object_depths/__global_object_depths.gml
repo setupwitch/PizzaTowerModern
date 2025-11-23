@@ -202,7 +202,7 @@ function __global_object_depths() {
     global.__objectDepths[194] = 2; // obj_tutorialtrap
     global.__objectDepths[195] = 20; // obj_crashingplane
     global.__objectDepths[196] = 0; // obj_crashplaneblock
-    global.__objectDepths[197] = 99; // obj_parrallax
+    global.__objectDepths[197] = 99; // obj_parallax
     global.__objectDepths[198] = 1; // obj_lamp
     global.__objectDepths[199] = 999; // obj_lightlamp
     global.__objectDepths[200] = 0; // obj_speedlines
@@ -443,7 +443,7 @@ function __global_object_depths() {
     global.__objectNames[194] = "obj_tutorialtrap";
     global.__objectNames[195] = "obj_crashingplane";
     global.__objectNames[196] = "obj_crashplaneblock";
-    global.__objectNames[197] = "obj_parrallax";
+    global.__objectNames[197] = "obj_parallax";
     global.__objectNames[198] = "obj_lamp";
     global.__objectNames[199] = "obj_lightlamp";
     global.__objectNames[200] = "obj_speedlines";
