@@ -7,7 +7,7 @@ Basically rewriting half of the game.
 
 # Dependencies
 - [Pizza Tower release data file](https://store.steampowered.com/app/2231450/Pizza_Tower/)
-- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/bleeding-edge)
+- [UndertaleModTool](https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.8.3.0)
 - [The Steamworks SDK](https://partner.steamgames.com/downloads/steamworks_sdk_161.zip), version 1.61.
 # How To Install
 
