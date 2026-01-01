@@ -22,7 +22,6 @@ if (!hub)
 		obj_player2.targetDoor = "A";
 	}
 	global.cowboyhat = false;
-	global.coop = false;
 }
 else
 {

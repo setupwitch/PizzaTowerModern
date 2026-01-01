@@ -1,7 +1,7 @@
 var _start = false;
 with (obj_player)
 {
-	if (object_index != obj_player2 || global.coop)
+	if (object_index != obj_player2)
 	{
 		if (targetDoor == "S" && secretportalID == other.id)
 		{

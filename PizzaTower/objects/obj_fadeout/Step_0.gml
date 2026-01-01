@@ -81,20 +81,11 @@ if (instance_exists(obj_player))
 		{
 			state = states.comingoutdoor;
 			image_index = 0;
-			if (global.coop == true)
-			{
-				obj_player2.state = states.comingoutdoor;
-				obj_player2.image_index = 0;
-			}
 		}
 		if (other.fadein == true && obj_player1.state == states.door && (obj_player1.sprite_index == spr_downpizzabox || obj_player1.sprite_index == spr_uppizzabox))
 		{
 			state = states.crouchjump;
 			uncrouch = 20;
-			if (global.coop == true)
-			{
-				obj_player2.state = states.crouchjump;
-			}
 		}
 	}
 	if (instance_exists(obj_player2))
@@ -106,19 +97,10 @@ if (instance_exists(obj_player))
 				state = states.comingoutdoor;
 				uncrouch = 20;
 				image_index = 0;
-				if (global.coop == true)
-				{
-					obj_player1.state = states.comingoutdoor;
-					obj_player1.image_index = 0;
-				}
 			}
 			if (other.fadein == true && obj_player2.state == states.door && (obj_player2.sprite_index == spr_downpizzabox || obj_player2.sprite_index == spr_uppizzabox))
 			{
 				state = states.crouchjump;
-				if (global.coop == true)
-				{
-					obj_player1.state = states.crouchjump;
-				}
 			}
 		}
 	}

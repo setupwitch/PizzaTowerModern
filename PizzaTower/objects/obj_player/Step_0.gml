@@ -616,17 +616,6 @@ if (visible == false && state == states.comingoutdoor)
 		coopdelay = 0;
 	}
 }
-if (global.coop == true)
-{
-	if ((state == states.punch || state == states.handstandjump) && !(obj_player2.state == states.punch || obj_player2.state == states.handstandjump))
-	{
-		fightballadvantage = true;
-	}
-	else if (!(obj_player2.state == states.punch || obj_player2.state == states.handstandjump))
-	{
-		fightballadvantage = false;
-	}
-}
 if (state != states.pogo && state != states.backbreaker)
 {
 	pogospeed = 6;
@@ -700,14 +689,6 @@ if (state == states.gameover && y > (room_height * 2) && !instance_exists(obj_ba
 {
 	targetDoor = "HUB";
 	scr_playerreset();
-	if (global.coop == true)
-	{
-		with (obj_player2)
-		{
-			scr_playerreset();
-			targetDoor = "HUB";
-		}
-	}
 	with (obj_player1)
 	{
 		image_index = 0;

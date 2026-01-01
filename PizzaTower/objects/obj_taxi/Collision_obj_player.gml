@@ -37,19 +37,6 @@ with (other)
 				obj_player1.policetaxi = true;
 				sprite_index = spr_taxicop;
 			}
-			if (global.coop == true)
-			{
-				obj_player2.sprite_index = obj_player2.spr_idle;
-				fmod_event_one_shot("event:/sfx/misc/taximove");
-				playerid = obj_player2;
-				sprite_index = spr_taximove;
-				hsp = 10;
-				obj_player2.visible = false;
-				obj_player2.hsp = 0;
-				obj_player2.vsp = 0;
-				obj_player2.state = states.taxi;
-				obj_player2.cutscene = true;
-			}
 		}
 	}
 }

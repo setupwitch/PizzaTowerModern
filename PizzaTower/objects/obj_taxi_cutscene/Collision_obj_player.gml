@@ -11,18 +11,6 @@ playerid = obj_player1;
 sprite_index = spr_taximove;
 hsp = 10;
 obj_player1.cutscene = true;
-if (global.coop == true)
-{
-	obj_player2.sprite_index = obj_player2.spr_idle;
-	playerid = obj_player2;
-	sprite_index = spr_taximove;
-	hsp = 10;
-	obj_player2.visible = false;
-	obj_player2.hsp = 0;
-	obj_player2.vsp = 0;
-	obj_player2.state = states.taxi;
-	obj_player2.cutscene = true;
-}
 if (pickedup == false)
 {
 	instance_create(x, y, obj_genericpoofeffect);

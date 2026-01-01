@@ -88,10 +88,6 @@ if (obj_player.state != states.gameover)
 	reset_shader_fix();
 	draw_sprite_ext(spr_pizzascore, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha);
 	var _score = global.collect;
-	if (global.coop)
-	{
-		_score += global.collectN;
-	}
 	if (_score >= global.crank)
 	{
 		draw_sprite_ext(spr_pizzascore_pepper, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha);

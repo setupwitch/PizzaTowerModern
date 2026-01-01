@@ -1,4 +1,4 @@
-targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+targetplayer = obj_player1;
 if (obj_bosscontroller.state == states.arenaintro)
 {
 	exit;

@@ -2,7 +2,7 @@ switch (state)
 {
 	case states.normal:
 		image_speed = 0.35;
-		targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+		targetplayer = obj_player1;
 		var _g = distance_to_point(targetplayer.x, targetplayer.y);
 		if (obj_player1.ispeppino)
 		{

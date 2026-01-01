@@ -782,7 +782,6 @@ if (!variable_global_exists("saveroom"))
 	global.monsterspeed = 0;
 	global.monsterlives = 3;
 	global.giantkey = false;
-	global.coop = false;
 	global.baddiespeed = 1;
 	global.baddiepowerup = false;
 	global.baddierage = false;

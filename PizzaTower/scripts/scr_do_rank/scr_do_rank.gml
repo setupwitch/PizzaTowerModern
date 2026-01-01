@@ -169,10 +169,6 @@ function scr_do_rank(_showtoppins = true, _isboss = false)
 	{
 		obj_player2.state = states.door;
 		obj_player2.sprite_index = obj_player2.spr_lookdoor;
-		if (global.coop)
-		{
-			obj_player2.visible = true;
-		}
 	}
 	obj_endlevelfade.alarm[0] = 235;
 	image_index = 0;

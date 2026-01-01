@@ -51,7 +51,7 @@ if (flash == true && alarm[2] <= 0)
 {
 	alarm[2] = 0.15 * game_get_speed(gamespeed_fps);
 }
-var targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+var targetplayer = obj_player1;
 if (state == states.walk || state == states.idle)
 {
 	if ((targetplayer.x > (x - 400) && targetplayer.x < (x + 400)) && (y <= (targetplayer.y + 160) && y >= (targetplayer.y - 160)))

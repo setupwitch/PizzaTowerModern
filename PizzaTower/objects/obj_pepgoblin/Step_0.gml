@@ -67,7 +67,7 @@ if (bombreset > 0)
 {
 	bombreset--;
 }
-var targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+var targetplayer = obj_player1;
 if (x != targetplayer.x && state != states.pizzagoblinthrow && obj_player.state != states.tumble && bombreset <= 0 && grounded)
 {
 	if ((targetplayer.x > (x - 80) && targetplayer.x < (x + 80)) && (y <= (targetplayer.y + 100) && y >= (targetplayer.y - 100)))

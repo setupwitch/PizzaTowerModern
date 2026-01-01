@@ -21,18 +21,6 @@ with (other)
 		obj_player2.backtohubstartx = x;
 		obj_player2.backtohubstarty = y;
 		obj_player2.backtohubroom = room;
-		if (global.coop == true)
-		{
-			with (obj_player2)
-			{
-				x = obj_player1.x;
-				y = obj_player1.y;
-				mach2 = 0;
-				obj_camera.chargecamera = 0;
-				image_index = 0;
-				state = states.victory;
-			}
-		}
 		exit;
 	}
 }

@@ -23,16 +23,5 @@ function scr_player_ejected()
 			global.seconds = 20;
 			obj_camera.ded = false;
 		}
-		if (global.coop == true)
-		{
-			with (obj_player2)
-			{
-				landAnim = false;
-				targetRoom = lastroom;
-				state = states.normal;
-				global.seconds = 20;
-				obj_camera.ded = false;
-			}
-		}
 	}
 }

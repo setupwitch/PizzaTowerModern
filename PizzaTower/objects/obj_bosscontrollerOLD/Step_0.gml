@@ -80,7 +80,7 @@ switch (state)
 			state = states.normal;
 			with (obj_player)
 			{
-				if (object_index != obj_player2 || global.coop)
+				if (object_index != obj_player2)
 				{
 					state = states.normal;
 				}
@@ -170,7 +170,7 @@ switch (state)
 			state = states.normal;
 			with (obj_player)
 			{
-				if (object_index == obj_player1 || global.coop)
+				if (object_index == obj_player1)
 				{
 					state = states.normal;
 				}

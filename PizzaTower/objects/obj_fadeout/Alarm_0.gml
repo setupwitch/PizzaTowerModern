@@ -26,26 +26,5 @@ if (instance_exists(obj_player))
 				}
 			}
 		}
-		if (global.coop == true)
-		{
-			if (room != obj_player2.targetRoom || roomreset)
-			{
-				scr_room_goto(obj_player1.targetRoom);
-			}
-			with (obj_player)
-			{
-				if (state == states.ejected)
-				{
-					state = states.normal;
-				}
-			}
-			with (obj_player2)
-			{
-				if (instance_exists(obj_coopplayerfollow))
-				{
-					state = states.gotoplayer;
-				}
-			}
-		}
 	}
 }

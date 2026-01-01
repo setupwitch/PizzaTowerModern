@@ -74,7 +74,7 @@ if (bombreset > 0)
 {
 	bombreset--;
 }
-targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+targetplayer = obj_player1;
 if ((sprite_index == spr_archergoblin_shoot || sprite_index == spr_archergoblin_wave) && x != targetplayer.x)
 {
 	image_xscale = -sign(x - targetplayer.x);

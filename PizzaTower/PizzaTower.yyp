@@ -540,7 +540,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"PizzaTower",
   "resources":[
@@ -752,10 +752,8 @@
     {"id":{"name":"obj_conveyordespawner","path":"objects/obj_conveyordespawner/obj_conveyordespawner.yy",},},
     {"id":{"name":"obj_conveyorspawner","path":"objects/obj_conveyorspawner/obj_conveyorspawner.yy",},},
     {"id":{"name":"obj_coolpineapple","path":"objects/obj_coolpineapple/obj_coolpineapple.yy",},},
-    {"id":{"name":"obj_coopflag","path":"objects/obj_coopflag/obj_coopflag.yy",},},
     {"id":{"name":"obj_cooploss","path":"objects/obj_cooploss/obj_cooploss.yy",},},
     {"id":{"name":"obj_coopplayerfollow","path":"objects/obj_coopplayerfollow/obj_coopplayerfollow.yy",},},
-    {"id":{"name":"obj_cooppointer","path":"objects/obj_cooppointer/obj_cooppointer.yy",},},
     {"id":{"name":"obj_costumedfakepep","path":"objects/obj_costumedfakepep/obj_costumedfakepep.yy",},},
     {"id":{"name":"obj_costumedgusrat","path":"objects/obj_costumedgusrat/obj_costumedgusrat.yy",},},
     {"id":{"name":"obj_costumednoise","path":"objects/obj_costumednoise/obj_costumednoise.yy",},},

@@ -19,14 +19,6 @@ if (playerid.visible == false)
 		ratmount_movespeed = 0;
 		cutscene = false;
 	}
-	if (global.coop == true)
-	{
-		with (obj_player2)
-		{
-			state = states.normal;
-			cutscene = false;
-		}
-	}
 	obj_player1.visible = true;
 	obj_player2.visible = true;
 }

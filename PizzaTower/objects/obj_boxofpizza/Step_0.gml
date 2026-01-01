@@ -21,30 +21,9 @@ with (obj_player)
 			obj_player1.targetRoom = other.targetRoom;
 			obj_player2.targetDoor = other.targetDoor;
 			obj_player2.targetRoom = other.targetRoom;
-			if (global.coop == true)
-			{
-				var _box = other.id;
-				with (obj_player)
-				{
-					x = _box.x;
-					y = _box.y - 76;
-				}
-				obj_player1.sprite_index = obj_player1.spr_downpizzabox;
-				obj_player1.image_index = 0;
-				obj_player1.state = states.door;
-				obj_player2.sprite_index = obj_player2.spr_downpizzabox;
-				obj_player2.image_index = 0;
-				if (obj_player2.state != states.gotoplayer)
-				{
-					obj_player2.state = states.door;
-				}
-			}
-			else
-			{
-				sprite_index = spr_downpizzabox;
-				image_index = 0;
-				state = states.door;
-			}
+			sprite_index = spr_downpizzabox;
+			image_index = 0;
+			state = states.door;
 		}
 	}
 	if (other.image_yscale == -1)
@@ -68,30 +47,9 @@ with (obj_player)
 			obj_player2.targetRoom = other.targetRoom;
 			obj_player1.vsp = 0;
 			obj_player2.vsp = 0;
-			if (global.coop == true)
-			{
-				var _box = other.id;
-				with (obj_player)
-				{
-					x = _box.x;
-					y = _box.y + 24;
-				}
-				obj_player1.sprite_index = obj_player1.spr_uppizzabox;
-				obj_player1.image_index = 0;
-				obj_player1.state = states.door;
-				obj_player2.sprite_index = obj_player2.spr_uppizzabox;
-				obj_player2.image_index = 0;
-				if (obj_player2.state != states.gotoplayer)
-				{
-					obj_player2.state = states.door;
-				}
-			}
-			else
-			{
-				sprite_index = spr_uppizzabox;
-				image_index = 0;
-				state = states.door;
-			}
+			sprite_index = spr_uppizzabox;
+			image_index = 0;
+			state = states.door;
 		}
 	}
 }

@@ -5,7 +5,7 @@ function cutscene_player_pos_lerp(_x, _y, _amount)
 	{
 		hsp = 0;
 		vsp = 0;
-		if (object_index != obj_player2 || global.coop)
+		if (object_index != obj_player2)
 		{
 			x = lerp(x, _x, _amount);
 			y = lerp(y, _y, _amount);

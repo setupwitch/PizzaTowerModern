@@ -38,17 +38,7 @@ else if (obj_player1.character == "P")
 		healthold = global.hp;
 	}
 }
-if (global.coop == true)
-{
-	var p1 = player;
-	var p2 = (obj_player1.spotlight == true) ? obj_player2 : obj_player1;
-	p2pdistance = point_distance(p1.x, 0, p2.x, 0);
-	p2pdistancex = (p1.x >= p2.x) ? (-p2pdistance / 5) : (p2pdistance / 5);
-}
-else
-{
-	p2pdistancex = 0;
-}
+p2pdistancex = 0;
 if (floor(image_index) == 10)
 {
 	shoving = false;
@@ -246,34 +236,16 @@ if (instance_exists(player) && !lock && player.state != states.timesup && player
 			var cam_x, cam_y;
 			if (targetgolf == noone)
 			{
-				if (!global.coop || room == characterselect || room == rm_levelselect || room == Realtitlescreen)
-				{
-					cam_x = (tx - (cam_width / 2)) + chargecamera + p2pdistancex;
-					cam_y = ty - (cam_height / 2) - 50;
-					cam_x = clamp(cam_x, 0, room_width - cam_width);
-					cam_y = clamp(cam_y, 0, room_height - cam_height);
-					camera_zoom(1, 0.035);
-				}
-				else if (obj_player2.state != states.titlescreen)
-				{
-					cam_x = ((obj_player1.x + obj_player2.x) / 2) - (cam_width / 2);
-					cam_y = ((obj_player1.y + obj_player2.y) / 2) - (cam_height / 2);
-					var disx = abs(obj_player1.x - obj_player2.x) / coop_zoom_width;
-					var disy = abs(obj_player1.y - obj_player2.y) / coop_zoom_height;
-					var dis = max(disx, disy);
-					dis = max(1, dis);
-					camera_zoom(dis, 0.035);
-				}
+				cam_x = (tx - (cam_width / 2)) + chargecamera + p2pdistancex;
+				cam_y = ty - (cam_height / 2) - 50;
+				cam_x = clamp(cam_x, 0, room_width - cam_width);
+				cam_y = clamp(cam_y, 0, room_height - cam_height);
+				camera_zoom(1, 0.035);
 			}
 			else
 			{
 				var _px = 0;
 				var _py = 0;
-				if (global.coop)
-				{
-					_px = obj_player2.x;
-					_py = obj_player2.y;
-				}
 				cam_x = ((obj_player1.x + targetgolf.x + _px) / 2) - (cam_width / 2);
 				cam_y = ((obj_player1.y + targetgolf.y + _py) / 2) - (cam_height / 2) - 50;
 				var disx = abs(obj_player1.x - targetgolf.x - _px) / coop_zoom_width;

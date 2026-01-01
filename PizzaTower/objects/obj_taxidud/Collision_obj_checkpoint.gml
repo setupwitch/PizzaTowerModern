@@ -14,18 +14,6 @@ if (playerid.visible == false)
 			sprite_index = spr_player_ratmountidle;
 		}
 	}
-	if (global.coop == true)
-	{
-		with (obj_player2)
-		{
-			state = states.normal;
-			cutscene = false;
-			if (isgustavo)
-			{
-				state = states.ratmount;
-			}
-		}
-	}
 	obj_player1.visible = true;
 	obj_player2.visible = true;
 }

@@ -257,14 +257,6 @@ function scr_playerreset(_stop_music = true)
 		instance_destroy(obj_pizzaface, false);
 		instance_destroy(obj_pizzashield);
 		instance_destroy(obj_pepanimatronicfollow);
-		if (instance_exists(obj_coopflag))
-		{
-			instance_destroy(obj_coopflag);
-		}
-		if (instance_exists(obj_cooppointer))
-		{
-			instance_destroy(obj_cooppointer);
-		}
 		instance_destroy(obj_coopplayerfollow);
 		if (instance_exists(obj_toppinwarrior))
 		{

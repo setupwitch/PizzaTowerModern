@@ -36,19 +36,6 @@ with (other)
 			obj_player.image_index = 0;
 			obj_player.state = states.door;
 			obj_player.mach2 = 0;
-			if (instance_exists(obj_player2) && global.coop == true)
-			{
-				if (object_index == obj_player2)
-				{
-					obj_player1.x = obj_player2.x;
-					obj_player1.y = obj_player2.y;
-				}
-				if (object_index == obj_player1)
-				{
-					obj_player2.x = obj_player1.x;
-					obj_player2.y = obj_player1.y;
-				}
-			}
 			other.visited = true;
 			instance_create(x, y, obj_fadeout);
 		}

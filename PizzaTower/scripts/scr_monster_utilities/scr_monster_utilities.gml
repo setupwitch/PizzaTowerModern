@@ -160,10 +160,8 @@ function scr_puppet_detect()
 {
 	with (obj_player)
 	{
-		if ((object_index != obj_player2 || global.coop) && !place_meeting(x, y, obj_puppetsafezone))
-		{
+		if (object_index != obj_player2 && !place_meeting(x, y, obj_puppetsafezone))
 			return id;
-		}
 	}
 	return noone;
 }

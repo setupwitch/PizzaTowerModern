@@ -319,7 +319,6 @@ enum states
 
 #macro ANIMATION_END floor(image_index) == (image_number - 1)
 
-global.coop = false;
 global.currentsavefile = 1;
 var achievement_arr = ["sranks1", "sranks2", "sranks3", "sranks4", "sranks5"];
 var data_arr = [get_save_folder() + "/saveData1", get_save_folder() + "/saveData2", get_save_folder() + "/saveData3"];

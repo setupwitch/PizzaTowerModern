@@ -18,20 +18,6 @@ if (image_index == 1 && global.panic == false && room != war_13)
 					shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
 				}
 			}
-			if (global.coop == true)
-			{
-				with (obj_player2)
-				{
-					lastroom = room;
-					sprite_index = spr_Timesup;
-					image_index = 0;
-					with (obj_camera)
-					{
-						shake_mag = 10;
-						shake_mag_acc = 30 / game_get_speed(gamespeed_fps);
-					}
-				}
-			}
 			other.image_index = 0;
 			ds_list_add(global.saveroom, other.id);
 		}

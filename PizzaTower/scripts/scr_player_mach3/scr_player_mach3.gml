@@ -80,19 +80,6 @@ function scr_player_mach3()
 			momemtum = true;
 			move = key_right + key_left;
 			move2 = key_right2 + key_left2;
-			if (fightball == true && global.coop == true)
-			{
-				if (object_index == obj_player1)
-				{
-					x = obj_player2.x;
-					y = obj_player2.y;
-				}
-				if (object_index == obj_player2)
-				{
-					x = obj_player1.x;
-					y = obj_player1.y;
-				}
-			}
 			if (sprite_index == spr_crazyrun)
 			{
 				if (flamecloud_buffer > 0)

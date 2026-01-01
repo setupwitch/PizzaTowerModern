@@ -131,7 +131,6 @@ if (pause && !instance_exists(obj_option))
 						obj_player2.targetDoor = "A";
 					}
 					global.cowboyhat = false;
-					global.coop = false;
 				}
 				else
 				{

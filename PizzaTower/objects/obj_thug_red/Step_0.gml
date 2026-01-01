@@ -2,7 +2,7 @@ if (room == rm_editor)
 {
 	exit;
 }
-var targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+var targetplayer = obj_player1;
 if (bombreset > 0)
 {
 	bombreset--;
