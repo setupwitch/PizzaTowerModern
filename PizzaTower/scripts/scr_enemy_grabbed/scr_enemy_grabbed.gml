@@ -492,7 +492,7 @@ function scr_enemy_grabbed()
 	}
 	if (pepperman_grab)
 	{
-		var _player = (grabbedby == 1) ? obj_player1.id : obj_player2.id;
+		var _player = obj_player1.id;
 		image_xscale = _player.xscale;
 		if (!thrown)
 		{

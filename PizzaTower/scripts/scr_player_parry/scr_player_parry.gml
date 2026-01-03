@@ -15,10 +15,6 @@ function scr_player_parry()
 		movespeed -= 0.5;
 	}
 	var _grabbedby = 1;
-	if (object_index == obj_player2)
-	{
-		_grabbedby = 2;
-	}
 	if (parry_count > 0 && parry_lethal)
 	{
 		parry_count--;

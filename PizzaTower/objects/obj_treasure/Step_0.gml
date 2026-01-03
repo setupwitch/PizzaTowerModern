@@ -5,13 +5,6 @@ if (player == 1)
 		instance_destroy();
 	}
 }
-if (player == 2)
-{
-	if (got && obj_player2.state != states.gottreasure)
-	{
-		instance_destroy();
-	}
-}
 if (player == 0)
 {
 	y = Wave(ystart - 5, ystart + 5, 2, 2);

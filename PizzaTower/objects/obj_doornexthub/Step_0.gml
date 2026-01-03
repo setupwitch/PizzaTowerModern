@@ -11,34 +11,12 @@ if (key && (obj_player1.state == states.normal || obj_player1.state == states.ma
 	fmod_event_one_shot_3d("event:/sfx/misc/keyunlock", x, y);
 	image_speed = 0.35;
 	obj_player1.sprite_index = obj_player1.spr_victory;
-	obj_player2.sprite_index = obj_player2.spr_victory;
 	with (instance_create(x + 50, y + 50, obj_lock))
 	{
 		sprite_index = spr_elevatorlock;
 	}
 	global.key_inv = false;
 	instance_destroy(obj_giantkeyfollow);
-}
-if (instance_exists(obj_player2))
-{
-	if (key && !instance_exists(obj_jumpscare) && obj_player2.state == states.normal && obj_player2.grounded && obj_player2.key_up && place_meeting(x, y, obj_player2))
-	{
-		_save = true;
-		ds_list_add(global.saveroom, id);
-		obj_player2.state = states.victory;
-		obj_player2.image_index = 0;
-		obj_player1.x = obj_player2.x;
-		obj_player1.y = obj_player2.y;
-		obj_player1.sprite_index = obj_player1.spr_victory;
-		obj_player2.sprite_index = obj_player2.spr_victory;
-		obj_player1.state = states.victory;
-		obj_player1.image_index = 0;
-		image_index = 0;
-		sprite_index = spr_doorkeyopen;
-		image_speed = 0.35;
-		instance_create(x + 50, y + 50, obj_lock);
-		global.key_inv = false;
-	}
 }
 if (ANIMATION_END)
 {

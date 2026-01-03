@@ -1,8 +1,4 @@
 var playerid = obj_player1;
-if (obj_player1.spotlight == false)
-{
-	playerid = obj_player2;
-}
 fmod_event_instance_set_3d_attributes(snd, x, y);
 if (!fmod_event_instance_is_playing(snd))
 {

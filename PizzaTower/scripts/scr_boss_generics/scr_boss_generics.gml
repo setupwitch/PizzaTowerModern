@@ -11,7 +11,7 @@ function scr_boss_grabbed()
 		instance_destroy(obj_vigilanteshot);
 		instance_destroy(obj_playerbomb, false);
 	}
-	var playerid = (grabbedby == 1) ? obj_player1.id : obj_player2.id;
+	var playerid = obj_player1.id;
 	with (playerid)
 	{
 		if (state != states.supergrab || baddiegrabbedID != other)
@@ -271,10 +271,6 @@ function scr_boss_genericintro(_introspr, _introbuffer = 30)
 		x = roomstartx;
 		xscale = -other.image_xscale;
 		sprite_index = spr_idle;
-	}
-	with (obj_player2)
-	{
-		visible = false;
 	}
 	if (introbuffer > 0)
 	{

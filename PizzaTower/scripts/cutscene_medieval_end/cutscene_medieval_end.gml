@@ -3,12 +3,9 @@ function cutscene_medieval_end()
 	instance_destroy(obj_actor);
 	with (obj_player)
 	{
-		if (object_index != obj_player2)
-		{
-			state = states.normal;
-			x = backtohubstartx;
-			y = backtohubstarty;
-		}
+		state = states.normal;
+		x = backtohubstartx;
+		y = backtohubstarty;
 	}
 	global.levelcomplete = false;
 	global.medievalcutscene = true;

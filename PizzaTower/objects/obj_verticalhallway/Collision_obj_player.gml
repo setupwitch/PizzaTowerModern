@@ -30,24 +30,13 @@ with (other)
 		var _x = x - other.x;
 		var _percentage = _x / other.sprite_width;
 		obj_player1.vertical_x = _percentage;
-		obj_player2.vertical_x = _percentage;
 		obj_player1.verticalhall_vsp = vsp;
-		obj_player2.verticalhall_vsp = vsp;
 		obj_player1.lastroom = room;
-		obj_player2.lastroom = room;
 		obj_player1.targetDoor = other.targetDoor;
 		obj_player1.targetRoom = other.targetRoom;
 		obj_player1.verticalhallway = true;
-		obj_player2.verticalhallway = true;
 		obj_player1.vhallwaydirection = sign(other.image_yscale);
-		obj_player2.vhallwaydirection = sign(other.image_yscale);
 		obj_player1.hallway = false;
-		obj_player2.hallway = false;
-		if (instance_exists(obj_player2))
-		{
-			obj_player2.targetDoor = other.targetDoor;
-			obj_player2.targetRoom = other.targetRoom;
-		}
 		other.visited = true;
 		fmod_event_one_shot("event:/sfx/misc/door");
 		with (instance_create(x, y, obj_fadeout))

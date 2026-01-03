@@ -1,6 +1,6 @@
 with (obj_player)
 {
-	if ((object_index != obj_player2) && state != states.actor && !instance_exists(obj_dialogcontroller))
+	if (state != states.actor && !instance_exists(obj_dialogcontroller))
 	{
 		if ((other.dir > 0 && x > (other.x - 50)) || (other.dir < 0 && x < (other.x + 50)))
 		{

@@ -5,7 +5,7 @@ function scr_player_gotoplayer()
 	visible = false;
 	if (!instance_exists(obj_coopplayerfollow))
 	{
-		playerid = (object_index == obj_player2) ? obj_player1 : obj_player2;
+		playerid = obj_player1;
 		var _dir = point_direction(x, y, playerid.x, playerid.y);
 		hsp = lengthdir_x(16, _dir);
 		vsp = lengthdir_y(16, _dir);

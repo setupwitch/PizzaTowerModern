@@ -31,10 +31,6 @@ else if (room != rank_room)
 		flash = false;
 		x = roomstartx;
 	}
-	with (obj_player2)
-	{
-		visible = false;
-	}
 	alarm[4] = 2;
 	with (obj_pepperman)
 	{

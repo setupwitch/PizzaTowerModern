@@ -68,10 +68,6 @@ function scr_pizzaface_arenaintro()
 			flash = false;
 			x = roomstartx;
 		}
-		with (obj_player2)
-		{
-			visible = false;
-		}
 		switch (introstate)
 		{
 			case 0:

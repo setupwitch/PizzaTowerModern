@@ -1,6 +1,6 @@
 function scr_enemy_pummel()
 {
-	var _playerinst = (grabbedby == 1) ? obj_player1.id : obj_player2.id;
+	var _playerinst = obj_player1.id;
 	sprite_index = stunfallspr;
 	x = _playerinst.x + (_playerinst.xscale * 16);
 	y = _playerinst.y;

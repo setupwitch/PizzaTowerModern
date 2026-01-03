@@ -37,7 +37,7 @@ if (use_dark)
 		}
 	}
 }
-if (obj_player1.finisher || obj_player2.finisher || (obj_player.state == states.playersuperattack && obj_player.superattackstate == states.transitioncutscene))
+if (obj_player1.finisher || (obj_player.state == states.playersuperattack && obj_player.superattackstate == states.transitioncutscene))
 {
 	finisher_alpha = Approach(finisher_alpha, 0.3, 0.1);
 }

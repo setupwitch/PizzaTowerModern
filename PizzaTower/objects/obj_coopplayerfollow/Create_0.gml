@@ -13,4 +13,3 @@ dir = obj_player1.xscale;
 space = 0;
 maxspace = 1;
 spaceaccel = 0.2;
-sprite_index = obj_player2.spr_idle;

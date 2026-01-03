@@ -7,10 +7,6 @@ if (picked == false && pickable == true)
 	{
 		playerid = obj_player1;
 	}
-	else
-	{
-		playerid = obj_player2;
-	}
 	alarm[0] = 150;
 	y = playerid.y - 50;
 	x = playerid.x;

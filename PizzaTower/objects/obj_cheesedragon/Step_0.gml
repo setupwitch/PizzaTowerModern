@@ -2,10 +2,6 @@ if (obj_player1.spotlight == true)
 {
 	playerid = obj_player1;
 }
-else
-{
-	playerid = obj_player2;
-}
 if (ANIMATION_END && (sprite_index == spr_cheesedragon_flames || sprite_index == spr_cheesedragon_stomp))
 {
 	sprite_index = spr_cheesedragon_idle;

@@ -20,5 +20,4 @@ if (playerid.visible == false)
 		cutscene = false;
 	}
 	obj_player1.visible = true;
-	obj_player2.visible = true;
 }

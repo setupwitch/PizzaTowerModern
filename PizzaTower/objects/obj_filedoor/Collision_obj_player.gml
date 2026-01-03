@@ -12,27 +12,20 @@ if (_actor)
 }
 with (other)
 {
-	if (key_up && grounded && ((character != "M" && y == (other.y + 50)) || (character == "M" && y == (other.y + 55))) && !instance_exists(obj_fadeout) && state != states.door && state != states.comingoutdoor && ((obj_player1.spotlight == true && object_index == obj_player1) || (obj_player1.spotlight == false && object_index == obj_player2)))
+	if (key_up && grounded && ((character != "M" && y == (other.y + 50)) || (character == "M" && y == (other.y + 55))) && !instance_exists(obj_fadeout) && state != states.door && state != states.comingoutdoor && (obj_player1.spotlight == true && object_index == obj_player1))
 	{
 		if (state == states.normal || state == states.mach1 || state == states.mach2 || state == states.pogo || state == states.mach3 || state == states.Sjumpprep)
 		{
 			global.currentsavefile = other.file;
 			obj_player1.lastroom = room;
-			obj_player2.lastroom = room;
 			obj_camera.chargecamera = 0;
 			ds_list_add(global.saveroom, id);
 			if (object_index == obj_player1)
 			{
 				obj_player1.sprite_index = obj_player1.spr_lookdoor;
 			}
-			if (object_index == obj_player2)
-			{
-				obj_player2.sprite_index = obj_player2.spr_lookdoor;
-			}
 			obj_player1.targetDoor = other.targetDoor;
 			obj_player1.targetRoom = other.targetRoom;
-			obj_player2.targetDoor = other.targetDoor;
-			obj_player2.targetRoom = other.targetRoom;
 			obj_player.image_index = 0;
 			obj_player.state = states.door;
 			obj_player.mach2 = 0;

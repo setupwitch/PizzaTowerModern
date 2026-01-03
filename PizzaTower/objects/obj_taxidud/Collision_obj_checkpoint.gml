@@ -15,5 +15,4 @@ if (playerid.visible == false)
 		}
 	}
 	obj_player1.visible = true;
-	obj_player2.visible = true;
 }

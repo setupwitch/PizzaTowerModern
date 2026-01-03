@@ -2,7 +2,7 @@ if (room == editor_room)
 {
 	exit;
 }
-player = (obj_player1.spotlight == true) ? obj_player1 : obj_player2;
+player = obj_player1
 if (!instance_exists(obj_pizzaball))
 {
 	targetgolf = noone;
@@ -82,23 +82,6 @@ else if (comboend)
 {
 	comboend = false;
 	event_perform(ev_alarm, 4);
-}
-if (shoving == true && image_index >= 3 && bang == false)
-{
-	with (instance_create(x, y, obj_fallingHUDface))
-	{
-		if ((obj_player1.spotlight == false && obj_player1.character == "P") || (obj_player1.spotlight == true && obj_player2.character == "P"))
-		{
-			sprite = spr_pepinoHUDscream;
-			hsp = random_range(-1, -5);
-		}
-		else
-		{
-			sprite = spr_noiseHUD_panic;
-			hsp = random_range(1, 5);
-		}
-	}
-	bang = true;
 }
 if (shoving == false)
 {

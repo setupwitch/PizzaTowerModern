@@ -416,10 +416,6 @@ function state_player_jump()
 			{
 				parry_inst = instance_create(x, y, obj_parryhitbox);
 				var _playerid = 1;
-				if (object_index == obj_player2)
-				{
-					_playerid = 2;
-				}
 				with (parry_inst)
 				{
 					player_num = _playerid;

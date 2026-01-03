@@ -17,15 +17,7 @@ function scr_enemy_hit()
 	{
 		x = hitX;
 		y = hitY;
-		var _player = noone;
-		if (grabbedby == 1)
-		{
-			_player = obj_player1.id;
-		}
-		else if (grabbedby == 2)
-		{
-			_player = obj_player2.id;
-		}
+		var _player = obj_player1.id;
 		var _state = obj_player.state;
 		if (_state == states.chainsaw)
 		{

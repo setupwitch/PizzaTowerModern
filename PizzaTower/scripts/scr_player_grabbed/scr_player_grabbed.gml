@@ -1,6 +1,6 @@
 function scr_player_grabbed()
 {
-	var _obj_player = (object_index == obj_player2) ? obj_player1 : obj_player2;
+	var _obj_player = obj_player1;
 	if (fightball == false)
 	{
 		xscale = -_obj_player.xscale;

@@ -1,7 +1,3 @@
-with (obj_player2)
-{
-	state = states.titlescreen;
-}
 switch (state)
 {
 	case states.jump:

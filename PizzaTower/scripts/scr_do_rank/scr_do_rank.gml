@@ -165,11 +165,6 @@ function scr_do_rank(_showtoppins = true, _isboss = false)
 	}
 	obj_player1.state = states.door;
 	obj_player1.sprite_index = obj_player1.spr_lookdoor;
-	if (instance_exists(obj_player2))
-	{
-		obj_player2.state = states.door;
-		obj_player2.sprite_index = obj_player2.spr_lookdoor;
-	}
 	obj_endlevelfade.alarm[0] = 235;
 	image_index = 0;
 	global.panic = false;

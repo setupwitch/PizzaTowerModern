@@ -29,7 +29,7 @@ function scr_pizzaball_hit()
 
 function scr_pizzaball_grabbed()
 {
-	var pl = (grabbedby == 1) ? obj_player1 : obj_player2;
+	var pl = obj_player1;
 	with (pl)
 	{
 		sprite_index = spr_golfidle;

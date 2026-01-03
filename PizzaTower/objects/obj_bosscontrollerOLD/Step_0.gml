@@ -80,10 +80,7 @@ switch (state)
 			state = states.normal;
 			with (obj_player)
 			{
-				if (object_index != obj_player2)
-				{
-					state = states.normal;
-				}
+				state = states.normal;
 			}
 			with (par_boss)
 			{

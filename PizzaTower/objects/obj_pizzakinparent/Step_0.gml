@@ -3,7 +3,7 @@ if (obj_player.state == states.pizzathrow)
 {
 	visible = false;
 }
-playerid = obj_player1.spotlight ? obj_player1 : obj_player2;
+playerid = obj_player1;
 if (state != states.backbreaker)
 {
 	if (object_index != obj_pizzakinpineapple || (sprite_index != spr_monsterpineapple_smile && sprite_index != spr_monsterpineapple_pose1 && sprite_index != spr_monsterpineapple_pose2 && sprite_index != spr_monsterpineapple_pose3))

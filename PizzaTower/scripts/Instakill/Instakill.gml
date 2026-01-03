@@ -8,10 +8,6 @@ function Instakill()
 		hy = other.baddieID.hitY;
 	}
 	other.baddieID.grabbedby = 1;
-	if (object_index == obj_player2)
-	{
-		other.baddieID.grabbedby = 2;
-	}
 	if (state == states.firemouth)
 	{
 		repeat (8)

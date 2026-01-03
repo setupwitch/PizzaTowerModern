@@ -12,24 +12,6 @@ if (!global.horse && !instance_exists(obj_jumpscare) && (obj_player1.state == st
 	instance_create(x + 50, y + 50, obj_lock);
 	global.key_inv = false;
 }
-if (instance_exists(obj_player2))
-{
-	if (!global.horse && !instance_exists(obj_jumpscare) && obj_player2.state == states.normal && obj_player2.grounded && obj_player2.key_up && global.key_inv == true && place_meeting(x, y, obj_player2))
-	{
-		ds_list_add(global.saveroom, id);
-		obj_player2.state = states.victory;
-		obj_player2.image_index = 0;
-		obj_player1.x = obj_player2.x;
-		obj_player1.y = obj_player2.y;
-		obj_player1.state = states.victory;
-		obj_player1.image_index = 0;
-		image_index = 0;
-		sprite_index = spr_doorkeyopen;
-		image_speed = 0.35;
-		instance_create(x + 50, y + 50, obj_lock);
-		global.key_inv = false;
-	}
-}
 if (floor(image_index) == 2)
 {
 	image_speed = 0;

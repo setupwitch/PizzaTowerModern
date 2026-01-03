@@ -1409,7 +1409,6 @@
     {"id":{"name":"obj_platformvigi","path":"objects/obj_platformvigi/obj_platformvigi.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
-    {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_playerbomb_pizzahead","path":"objects/obj_playerbomb_pizzahead/obj_playerbomb_pizzahead.yy",},},
     {"id":{"name":"obj_playerbomb","path":"objects/obj_playerbomb/obj_playerbomb.yy",},},
     {"id":{"name":"obj_playerbombcollision","path":"objects/obj_playerbombcollision/obj_playerbombcollision.yy",},},

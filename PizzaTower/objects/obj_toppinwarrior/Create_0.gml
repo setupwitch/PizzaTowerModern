@@ -5,10 +5,6 @@ if (obj_player1.spotlight == true)
 {
 	playerid = obj_player1;
 }
-else
-{
-	playerid = obj_player2;
-}
 toppinwarrior = 1;
 set = false;
 global.toppinwarriorattackcountdown = 0;

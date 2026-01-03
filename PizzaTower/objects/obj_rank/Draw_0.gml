@@ -10,10 +10,6 @@ if (brownfade < 1)
 	{
 		pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
 	}
-	if (global.collectN > global.collect)
-	{
-		pal_swap_set(obj_player2.spr_palette, obj_player2.paletteselect, false);
-	}
 	scr_draw_rank();
 	pattern_reset();
 	shader_reset();

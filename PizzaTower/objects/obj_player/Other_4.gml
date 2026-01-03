@@ -83,120 +83,117 @@ if (place_meeting(x, y, obj_boxofpizza) || place_meeting(x, y - 1, obj_boxofpizz
 	hallway = false;
 	state = states.crouch;
 }
-if (object_index != obj_player2)
+if (targetDoor == "A" && instance_exists(obj_doorA))
 {
-	if (targetDoor == "A" && instance_exists(obj_doorA))
+	if (hallway == true)
 	{
-		if (hallway == true)
-		{
-			x = obj_doorA.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorA.x + 32;
-		}
-		else
-		{
-			x = obj_doorA.x + 16;
-		}
-		y = obj_doorA.y - 14;
+		x = obj_doorA.x + (hallwaydirection * 100);
 	}
-	if (targetDoor == "B" && instance_exists(obj_doorB))
+	else if (box == true)
 	{
-		if (hallway == true)
-		{
-			x = obj_doorB.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorB.x + 32;
-		}
-		else
-		{
-			x = obj_doorB.x + 16;
-		}
-		y = obj_doorB.y - 14;
+		x = obj_doorA.x + 32;
 	}
-	if (targetDoor == "C" && instance_exists(obj_doorC))
+	else
 	{
-		if (hallway == true)
-		{
-			x = obj_doorC.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorC.x + 32;
-		}
-		else
-		{
-			x = obj_doorC.x + 16;
-		}
-		y = obj_doorC.y - 14;
+		x = obj_doorA.x + 16;
 	}
-	if (targetDoor == "D" && instance_exists(obj_doorD))
+	y = obj_doorA.y - 14;
+}
+if (targetDoor == "B" && instance_exists(obj_doorB))
+{
+	if (hallway == true)
 	{
-		if (hallway == true)
-		{
-			x = obj_doorD.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorD.x + 32;
-		}
-		else
-		{
-			x = obj_doorD.x + 16;
-		}
-		y = obj_doorD.y - 14;
+		x = obj_doorB.x + (hallwaydirection * 100);
 	}
-	if (targetDoor == "E" && instance_exists(obj_doorE))
+	else if (box == true)
 	{
-		if (hallway == true)
-		{
-			x = obj_doorE.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorE.x + 32;
-		}
-		else
-		{
-			x = obj_doorE.x + 16;
-		}
-		y = obj_doorE.y - 14;
+		x = obj_doorB.x + 32;
 	}
-	if (targetDoor == "F" && instance_exists(obj_doorF))
+	else
 	{
-		if (hallway == true)
-		{
-			x = obj_doorF.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorF.x + 32;
-		}
-		else
-		{
-			x = obj_doorF.x + 16;
-		}
-		y = obj_doorF.y - 14;
+		x = obj_doorB.x + 16;
 	}
-	if (targetDoor == "G" && instance_exists(obj_doorG))
+	y = obj_doorB.y - 14;
+}
+if (targetDoor == "C" && instance_exists(obj_doorC))
+{
+	if (hallway == true)
 	{
-		if (hallway == true)
-		{
-			x = obj_doorG.x + (hallwaydirection * 100);
-		}
-		else if (box == true)
-		{
-			x = obj_doorG.x + 32;
-		}
-		else
-		{
-			x = obj_doorG.x + 16;
-		}
-		y = obj_doorG.y - 14;
+		x = obj_doorC.x + (hallwaydirection * 100);
 	}
+	else if (box == true)
+	{
+		x = obj_doorC.x + 32;
+	}
+	else
+	{
+		x = obj_doorC.x + 16;
+	}
+	y = obj_doorC.y - 14;
+}
+if (targetDoor == "D" && instance_exists(obj_doorD))
+{
+	if (hallway == true)
+	{
+		x = obj_doorD.x + (hallwaydirection * 100);
+	}
+	else if (box == true)
+	{
+		x = obj_doorD.x + 32;
+	}
+	else
+	{
+		x = obj_doorD.x + 16;
+	}
+	y = obj_doorD.y - 14;
+}
+if (targetDoor == "E" && instance_exists(obj_doorE))
+{
+	if (hallway == true)
+	{
+		x = obj_doorE.x + (hallwaydirection * 100);
+	}
+	else if (box == true)
+	{
+		x = obj_doorE.x + 32;
+	}
+	else
+	{
+		x = obj_doorE.x + 16;
+	}
+	y = obj_doorE.y - 14;
+}
+if (targetDoor == "F" && instance_exists(obj_doorF))
+{
+	if (hallway == true)
+	{
+		x = obj_doorF.x + (hallwaydirection * 100);
+	}
+	else if (box == true)
+	{
+		x = obj_doorF.x + 32;
+	}
+	else
+	{
+		x = obj_doorF.x + 16;
+	}
+	y = obj_doorF.y - 14;
+}
+if (targetDoor == "G" && instance_exists(obj_doorG))
+{
+	if (hallway == true)
+	{
+		x = obj_doorG.x + (hallwaydirection * 100);
+	}
+	else if (box == true)
+	{
+		x = obj_doorG.x + 32;
+	}
+	else
+	{
+		x = obj_doorG.x + 16;
+	}
+	y = obj_doorG.y - 14;
 }
 if (verticalhallway)
 {

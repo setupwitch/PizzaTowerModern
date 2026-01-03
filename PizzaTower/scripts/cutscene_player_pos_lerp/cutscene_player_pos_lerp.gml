@@ -5,14 +5,11 @@ function cutscene_player_pos_lerp(_x, _y, _amount)
 	{
 		hsp = 0;
 		vsp = 0;
-		if (object_index != obj_player2)
+		x = lerp(x, _x, _amount);
+		y = lerp(y, _y, _amount);
+		if (x > (_x - 4) && x < (x + 4) && y > (_y - 4) && y < (_y + 4))
 		{
-			x = lerp(x, _x, _amount);
-			y = lerp(y, _y, _amount);
-			if (x > (_x - 4) && x < (x + 4) && y > (_y - 4) && y < (_y + 4))
-			{
-				_finish = true;
-			}
+			_finish = true;
 		}
 	}
 	if (_finish)

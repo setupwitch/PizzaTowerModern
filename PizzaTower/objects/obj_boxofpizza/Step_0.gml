@@ -9,18 +9,14 @@ with (obj_player)
 		if (((key_down && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other) && ((state == states.crouch || character == "S" || character == "M") || state == states.machroll || (state == states.tumble && sprite_index == spr_dive))) || ((state == states.crouchslide || (state == states.tumble && key_down) || state == states.machcancel || state == states.unknown300 || state == states.unknown303 || state == states.freefall || state == states.freefallland) && !place_meeting(x, y + 1, obj_destructibles) && place_meeting(x, y + 1, other))) && !instance_exists(obj_fadeout) && state != states.door && state != states.comingoutdoor)
 		{
 			obj_player1.lastroom = room;
-			obj_player2.lastroom = room;
 			other.depth = -10;
 			fmod_event_one_shot_3d("event:/sfx/pep/box", x, y);
 			obj_player1.box = true;
-			obj_player2.box = true;
 			mach2 = 0;
 			obj_camera.chargecamera = 0;
 			x = other.x;
 			obj_player1.targetDoor = other.targetDoor;
 			obj_player1.targetRoom = other.targetRoom;
-			obj_player2.targetDoor = other.targetDoor;
-			obj_player2.targetRoom = other.targetRoom;
 			sprite_index = spr_downpizzabox;
 			image_index = 0;
 			state = states.door;
@@ -31,11 +27,9 @@ with (obj_player)
 		if (((key_up && !place_meeting(x, y - 1, obj_destructibles) && place_meeting(x, y - 10, other) && (state == states.normal || state == states.machcancel || state == states.pogo || state == states.unknown300 || state == states.unknown302 || state == states.machcancel || state == states.jump || state == states.mach1 || state == states.mach2 || state == states.mach3 || state == states.Sjumpprep || (state == states.punch && sprite_index == spr_breakdanceuppercut))) || ((state == states.Sjump || state == states.machcancel || state == states.Sjumpland) && !place_meeting(x, y - 1, obj_destructibles) && place_meeting(x, y - 1, other))) && !instance_exists(obj_fadeout) && state != states.door && state != states.comingoutdoor)
 		{
 			obj_player1.lastroom = room;
-			obj_player2.lastroom = room;
 			fmod_event_one_shot_3d("event:/sfx/pep/box", x, y);
 			other.depth = -10;
 			obj_player1.box = true;
-			obj_player2.box = true;
 			other.depth = -8;
 			mach2 = 0;
 			obj_camera.chargecamera = 0;
@@ -43,10 +37,7 @@ with (obj_player)
 			y = other.y + 24;
 			obj_player1.targetDoor = other.targetDoor;
 			obj_player1.targetRoom = other.targetRoom;
-			obj_player2.targetDoor = other.targetDoor;
-			obj_player2.targetRoom = other.targetRoom;
 			obj_player1.vsp = 0;
-			obj_player2.vsp = 0;
 			sprite_index = spr_uppizzabox;
 			image_index = 0;
 			state = states.door;

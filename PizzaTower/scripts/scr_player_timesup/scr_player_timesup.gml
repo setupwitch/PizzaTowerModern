@@ -34,8 +34,6 @@ function scr_player_timesup()
 	{
 		obj_player1.x = 480;
 		obj_player1.y = 270;
-		obj_player2.x = -100;
-		obj_player2.y = -100;
 	}
 	if (floor(image_index) == 9)
 	{
