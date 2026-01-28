@@ -5,7 +5,6 @@ function scr_initinput2()
 	global.key_rightN = ini_read_string("ControlsKeys2", "right", ord("D"));
 	global.key_leftN = ini_read_string("ControlsKeys2", "left", ord("A"));
 	global.key_downN = ini_read_string("ControlsKeys2", "down", ord("S"));
-	global.key_jumpN = ini_read_string("ControlsKeys2", "jump", ord("L"));
 	global.key_slapN = ini_read_string("ControlsKeys2", "slap", ord("K"));
 	global.key_tauntN = ini_read_string("ControlsKeys2", "taunt", ord("O"));
 	global.key_shootN = ini_read_string("ControlsKeys2", "shoot", ord("I"));

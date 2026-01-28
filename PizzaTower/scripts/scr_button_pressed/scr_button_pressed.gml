@@ -1,6 +1,6 @@
 function scr_button_pressed(_device)
 {
-	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(global.key_jump) || keyboard_check_pressed(global.key_jumpN))
+	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(global.key_jump))
 	{
 		return -1;
 	}

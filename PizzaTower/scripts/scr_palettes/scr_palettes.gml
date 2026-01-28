@@ -9,9 +9,10 @@ function PaletteData(_name, _palette_index = undefined, _palette_sprite, _patter
 {
     static default_pals = { CHAR_PEPPINO: spr_peppalette, CHAR_NOISE: spr_noisepalette };
     
+    character = CHAR_PEPPINO;
 	name = _name;
 	index = _palette_index;
-	palette_sprite = _palette_sprite ?? default_pals;
+	palette_sprite = _palette_sprite ?? default_pals[$ character];
 	pattern_sprite = _pattern_sprite;
 	unlocked = _unlocked;
 	has_pattern = (pattern_sprite != undefined);
@@ -24,6 +25,8 @@ function PaletteData(_name, _palette_index = undefined, _palette_sprite, _patter
 		return _unlocked;
 	}
 }
+
+
 
 function palette_check_unlocked()
 {
@@ -45,6 +48,8 @@ function palette_check_unlocked()
 
 function add_palette(_character, _paldata)
 {
+    with (_paldata)
+        character = _character;
     array_push(global.palettes[$ _character], _paldata);
 }
 

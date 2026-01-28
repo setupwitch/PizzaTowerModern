@@ -2833,7 +2833,6 @@
     {"id":{"name":"scr_get_timer_string","path":"scripts/scr_get_timer_string/scr_get_timer_string.yy",},},
     {"id":{"name":"scr_getallrooms","path":"scripts/scr_getallrooms/scr_getallrooms.yy",},},
     {"id":{"name":"scr_getinput","path":"scripts/scr_getinput/scr_getinput.yy",},},
-    {"id":{"name":"scr_getinput2","path":"scripts/scr_getinput2/scr_getinput2.yy",},},
     {"id":{"name":"scr_ghostcollectibles","path":"scripts/scr_ghostcollectibles/scr_ghostcollectibles.yy",},},
     {"id":{"name":"scr_grannypizzasign","path":"scripts/scr_grannypizzasign/scr_grannypizzasign.yy",},},
     {"id":{"name":"scr_heatdown","path":"scripts/scr_heatdown/scr_heatdown.yy",},},
