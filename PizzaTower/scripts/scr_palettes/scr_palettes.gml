@@ -1,6 +1,5 @@
 global.palettes = {};
 
-global.palettes = {};
 global.palettes[$ CHAR_PEPPINO] = [];
 global.palettes[$ CHAR_NOISE] = [];
 
