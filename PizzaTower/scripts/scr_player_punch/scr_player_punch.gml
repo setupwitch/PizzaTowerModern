@@ -57,8 +57,8 @@ function scr_player_punch()
 	{
 		switch (character)
 		{
-			case "P":
-			case "N":
+			case CHAR_PEPPINO:
+			case CHAR_NOISE:
 				move = key_left + key_right;
 				landAnim = true;
 				jumpstop = false;

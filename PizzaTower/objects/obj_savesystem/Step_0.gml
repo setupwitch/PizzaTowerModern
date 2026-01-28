@@ -30,7 +30,7 @@ if (room == hub_loadingscreen && state != 2)
 				{
 					with (obj_player1)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						ispeppino = true;
 						scr_characterspr();
 					}
@@ -39,7 +39,7 @@ if (room == hub_loadingscreen && state != 2)
 				{
 					with (obj_player1)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						ispeppino = false;
 						scr_characterspr();
 					}

@@ -180,7 +180,7 @@ function tv_do_expression(_spr, _reset_palette = false, _make_peppino = false)
 			}
 			if (!_make_peppino && instance_exists(obj_player1) && !obj_player1.ispeppino)
 			{
-				var n = asset_get_index(sprite_get_name(_spr) + "N");
+				var n = asset_get_index(sprite_get_name(_spr) + CHAR_NOISE);
 				if (n > -1)
 				{
 					expressionsprite = n;

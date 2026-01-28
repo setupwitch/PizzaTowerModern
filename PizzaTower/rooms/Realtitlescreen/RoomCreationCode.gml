@@ -318,6 +318,8 @@ enum states
 }
 
 #macro ANIMATION_END floor(image_index) == (image_number - 1)
+#macro CHAR_PEPPINO "P"
+#macro CHAR_NOISE "N"
 
 global.currentsavefile = 1;
 var achievement_arr = ["sranks1", "sranks2", "sranks3", "sranks4", "sranks5"];

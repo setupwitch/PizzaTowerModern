@@ -1,4 +1,4 @@
-if (other.key_up2 && other.ispeppino == ispeppino)
+if (other.key_up2)
 {
 	with (other)
 	{
@@ -10,43 +10,37 @@ if (other.key_up2 && other.ispeppino == ispeppino)
 			usepalette = true;
 			sprite_index = spr_palettedresserdebris;
 			if (!obj_player1.ispeppino)
-			{
 				sprite_index = spr_palettedresserdebrisN;
-			}
+            
 			spr_palette = obj_player1.spr_palette;
 			paletteselect = other.paletteselect;
 			oldpalettetexture = global.palettetexture;
 		}
 	}
 	paletteselect++;
-	if (paletteselect >= array_length(palettes))
-	{
+	if (paletteselect >= array_length(player_palettes))
 		paletteselect = 0;
-	}
-	while (palettes[paletteselect][1] == false)
-	{
-		paletteselect++;
-		if (paletteselect >= array_length(palettes))
-		{
-			paletteselect = 0;
-		}
-	}
-	var arr = palettes[paletteselect];
-	other.player_paletteselect[other.player_paletteindex] = arr[2];
+    
+	var _pal = player_palettes[paletteselect];
+	other.player_paletteselect[other.player_paletteindex] = _pal.index;
+    
 	var pattern = noone;
-	if (array_length(arr) > 3)
-	{
-		pattern = arr[3];
-	}
+	if (_pal.has_pattern)
+		pattern = _pal.pattern_sprite;
+    
 	other.player_patterntexture[other.player_paletteindex] = pattern;
+    
 	trace(other.player_paletteselect, " pal");
 	trace(other.player_patterntexture, " texture");
+    
 	ini_open_from_string(obj_savesystem.ini_str);
+    
 	ini_write_real("Game", "palette", other.player_paletteselect[0]);
 	ini_write_real("Game", "palette_player2", other.player_paletteselect[1]);
 	ini_write_string("Game", "palettetexture", scr_get_texture_name(other.player_patterntexture[0]));
 	ini_write_string("Game", "palettetexture_player2", scr_get_texture_name(other.player_patterntexture[1]));
+    
 	obj_savesystem.ini_str = ini_close();
-	palettetitle = lang_get_value(concat("dresser_", palettes[paletteselect][0], "title"));
-	palettedesc = lang_get_value_newline(concat("dresser_", palettes[paletteselect][0]));
+	palettetitle = lang_get_value(concat("dresser_", player_palettes[paletteselect].name, "title"));
+	palettedesc = lang_get_value_newline(concat("dresser_", player_palettes[paletteselect].name));
 }

@@ -74,7 +74,7 @@ function scr_player_cheesepepstickside()
 	hurted = true;
 	move = key_down - key_up;
 	moveside = key_left + key_right;
-	if (character == "P" && !ispeppino && move != 0)
+	if (character == CHAR_PEPPINO && !ispeppino && move != 0)
 	{
 		yscale = -move;
 	}

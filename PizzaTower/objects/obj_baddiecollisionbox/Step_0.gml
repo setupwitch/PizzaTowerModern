@@ -316,7 +316,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
 						}
 					}
 				}
-				if (other.baddieID.thrown == false && (character == "P" || character == "N") && !other.baddieID.invincible)
+				if (other.baddieID.thrown == false && (character == CHAR_PEPPINO || character == CHAR_NOISE) && !other.baddieID.invincible)
 				{
 					movespeed = 0;
 					image_index = 0;

@@ -174,7 +174,7 @@ if (grabbed == true && !ratgrabbed)
 	}
 	if (playerid.state == states.superslam)
 	{
-		if (playerid.character == "P")
+		if (playerid.character == CHAR_PEPPINO)
 		{
 			if (floor(playerid.image_index) == 0)
 			{

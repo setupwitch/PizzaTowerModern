@@ -112,7 +112,7 @@ if (pause && !instance_exists(obj_option))
 					room = Realtitlescreen;
 					with (obj_player1)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						scr_characterspr();
 					}
 					global.leveltosave = noone;

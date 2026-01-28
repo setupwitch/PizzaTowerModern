@@ -1,12 +1,12 @@
 with (other)
 {
-	if (character == "P")
+	if (character == CHAR_PEPPINO)
 	{
-		character = "N";
+		character = CHAR_NOISE;
 	}
 	else
 	{
-		character = "P";
+		character = CHAR_PEPPINO;
 	}
 	respawn = 200;
 	scr_characterspr();

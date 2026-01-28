@@ -63,7 +63,7 @@ if (DEBUG)
 	{
 		with (obj_player)
 		{
-			character = "P";
+			character = CHAR_PEPPINO;
 			ispeppino = !ispeppino;
 			scr_characterspr();
 		}

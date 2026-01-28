@@ -10,7 +10,7 @@ function scr_initinput2()
 	global.key_tauntN = ini_read_string("ControlsKeys2", "taunt", ord("O"));
 	global.key_shootN = ini_read_string("ControlsKeys2", "shoot", ord("I"));
 	global.key_attackN = ini_read_string("ControlsKeys2", "attack", ord("J"));
-	global.key_startN = ini_read_string("ControlsKeys2", "start", ord("P"));
+	global.key_startN = ini_read_string("ControlsKeys2", "start", ord(CHAR_PEPPINO));
 	global.key_chainsawN = ini_read_string("ControlsKeys", "chainsaw", ord("M"));
 	global.key_upCN = ini_read_string("ControllerButton", "up", gp_padu);
 	global.key_rightCN = ini_read_string("ControllerButton", "right", gp_padr);

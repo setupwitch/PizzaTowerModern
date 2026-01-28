@@ -93,7 +93,7 @@ tdp_text_commit(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, false);
 if (global.swapmode && scorewins_show)
 {
 	var spr = spr_scorewinsP;
-	if (scorewins == "N")
+	if (scorewins == CHAR_NOISE)
 	{
 		spr = spr_scorewinsN;
 	}

@@ -28,7 +28,7 @@ function cutscene_gustavofail_end(_time)
 			}
 			if (global.collect != 0)
 			{
-				if (character == "P" || character == "V")
+				if (character == CHAR_PEPPINO || character == "V")
 				{
 					repeat (10)
 					{

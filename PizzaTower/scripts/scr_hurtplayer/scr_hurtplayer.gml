@@ -437,7 +437,7 @@ function scr_hurtplayer(_player)
 				}
 				if (global.collect != 0)
 				{
-					if (character == "P" || character == "V")
+					if (character == CHAR_PEPPINO || character == "V")
 					{
 						repeat (10)
 						{

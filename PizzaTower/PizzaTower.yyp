@@ -540,7 +540,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"PizzaTower",
   "resources":[
@@ -2861,6 +2861,7 @@
     {"id":{"name":"scr_noiseboss_states","path":"scripts/scr_noiseboss_states/scr_noiseboss_states.yy",},},
     {"id":{"name":"scr_noisey","path":"scripts/scr_noisey/scr_noisey.yy",},},
     {"id":{"name":"scr_palette_texture","path":"scripts/scr_palette_texture/scr_palette_texture.yy",},},
+    {"id":{"name":"scr_palettes","path":"scripts/scr_palettes/scr_palettes.yy",},},
     {"id":{"name":"scr_panicbg_end","path":"scripts/scr_panicbg_end/scr_panicbg_end.yy",},},
     {"id":{"name":"scr_panicbg_init","path":"scripts/scr_panicbg_init/scr_panicbg_init.yy",},},
     {"id":{"name":"scr_panicbg_start","path":"scripts/scr_panicbg_start/scr_panicbg_start.yy",},},

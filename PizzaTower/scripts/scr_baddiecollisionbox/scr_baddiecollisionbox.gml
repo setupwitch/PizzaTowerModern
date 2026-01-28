@@ -8,7 +8,7 @@ function baddiecollisionbox_update(_baddie)
 			var _stagger = false;
 			if (instance_exists(other.baddieID) && instakillmove == true && other.baddieID.state != states.grabbed && other.baddieID.thrown == false && !other.baddieID.invincible && other.baddieID.instantkillable)
 			{
-				if (state == states.mach3 && sprite_index != spr_mach3hit && (character == "P" || character == "V"))
+				if (state == states.mach3 && sprite_index != spr_mach3hit && (character == CHAR_PEPPINO || character == "V"))
 				{
 					if (fightball == false)
 					{
@@ -165,7 +165,7 @@ function baddiecollisionbox_update(_baddie)
 					other.baddieID.state = states.pummel;
 					other.baddieID.grabbedby = (object_index == obj_player1) ? 1 : 2;
 				}
-				else if (other.baddieID.thrown == false && (character == "P" || character == "N"))
+				else if (other.baddieID.thrown == false && (character == CHAR_PEPPINO || character == CHAR_NOISE))
 				{
 					movespeed = 0;
 					image_index = 0;

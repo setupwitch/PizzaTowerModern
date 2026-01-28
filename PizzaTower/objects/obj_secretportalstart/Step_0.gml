@@ -40,7 +40,7 @@ switch (sprite_index)
 					image_index = 0;
 					state = states.freefallprep;
 					freefallsmash = 0;
-					vsp = (character == "P") ? -5 : -7;
+					vsp = (character == CHAR_PEPPINO) ? -5 : -7;
 				}
 				else if (isgustavo)
 				{
@@ -95,7 +95,7 @@ switch (sprite_index)
 								image_index = 0;
 								state = states.freefallprep;
 								freefallsmash = 0;
-								vsp = (character == "P") ? -5 : -7;
+								vsp = (character == CHAR_PEPPINO) ? -5 : -7;
 							}
 							if (state == states.knightpep)
 							{

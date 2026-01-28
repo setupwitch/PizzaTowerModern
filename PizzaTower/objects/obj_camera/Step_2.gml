@@ -29,7 +29,7 @@ if (obj_player1.character == "V")
 		healthold = global.playerhealth;
 	}
 }
-else if (obj_player1.character == "P")
+else if (obj_player1.character == CHAR_PEPPINO)
 {
 	if (healthold != global.hp)
 	{

@@ -148,7 +148,7 @@ if (grabbed == true)
 	}
 	if (obj_player.state == states.superslam)
 	{
-		if (obj_player.character == "P")
+		if (obj_player.character == CHAR_PEPPINO)
 		{
 			if (floor(obj_player.image_index) == 0)
 			{

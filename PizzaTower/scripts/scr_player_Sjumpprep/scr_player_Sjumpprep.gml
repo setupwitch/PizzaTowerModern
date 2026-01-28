@@ -2,7 +2,7 @@ function scr_player_Sjumpprep()
 {
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			if (sprite_index == spr_superjumppreplight || sprite_index == spr_superjumpright || sprite_index == spr_superjumpleft)
 			{
 				move = key_left + key_right;
@@ -78,7 +78,7 @@ function scr_player_Sjumpprep()
 			}
 			image_speed = 0.35;
 			break;
-		case "N":
+		case CHAR_NOISE:
 			hsp = 0;
 			vsp = 0;
 			pogochargeactive = false;

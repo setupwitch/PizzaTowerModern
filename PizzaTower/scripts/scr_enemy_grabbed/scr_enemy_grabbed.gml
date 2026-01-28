@@ -313,7 +313,7 @@ function scr_enemy_grabbed()
 		}
 		if (_obj_player.state == states.superslam || (_obj_player.state == states.chainsaw && sprite_index == spr_player_piledriver))
 		{
-			if (_obj_player.character == "P" && _obj_player.ispeppino)
+			if (_obj_player.character == CHAR_PEPPINO && _obj_player.ispeppino)
 			{
 				if (_obj_player.sprite_index != _obj_player.spr_piledriverland)
 				{

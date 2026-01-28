@@ -10,7 +10,6 @@ if (instance_number(object_index) > 1)
 // because mcpig decided to use one large enum for every state.
 
 player_states = [];
-
 player_states[states.normal] = scr_player_normal;
 player_states[states.revolver] = scr_player_revolver;
 player_states[states.dynamite] = scr_player_dynamite;
@@ -459,7 +458,7 @@ anger = 0;
 angry = false;
 baddiegrabbedID = 0;
 spr_palette = spr_peppalette;
-character = "P";
+character = CHAR_PEPPINO;
 scr_characterspr();
 paletteselect = 1;
 player_paletteselect[0] = 1;

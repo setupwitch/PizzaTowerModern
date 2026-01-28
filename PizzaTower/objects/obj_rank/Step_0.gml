@@ -23,7 +23,7 @@ if (sprite_index != spr_rankNPend && sprite_index != spr_rankNPendstart)
 {
 	if (global.collect >= global.collectN)
 	{
-		if (obj_player1.character == "P" && obj_player1.ispeppino)
+		if (obj_player1.character == CHAR_PEPPINO && obj_player1.ispeppino)
 		{
 			if (global.rank == "s")
 			{

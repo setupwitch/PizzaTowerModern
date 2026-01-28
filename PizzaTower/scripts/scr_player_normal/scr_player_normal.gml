@@ -511,7 +511,7 @@ function state_player_normal()
 	}
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			if (key_attack && state != states.handstandjump && !place_meeting(x + xscale, y, obj_solid) && (!place_meeting(x, y + 1, obj_iceblockslope) || !place_meeting(x + (xscale * 5), y, obj_solid)) && !global.kungfu)
 			{
 				if (!global.pistol || pistolanim == noone)
@@ -537,7 +537,7 @@ function state_player_normal()
 				movespeed = 0;
 			}
 			break;
-		case "N":
+		case CHAR_NOISE:
 			if (pogochargeactive || pizzapepper > 0)
 			{
 				if (key_attack2)

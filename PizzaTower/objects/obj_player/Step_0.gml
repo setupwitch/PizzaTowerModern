@@ -41,7 +41,7 @@ if (state != states.grab)
 {
 	swingdingthrow = false;
 }
-if (character == "P" && !ispeppino && !isgustavo)
+if (character == CHAR_PEPPINO && !ispeppino && !isgustavo)
 {
 	if (can_jump && vsp > 0)
 	{
@@ -62,7 +62,7 @@ if (place_meeting(x, y + 1, obj_slope))
 {
 	collision_flags |= collisionflags.on_slope;
 }
-if (character == "P" && !ispeppino && !skateboarding && ((scr_check_superjump() && key_jump2) || key_superjump) && state != states.mach3 && can_jump && vsp > 0 && (state == states.normal || state == states.mach2))
+if (character == CHAR_PEPPINO && !ispeppino && !skateboarding && ((scr_check_superjump() && key_jump2) || key_superjump) && state != states.mach3 && can_jump && vsp > 0 && (state == states.normal || state == states.mach2))
 {
 	sprite_index = spr_superjumpprep;
 	state = states.Sjumpprep;

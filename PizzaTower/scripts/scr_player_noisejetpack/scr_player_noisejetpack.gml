@@ -38,7 +38,7 @@ function scr_player_noisejetpack()
 		sprite_index = spr_bodyslamstart;
 		image_index = 0;
 		state = states.freefallprep;
-		vsp = (character == "P") ? -5 : -7;
+		vsp = (character == CHAR_PEPPINO) ? -5 : -7;
 	}
 	if (grounded && vsp > 0)
 	{

@@ -74,7 +74,7 @@ function scr_player_tacklecharge()
 	if (key_down && grounded)
 	{
 		sprite_index = spr_crouchslip;
-		if (character == "P")
+		if (character == CHAR_PEPPINO)
 		{
 			machhitAnim = false;
 		}
