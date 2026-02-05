@@ -3,26 +3,128 @@ global.palettes = {};
 global.palettes[$ CHAR_PEPPINO] = [];
 global.palettes[$ CHAR_NOISE] = [];
 
-
-#macro PALETTE_DEFAULT undefined
-function PaletteData(_name, _palette_index = undefined, _palette_sprite, _pattern_sprite = undefined, _unlocked = false) constructor
+function PaletteData() constructor
 {
-    static default_pals = { CHAR_PEPPINO: spr_peppalette, CHAR_NOISE: spr_noisepalette };
-    
-    character = CHAR_PEPPINO;
-	name = _name;
-	index = _palette_index;
-	palette_sprite = _palette_sprite ?? default_pals[$ character];
-	pattern_sprite = _pattern_sprite;
-	unlocked = _unlocked;
-	has_pattern = (pattern_sprite != undefined);
+    character = undefined;
+	name = undefined;
+	index = undefined;
+	palette_sprite = undefined;
+	pattern_sprite = undefined;
+	unlocked = false;
+	has_pattern = false;
+	is_global = false;
+	finished = false;
 	
-	static is_unlocked = function()
+	static IsUnlocked = function()
 	{
 		ini_open_from_string(obj_savesystem.ini_str_options);
 		var _unlocked = ini_read_real("Palettes", name, false);
 		ini_close();
 		return _unlocked;
+	}
+	
+	static SetCharacter = function(_character)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+			
+		character = _character;
+		return self;
+	}
+	
+	static SetName = function(_name)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+		
+		name = _name;
+		return self;
+	}
+	
+	static SetIndex = function(_index)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+		
+		index = _index;
+		return self;
+	}
+	
+	static SetPalette = function(_pal_spr)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+		
+		palette_sprite = _pal_spr;
+		return self;
+	}
+	
+	static SetPattern = function(_pat_spr)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+		
+		pattern_sprite = _pat_spr;
+		return self;
+	}
+	
+	static SetGlobal = function(_global)
+	{
+		if (finished) throw "Palette modified after Add() was called!";
+		is_global = _global;
+		return self;
+	}
+	
+	static SetUnlocked = function(_unlocked)
+	{
+		// we dont check because its not a static value and can change.
+		
+		unlocked = _unlocked;
+		quick_ini_write_real_options("Palettes", name, unlocked);
+		return self;
+	}
+	
+	static Add = function()
+	{
+		static default_pals =
+		{
+			P: spr_peppalette,
+			N: spr_noisepalette
+		};
+		
+		// necessary elements
+		if (character == undefined && !is_global) throw "Character is undefined!";
+		if (name == undefined) throw "Name is undefined!";
+		if (index == undefined) throw "Index is undefined!";
+		
+		// set palette sprite to the default
+		palette_sprite ??= default_pals[$ character];
+		has_pattern = (pattern_sprite != undefined && sprite_exists(pattern_sprite));
+		
+		
+		// push myself to the global array
+		if (is_global)
+		{
+			var _names = struct_get_names(global.palettes);
+		    var _len = array_length(_names);
+    
+		    for (var i = 0; i < _len; i++)
+			{
+				var _charname = _names[i];
+				var _pal_is_undefined = (palette_sprite == undefined);
+				if (_pal_is_undefined)
+					SetPalette(default_pals[$ _charname]);
+				
+				// make a clone and set it to finished
+				var _clone = variable_clone(self);
+				_clone.finished = true;
+			
+				array_push(global.palettes[$ _charname], _clone);
+				// go back to undefined so we can do it again next iteration
+				if (_pal_is_undefined)
+					SetPalette(undefined);
+			}
+		}
+		else
+		{
+			finished = true;
+			array_push(global.palettes[$ character], self);
+		}
 	}
 }
 
@@ -40,26 +142,11 @@ function palette_check_unlocked()
         for (var i = 0; i < _len; i++)
         {
             var _data = _pal_data[i];
-            _data.unlocked = _data.is_unlocked();
+            if (_data.IsUnlocked())
+				_data.unlocked = true;
         }
     }
 
-}
-
-function add_palette(_character, _paldata)
-{
-    with (_paldata)
-        character = _character;
-    array_push(global.palettes[$ _character], _paldata);
-}
-
-function add_palette_global(_paldata)
-{
-	var _names = struct_get_names(global.palettes);
-    var _len = array_length(_names);
-    
-    for (var i = 0; i < _len; i++)
-        add_palette(_names[i], _paldata);
 }
 
 function character_get_palettes(_character, _check_unlocked = false)
@@ -72,7 +159,9 @@ function character_get_palettes(_character, _check_unlocked = false)
     {
         var _pal = _data[i];
         if (_check_unlocked && !_pal.unlocked)
-            continue;
+		{
+			continue;
+		}
         
         array_push(_palettes, _pal);
     }
@@ -80,73 +169,122 @@ function character_get_palettes(_character, _check_unlocked = false)
     return _palettes;
 }
 
-function palette_get_data(_character, _paletteselect)
+function palette_get_data_index(_character, _index)
 {
-	return global.palettes[$ _character][_paletteselect];
+	var _pals = global.palettes[$ _character];
+	var i = 0;
+	repeat (array_length(_pals))
+	{
+		var _current_pal = _pals[i];
+		if (_current_pal.index == _index)
+			return _current_pal;
+		i++;
+	}
 }
+
+function palette_get_data_name(_character, _name)
+{
+	var _pals = global.palettes[$ _character];
+	var i = 0;
+	repeat (array_length(_pals))
+	{
+		var _current_pal = _pals[i];
+		if (_current_pal.name == _name)
+			return _current_pal;
+		i++;
+	}
+}
+
+
 
 #region Peppino
 
-add_palette(CHAR_PEPPINO, new PaletteData("classic", 1, PALETTE_DEFAULT, undefined, true));
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("classic").SetIndex(1).SetUnlocked(true).Add();
 
-add_palette(CHAR_PEPPINO, new PaletteData("unfunny", 3, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("money", 4, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("sage", 5, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("blood", 6, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("tv", 7, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("dark", 8, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("shitty", 9, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("golden", 10, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("garish", 11, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("mooney", 15, PALETTE_DEFAULT));
-add_palette(CHAR_PEPPINO, new PaletteData("funny", 12, PALETTE_DEFAULT, spr_peppattern1));
-add_palette(CHAR_PEPPINO, new PaletteData("itchy", 12, PALETTE_DEFAULT, spr_peppattern2));
-add_palette(CHAR_PEPPINO, new PaletteData("pizza", 12, PALETTE_DEFAULT, spr_peppattern3));
-add_palette(CHAR_PEPPINO, new PaletteData("stripes", 12, PALETTE_DEFAULT, spr_peppattern4));
-add_palette(CHAR_PEPPINO, new PaletteData("goldemanne", 12, PALETTE_DEFAULT, spr_peppattern5));
-add_palette(CHAR_PEPPINO, new PaletteData("bones", 12, PALETTE_DEFAULT, spr_peppattern6));
-add_palette(CHAR_PEPPINO, new PaletteData("pp", 12, PALETTE_DEFAULT, spr_peppattern7));
-add_palette(CHAR_PEPPINO, new PaletteData("war", 12, PALETTE_DEFAULT, spr_peppattern8));
-add_palette(CHAR_PEPPINO, new PaletteData("john", 12, PALETTE_DEFAULT, spr_peppattern9));
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("unfunny").SetIndex(3).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("money").SetIndex(4).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("sage").SetIndex(5).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("blood").SetIndex(6).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("tv").SetIndex(7).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("dark").SetIndex(8).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("shitty").SetIndex(9).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("golden").SetIndex(10).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("garish").SetIndex(11).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("mooney").SetIndex(15).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("funny").SetIndex(12).SetPattern(spr_peppattern1).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("itchy").SetIndex(12).SetPattern(spr_peppattern2).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("pizza").SetIndex(12).SetPattern(spr_peppattern3).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("stripes").SetIndex(12).SetPattern(spr_peppattern4).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("goldemanne").SetIndex(12).SetPattern(spr_peppattern5).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("bones").SetIndex(12).SetPattern(spr_peppattern6).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("pp").SetIndex(12).SetPattern(spr_peppattern7).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("war").SetIndex(12).SetPattern(spr_peppattern8).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("john").SetIndex(12).SetPattern(spr_peppattern9).Add();
+
+// Final Round
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("rats").SetIndex(16).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("db").SetIndex(17).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("caff").SetIndex(18).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("unc").SetIndex(19).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("wakingupinthemorningwhenits6am").SetIndex(20).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("massacre").SetIndex(21).Add();
+
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("cheesy").SetIndex(12).SetPattern(spr_peppattern16).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("patch").SetIndex(12).SetPattern(spr_peppattern17).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("metal").SetIndex(12).SetPattern(spr_peppattern18).Add();
+new PaletteData().SetCharacter(CHAR_PEPPINO).SetName("sparkle").SetIndex(12).SetPattern(spr_peppattern19).Add();
 
 #endregion
 
 #region Noise
 
-add_palette(CHAR_NOISE, new PaletteData("classicN", 1, PALETTE_DEFAULT, undefined, true));
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("classicN").SetIndex(1).SetUnlocked(true).Add();
 
-add_palette(CHAR_NOISE, new PaletteData("boise", 3, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("roise", 4, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("poise", 5, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("reverse", 6, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("critic", 7, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("outlaw", 8, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("antidoise", 9, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("flesheater", 10, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("super", 11, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("porcupine", 15, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("feminine", 16, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("realdoise", 17, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("forest", 18, PALETTE_DEFAULT));
-add_palette(CHAR_NOISE, new PaletteData("racer", 28, PALETTE_DEFAULT, spr_noisepattern1));
-add_palette(CHAR_NOISE, new PaletteData("comedian", 27, PALETTE_DEFAULT, spr_noisepattern2));
-add_palette(CHAR_NOISE, new PaletteData("banana", 26, PALETTE_DEFAULT, spr_noisepattern3));
-add_palette(CHAR_NOISE, new PaletteData("noiseTV", 25, PALETTE_DEFAULT, spr_noisepattern4));
-add_palette(CHAR_NOISE, new PaletteData("madman", 24, PALETTE_DEFAULT, spr_noisepattern5));
-add_palette(CHAR_NOISE, new PaletteData("bubbly", 23, PALETTE_DEFAULT, spr_noisepattern6));
-add_palette(CHAR_NOISE, new PaletteData("welldone", 22, PALETTE_DEFAULT, spr_noisepattern7));
-add_palette(CHAR_NOISE, new PaletteData("grannykisses", 21, PALETTE_DEFAULT, spr_noisepattern8));
-add_palette(CHAR_NOISE, new PaletteData("towerguy", 20, PALETTE_DEFAULT, spr_noisepattern9));
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("boise").SetIndex(3).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("roise").SetIndex(4).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("poise").SetIndex(5).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("reverse").SetIndex(6).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("critic").SetIndex(7).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("outlaw").SetIndex(8).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("antidoise").SetIndex(9).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("flesheater").SetIndex(10).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("super").SetIndex(11).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("porcupine").SetIndex(15).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("feminine").SetIndex(16).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("realdoise").SetIndex(17).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("forest").SetIndex(18).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("racer").SetIndex(28).SetPattern(spr_noisepattern1).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("comedian").SetIndex(27).SetPattern(spr_noisepattern2).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("banana").SetIndex(26).SetPattern(spr_noisepattern3).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("noiseTV").SetIndex(25).SetPattern(spr_noisepattern4).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("madman").SetIndex(24).SetPattern(spr_noisepattern5).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("bubbly").SetIndex(23).SetPattern(spr_noisepattern6).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("welldone").SetIndex(22).SetPattern(spr_noisepattern7).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("grannykisses").SetIndex(21).SetPattern(spr_noisepattern8).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("towerguy").SetIndex(20).SetPattern(spr_noisepattern9).Add();
+
+// Final Round
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("goise").SetIndex(29).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("bro").SetIndex(30).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("hollyjolly").SetIndex(31).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("shady").SetIndex(32).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("Frienemy").SetIndex(33).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("retroself").SetIndex(34).Add();
+
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("hard").SetIndex(35).SetPattern(spr_noisepattern10).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("floppy").SetIndex(36).SetPattern(spr_noisepattern11).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("sludge").SetIndex(37).SetPattern(spr_noisepattern12).Add();
+new PaletteData().SetCharacter(CHAR_NOISE).SetName("tte").SetIndex(38).SetPattern(spr_noisepattern13).Add();
 
 #endregion
 
 #region Global Palettes
 
-add_palette_global(new PaletteData("candy", 12, PALETTE_DEFAULT, spr_peppattern10))
-add_palette_global(new PaletteData("bloodstained", 12, PALETTE_DEFAULT, spr_peppattern11))
-add_palette_global(new PaletteData("bat", 12, PALETTE_DEFAULT, spr_peppattern12))
-add_palette_global(new PaletteData("pumpkin", 12, PALETTE_DEFAULT, spr_peppattern13))
-add_palette_global(new PaletteData("fur", 12, PALETTE_DEFAULT, spr_peppattern14))
-add_palette_global(new PaletteData("flesh", 12, PALETTE_DEFAULT, spr_peppattern15))
+new PaletteData().SetName("candy").SetIndex(12).SetPattern(spr_peppattern10).SetGlobal(true).Add();
+new PaletteData().SetName("bloodstained").SetIndex(12).SetPattern(spr_peppattern11).SetGlobal(true).Add();
+new PaletteData().SetName("bat").SetIndex(12).SetPattern(spr_peppattern12).SetGlobal(true).Add();
+new PaletteData().SetName("pumpkin").SetIndex(12).SetPattern(spr_peppattern13).SetGlobal(true).Add();
+new PaletteData().SetName("fur").SetIndex(12).SetPattern(spr_peppattern14).SetGlobal(true).Add();
+new PaletteData().SetName("flesh").SetIndex(12).SetPattern(spr_peppattern15).SetGlobal(true).Add();
 
 #endregion
