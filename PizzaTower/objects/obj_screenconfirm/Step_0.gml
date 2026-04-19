@@ -16,12 +16,14 @@ if (key_jump)
 		ini_write_real(section, key, variable_global_get(varname));
 		obj_savesystem.ini_str_options = ini_close();
 		timer = 5;
+		obj_option.timeout = 10;
 		instance_destroy();
 	}
 	else
 	{
 		timer = 0;
 		event_perform(ev_alarm, 0);
+		obj_option.timeout = 10;
 		instance_destroy();
 	}
 }
