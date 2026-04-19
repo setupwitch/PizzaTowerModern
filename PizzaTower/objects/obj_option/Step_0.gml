@@ -33,7 +33,11 @@ for (var i = 0; i < array_length(bg_alpha); i++)
 }
 bg_x -= 1;
 bg_y -= 1;
-if (instance_exists(obj_keyconfig) || instance_exists(obj_screenconfirm) || instance_exists(obj_langselect))
+if (timeout > 0)
+{
+	timeout -= 1
+}
+if (instance_exists(obj_keyconfig) || instance_exists(obj_screenconfirm) || instance_exists(obj_langselect) || timeout > 0)
 {
 	exit;
 }
