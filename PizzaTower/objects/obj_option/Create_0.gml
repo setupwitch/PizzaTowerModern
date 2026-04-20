@@ -19,6 +19,7 @@ menu = 0;
 optionselected = 0;
 backbuffer = 0;
 pause_icons = array_create(0);
+timeout = 0;
 scr_pauseicon_add(spr_pauseicons, 4);
 scr_pauseicon_add(spr_pauseicons, 5);
 scr_pauseicon_add(spr_pauseicons, 6);
