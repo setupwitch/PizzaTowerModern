@@ -1,4 +1,4 @@
-if (obj_player.isgustavo == false)
+if (obj_player1.isgustavo == false)
 {
 	instance_create(x, y, obj_genericpoofeffect);
 	instance_destroy();

@@ -41,7 +41,7 @@ function fmod_event_one_shot(_event_path)
 	fmod_studio_event_instance_release(_inst);
 }
 
-function fmod_event_one_shot_3d(_event_path, _x, _y)
+function fmod_event_one_shot_3d(_event_path, _x = undefined, _y = undefined)
 {
 	// create an EventInstance
 	var _inst = fmod_event_create_instance(_event_path);
@@ -66,10 +66,14 @@ function fmod_event_instance_stop(_event_instance, _immediate)
 	return fmod_studio_event_instance_stop(_event_instance, _immediate ? FMOD_STUDIO_STOP_MODE.IMMEDIATE : FMOD_STUDIO_STOP_MODE.ALLOWFADEOUT);
 }
 
-function fmod_event_instance_set_3d_attributes(_event_instance, _x, _y)
+function fmod_event_instance_set_3d_attributes(_event_instance, _x = undefined, _y = undefined)
 {
 	// create and set 3d attributes.
 	var _attr = new Fmod3DAttributes();
+	
+    _x ??= (variable_instance_exists(id, "x") ? x : 0);
+	_y ??= (variable_instance_exists(id, "y") ? y : 0);
+	
 	with (_attr.position)
     {
         x = _x; 
