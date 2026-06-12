@@ -249,17 +249,6 @@ function scr_hurtplayer(_player)
 					}
 				}
 			}
-			if (state == states.grabbed)
-			{
-				if (object_index == obj_player1)
-				{
-					y = obj_player2.y;
-				}
-				else
-				{
-					y = obj_player1.y;
-				}
-			}
 			if (state == states.trashroll || state == states.trashjump)
 			{
 				create_debris(x, y, spr_player_trashlid);
@@ -448,7 +437,7 @@ function scr_hurtplayer(_player)
 				}
 				if (global.collect != 0)
 				{
-					if (character == "P" || character == "V")
+					if (character == CHAR_PEPPINO || character == "V")
 					{
 						repeat (10)
 						{

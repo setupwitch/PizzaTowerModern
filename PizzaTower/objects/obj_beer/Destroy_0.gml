@@ -16,7 +16,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 	}
 	fmod_event_one_shot_3d("event:/sfx/misc/beerbreak", x, y);
 	notification_push(notifications.beer_knocked, [room, id, object_index]);
-	if (obj_player1.character == "V")
+	if (obj_player.character == "V")
 	{
 		global.playerhealth = clamp(global.playerhealth + 1, 0, 100);
 	}

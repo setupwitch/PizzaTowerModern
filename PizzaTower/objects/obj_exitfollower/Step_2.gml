@@ -9,7 +9,7 @@ else
 {
 	sprite_index = idlespr;
 }
-visible = obj_player1.visible;
+visible = obj_player.visible;
 if (room == timesuproom)
 {
 	visible = false;

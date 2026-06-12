@@ -2,7 +2,7 @@ function scr_player_climbwall()
 {
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			if (windingAnim < 200)
 			{
 				windingAnim++;
@@ -245,7 +245,7 @@ function scr_player_climbwall()
 				instance_create(x, y + 43, obj_cloudeffect);
 			}
 			break;
-		case "N":
+		case CHAR_NOISE:
 			hsp = 0;
 			if (sprite_index == spr_playerN_wallclingstart && ANIMATION_END)
 			{

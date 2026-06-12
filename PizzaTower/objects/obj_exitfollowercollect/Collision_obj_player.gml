@@ -18,9 +18,9 @@ if (!other.ispeppino || global.swapmode)
 			use_palette = true;
 			spr_palette = spr_peppalette;
 			paletteselect = 1;
-			if (obj_player1.ispeppino)
+			if (obj_player.ispeppino)
 			{
-				paletteselect = obj_player1.paletteselect;
+				paletteselect = obj_player.paletteselect;
 			}
 		}
 		else if (other.object_index == obj_snottyexit)

@@ -12,7 +12,7 @@ if (global.levelcompletename != "CHATEAU")
 	if (global.levelcomplete && !global.medievalcutscene)
 	{
 		global.levelcomplete = false;
-		with (obj_player1)
+		with (obj_player)
 		{
 			other.backx = backtohubstartx;
 			other.backy = backtohubstarty;
@@ -20,7 +20,7 @@ if (global.levelcompletename != "CHATEAU")
 		scene_info =
 		[
 			[cutscene_medieval_start],
-			[cutscene_waitfor_sprite, obj_player1],
+			[cutscene_waitfor_sprite, obj_player],
 			[cutscene_medieval_start2],
 			[cutscene_set_player_visible, false],
 			[cutscene_player_float, true],
@@ -53,7 +53,7 @@ else if (global.levelcomplete && !global.chateaucutscene)
 	scene_info =
 	[
 		[cutscene_entrance_start],
-		[cutscene_waitfor_sprite, obj_player1],
+		[cutscene_waitfor_sprite, obj_player],
 		[cutscene_player_idleanim],
 		[cutscene_change_room, hub_warpath],
 		[cutscene_set_player_visible, false],

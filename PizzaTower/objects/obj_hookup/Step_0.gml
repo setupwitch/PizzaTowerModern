@@ -39,7 +39,7 @@ else if (hooked)
 	{
 		instance_destroy();
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (hooked && state == states.ladder && place_meeting(x, y, other))
 		{

@@ -8,10 +8,6 @@ function Instakill()
 		hy = other.baddieID.hitY;
 	}
 	other.baddieID.grabbedby = 1;
-	if (object_index == obj_player2)
-	{
-		other.baddieID.grabbedby = 2;
-	}
 	if (state == states.firemouth)
 	{
 		repeat (8)
@@ -23,7 +19,7 @@ function Instakill()
 			}
 		}
 	}
-	if (state == states.mach3 && sprite_index != spr_player_Sjumpcancel && sprite_index != spr_mach3hit && (character == "P" || character == "V"))
+	if (state == states.mach3 && sprite_index != spr_player_Sjumpcancel && sprite_index != spr_mach3hit && (character == CHAR_PEPPINO || character == "V"))
 	{
 		if (sprite_index != spr_fightball)
 		{
@@ -43,7 +39,7 @@ function Instakill()
 	}
 	other.baddieID.invtime = 25;
 	suplexmove = true;
-	if (object_index == obj_player1)
+	if (object_index == obj_player)
 	{
 		other.baddieID.grabbedby = 1;
 	}

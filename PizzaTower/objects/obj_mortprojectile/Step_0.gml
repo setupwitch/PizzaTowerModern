@@ -7,7 +7,7 @@ if (state == 0)
 	y += vsp;
 	if (target == noone)
 	{
-		if (distance_to_object(obj_player1) >= distance)
+		if (distance_to_object(obj_player) >= distance)
 		{
 			state++;
 		}
@@ -30,12 +30,12 @@ else if (state == 1)
 }
 else
 {
-	var dir = point_direction(x, y, obj_player1.x, obj_player1.y);
+	var dir = point_direction(x, y, obj_player.x, obj_player.y);
 	hsp = Approach(hsp, lengthdir_x(movespeed, dir), accel);
 	vsp = Approach(vsp, lengthdir_y(movespeed, dir), accel);
 	x += hsp;
 	y += vsp;
-	if (distance_to_object(obj_player1) <= 16)
+	if (distance_to_object(obj_player) <= 16)
 	{
 		fmod_event_one_shot_3d("event:/sfx/mort/throwcatch", x, y);
 		instance_destroy();

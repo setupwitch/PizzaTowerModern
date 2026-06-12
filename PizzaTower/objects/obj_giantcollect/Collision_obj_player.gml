@@ -1,6 +1,6 @@
 if (other.state != states.gotoplayer)
 {
-	if (obj_player1.character == "V")
+	if (obj_player.character == "V")
 	{
 		global.playerhealth = clamp(global.playerhealth + 100, 0, 100);
 	}
@@ -11,7 +11,7 @@ if (other.state != states.gotoplayer)
 	}
 	fmod_event_one_shot("event:/sfx/misc/collectgiantpizza");
 	var val = heat_calculate(1000);
-	if (other.object_index == obj_player1)
+	if (other.object_index == obj_player)
 	{
 		global.collect += val;
 	}
@@ -30,7 +30,7 @@ if (other.state != states.gotoplayer)
 	{
 		for (var xx = 0; xx < 4; xx++)
 		{
-			create_collect(_x, _y, obj_player1.ispeppino ? choose(spr_sausagecollect, spr_shroomcollect, spr_shrimpcollect, spr_tomatocollect) : choose(spr_halloweencollectibles1, spr_halloweencollectibles2, spr_halloweencollectibles3, spr_halloweencollectibles4, spr_halloweencollectibles5));
+			create_collect(_x, _y, obj_player.ispeppino ? choose(spr_sausagecollect, spr_shroomcollect, spr_shrimpcollect, spr_tomatocollect) : choose(spr_halloweencollectibles1, spr_halloweencollectibles2, spr_halloweencollectibles3, spr_halloweencollectibles4, spr_halloweencollectibles5));
 			_x += 16;
 		}
 		_x = _xstart;

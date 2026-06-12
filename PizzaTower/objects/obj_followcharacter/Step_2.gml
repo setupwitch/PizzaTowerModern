@@ -2,11 +2,11 @@ if (lock)
 {
 	exit;
 }
-if (followid != noone && !instance_exists(obj_player1))
+if (followid != noone && !instance_exists(obj_player))
 {
 	exit;
 }
-playerid = obj_player1.id;
+playerid = obj_player.id;
 if (playerid.state != states.ladder && playerid.state != states.door && playerid.state != states.comingoutdoor)
 {
 	if (space < maxspace && dir == -1)

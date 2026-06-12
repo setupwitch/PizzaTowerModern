@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player1) < 50)
+if (distance_to_object(obj_player) < 50)
 {
 	with (obj_tv)
 	{

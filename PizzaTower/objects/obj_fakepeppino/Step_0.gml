@@ -1,10 +1,10 @@
 if (!touched)
 {
-	var xx = obj_player1.x;
-	var yy = obj_player1.y;
-	var ixs = obj_player1.xscale;
-	var v = obj_player1.vsp;
-	var msk = obj_player1.mask_index;
+	var xx = obj_player.x;
+	var yy = obj_player.y;
+	var ixs = obj_player.xscale;
+	var v = obj_player.vsp;
+	var msk = obj_player.mask_index;
 	ds_queue_enqueue(followqueue, [xx, yy, ixs, v, msk]);
 	if (ds_queue_size(followqueue) > LAG_STEPS)
 	{

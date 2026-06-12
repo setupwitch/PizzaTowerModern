@@ -31,22 +31,22 @@ for (var i = 0; i < array_length(rooms); i++)
 }
 create_command("NOCLIP", [], function()
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		state = states.debugstate;
 	}
 });
 create_command("CHANGE_CHARACTER", [], function()
 {
-	with (obj_player1)
+	with (obj_player)
 	{
-		if (character == "P")
+		if (character == CHAR_PEPPINO)
 		{
-			character = "N";
+			character = CHAR_NOISE;
 		}
 		else
 		{
-			character = "P";
+			character = CHAR_PEPPINO;
 		}
 		scr_characterspr();
 	}
@@ -90,9 +90,9 @@ create_command("DEBUG OVERLAY", [["TRUE", "FALSE"]], function(_bool)
 });
 create_command("SWITCH CHAR", [["NOISE", "PEP"]], function(_char)
 {
-	with (obj_player1)
+	with (obj_player)
 	{
-		character = "P";
+		character = CHAR_PEPPINO;
 		if (_char == "NOISE")
 		{
 			ispeppino = false;

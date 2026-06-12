@@ -63,7 +63,7 @@ if (DEBUG)
 	{
 		with (obj_player)
 		{
-			character = "P";
+			character = CHAR_PEPPINO;
 			ispeppino = !ispeppino;
 			scr_characterspr();
 		}
@@ -163,7 +163,7 @@ if (DEBUG)
 	});
 	NOCLIP = new DebugCommand("noclip", "", "", function()
 	{
-		with (obj_player1)
+		with (obj_player)
 		{
 			state = states.debugstate;
 		}
@@ -212,23 +212,23 @@ if (DEBUG)
 	{
 		if (!instance_exists(obj_pizzakincheese))
 		{
-			instance_create(obj_player1.x, obj_player1.y, obj_pizzakincheese);
+			instance_create(obj_player.x, obj_player.y, obj_pizzakincheese);
 		}
 		if (!instance_exists(obj_pizzakintomato))
 		{
-			instance_create(obj_player1.x, obj_player1.y, obj_pizzakintomato);
+			instance_create(obj_player.x, obj_player.y, obj_pizzakintomato);
 		}
 		if (!instance_exists(obj_pizzakinsausage))
 		{
-			instance_create(obj_player1.x, obj_player1.y, obj_pizzakinsausage);
+			instance_create(obj_player.x, obj_player.y, obj_pizzakinsausage);
 		}
 		if (!instance_exists(obj_pizzakinpineapple))
 		{
-			instance_create(obj_player1.x, obj_player1.y, obj_pizzakinpineapple);
+			instance_create(obj_player.x, obj_player.y, obj_pizzakinpineapple);
 		}
 		if (!instance_exists(obj_pizzakinshroom))
 		{
-			instance_create(obj_player1.x, obj_player1.y, obj_pizzakinshroom);
+			instance_create(obj_player.x, obj_player.y, obj_pizzakinshroom);
 		}
 		global.cheesefollow = true;
 		global.tomatofollow = true;
@@ -375,7 +375,7 @@ if (DEBUG)
 		{
 			with (obj_player)
 			{
-				if (object_index == obj_player1 || global.coop)
+				if (object_index == obj_player)
 				{
 					state = _state;
 					var _spr = sprite_index;

@@ -17,7 +17,7 @@ switch (state)
 	case 1:
 		visible = false;
 		image_index = 0;
-		var p = obj_player1.id;
+		var p = obj_player.id;
 		if (distance_to_pos(x, y, p.x, p.y, 500, 100))
 		{
 			state = 2;

@@ -6,7 +6,7 @@ else if (irandom(100) <= 15)
 {
 	stick = true;
 }
-if (obj_player1.ispeppino)
+if (obj_player.ispeppino)
 {
 	var r = string_letters(room_get_name(room));
 	if (sprite_index != spr_gustavo_exitsign || r == "saloon" || room == space_11b || r == "freezer" || r == "chateau")
@@ -18,7 +18,7 @@ if (stick)
 {
 	ystart -= 6;
 }
-if (!obj_player1.ispeppino || global.swapmode)
+if (!obj_player.ispeppino || global.swapmode)
 {
 	sprite_index = spr_noiseyexit_fall;
 	var _palinfo = get_noise_palette_info();

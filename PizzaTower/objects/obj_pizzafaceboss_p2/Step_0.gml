@@ -1,4 +1,4 @@
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 image_speed = 0.35;
 wastedhits = 8 - elitehit;
 switch (state)
@@ -49,9 +49,9 @@ switch (state)
 		scr_enemy_staggered();
 		break;
 }
-if (obj_player1.state != states.actor && obj_player1.y >= (y - 20) && obj_player1.state != states.animation && state != states.hit && state != states.stun && state != states.phase1hurt && hsp == 0 && state != states.fall)
+if (obj_player.state != states.actor && obj_player.y >= (y - 20) && obj_player.state != states.animation && state != states.hit && state != states.stun && state != states.phase1hurt && hsp == 0 && state != states.fall)
 {
-	if ((x > (room_width / 2) && obj_player1.x >= (x - 60)) || (x <= (room_width / 2) && obj_player1.x <= (x + 60)))
+	if ((x > (room_width / 2) && obj_player.x >= (x - 60)) || (x <= (room_width / 2) && obj_player.x <= (x + 60)))
 	{
 		with (obj_player)
 		{
@@ -89,7 +89,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -15, obj_hppickup);
+			instance_create(obj_player.x, -15, obj_hppickup);
 		}
 		if (wastedhits >= 3 && elitehit > 0)
 		{

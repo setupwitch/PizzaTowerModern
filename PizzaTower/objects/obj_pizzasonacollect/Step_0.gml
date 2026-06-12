@@ -1,7 +1,7 @@
 index += 0.35;
-if (x != obj_player1.x)
+if (x != obj_player.x)
 {
-	image_xscale = sign(obj_player1.x - x);
+	image_xscale = sign(obj_player.x - x);
 }
 switch (state)
 {

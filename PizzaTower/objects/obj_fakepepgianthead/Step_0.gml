@@ -2,9 +2,9 @@ switch (state)
 {
 	case states.normal:
 		image_speed = 0.35;
-		targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+		targetplayer = obj_player;
 		var _g = distance_to_point(targetplayer.x, targetplayer.y);
-		if (obj_player1.ispeppino)
+		if (obj_player.ispeppino)
 		{
 			if (movespeed < 8.25)
 			{
@@ -29,15 +29,15 @@ switch (state)
 		}
 		x += movespeed;
 		fmod_event_instance_set_3d_attributes(snd, x, y);
-		if (place_meeting(x, y, obj_player1) || x > obj_player1.x)
+		if (place_meeting(x, y, obj_player) || x > obj_player.x)
 		{
-			if (obj_player1.ispeppino)
+			if (obj_player.ispeppino)
 			{
-				var s = obj_player1.state;
-				var xx = obj_player1.x;
-				scr_hurtplayer(obj_player1);
+				var s = obj_player.state;
+				var xx = obj_player.x;
+				scr_hurtplayer(obj_player);
 				ispeppino = true;
-				if (instance_exists(obj_swapmodeeffect) || (s != obj_player1.state || !obj_player1.ispeppino))
+				if (instance_exists(obj_swapmodeeffect) || (s != obj_player.state || !obj_player.ispeppino))
 				{
 					state = states.fall;
 					target_x = xx - 700;
@@ -54,7 +54,7 @@ switch (state)
 				movespeed = 0;
 				fmod_event_instance_stop(snd, true);
 				fmod_event_one_shot("event:/sfx/playerN/lionscream");
-				with (obj_player1)
+				with (obj_player)
 				{
 					xscale = 1;
 					actor_buffer = 300;

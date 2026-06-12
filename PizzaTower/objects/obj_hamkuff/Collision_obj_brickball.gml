@@ -1,6 +1,6 @@
 if (state != states.blockstance)
 {
-	obj_player1.brick = false;
+	obj_player.brick = false;
 	state = states.blockstance;
 	sprite_index = spr_hamkuff_chain1;
 	state = states.blockstance;

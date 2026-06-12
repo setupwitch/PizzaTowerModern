@@ -46,7 +46,7 @@ switch (room)
 		global.noisejetpack = true;
 		break;
 	case freezer_secret3:
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			global.noisejetpack = true;
 		}
@@ -61,8 +61,8 @@ switch (room)
 		shotgunAnim = true;
 		break;
 }
-obj_player1.shotgunAnim = shotgunAnim;
-obj_player1.holycross = 0;
+obj_player.shotgunAnim = shotgunAnim;
+obj_player.holycross = 0;
 instance_destroy(obj_crosspriest_cross);
 if (isgustavo != obj_player.isgustavo)
 {
@@ -80,7 +80,7 @@ if (isgustavo != obj_player.isgustavo)
 		tauntstoredsprite = sprite_index;
 	}
 }
-if (!obj_player1.ispeppino && isgustavo != obj_player.noisecrusher)
+if (!obj_player.ispeppino && isgustavo != obj_player.noisecrusher)
 {
 	if (isgustavo)
 	{
@@ -91,7 +91,7 @@ if (!obj_player1.ispeppino && isgustavo != obj_player.noisecrusher)
 		scr_switchpeppino();
 	}
 }
-if (!obj_player1.ispeppino && global.noisejetpack)
+if (!obj_player.ispeppino && global.noisejetpack)
 {
 	create_transformation_tip(lang_get_value("jetpack2tip"));
 }

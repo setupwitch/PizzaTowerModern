@@ -1,6 +1,6 @@
-if (instance_exists(obj_player1))
+if (instance_exists(obj_player))
 {
-	player_index = obj_player1.player_index;
+	player_index = obj_player.player_index;
 }
 if (!deactivated)
 {

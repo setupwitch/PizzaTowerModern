@@ -7,7 +7,7 @@ with (other)
 		with (instance_create(x, y, obj_sausageman_dead))
 		{
 			sprite_index = spr_shotgunback;
-			if (!obj_player1.ispeppino)
+			if (!obj_player.ispeppino)
 			{
 				sprite_index = spr_minigunfall;
 			}

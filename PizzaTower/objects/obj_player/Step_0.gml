@@ -1,3 +1,34 @@
+if (room == rm_editor)
+{
+	visible = 0;
+	exit;
+}
+if (room == custom_lvl_room)
+{
+	if (place_meeting(x, y, par_camera_editor))
+	{
+		cam = instance_place(x, y, par_camera_editor);
+		cam_width = instance_place(x, y, par_camera_editor).width;
+		cam_height = instance_place(x, y, par_camera_editor).height;
+		with (obj_camera)
+		{
+			bound_camera = true;
+		}
+	}
+	else
+	{
+		cam = noone;
+		cam_width = 0;
+		cam_height = 0;
+		instance_activate_all();
+		with (obj_camera)
+		{
+			bound_camera = false;
+		}
+	}
+}
+scr_getinput();
+
 prevhsp = hsp;
 prevmove = move;
 prevmovespeed = movespeed;
@@ -41,7 +72,7 @@ if (state != states.grab)
 {
 	swingdingthrow = false;
 }
-if (character == "P" && !ispeppino && !isgustavo)
+if (character == CHAR_PEPPINO && !ispeppino && !isgustavo)
 {
 	if (can_jump && vsp > 0)
 	{
@@ -62,7 +93,7 @@ if (place_meeting(x, y + 1, obj_slope))
 {
 	collision_flags |= collisionflags.on_slope;
 }
-if (character == "P" && !ispeppino && !skateboarding && ((scr_check_superjump() && key_jump2) || key_superjump) && state != states.mach3 && can_jump && vsp > 0 && (state == states.normal || state == states.mach2))
+if (character == CHAR_PEPPINO && !ispeppino && !skateboarding && ((scr_check_superjump() && key_jump2) || key_superjump) && state != states.mach3 && can_jump && vsp > 0 && (state == states.normal || state == states.mach2))
 {
 	sprite_index = spr_superjumpprep;
 	state = states.Sjumpprep;
@@ -616,17 +647,6 @@ if (visible == false && state == states.comingoutdoor)
 		coopdelay = 0;
 	}
 }
-if (global.coop == true)
-{
-	if ((state == states.punch || state == states.handstandjump) && !(obj_player2.state == states.punch || obj_player2.state == states.handstandjump))
-	{
-		fightballadvantage = true;
-	}
-	else if (!(obj_player2.state == states.punch || obj_player2.state == states.handstandjump))
-	{
-		fightballadvantage = false;
-	}
-}
 if (state != states.pogo && state != states.backbreaker)
 {
 	pogospeed = 6;
@@ -700,15 +720,7 @@ if (state == states.gameover && y > (room_height * 2) && !instance_exists(obj_ba
 {
 	targetDoor = "HUB";
 	scr_playerreset();
-	if (global.coop == true)
-	{
-		with (obj_player2)
-		{
-			scr_playerreset();
-			targetDoor = "HUB";
-		}
-	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		image_index = 0;
 		image_blend = c_white;
@@ -800,7 +812,7 @@ if (global.combo >= 25 && !instance_exists(angryeffectid) && sprite_index != spr
 		other.angryeffectid = id;
 	}
 }
-if (object_index == obj_player1)
+if (object_index == obj_player)
 {
 	if (global.combotimepause > 0)
 	{
@@ -1181,7 +1193,7 @@ else
 {
 	cutscene = false;
 }
-if ((state == states.normal || state == states.ratmount) && obj_player1.spotlight == true && !instance_exists(obj_uparrow) && (collision_flags & collisionflags.on_floor) > 0)
+if ((state == states.normal || state == states.ratmount) && obj_player.spotlight == true && !instance_exists(obj_uparrow) && (collision_flags & collisionflags.on_floor) > 0)
 {
 	if (place_meeting(x, y, obj_uparrowhitbox))
 	{

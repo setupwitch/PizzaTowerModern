@@ -3,7 +3,7 @@ global.roommessage = "PIZZA TOWER ISLAND";
 var lay_id = layer_get_id("Assets_stillBG1");
 var gus = layer_sprite_get_id(lay_id, "gustv");
 var noise = layer_sprite_get_id(lay_id, "noisetv2");
-if (obj_player1.ispeppino)
+if (obj_player.ispeppino)
 {
 	layer_sprite_alpha(gus, 1);
 	layer_sprite_alpha(noise, 0);

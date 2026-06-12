@@ -9,11 +9,11 @@ if (speedline == false)
 }
 if (!kicked)
 {
-	x = obj_player1.x + (xoffset * obj_player1.xscale);
-	y = obj_player1.y;
+	x = obj_player.x + (xoffset * obj_player.xscale);
+	y = obj_player.y;
 	if (scr_solid(x, y))
 	{
-		x = obj_player1.x;
+		x = obj_player.x;
 	}
 }
 if (blur_effect > 0)

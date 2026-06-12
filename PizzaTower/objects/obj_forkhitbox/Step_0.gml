@@ -146,7 +146,7 @@ with (ID)
 			}
 			break;
 		case obj_snickexe:
-			if (obj_player1.instakillmove || obj_player1.state == states.handstandjump)
+			if (obj_player.instakillmove || obj_player.state == states.handstandjump)
 			{
 				instance_destroy(other);
 				hitboxcreate = false;

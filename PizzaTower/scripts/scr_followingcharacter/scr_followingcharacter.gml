@@ -5,12 +5,12 @@ function following_character_init()
 	LAG_STEPS = 20;
 	followqueue = ds_queue_create();
 	instakilled = false;
-	dir = obj_player1.xscale;
+	dir = obj_player.xscale;
 	space = 0;
 	maxspace = 1;
 	spaceaccel = 0.2;
-	lastplayerposx = obj_player1.x;
-	lastplayerposy = obj_player1.y;
+	lastplayerposx = obj_player.x;
+	lastplayerposy = obj_player.y;
 	hsp = 0;
 	vsp = 0;
 	hsp_carry = 0;
@@ -73,7 +73,7 @@ function farmer_rearrange()
 {
 	with (obj_farmer1follow)
 	{
-		if (farmerpos == obj_player1.farmerpos)
+		if (farmerpos == obj_player.farmerpos)
 		{
 			following_add_to_front();
 		}
@@ -113,7 +113,7 @@ function following_moonwalk_fix()
 	{
 		exit;
 	}
-	if (playerid.object_index != obj_player1)
+	if (playerid.object_index != obj_player)
 	{
 		exit;
 	}

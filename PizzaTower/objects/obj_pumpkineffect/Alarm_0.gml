@@ -1,2 +1,2 @@
-x = obj_player1.x;
-y = obj_player1.y;
+x = obj_player.x;
+y = obj_player.y;

@@ -198,7 +198,7 @@ pizzahead = false;
 override_throw = false;
 pizzaheadshot = false;
 sprite_index = spr_vigilante_intro1;
-if (!obj_player1.ispeppino)
+if (!obj_player.ispeppino)
 {
 	sprite_index = spr_vigilante_intro1N;
 }

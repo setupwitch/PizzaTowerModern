@@ -1,2 +1,2 @@
 depth = -2;
-playerid = obj_player1;
+playerid = obj_player;

@@ -7,7 +7,7 @@ if (!instance_exists(obj_rank))
 	shader_set(global.Pal_Shader);
 	with (obj_player)
 	{
-		if (object_index == obj_player1)
+		if (object_index == obj_player)
 		{
 			pattern_set(global.Base_Pattern_Color, sprite_index, image_index, xscale, yscale, global.palettetexture);
 		}

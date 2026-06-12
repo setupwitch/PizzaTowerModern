@@ -15,6 +15,6 @@ else if (instance_exists(baddieID) && !baddieID.invincible)
 	baddieID.stagger_buffer = baddieID.stagger_max;
 	instance_create(x, y, obj_bumpeffect);
 	instance_create(baddieID.x, baddieID.y, obj_bangeffect);
-	baddieID.hsp = obj_player1.xscale * 5;
+	baddieID.hsp = obj_player.xscale * 5;
 	baddieID.stagger_dir = -baddieID.image_xscale;
 }

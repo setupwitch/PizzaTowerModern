@@ -8,7 +8,7 @@ if (sprite_index == switchend && instance_exists(obj_charswitch_intro) && obj_ch
 }
 if (sprite_index == switchend && ANIMATION_END)
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		scr_switchpeppino();
 		x = obj_peppinoswitch.x;

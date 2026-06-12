@@ -13,7 +13,7 @@ if (player_hp <= 0)
 			endroundfunc ??= function() {}; // calm down feather
 			endroundfunc();
 		}
-		depth = obj_player1.depth + 1;
+		depth = obj_player.depth + 1;
 		state = states.transitioncutscene;
 		with (bossID)
 		{
@@ -80,10 +80,7 @@ switch (state)
 			state = states.normal;
 			with (obj_player)
 			{
-				if (object_index != obj_player2 || global.coop)
-				{
-					state = states.normal;
-				}
+				state = states.normal;
 			}
 			with (par_boss)
 			{
@@ -170,7 +167,7 @@ switch (state)
 			state = states.normal;
 			with (obj_player)
 			{
-				if (object_index == obj_player1 || global.coop)
+				if (object_index == obj_player)
 				{
 					state = states.normal;
 				}
@@ -284,7 +281,7 @@ portrait1_index += 0.35;
 portrait2_index += 0.35;
 if (state == states.normal && instance_exists(bossID))
 {
-	if (obj_player1.state == states.hit || obj_player1.state == states.thrown)
+	if (obj_player.state == states.hit || obj_player.state == states.thrown)
 	{
 		portrait1_sprite = portrait1_hurt;
 	}

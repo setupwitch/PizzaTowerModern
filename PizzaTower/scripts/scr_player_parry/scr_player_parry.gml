@@ -15,10 +15,6 @@ function scr_player_parry()
 		movespeed -= 0.5;
 	}
 	var _grabbedby = 1;
-	if (object_index == obj_player2)
-	{
-		_grabbedby = 2;
-	}
 	if (parry_count > 0 && parry_lethal)
 	{
 		parry_count--;
@@ -28,7 +24,7 @@ function scr_player_parry()
 			if ((other.parryID == id || distance_to_object(other) <= parry_threshold) && state != states.hit && state != states.grabbed && state != states.stun && parryable && !(state == states.stun && thrown == true))
 			{
 				notification_push(notifications.enemy_parried, [id, object_index, room]);
-				obj_player1.xscale = -image_xscale;
+				obj_player.xscale = -image_xscale;
 				grabbedby = _grabbedby;
 				var lag = 5;
 				hitLag = lag;
@@ -43,9 +39,9 @@ function scr_player_parry()
 					global.combotime = 60;
 					global.heattime = 60;
 				}
-				obj_player1.hitLag = lag;
-				obj_player1.hitX = obj_player1.x;
-				obj_player1.hitY = obj_player1.y;
+				obj_player.hitLag = lag;
+				obj_player.hitX = obj_player.x;
+				obj_player.hitY = obj_player.y;
 				if (!elite || elitehit <= 0)
 				{
 					mach3destroy = true;
@@ -53,7 +49,7 @@ function scr_player_parry()
 				instance_create(x, y, obj_parryeffect);
 				alarm[3] = 1;
 				state = states.hit;
-				image_xscale = -obj_player1.xscale;
+				image_xscale = -obj_player.xscale;
 				instance_create(x, y, obj_slapstar);
 				instance_create(x, y, obj_slapstar);
 				instance_create(x, y, obj_slapstar);

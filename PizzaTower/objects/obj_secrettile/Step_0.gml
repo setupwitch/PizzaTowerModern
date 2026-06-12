@@ -5,7 +5,7 @@ if (place_meeting(x, y, obj_player))
 if (active)
 {
 	var b = true;
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (!place_meeting(x, y, obj_secrettile))
 		{

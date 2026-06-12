@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	if (state == states.actor || (state == states.supergrab && supergrabstate != states.finishingblow))
 	{

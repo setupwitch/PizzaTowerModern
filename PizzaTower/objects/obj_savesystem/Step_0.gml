@@ -28,18 +28,18 @@ if (room == hub_loadingscreen && state != 2)
 				state = states.victory;
 				if (other.ispeppino)
 				{
-					with (obj_player1)
+					with (obj_player)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						ispeppino = true;
 						scr_characterspr();
 					}
 				}
 				else
 				{
-					with (obj_player1)
+					with (obj_player)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						ispeppino = false;
 						scr_characterspr();
 					}

@@ -5,7 +5,7 @@ unlocked = ini_read_real(save, "door", false);
 key = ini_read_real(save, "bosskey", false);
 if (key && !unlocked)
 {
-	instance_create(obj_player1.x, obj_player1.y, obj_giantkeyfollow);
+	instance_create(obj_player.x, obj_player.y, obj_giantkeyfollow);
 }
 ini_close();
 if (unlocked)

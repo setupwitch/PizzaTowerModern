@@ -7,7 +7,7 @@ with (obj_comboend)
 {
 	for (var i = 0; i < comboscore; i += comboscore)
 	{
-		create_collect(obj_player1.x + irandom_range(-60, 60), (obj_player1.y - 100) + irandom_range(-60, 60), choose(2261, 2263, 2264, 2266, 2262));
+		create_collect(obj_player.x + irandom_range(-60, 60), (obj_player.y - 100) + irandom_range(-60, 60), choose(2261, 2263, 2264, 2266, 2262));
 	}
 	comboscore = 0;
 	instance_destroy();

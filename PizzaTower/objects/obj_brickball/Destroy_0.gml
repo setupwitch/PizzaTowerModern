@@ -1,4 +1,4 @@
-if (obj_player1.ispeppino)
+if (obj_player.ispeppino)
 {
 	with (instance_create(x, y, obj_brickcomeback))
 	{

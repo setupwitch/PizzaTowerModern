@@ -1,7 +1,7 @@
 switch (state)
 {
 	case states.normal:
-		if (obj_player1.x <= x)
+		if (obj_player.x <= x)
 		{
 			state = states.arenaround;
 			round_count = 10;

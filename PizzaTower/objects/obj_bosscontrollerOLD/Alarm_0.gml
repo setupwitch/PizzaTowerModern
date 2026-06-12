@@ -43,7 +43,7 @@ if (obj_player.state != states.playersuperattack)
 			var p_hp = (player_hp / player_hpmax) * 100;
 			if (b_hp <= p_hp)
 			{
-				depth = obj_player1.depth + 1;
+				depth = obj_player.depth + 1;
 				state = states.transitioncutscene;
 				with (bossID)
 				{

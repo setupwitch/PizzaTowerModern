@@ -3,7 +3,7 @@ if (room == rm_editor)
 	exit;
 }
 image_speed = 0.35;
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 wastedhits = maxhp - elitehit;
 switch (state)
 {
@@ -89,7 +89,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -15, obj_hppickup);
+			instance_create(obj_player.x, -15, obj_hppickup);
 		}
 	}
 	prevhp = elitehit;

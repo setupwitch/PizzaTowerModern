@@ -1,6 +1,6 @@
 if (!trapped)
 {
-	if (comeback == true && obj_player1.state != states.ratmountpunch && obj_player1.sprite_index != spr_lonegustavo_hurt && obj_player1.state != states.ratmountgroundpound)
+	if (comeback == true && obj_player.state != states.ratmountpunch && obj_player.sprite_index != spr_lonegustavo_hurt && obj_player.state != states.ratmountgroundpound)
 	{
 		other.brick = true;
 		if (other.state != states.ratmountcrouch && other.state != states.backbreaker && other.state != states.bump && other.state != states.ratmounthurt)

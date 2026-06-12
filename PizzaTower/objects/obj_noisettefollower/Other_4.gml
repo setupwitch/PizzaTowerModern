@@ -1,4 +1,4 @@
-if (obj_player1.ispeppino && global.swapmode == false)
+if (obj_player.ispeppino && global.swapmode == false)
 {
 	instance_destroy();
 }

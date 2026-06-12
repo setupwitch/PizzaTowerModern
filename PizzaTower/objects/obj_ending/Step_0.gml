@@ -185,7 +185,7 @@ switch (state)
 			with (instance_create(0, 0, obj_introprop))
 			{
 				sprite_index = spr_theendshot;
-				if (!obj_player1.ispeppino)
+				if (!obj_player.ispeppino)
 				{
 					sprite_index = spr_theendshotN;
 				}
@@ -222,7 +222,7 @@ switch (state)
 	case 7:
 		break;
 	case 8:
-		if (obj_player1.key_jump)
+		if (obj_player.key_jump)
 		{
 			with (obj_player)
 			{

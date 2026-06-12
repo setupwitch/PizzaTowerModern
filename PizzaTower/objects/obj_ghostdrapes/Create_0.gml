@@ -6,7 +6,7 @@ timer = 600;
 dir = choose(-1, 1);
 movespeed = 0;
 depth = -20;
-if (!obj_player1.ispeppino)
+if (!obj_player.ispeppino)
 {
 	sprite_index = spr_ghostdrapeN;
 }

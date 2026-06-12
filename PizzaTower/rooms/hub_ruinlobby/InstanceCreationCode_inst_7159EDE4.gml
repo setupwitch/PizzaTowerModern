@@ -6,7 +6,7 @@ if (global.levelcomplete && !global.ruincutscene)
 	scene_info =
 	[
 		[cutscene_entrance_start],
-		[cutscene_waitfor_sprite, obj_player1],
+		[cutscene_waitfor_sprite, obj_player],
 		[cutscene_player_idleanim],
 		[cutscene_change_room, hub_medievallobby],
 		[cutscene_set_player_visible, false],

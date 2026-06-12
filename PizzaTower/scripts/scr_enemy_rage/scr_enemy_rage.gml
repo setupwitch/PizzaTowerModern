@@ -131,11 +131,7 @@ function scr_enemy_rage()
 			}
 			if (grounded && vsp > 0)
 			{
-				var targetplayer = obj_player1;
-				if (obj_player1.spotlight == false)
-				{
-					targetplayer = obj_player2;
-				}
+				var targetplayer = obj_player;
 				movespeed = 4;
 				image_xscale = -sign(x - targetplayer.x);
 				state = states.chase;

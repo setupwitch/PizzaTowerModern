@@ -6,7 +6,7 @@ depth = 50;
 maxscore = 90;
 idlespr = spr_mrmooney_idle;
 smilespr = spr_mrmooney_smile;
-if (!obj_player1.ispeppino || global.swapmode)
+if (!obj_player.ispeppino || global.swapmode)
 {
 	idlespr = spr_noisetterabbit_idle;
 	smilespr = spr_noisetterabbit_takemoney;

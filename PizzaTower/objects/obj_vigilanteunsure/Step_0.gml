@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player1) < 100)
+if (distance_to_object(obj_player) < 100)
 {
 	sprite_index = spr_vigilanteunsure2;
 }

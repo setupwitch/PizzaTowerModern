@@ -12,7 +12,7 @@ switch (state)
 			dx = 200;
 			dy = 220;
 		}
-		if (global.panic && distance_to_pos(xstart, ystart, obj_player1.x, obj_player1.y, dx, dy))
+		if (global.panic && distance_to_pos(xstart, ystart, obj_player.x, obj_player.y, dx, dy))
 		{
 			state = states.fall;
 			vsp = 20;

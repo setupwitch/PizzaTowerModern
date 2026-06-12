@@ -7,7 +7,7 @@ with (other)
 		_dir = -image_xscale;
 		if (!other.collisioned)
 		{
-			obj_player1.xscale = _dir;
+			obj_player.xscale = _dir;
 		}
 		image_xscale = _dir;
 		hsp = _dir * current_hspd;

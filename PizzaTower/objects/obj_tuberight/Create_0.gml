@@ -4,4 +4,4 @@ movespeed = 15;
 approach_spd = 4;
 stored_spd = 1;
 visible = false;
-depth = obj_player1.depth + 10;
+depth = obj_player.depth + 10;

@@ -2,7 +2,7 @@ if (playerid.visible == false)
 {
 	jumpbuffer = 15;
 	start = true;
-	with (obj_player1)
+	with (obj_player)
 	{
 		fmod_event_one_shot("event:/sfx/misc/taxibeep");
 		if (isgustavo)
@@ -19,14 +19,5 @@ if (playerid.visible == false)
 		ratmount_movespeed = 0;
 		cutscene = false;
 	}
-	if (global.coop == true)
-	{
-		with (obj_player2)
-		{
-			state = states.normal;
-			cutscene = false;
-		}
-	}
-	obj_player1.visible = true;
-	obj_player2.visible = true;
+	obj_player.visible = true;
 }

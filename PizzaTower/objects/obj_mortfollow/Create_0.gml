@@ -6,4 +6,4 @@ vsp = 0;
 grav = 0.23;
 movespeed = 3;
 instance_create(x, y, obj_taunteffect);
-playerid = obj_player1;
+playerid = obj_player;

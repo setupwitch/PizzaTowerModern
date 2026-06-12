@@ -1,8 +1,4 @@
-var playerid = obj_player1;
-if (obj_player1.spotlight == false)
-{
-	playerid = obj_player2;
-}
+var playerid = obj_player;
 fmod_event_instance_set_3d_attributes(snd, x, y);
 if (!fmod_event_instance_is_playing(snd))
 {
@@ -24,7 +20,7 @@ if (!treasure)
 {
 	if (image_alpha >= 1)
 	{
-		if (!instance_exists(obj_fadeout) && !obj_player1.cutscene)
+		if (!instance_exists(obj_fadeout) && !obj_player.cutscene)
 		{
 			if (_move)
 			{

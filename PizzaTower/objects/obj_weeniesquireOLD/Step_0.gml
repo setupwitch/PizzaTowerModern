@@ -28,7 +28,7 @@ if (boundbox == false)
 		other.boundbox = true;
 	}
 }
-if ((obj_player1.x > (x - 400) && obj_player1.x < (x + 400)) && (y <= (obj_player1.y + 20) && y >= (obj_player1.y - 20)) && charge == false && stun == false && chargebuffer == 0)
+if ((obj_player.x > (x - 400) && obj_player.x < (x + 400)) && (y <= (obj_player.y + 20) && y >= (obj_player.y - 20)) && charge == false && stun == false && chargebuffer == 0)
 {
 	vsp = -7;
 	charge = true;
@@ -67,9 +67,9 @@ if (stun == true)
 	stunned--;
 	if (stunned == 0)
 	{
-		if (x != obj_player1.x)
+		if (x != obj_player.x)
 		{
-			image_xscale = -sign(x - obj_player1.x);
+			image_xscale = -sign(x - obj_player.x);
 		}
 		vsp = -5;
 		sprite_index = spr_weeniesquire_idle;

@@ -1,6 +1,6 @@
 if (!grabbed && (other.state == states.handstandjump || other.state == states.punch || other.state == states.lungeattack) && unpickable == false)
 {
-	instance_create(x + (obj_player1.xscale * 40), y, obj_punchdust);
+	instance_create(x + (obj_player.xscale * 40), y, obj_punchdust);
 	with (other)
 	{
 		image_index = 0;

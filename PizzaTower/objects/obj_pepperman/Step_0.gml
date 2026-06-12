@@ -2,7 +2,7 @@ if (room == rm_editor)
 {
 	exit;
 }
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 wastedhits = 10 - elitehit;
 if (elitehit <= 1 && phase == 2 && destroyable)
 {
@@ -176,7 +176,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -32, obj_hppickup);
+			instance_create(obj_player.x, -32, obj_hppickup);
 		}
 	}
 	prevhp = elitehit;

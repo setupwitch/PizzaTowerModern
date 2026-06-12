@@ -362,7 +362,7 @@ function scr_draw_text_arr(_x, _y, _array, _color = c_white, _alpha = 1, _effect
 						}
 						break;
 					case button_icons.player_forward:
-						if (instance_exists(obj_player1) && obj_player1.xscale < 0)
+						if (instance_exists(obj_player) && obj_player.xscale < 0)
 						{
 							icon = tdp_get_tutorial_icon("player_left");
 						}
@@ -372,7 +372,7 @@ function scr_draw_text_arr(_x, _y, _array, _color = c_white, _alpha = 1, _effect
 						}
 						break;
 					case button_icons.player_backward:
-						if (instance_exists(obj_player1) && obj_player1.xscale > 0)
+						if (instance_exists(obj_player) && obj_player.xscale > 0)
 						{
 							icon = tdp_get_tutorial_icon("player_left");
 						}

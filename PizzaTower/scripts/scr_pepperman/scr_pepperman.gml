@@ -175,7 +175,7 @@ function scr_pepperman_arenaintro()
 			sprite_index = spr_pepperman_intro3;
 			image_index = 0;
 			fmod_event_one_shot_3d("event:/sfx/voice/peppermanlaugh", x, y);
-			with (obj_player1)
+			with (obj_player)
 			{
 				if (ispeppino)
 				{
@@ -204,7 +204,7 @@ function scr_pepperman_arenaintro()
 				case spr_pepperman_intro3end:
 					state = states.walk;
 					spotlightID.expand = true;
-					with (obj_player1)
+					with (obj_player)
 					{
 						if (ispeppino)
 						{
@@ -239,7 +239,7 @@ function scr_pepperman_walk()
 		vsp = -5;
 		touchedground = true;
 	}
-	if (cooldown > 0 && flickertime <= 0 && obj_player1.state != states.animation)
+	if (cooldown > 0 && flickertime <= 0 && obj_player.state != states.animation)
 	{
 		cooldown--;
 	}
@@ -321,7 +321,7 @@ function pepperman_nearestspot()
 	}
 	else
 	{
-		targetspot = instance_nearest(obj_player1.x, obj_player1.y, obj_pepper_groundpoundspot);
+		targetspot = instance_nearest(obj_player.x, obj_player.y, obj_pepper_groundpoundspot);
 	}
 	state = states.jump;
 	jump_speed = floor(distance_to_object(targetspot) * 0.04);
@@ -354,7 +354,7 @@ function scr_pepperman_jump()
 	{
 		cooldown = 40;
 	}
-	targetspot = obj_player1.id;
+	targetspot = obj_player.id;
 	if ((x >= (targetspot.x - 32) && x <= (targetspot.x + 32) && y < (targetspot.y - 48)) || (image_xscale > 0 && x > (targetspot.x + 100)) || (image_xscale < 0 && x < (targetspot.x - 100)) || vsp > 2)
 	{
 		state = states.freefallprep;

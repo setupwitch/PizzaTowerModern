@@ -16,8 +16,8 @@ if (visible)
 				switch (treasure_state)
 				{
 					case 0:
-						treasure_posX = obj_player1.x - 18;
-						treasure_posY = obj_player1.y - 35;
+						treasure_posX = obj_player.x - 18;
+						treasure_posY = obj_player.y - 35;
 						break;
 					case 1:
 						var tx = x1 + x2;

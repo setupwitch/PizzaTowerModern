@@ -1,5 +1,5 @@
 event_inherited();
-direction = point_direction(x, y, obj_player1.x, obj_player1.y);
+direction = point_direction(x, y, obj_player.x, obj_player.y);
 image_angle = direction;
 speed = 2;
 hurtbuffer = 10;

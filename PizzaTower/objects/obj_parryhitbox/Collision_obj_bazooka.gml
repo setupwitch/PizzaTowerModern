@@ -4,11 +4,11 @@ with (other)
 	{
 		if (direction < 90 || direction > 270)
 		{
-			obj_player1.xscale = -1;
+			obj_player.xscale = -1;
 		}
 		else
 		{
-			obj_player1.xscale = 1;
+			obj_player.xscale = 1;
 		}
 	}
 	if (sprite_index == spr_piraneapple_projectile)
@@ -18,7 +18,7 @@ with (other)
 	else
 	{
 		direction -= 180;
-		instance_create(obj_player1.x + (obj_player1.xscale * 20), obj_player1.y, obj_bangeffect);
+		instance_create(obj_player.x + (obj_player.xscale * 20), obj_player.y, obj_bangeffect);
 	}
 }
 if (!collisioned)

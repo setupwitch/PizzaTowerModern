@@ -8,11 +8,7 @@ if (brownfade < 1)
 	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, global.palettetexture);
 	if (global.collect >= global.collectN)
 	{
-		pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
-	}
-	if (global.collectN > global.collect)
-	{
-		pal_swap_set(obj_player2.spr_palette, obj_player2.paletteselect, false);
+		pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, false);
 	}
 	scr_draw_rank();
 	pattern_reset();
@@ -97,7 +93,7 @@ tdp_text_commit(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, false);
 if (global.swapmode && scorewins_show)
 {
 	var spr = spr_scorewinsP;
-	if (scorewins == "N")
+	if (scorewins == CHAR_NOISE)
 	{
 		spr = spr_scorewinsN;
 	}

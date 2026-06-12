@@ -16,9 +16,9 @@ if (grounded && vsp > 0)
 	if (!landed)
 	{
 		landed = true;
-		if (x != obj_player1.x)
+		if (x != obj_player.x)
 		{
-			image_xscale = sign(obj_player1.x - x);
+			image_xscale = sign(obj_player.x - x);
 		}
 	}
 	hsp = image_xscale * 4;

@@ -11,7 +11,7 @@ function scr_boss_grabbed()
 		instance_destroy(obj_vigilanteshot);
 		instance_destroy(obj_playerbomb, false);
 	}
-	var playerid = (grabbedby == 1) ? obj_player1.id : obj_player2.id;
+	var playerid = obj_player.id;
 	with (playerid)
 	{
 		if (state != states.supergrab || baddiegrabbedID != other)
@@ -127,7 +127,7 @@ function scr_boss_pizzaheadjump()
 				sprite_index = spr_playerV_idle;
 				break;
 			case obj_noiseboss:
-				if (obj_player1.ispeppino)
+				if (obj_player.ispeppino)
 				{
 					sprite_index = spr_playerN_idle;
 				}
@@ -261,7 +261,7 @@ function scr_boss_genericintro(_introspr, _introbuffer = 30)
 	{
 		introbuffer = _introbuffer;
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		state = states.actor;
 		image_speed = 0.35;
@@ -271,10 +271,6 @@ function scr_boss_genericintro(_introspr, _introbuffer = 30)
 		x = roomstartx;
 		xscale = -other.image_xscale;
 		sprite_index = spr_idle;
-	}
-	with (obj_player2)
-	{
-		visible = false;
 	}
 	if (introbuffer > 0)
 	{
@@ -426,7 +422,7 @@ function scr_boss_playerN_phase1hurt(_func = noone)
 
 function scr_boss_phase1hurt(_func = noone)
 {
-	if (!obj_player1.ispeppino)
+	if (!obj_player.ispeppino)
 	{
 		scr_boss_playerN_phase1hurt(_func);
 		exit;
@@ -506,7 +502,7 @@ function scr_boss_phase1hurt(_func = noone)
 			player.hitX = player.x;
 			player.hitY = player.y;
 			instance_create(x, y, obj_parryeffect);
-			GamepadSetVibration((player.object_index == obj_player1) ? 0 : 1, 0.8, 0.8, 0.65);
+			GamepadSetVibration((player.object_index == obj_player) ? 0 : 1, 0.8, 0.8, 0.65);
 			fmod_event_one_shot_3d("event:/sfx/enemies/killingblow", x, y);
 			fmod_event_one_shot_3d("event:/sfx/pep/punch", x, y);
 			state = states.stun;

@@ -59,7 +59,7 @@ switch (state)
 {
 	case states.normal:
 		idlespr = spr_tv_idle;
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			idlespr = spr_tv_idleN;
 		}
@@ -75,7 +75,7 @@ switch (state)
 		{
 			idlespr = spr_tv_exprheat;
 		}
-		if (obj_player1.isgustavo)
+		if (obj_player.isgustavo)
 		{
 			idlespr = spr_tv_idleG;
 			if (global.panic)
@@ -83,14 +83,14 @@ switch (state)
 				idlespr = spr_tv_escapeG;
 			}
 		}
-		if (!obj_player1.ispeppino && global.panic)
+		if (!obj_player.ispeppino && global.panic)
 		{
 			idlespr = spr_tv_exprpanicN;
 		}
-		var _state = obj_player1.state;
+		var _state = obj_player.state;
 		if (_state == states.backbreaker || _state == states.chainsaw)
 		{
-			_state = obj_player1.tauntstoredstate;
+			_state = obj_player.tauntstoredstate;
 		}
 		var _transfo = true;
 		var _transfospr = scr_tv_get_transfo_sprite();
@@ -102,10 +102,10 @@ switch (state)
 		{
 			idlespr = _transfospr;
 		}
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			var spr = sprite_get_name(idlespr);
-			spr = asset_get_index(concat(spr, "N"));
+			spr = asset_get_index(concat(spr, CHAR_NOISE));
 			if (spr > -1)
 			{
 				idlespr = spr;
@@ -113,7 +113,7 @@ switch (state)
 		}
 		if (!_transfo)
 		{
-			with (obj_player1)
+			with (obj_player)
 			{
 				if (!isgustavo || !ispeppino)
 				{
@@ -156,7 +156,7 @@ switch (state)
 				if (idleanim <= 0 && ANIMATION_END)
 				{
 					sprite_index = choose(spr_tv_idleanim1, spr_tv_idleanim2);
-					if (!obj_player1.ispeppino)
+					if (!obj_player.ispeppino)
 					{
 						if (sprite_index == spr_tv_idleanim1)
 						{
@@ -220,10 +220,10 @@ switch (state)
 					sprite_index = spr_tv_open;
 					image_index = 0;
 					tvsprite = b[2];
-					if (!obj_player1.ispeppino)
+					if (!obj_player.ispeppino)
 					{
 						var spr = sprite_get_name(tvsprite);
-						spr = asset_get_index(concat(spr, "N"));
+						spr = asset_get_index(concat(spr, CHAR_NOISE));
 						if (spr > -1)
 						{
 							tvsprite = spr;
@@ -233,10 +233,10 @@ switch (state)
 				else
 				{
 					tvsprite = b[2];
-					if (!obj_player1.ispeppino)
+					if (!obj_player.ispeppino)
 					{
 						var spr = sprite_get_name(tvsprite);
-						spr = asset_get_index(concat(spr, "N"));
+						spr = asset_get_index(concat(spr, CHAR_NOISE));
 						if (spr > -1)
 						{
 							tvsprite = spr;
@@ -315,7 +315,7 @@ switch (state)
 			case spr_tv_exprhurtN8:
 			case spr_tv_exprhurtN9:
 			case spr_tv_exprhurtN10:
-				if (obj_player1.state != states.hurt)
+				if (obj_player.state != states.hurt)
 				{
 					if (expressionbuffer > 0)
 					{
@@ -329,7 +329,7 @@ switch (state)
 				}
 				break;
 			case spr_tv_hurtG:
-				if (obj_player1.state != states.ratmounthurt)
+				if (obj_player.state != states.ratmounthurt)
 				{
 					if (expressionbuffer > 0)
 					{
@@ -344,11 +344,11 @@ switch (state)
 				break;
 			case spr_tv_exprcombo:
 			case spr_tv_exprcomboN:
-				if (global.combo < 3 || _transfospr != noone || obj_player1.isgustavo || obj_player1.mach4mode || obj_player1.state == states.hurt || obj_player1.state == states.mach3 || obj_player1.sprite_index == obj_player1.spr_mach3boost || global.stylethreshold >= 3)
+				if (global.combo < 3 || _transfospr != noone || obj_player.isgustavo || obj_player.mach4mode || obj_player.state == states.hurt || obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_mach3boost || global.stylethreshold >= 3)
 				{
 					state = states.whitenoise;
 					expressionsprite = noone;
-					if (obj_player1.state == states.hurt)
+					if (obj_player.state == states.hurt)
 					{
 						tv_do_expression(spr_tv_exprhurt, true);
 					}
@@ -369,7 +369,7 @@ switch (state)
 				break;
 			case spr_tv_exprmach3:
 			case spr_tv_exprmach3N:
-				with (obj_player1)
+				with (obj_player)
 				{
 					if (state != states.mach3 && state != states.climbwall && (state != states.chainsaw || (tauntstoredstate != states.mach3 && tauntstoredstate != states.climbwall)) && sprite_index != spr_mach3boost && mach4mode == false)
 					{
@@ -384,7 +384,7 @@ switch (state)
 				break;
 			case spr_tv_exprmach4:
 			case spr_tv_exprmach4N:
-				with (obj_player1)
+				with (obj_player)
 				{
 					if (mach4mode == false && (state != states.chainsaw || (tauntstoredstate != states.mach3 && tauntstoredstate != states.climbwall)))
 					{
@@ -396,7 +396,7 @@ switch (state)
 			case spr_tv_exprheat:
 			case spr_tv_exprheatN:
 				var _transfo = false;
-				with (obj_player1)
+				with (obj_player)
 				{
 					if (_transfospr != noone)
 					{
@@ -407,7 +407,7 @@ switch (state)
 						_transfo = true;
 					}
 				}
-				if (global.stylethreshold < 3 || _transfo || obj_player1.mach4mode || obj_player1.state == states.hurt || obj_player1.state == states.mach3 || obj_player1.sprite_index == obj_player1.spr_mach3boost)
+				if (global.stylethreshold < 3 || _transfo || obj_player.mach4mode || obj_player.state == states.hurt || obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_mach3boost)
 				{
 					state = states.whitenoise;
 					expressionsprite = noone;
@@ -416,7 +416,7 @@ switch (state)
 			case spr_tv_exprpanic:
 			case spr_tv_exprpanicN:
 				var _transfo = false;
-				with (obj_player1)
+				with (obj_player)
 				{
 					if (_transfospr)
 					{
@@ -427,7 +427,7 @@ switch (state)
 						_transfo = true;
 					}
 				}
-				if (!global.panic || _transfo || obj_player1.mach4mode || obj_player1.state == states.hurt || obj_player1.state == states.mach3 || obj_player1.sprite_index == obj_player1.spr_mach3boost)
+				if (!global.panic || _transfo || obj_player.mach4mode || obj_player.state == states.hurt || obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_mach3boost)
 				{
 					state = states.whitenoise;
 					expressionsprite = noone;
@@ -442,7 +442,7 @@ switch (state)
 		}
 		break;
 }
-if (state != states.whitenoise && state != states.expression && instance_exists(obj_player1))
+if (state != states.whitenoise && state != states.expression && instance_exists(obj_player))
 {
 	tv_get_palette();
 }

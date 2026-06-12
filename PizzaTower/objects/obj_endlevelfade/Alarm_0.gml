@@ -44,28 +44,16 @@ if (instance_exists(obj_treasureviewer) || !do_rank)
 {
 	exit;
 }
-obj_player1.visible = false;
-obj_player2.visible = false;
-if (global.collect >= global.collectN)
-{
-	with (instance_create(obj_player2.x, obj_player2.y, obj_dashcloud))
-	{
-		sprite_index = spr_bombexplosion;
-	}
-	repeat (6)
-	{
-		instance_create(obj_player2.x, obj_player2.y, obj_baddiegibs);
-	}
-}
+obj_player.visible = false;
 if (global.collectN > global.collect)
 {
-	with (instance_create(obj_player1.x, obj_player1.y, obj_dashcloud))
+	with (instance_create(obj_player.x, obj_player.y, obj_dashcloud))
 	{
 		sprite_index = spr_bombexplosion;
 	}
 	repeat (6)
 	{
-		instance_create(obj_player1.x, obj_player1.y, obj_baddiegibs);
+		instance_create(obj_player.x, obj_player.y, obj_baddiegibs);
 	}
 	fmod_event_one_shot("event:/sfx/misc/explosion");
 }

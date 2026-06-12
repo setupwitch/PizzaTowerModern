@@ -8,4 +8,4 @@ grav = 0.5;
 movespeed = 3;
 state = states.normal;
 tauntID = noone;
-playerid = obj_player1;
+playerid = obj_player;

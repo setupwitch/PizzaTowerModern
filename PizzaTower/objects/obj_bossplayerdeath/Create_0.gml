@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	state = states.actor;
 	sprite_index = spr_player_outofpizza1;

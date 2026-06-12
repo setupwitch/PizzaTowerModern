@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	scr_do_rank(false, true);
 }

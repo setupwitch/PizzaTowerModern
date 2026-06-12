@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	if (hsp != 0 && grounded && (floor(image_index) % 10) == 0)
 	{

@@ -6,7 +6,7 @@ function cutscene_gustavofail_end(_time)
 	{
 		visible = false;
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		xscale = -1;
 		sprite_index = spr_gustavo_pummel;
@@ -28,7 +28,7 @@ function cutscene_gustavofail_end(_time)
 			}
 			if (global.collect != 0)
 			{
-				if (character == "P" || character == "V")
+				if (character == CHAR_PEPPINO || character == "V")
 				{
 					repeat (10)
 					{
@@ -55,11 +55,11 @@ function cutscene_gustavofail_end(_time)
 			visible = true;
 			sprite_index = spr_gustavo_idle;
 		}
-		scr_hurtplayer(obj_player1);
-		obj_player1.hsp = 0;
-		obj_player1.movespeed = 0;
-		obj_player1.xscale = 1;
-		obj_player1.state = states.normal;
+		scr_hurtplayer(obj_player);
+		obj_player.hsp = 0;
+		obj_player.movespeed = 0;
+		obj_player.xscale = 1;
+		obj_player.state = states.normal;
 		cutscene_end_action();
 	}
 }

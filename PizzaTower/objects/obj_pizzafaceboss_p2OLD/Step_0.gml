@@ -1,5 +1,5 @@
 wastedhits = maxhp - hp;
-targetplayer = obj_player1;
+targetplayer = obj_player;
 image_speed = 0.35;
 switch (state)
 {

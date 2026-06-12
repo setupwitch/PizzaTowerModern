@@ -1,6 +1,6 @@
 if (other.state != states.gotoplayer)
 {
-	if (obj_player1.character == "V")
+	if (obj_player.character == "V")
 	{
 		global.playerhealth = clamp(global.playerhealth + 10, 0, 100);
 	}
@@ -13,7 +13,7 @@ if (other.state != states.gotoplayer)
 	instance_destroy();
 	global.combotime = 60;
 	var val = heat_calculate(value);
-	if (other.object_index == obj_player1)
+	if (other.object_index == obj_player)
 	{
 		global.collect += val;
 	}

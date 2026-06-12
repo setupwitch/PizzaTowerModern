@@ -12,7 +12,7 @@ if (global.swapmode)
 	peppinoID.hsp = 0;
 	peppinoID.vsp = 0;
 }
-with (obj_player1)
+with (obj_player)
 {
 	if (ispeppino)
 	{

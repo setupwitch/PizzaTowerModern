@@ -8,9 +8,9 @@ function cutscene_gustavo_start()
 			instance_destroy();
 		}
 	}
-	if (!instance_exists(obj_fadeout) && obj_player1.state != states.taxi && obj_player1.state != states.comingoutdoor && obj_player1.state != states.hurt)
+	if (!instance_exists(obj_fadeout) && obj_player.state != states.taxi && obj_player.state != states.comingoutdoor && obj_player.state != states.hurt)
 	{
-		with (obj_player1)
+		with (obj_player)
 		{
 			visible = true;
 			image_alpha = 1;

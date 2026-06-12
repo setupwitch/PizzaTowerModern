@@ -9,10 +9,10 @@ if (instance_exists(obj_player))
 				game_restart();
 			}
 		}
-		if (room != obj_player1.targetRoom || roomreset)
+		if (room != obj_player.targetRoom || roomreset)
 		{
 			var r = room;
-			scr_room_goto(obj_player1.targetRoom);
+			scr_room_goto(obj_player.targetRoom);
 			if (r == tower_peppinohouse)
 			{
 				scr_unlock_swap();
@@ -23,27 +23,6 @@ if (instance_exists(obj_player))
 				{
 					visible = true;
 					state = states.normal;
-				}
-			}
-		}
-		if (global.coop == true)
-		{
-			if (room != obj_player2.targetRoom || roomreset)
-			{
-				scr_room_goto(obj_player1.targetRoom);
-			}
-			with (obj_player)
-			{
-				if (state == states.ejected)
-				{
-					state = states.normal;
-				}
-			}
-			with (obj_player2)
-			{
-				if (instance_exists(obj_coopplayerfollow))
-				{
-					state = states.gotoplayer;
 				}
 			}
 		}

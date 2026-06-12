@@ -1,5 +1,7 @@
 function pattern_set_sprite(_spr, _image_index, _xscale, _yscale, _use_lang = false)
 {
+	if (_image_index < 0)
+		_image_index = 0;
 	var _tex = sprite_get_texture(_spr, _image_index);
 	var _uvs = sprite_get_uvs(_spr, _image_index);
 	if (_use_lang)

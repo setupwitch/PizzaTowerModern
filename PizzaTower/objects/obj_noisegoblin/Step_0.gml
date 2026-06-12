@@ -74,7 +74,7 @@ if (bombreset > 0)
 {
 	bombreset--;
 }
-targetplayer = global.coop ? instance_nearest(x, y, obj_player) : obj_player1;
+targetplayer = obj_player;
 if ((sprite_index == spr_archergoblin_shoot || sprite_index == spr_archergoblin_wave) && x != targetplayer.x)
 {
 	image_xscale = -sign(x - targetplayer.x);
@@ -93,7 +93,7 @@ if (x != targetplayer.x && targetplayer.state != states.bombpep && state != stat
 				image_xscale = -sign(x - targetplayer.x);
 			}
 			state = states.pizzagoblinthrow;
-			if (!obj_player1.ispeppino && !provoked)
+			if (!obj_player.ispeppino && !provoked)
 			{
 				sprite_index = spr_archergoblin_wave;
 				state = states.actor;

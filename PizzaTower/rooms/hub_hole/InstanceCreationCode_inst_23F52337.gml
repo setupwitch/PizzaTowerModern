@@ -1,6 +1,6 @@
 if (global.levelcomplete && !global.graveyardcutscene)
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		other.backx = backtohubstartx;
 		other.backy = backtohubstarty;

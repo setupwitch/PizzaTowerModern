@@ -1,10 +1,10 @@
 if (player < 2)
 {
-	if (place_meeting(xstart, ystart, obj_player1) && obj_player1.state != states.chainsaw)
+	if (place_meeting(xstart, ystart, obj_player) && obj_player.state != states.chainsaw)
 	{
 		player = 1;
 	}
-	else if (!global.panic && !place_meeting(xstart, ystart, obj_player1))
+	else if (!global.panic && !place_meeting(xstart, ystart, obj_player))
 	{
 		player = 2;
 	}

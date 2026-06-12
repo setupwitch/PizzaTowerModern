@@ -254,7 +254,7 @@ function scr_getinput()
 	{
 		stickpressed_vertical = false;
 	}
-	if (object_index == obj_player1)
+	if (object_index == obj_player)
 	{
 		if (state == states.Sjumpprep || state == states.crouch || state == states.ratmountcrouch || state == states.machcancel)
 		{

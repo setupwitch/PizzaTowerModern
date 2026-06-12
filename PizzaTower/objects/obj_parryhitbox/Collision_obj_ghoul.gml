@@ -2,13 +2,13 @@ if (other.state == states.punch)
 {
 	if (!collisioned)
 	{
-		if (obj_player1.x != other.x)
+		if (obj_player.x != other.x)
 		{
-			obj_player1.xscale = sign(other.x - obj_player1.x);
+			obj_player.xscale = sign(other.x - obj_player.x);
 		}
 		else
 		{
-			obj_player1.xscale = -other.image_xscale;
+			obj_player.xscale = -other.image_xscale;
 		}
 		event_user(0);
 	}

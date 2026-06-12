@@ -1,4 +1,4 @@
-if (turn && obj_player1.x > x)
+if (turn && obj_player.x > x)
 {
 	image_speed = 1;
 }

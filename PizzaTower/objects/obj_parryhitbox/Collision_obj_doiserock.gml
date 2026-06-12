@@ -6,18 +6,18 @@ with (other)
 		{
 			var _dir = dir;
 			_dir = -dir;
-			obj_player1.xscale = _dir;
+			obj_player.xscale = _dir;
 			dir = _dir;
 			parried = true;
 		}
 		else
 		{
-			dir = obj_player1.xscale;
-			if (x != obj_player1.x)
+			dir = obj_player.xscale;
+			if (x != obj_player.x)
 			{
-				dir = sign(obj_player1.x - x);
+				dir = sign(obj_player.x - x);
 			}
-			obj_player1.xscale = dir;
+			obj_player.xscale = dir;
 			parried = true;
 			vsp = -3;
 		}

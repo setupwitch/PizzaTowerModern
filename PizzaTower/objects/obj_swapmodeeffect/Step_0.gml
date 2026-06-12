@@ -34,7 +34,7 @@ if (abs(playerx - dest_x) <= 2 && abs(playery - dest_y) <= 2 && buffer <= 0)
 				sprite_index = spr_playerN_bossdeath1;
 			}
 		}
-		with (obj_player1)
+		with (obj_player)
 		{
 			event_perform(ev_step, ev_step_end);
 		}

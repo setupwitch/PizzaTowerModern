@@ -18,7 +18,7 @@ if (!fall && grounded && vsp > 0)
 {
 	fmod_event_one_shot_3d("event:/sfx/pep/groundpound", x, y);
 	fall = true;
-	if (instance_exists(obj_player1) && obj_player1.ispeppino && !global.swapmode)
+	if (instance_exists(obj_player) && obj_player.ispeppino && !global.swapmode)
 	{
 		grabID = instance_create(x + (32 * image_xscale), y, obj_grabmarker);
 		with (grabID)

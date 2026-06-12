@@ -29,7 +29,7 @@ if (state == states.tube)
 			{
 				movespeed = 14;
 			}
-			var p = (object_index == obj_player1) ? 0 : 1;
+			var p = (object_index == obj_player) ? 0 : 1;
 			GamepadSetVibration(p, 1, 1, 0.9);
 		}
 	}

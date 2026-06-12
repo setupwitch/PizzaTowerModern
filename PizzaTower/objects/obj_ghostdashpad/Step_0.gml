@@ -6,7 +6,7 @@ if (cooldown > 0)
 {
 	cooldown--;
 }
-if (obj_player.state != states.ghost && (obj_player1.state != states.chainsaw || obj_player1.tauntstoredstate != states.ghost))
+if (obj_player.state != states.ghost && (obj_player.state != states.chainsaw || obj_player.tauntstoredstate != states.ghost))
 {
 	image_alpha = 0.35;
 }

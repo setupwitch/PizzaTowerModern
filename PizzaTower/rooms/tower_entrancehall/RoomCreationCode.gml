@@ -3,7 +3,7 @@ global.roommessage = lang_get_value("room_towerentrance");
 global.door_sprite = spr_door;
 global.door_index = 0;
 global.gameframe_caption_text = lang_get_value("caption_tower_entrancehall");
-with (obj_player1)
+with (obj_player)
 {
 	if (targetDoor == "C")
 	{

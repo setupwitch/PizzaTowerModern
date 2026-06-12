@@ -3,7 +3,7 @@ with (instance_create(x, y, obj_sausageman_dead))
 	sprite_index = spr_hamkuff_stun;
 	usepalette = false;
 }
-with (obj_player1)
+with (obj_player)
 {
 	supercharge += 1;
 }

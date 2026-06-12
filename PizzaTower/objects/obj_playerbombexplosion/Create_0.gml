@@ -68,7 +68,7 @@ ds_map_set(collision_function, obj_baddie, function(_obj)
 		}
 		with (_obj)
 		{
-			scr_boss_do_hurt_phase2(obj_player1.id);
+			scr_boss_do_hurt_phase2(obj_player.id);
 		}
 		if (x != other.x)
 		{

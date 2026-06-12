@@ -3,7 +3,7 @@ if (fade2start)
 {
 	fade2 = Approach(fade2, 1, 0.06);
 }
-with (obj_player1)
+with (obj_player)
 {
 	image_speed = 0.35;
 	if (ispeppino)

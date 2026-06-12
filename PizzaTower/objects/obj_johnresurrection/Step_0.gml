@@ -12,7 +12,7 @@ if (!fadein)
 			var tx = obj_johnresurrection_gerome.x - 100;
 			with (obj_johnresurrection_peppino)
 			{
-				sprite_index = obj_player1.spr_move;
+				sprite_index = obj_player.spr_move;
 				image_speed = 0.5;
 				x = Approach(x, tx, PLAYER_MOVESPEED);
 				if (x == tx)
@@ -56,7 +56,7 @@ if (!fadein)
 				{
 					hsp = -4;
 					vsp = -5;
-					sprite_index = obj_player1.spr_bump;
+					sprite_index = obj_player.spr_bump;
 					image_speed = 0.35;
 				}
 				treasure_dir = 1;
@@ -98,7 +98,7 @@ if (!fadein)
 			{
 				image_xscale = -1;
 				x -= PLAYER_MOVESPEED;
-				sprite_index = obj_player1.spr_move;
+				sprite_index = obj_player.spr_move;
 				image_speed = 0.5;
 				if (x < -200)
 				{
@@ -151,7 +151,7 @@ if (!fadein)
 			else
 			{
 				whitefade = 2;
-				if (obj_player1.ispeppino)
+				if (obj_player.ispeppino)
 				{
 					state++;
 					cutscenebuffer = 370;

@@ -12,7 +12,7 @@ with (obj_pumpkincounter)
 	}
 }
 instance_destroy(obj_pumpkincounter);
-if (obj_player1.state == states.ghost)
+if (obj_player.state == states.ghost)
 {
 	instance_create(0, 0, obj_softlockcrash);
 }

@@ -1,3 +1,3 @@
 alarm[2] = 150;
-playerid = obj_player1;
+playerid = obj_player;
 spawn = false;

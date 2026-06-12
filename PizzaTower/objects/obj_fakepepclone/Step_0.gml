@@ -1,4 +1,4 @@
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 mask_index = spr_player_mask;
 switch (state)
 {

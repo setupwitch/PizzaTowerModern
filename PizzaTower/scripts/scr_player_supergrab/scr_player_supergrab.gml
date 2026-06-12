@@ -245,7 +245,7 @@ function scr_player_supergrab()
 				{
 					fmod_event_one_shot_3d("event:/sfx/pep/punch", x, y);
 					fmod_event_one_shot_3d("event:/sfx/enemies/killingblow", x, y);
-					GamepadSetVibration((object_index == obj_player1) ? 0 : 1, 0.8, 0.8, 0.65);
+					GamepadSetVibration((object_index == obj_player) ? 0 : 1, 0.8, 0.8, 0.65);
 					shot = true;
 					movespeed = -xscale * 8;
 					hsp = movespeed;

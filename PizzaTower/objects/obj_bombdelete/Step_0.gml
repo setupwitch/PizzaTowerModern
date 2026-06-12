@@ -3,7 +3,7 @@ if (instance_exists(obj_bomb))
 {
 	collide = false;
 }
-if (obj_player1.state != states.bombdelete)
+if (obj_player.state != states.bombdelete)
 {
 	collide = false;
 }

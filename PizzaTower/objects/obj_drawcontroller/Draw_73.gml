@@ -123,26 +123,22 @@ if (kidsparty_lightning || dark_lightning)
 			draw_rectangle(0, 0, cw, ch, false);
 			gpu_set_blendmode(bm_subtract);
 			draw_set_color(c_white);
-			for (var i = 0; i < 2; i++)
-			{
-				var _player = asset_get_index(concat("obj_player", i + 1));
-				draw_set_alpha(circle_alpha_out);
-				with (_player)
-				{
-					if (state != states.gotoplayer)
-					{
-						draw_circle((x - surf_x) + irandom_range(-1, 1), (y - surf_y) + irandom_range(-1, 1), 178, false);
-					}
-				}
-				draw_set_alpha(circle_alpha_in);
-				with (_player)
-				{
-					if (state != states.gotoplayer)
-					{
-						draw_circle((x - surf_x) + irandom_range(-1, 1), (y - surf_y) + irandom_range(-1, 1), 128, false);
-					}
-				}
-			}
+            draw_set_alpha(circle_alpha_out);
+            with (obj_player)
+            {
+                if (state != states.gotoplayer)
+                {
+                    draw_circle((x - surf_x) + irandom_range(-1, 1), (y - surf_y) + irandom_range(-1, 1), 178, false);
+                }
+            }
+            draw_set_alpha(circle_alpha_in);
+            with (obj_player)
+            {
+                if (state != states.gotoplayer)
+                {
+                    draw_circle((x - surf_x) + irandom_range(-1, 1), (y - surf_y) + irandom_range(-1, 1), 128, false);
+                }
+            }
 			with (obj_chateaulight)
 			{
 				draw_set_alpha(circle_alpha_out);

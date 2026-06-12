@@ -1,7 +1,7 @@
 function cutscene_gustavo_end()
 {
 	var finish = false;
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (sprite_index == spr_player_gnomepizza)
 		{

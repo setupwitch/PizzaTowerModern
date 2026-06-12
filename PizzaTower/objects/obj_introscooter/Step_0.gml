@@ -44,7 +44,7 @@ switch (state)
 				sprite_index = spr_towerintro;
 				depth = -6;
 			}
-			if (obj_player1.ispeppino && !global.swapmode)
+			if (obj_player.ispeppino && !global.swapmode)
 			{
 				with (instance_create(246, 405, obj_introprop))
 				{

@@ -3,7 +3,7 @@ with (other)
 {
 	if (state != states.antigrav && state != states.backbreaker && state != states.chainsaw && other.cooldown == 0)
 	{
-		if (obj_player1.ispeppino)
+		if (obj_player.ispeppino)
 		{
 			create_transformation_tip(lang_get_value("antigravtip"), "antigrav");
 		}

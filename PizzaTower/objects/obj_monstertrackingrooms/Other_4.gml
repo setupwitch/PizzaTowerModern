@@ -28,6 +28,6 @@ if (player_posX != -1 && player_posY != -1)
 	{
 		monster_pos[4].x = player_posX;
 		monster_pos[4].y = player_posY;
-		instance_create(obj_player1.x, obj_player1.y, obj_pineapplemonster);
+		instance_create(obj_player.x, obj_player.y, obj_pineapplemonster);
 	}
 }

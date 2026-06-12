@@ -22,11 +22,11 @@ else
 	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, image_xscale, image_yscale, global.palettetexture);
 	if (sprite_index == spr_towerending_gustavo)
 	{
-		pal_swap_set(spr_ratmountpalette, obj_player1.paletteselect, false);
+		pal_swap_set(spr_ratmountpalette, obj_player.paletteselect, false);
 	}
 	else
 	{
-		pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
+		pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, false);
 	}
 	draw_self();
 	pattern_reset();

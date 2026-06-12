@@ -3,7 +3,7 @@ if (room == rm_editor)
 	exit;
 }
 scr_sound_multiple("event:/sfx/misc/collect", x, y);
-if (obj_player1.character == "V")
+if (obj_player.character == "V")
 {
 	global.playerhealth = clamp(global.playerhealth + 1, 0, 100);
 }

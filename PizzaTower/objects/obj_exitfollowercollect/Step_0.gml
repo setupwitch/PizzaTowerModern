@@ -1,4 +1,4 @@
-if (((obj_player1.ispeppino && !global.swapmode) || (object_index == obj_gustavofollower && global.swapmode) || object_index == obj_stickfollower || object_index == obj_noisefollower || object_index == obj_noisettefollower) && global.panic && !global.exitrank && distance_to_object(obj_player1) <= 300 && ds_list_find_index(global.saveroom, id) == -1)
+if (((obj_player.ispeppino && !global.swapmode) || (object_index == obj_gustavofollower && global.swapmode) || object_index == obj_stickfollower || object_index == obj_noisefollower || object_index == obj_noisettefollower) && global.panic && !global.exitrank && distance_to_object(obj_player) <= 300 && ds_list_find_index(global.saveroom, id) == -1)
 {
 	ds_list_add(global.saveroom, id);
 	fmod_event_one_shot("event:/sfx/misc/collecttoppin");
@@ -14,7 +14,7 @@ if (((obj_player1.ispeppino && !global.swapmode) || (object_index == obj_gustavo
 		{
 			fmod_event_one_shot_3d("event:/sfx/voice/gusok", x, y);
 		}
-		if (other.object_index == obj_stickfollower && obj_player1.ispeppino && !global.swapmode)
+		if (other.object_index == obj_stickfollower && obj_player.ispeppino && !global.swapmode)
 		{
 			fmod_event_one_shot_3d("event:/sfx/voice/mrstick", x, y);
 		}
@@ -26,7 +26,7 @@ if (((obj_player1.ispeppino && !global.swapmode) || (object_index == obj_gustavo
 		{
 			fmod_event_one_shot_3d("event:/sfx/voice/fakepeppositive", x, y);
 		}
-		if (other.object_index == obj_noisefollower && obj_player1.ispeppino)
+		if (other.object_index == obj_noisefollower && obj_player.ispeppino)
 		{
 			fmod_event_one_shot_3d("event:/sfx/voice/noisepositive", x, y);
 		}
@@ -50,7 +50,7 @@ if (((obj_player1.ispeppino && !global.swapmode) || (object_index == obj_gustavo
 		{
 			yoffset = 5;
 		}
-		else if (other.object_index != obj_stickfollower || !obj_player1.ispeppino)
+		else if (other.object_index != obj_stickfollower || !obj_player.ispeppino)
 		{
 			yoffset = 0;
 			isgustavo = true;
@@ -77,4 +77,4 @@ if (global.exitrank)
 {
 	instance_destroy();
 }
-image_speed = obj_player1.image_speed;
+image_speed = obj_player.image_speed;

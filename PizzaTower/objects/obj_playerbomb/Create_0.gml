@@ -23,8 +23,8 @@ with (instance_create(x, y, obj_playerbombcollision))
 }
 if (place_meeting(x, y, obj_solid))
 {
-	x = obj_player1.x;
-	y = obj_player1.y;
+	x = obj_player.x;
+	y = obj_player.y;
 }
 deadbuffer = 5;
 baddie_arr = [];

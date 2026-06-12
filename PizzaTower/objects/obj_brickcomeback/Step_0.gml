@@ -1,23 +1,23 @@
-if (obj_player1.isgustavo == false)
+if (obj_player.isgustavo == false)
 {
 	instance_create(x, y, obj_genericpoofeffect);
 	instance_destroy();
 }
 if (!trapped)
 {
-	if (obj_player1.state == states.ratmountgrind || obj_player1.state == states.ratmountladder || obj_player1.state == states.ratmountcrouch)
+	if (obj_player.state == states.ratmountgrind || obj_player.state == states.ratmountladder || obj_player.state == states.ratmountcrouch)
 	{
 		wait = true;
 		sprite_index = spr_lonebrick_wait;
 		alarm[0] = 30;
-		depth = obj_player1.depth + 1;
+		depth = obj_player.depth + 1;
 		comeback = false;
 	}
 	if (comeback == true)
 	{
-		depth = obj_player1.depth + 1;
-		x = Approach(x, obj_player1.x, cbspeed);
-		y = Approach(y, obj_player1.y, cbspeed);
+		depth = obj_player.depth + 1;
+		x = Approach(x, obj_player.x, cbspeed);
+		y = Approach(y, obj_player.y, cbspeed);
 		cbspeed = Approach(cbspeed, 20, 1);
 	}
 	else if (wait == false)

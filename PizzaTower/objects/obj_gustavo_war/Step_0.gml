@@ -1,6 +1,6 @@
 if (sprite_index == spr_gustavo_war1)
 {
-	if (distance_to_pos(x, y, obj_player1.x, obj_player1.y, 250, 150))
+	if (distance_to_pos(x, y, obj_player.x, obj_player.y, 250, 150))
 	{
 		sprite_index = spr_gustavo_war2;
 		image_index = 0;

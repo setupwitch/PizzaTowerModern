@@ -1,4 +1,4 @@
-if (distance_to_object(obj_player1) <= 350 || global.level_minutes > timer)
+if (distance_to_object(obj_player) <= 350 || global.level_minutes > timer)
 {
 	if (global.level_minutes <= timer)
 	{

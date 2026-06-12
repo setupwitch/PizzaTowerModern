@@ -1,4 +1,4 @@
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 wastedhits = 8 - elitehit;
 destroyable = false;
 switch (state)
@@ -62,7 +62,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -15, obj_hppickup);
+			instance_create(obj_player.x, -15, obj_hppickup);
 		}
 		if (elitehit <= 0)
 		{
@@ -85,7 +85,7 @@ if (prevhp != elitehit)
 			{
 				deccel = 0.1;
 			}
-			with (obj_player1)
+			with (obj_player)
 			{
 				hsp = 0;
 				vsp = 0;
@@ -103,7 +103,7 @@ if (prevhp != elitehit)
 				y = roomstarty;
 			}
 			x = room_width / 2;
-			y = obj_player1.y - 100;
+			y = obj_player.y - 100;
 			sprite_index = spr_pizzahead_intro1;
 			with (obj_baddie)
 			{
@@ -140,7 +140,7 @@ if (state == states.stun && stunned > 100 && birdcreated == false)
 		ID = other.id;
 	}
 }
-var _inv = (state == states.stun && savedthrown == thrown && !savedthrown) || (!obj_player1.ispeppino && state == states.ram && substate == states.land);
+var _inv = (state == states.stun && savedthrown == thrown && !savedthrown) || (!obj_player.ispeppino && state == states.ram && substate == states.land);
 if (_inv && elitehit > 1)
 {
 	invincible = false;

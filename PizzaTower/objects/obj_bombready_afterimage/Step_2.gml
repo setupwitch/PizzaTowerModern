@@ -1,7 +1,7 @@
-x = obj_player1.x;
-y = obj_player1.y;
-visible = obj_player1.visible;
-if (obj_player1.state == states.actor || obj_player1.state == states.arenaintro || obj_player1.state == states.phase1hurt)
+x = obj_player.x;
+y = obj_player.y;
+visible = obj_player.visible;
+if (obj_player.state == states.actor || obj_player.state == states.arenaintro || obj_player.state == states.phase1hurt)
 {
 	visible = false;
 }

@@ -4,13 +4,15 @@ if (instance_number(object_index) > 1)
 	exit;
 }
 
+scr_initinput();
+depth = -7;
+
 #region Player States
 
 // instead of a struct for states, I am going for an array as its easier to use
 // because mcpig decided to use one large enum for every state.
 
 player_states = [];
-
 player_states[states.normal] = scr_player_normal;
 player_states[states.revolver] = scr_player_revolver;
 player_states[states.dynamite] = scr_player_dynamite;
@@ -459,7 +461,7 @@ anger = 0;
 angry = false;
 baddiegrabbedID = 0;
 spr_palette = spr_peppalette;
-character = "P";
+character = CHAR_PEPPINO;
 scr_characterspr();
 paletteselect = 1;
 player_paletteselect[0] = 1;
@@ -782,7 +784,6 @@ if (!variable_global_exists("saveroom"))
 	global.monsterspeed = 0;
 	global.monsterlives = 3;
 	global.giantkey = false;
-	global.coop = false;
 	global.baddiespeed = 1;
 	global.baddiepowerup = false;
 	global.baddierage = false;

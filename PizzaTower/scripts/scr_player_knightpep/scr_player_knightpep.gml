@@ -138,7 +138,7 @@ function scr_player_knightpep()
 		fmod_event_one_shot_3d("event:/sfx/pep/groundpound", x, y);
 		create_particle(x, y + 3, particletypes.groundpoundeffect, 0);
 		sprite_index = spr_knightpepland;
-		GamepadSetVibration((object_index == obj_player1) ? 0 : 1, 1, 1, 0.9);
+		GamepadSetVibration((object_index == obj_player) ? 0 : 1, 1, 1, 0.9);
 	}
 	if (ANIMATION_END && sprite_index == spr_knightpepland)
 	{

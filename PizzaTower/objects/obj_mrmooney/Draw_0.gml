@@ -1,4 +1,4 @@
-if (obj_player1.ispeppino && !global.swapmode)
+if (obj_player.ispeppino && !global.swapmode)
 {
 	draw_sprite(spr_mrmooney_house, 0, x, y);
 }

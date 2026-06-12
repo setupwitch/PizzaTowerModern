@@ -1,5 +1,5 @@
-x = median(x - maxspeed, obj_player1.x, x + maxspeed);
-y = median(y - maxspeed, obj_player1.y, y + maxspeed);
+x = median(x - maxspeed, obj_player.x, x + maxspeed);
+y = median(y - maxspeed, obj_player.y, y + maxspeed);
 if (x != obj_player.x)
 {
 	image_xscale = -sign(x - obj_player.x);
@@ -8,7 +8,7 @@ if (global.snickchallenge == false)
 {
 	instance_destroy();
 }
-if (hitboxcreate == false && (obj_player1.instakillmove == false && obj_player1.state != states.handstandjump))
+if (hitboxcreate == false && (obj_player.instakillmove == false && obj_player.state != states.handstandjump))
 {
 	hitboxcreate = true;
 	with (instance_create(x, y, obj_forkhitbox))
@@ -17,7 +17,7 @@ if (hitboxcreate == false && (obj_player1.instakillmove == false && obj_player1.
 		ID = other.id;
 	}
 }
-if (place_meeting(x, y, obj_player1) && (obj_player1.instakillmove == true || obj_player1.state == states.handstandjump))
+if (place_meeting(x, y, obj_player) && (obj_player.instakillmove == true || obj_player.state == states.handstandjump))
 {
 	repeat (6)
 	{

@@ -2,36 +2,35 @@ function scr_enemy_grabbed()
 {
 	if (!pepperman_grab)
 	{
-		var _obj_player = asset_get_index(concat("obj_player", grabbedby));
-		image_xscale = -_obj_player.xscale;
+		image_xscale = -obj_player.xscale;
 		stunned = 200;
-		_obj_player.baddiegrabbedID = id;
-		if (_obj_player.state == states.grabbing || _obj_player.state == states.grab || _obj_player.state == states.throwing || _obj_player.state == states.slam || _obj_player.state == states.tacklecharge)
+		obj_player.baddiegrabbedID = id;
+		if (obj_player.state == states.grabbing || obj_player.state == states.grab || obj_player.state == states.throwing || obj_player.state == states.slam || obj_player.state == states.tacklecharge)
 		{
-			x = _obj_player.x;
-			if (_obj_player.sprite_index != _obj_player.spr_haulingstart)
+			x = obj_player.x;
+			if (obj_player.sprite_index != obj_player.spr_haulingstart)
 			{
-				y = _obj_player.y - 40;
+				y = obj_player.y - 40;
 			}
-			else if (floor(_obj_player.image_index) == 0)
+			else if (floor(obj_player.image_index) == 0)
 			{
-				y = _obj_player.y;
+				y = obj_player.y;
 			}
-			else if (floor(_obj_player.image_index) == 1)
+			else if (floor(obj_player.image_index) == 1)
 			{
-				y = _obj_player.y - 10;
+				y = obj_player.y - 10;
 			}
-			else if (floor(_obj_player.image_index) == 2)
+			else if (floor(obj_player.image_index) == 2)
 			{
-				y = _obj_player.y - 20;
+				y = obj_player.y - 20;
 			}
-			else if (floor(_obj_player.image_index) == 3)
+			else if (floor(obj_player.image_index) == 3)
 			{
-				y = _obj_player.y - 30;
+				y = obj_player.y - 30;
 			}
-			image_xscale = -_obj_player.xscale;
+			image_xscale = -obj_player.xscale;
 		}
-		with (_obj_player)
+		with (obj_player)
 		{
 			suplexhavetomash = other.hp - 1;
 			move = key_left2 + key_right2;
@@ -44,7 +43,7 @@ function scr_enemy_grabbed()
 			}
 		}
 		hsp = 0;
-		if (_obj_player.state == states.punch || _obj_player.state == states.parry)
+		if (obj_player.state == states.punch || obj_player.state == states.parry)
 		{
 			alarm[3] = 3;
 			global.hit += 1;
@@ -52,12 +51,12 @@ function scr_enemy_grabbed()
 			{
 				global.golfhit += 1;
 			}
-			instance_create(x + (_obj_player.xscale * 30), y, obj_bumpeffect);
+			instance_create(x + (obj_player.xscale * 30), y, obj_bumpeffect);
 			alarm[1] = 5;
 			thrown = true;
-			x = _obj_player.x;
+			x = obj_player.x;
 			vsp = 0;
-			y = _obj_player.y;
+			y = obj_player.y;
 			state = states.stun;
 			hsp = -image_xscale * 25;
 			grav = 0;
@@ -78,21 +77,21 @@ function scr_enemy_grabbed()
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
-		if (_obj_player.state == states.finishingblow)
+		if (obj_player.state == states.finishingblow)
 		{
-			if (floor(_obj_player.image_index) < 1 && _obj_player.sprite_index == _obj_player.spr_swingdingend)
+			if (floor(obj_player.image_index) < 1 && obj_player.sprite_index == obj_player.spr_swingdingend)
 			{
-				x = _obj_player.x + (_obj_player.xscale * 60);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * 60);
+				y = obj_player.y;
 			}
-			else if (floor(_obj_player.image_index) < 4)
+			else if (floor(obj_player.image_index) < 4)
 			{
-				x = _obj_player.x + (_obj_player.xscale * 60);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * 60);
+				y = obj_player.y;
 			}
-			check_grabbed_solid(_obj_player);
+			check_grabbed_solid(obj_player);
 		}
-		if (_obj_player.state == states.backkick)
+		if (obj_player.state == states.backkick)
 		{
 			alarm[3] = 3;
 			global.hit += 1;
@@ -101,11 +100,11 @@ function scr_enemy_grabbed()
 				global.golfhit += 1;
 			}
 			hp -= 1;
-			instance_create(x + (-_obj_player.xscale * 50), y, obj_bumpeffect);
+			instance_create(x + (-obj_player.xscale * 50), y, obj_bumpeffect);
 			alarm[1] = 5;
 			thrown = true;
-			x = _obj_player.x;
-			y = _obj_player.y;
+			x = obj_player.x;
+			y = obj_player.y;
 			state = states.stun;
 			image_xscale *= -1;
 			hsp = -image_xscale * 20;
@@ -127,7 +126,7 @@ function scr_enemy_grabbed()
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
-		if (_obj_player.state == states.shoulder)
+		if (obj_player.state == states.shoulder)
 		{
 			alarm[3] = 3;
 			global.hit += 1;
@@ -139,19 +138,19 @@ function scr_enemy_grabbed()
 			instance_create(x, y + 20, obj_bumpeffect);
 			alarm[1] = 5;
 			thrown = true;
-			x = _obj_player.x;
-			y = _obj_player.y;
+			x = obj_player.x;
+			y = obj_player.y;
 			state = states.stun;
-			if (_obj_player.sprite_index == spr_player_shoulder)
+			if (obj_player.sprite_index == spr_player_shoulder)
 			{
 				vsp = 15;
 			}
-			if (_obj_player.sprite_index == spr_player_diagonaldownthrow)
+			if (obj_player.sprite_index == spr_player_diagonaldownthrow)
 			{
 				hsp = -image_xscale * 10;
 				vsp = 15;
 			}
-			if (_obj_player.sprite_index == spr_player_diagonalupthrow)
+			if (obj_player.sprite_index == spr_player_diagonalupthrow)
 			{
 				hsp = -image_xscale * 10;
 				vsp = -15;
@@ -173,7 +172,7 @@ function scr_enemy_grabbed()
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
 		}
-		if (_obj_player.state == states.finishingblow && (floor(_obj_player.image_index) >= 4 || (floor(_obj_player.image_index) < 1 && _obj_player.sprite_index == _obj_player.spr_swingdingend)))
+		if (obj_player.state == states.finishingblow && (floor(obj_player.image_index) >= 4 || (floor(obj_player.image_index) < 1 && obj_player.sprite_index == obj_player.spr_swingdingend)))
 		{
 			thrown = true;
 			var lag;
@@ -194,10 +193,10 @@ function scr_enemy_grabbed()
 			else
 			{
 			}
-			_obj_player.movespeed = 0;
-			_obj_player.hitLag = lag;
-			_obj_player.hitX = _obj_player.x;
-			_obj_player.hitY = _obj_player.y;
+			obj_player.movespeed = 0;
+			obj_player.hitLag = lag;
+			obj_player.hitX = obj_player.x;
+			obj_player.hitY = obj_player.y;
 			instance_create(x, y, obj_parryeffect);
 			alarm[3] = 1;
 			if (object_index != obj_swapplayergrabbable)
@@ -209,15 +208,15 @@ function scr_enemy_grabbed()
 			{
 				global.style += (5 + global.combo);
 			}
-			GamepadSetVibration((_obj_player.object_index == obj_player1) ? 0 : 1, 0.8, 0.8, 0.65);
+			GamepadSetVibration((obj_player.object_index == obj_player) ? 0 : 1, 0.8, 0.8, 0.65);
 			fmod_event_one_shot_3d("event:/sfx/enemies/killingblow", x, y);
 			fmod_event_one_shot_3d("event:/sfx/pep/punch", x, y);
-			if (!_obj_player.ispeppino)
+			if (!obj_player.ispeppino)
 			{
-				scr_fmod_soundeffect(_obj_player.snd_noisepunch, x, y);
+				scr_fmod_soundeffect(obj_player.snd_noisepunch, x, y);
 			}
 			state = states.stun;
-			image_xscale = -_obj_player.xscale;
+			image_xscale = -obj_player.xscale;
 			instance_create(x, y, obj_slapstar);
 			instance_create(x, y, obj_slapstar);
 			instance_create(x, y, obj_slapstar);
@@ -229,7 +228,7 @@ function scr_enemy_grabbed()
 				shake_mag = 3;
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
-			with (_obj_player)
+			with (obj_player)
 			{
 				if (sprite_index == spr_uppercutfinishingblow)
 				{
@@ -245,16 +244,16 @@ function scr_enemy_grabbed()
 				}
 				vsp = -6;
 			}
-			if (_obj_player.sprite_index != spr_playerN_piledriver)
+			if (obj_player.sprite_index != spr_playerN_piledriver)
 			{
-				check_grabbed_solid(_obj_player);
-				check_grabbed_solid(_obj_player);
+				check_grabbed_solid(obj_player);
+				check_grabbed_solid(obj_player);
 			}
 			hsp = hithsp;
 			vsp = hitvsp;
 			linethrown = true;
 		}
-		if (_obj_player.state == states.throwing)
+		if (obj_player.state == states.throwing)
 		{
 			global.hit += 1;
 			if (other.object_index == obj_pizzaball)
@@ -263,15 +262,15 @@ function scr_enemy_grabbed()
 			}
 			alarm[1] = 5;
 			thrown = true;
-			x = _obj_player.x;
-			y = _obj_player.y;
+			x = obj_player.x;
+			y = obj_player.y;
 			state = states.stun;
 			hsp = -image_xscale * 8;
 			vsp = -6;
-			check_grabbed_solid(_obj_player);
-			check_grabbed_solid(_obj_player);
+			check_grabbed_solid(obj_player);
+			check_grabbed_solid(obj_player);
 		}
-		if (_obj_player.state == states.uppunch)
+		if (obj_player.state == states.uppunch)
 		{
 			alarm[3] = 3;
 			global.hit += 1;
@@ -280,11 +279,11 @@ function scr_enemy_grabbed()
 				global.golfhit += 1;
 			}
 			hp -= 1;
-			instance_create(x + (-_obj_player.xscale * 15), y - 50, obj_bumpeffect);
+			instance_create(x + (-obj_player.xscale * 15), y - 50, obj_bumpeffect);
 			alarm[1] = 5;
 			thrown = true;
-			x = _obj_player.x;
-			y = _obj_player.y;
+			x = obj_player.x;
+			y = obj_player.y;
 			hsp = -image_xscale * 2;
 			state = states.stun;
 			vsp = -20;
@@ -304,97 +303,97 @@ function scr_enemy_grabbed()
 				shake_mag = 3;
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
-			check_grabbed_solid(_obj_player);
+			check_grabbed_solid(obj_player);
 		}
-		if (_obj_player.state == states.tacklecharge)
+		if (obj_player.state == states.tacklecharge)
 		{
-			x = _obj_player.x + (_obj_player.xscale * 15);
-			y = _obj_player.y;
+			x = obj_player.x + (obj_player.xscale * 15);
+			y = obj_player.y;
 		}
-		if (_obj_player.state == states.superslam || (_obj_player.state == states.chainsaw && sprite_index == spr_player_piledriver))
+		if (obj_player.state == states.superslam || (obj_player.state == states.chainsaw && sprite_index == spr_player_piledriver))
 		{
-			if (_obj_player.character == "P" && _obj_player.ispeppino)
+			if (obj_player.character == CHAR_PEPPINO && obj_player.ispeppino)
 			{
-				if (_obj_player.sprite_index != _obj_player.spr_piledriverland)
+				if (obj_player.sprite_index != obj_player.spr_piledriverland)
 				{
-					if (floor(_obj_player.image_index) == 0)
+					if (floor(obj_player.image_index) == 0)
 					{
 						depth = 0;
-						x = _obj_player.x + (_obj_player.xscale * 10);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * 10);
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 1)
+					if (floor(obj_player.image_index) == 1)
 					{
 						depth = 0;
-						x = _obj_player.x + (_obj_player.xscale * 5);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * 5);
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 2)
+					if (floor(obj_player.image_index) == 2)
 					{
 						depth = 0;
-						x = _obj_player.x;
-						y = _obj_player.y;
+						x = obj_player.x;
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 3)
+					if (floor(obj_player.image_index) == 3)
 					{
 						depth = 0;
-						x = _obj_player.x + (_obj_player.xscale * -5);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * -5);
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 4)
+					if (floor(obj_player.image_index) == 4)
 					{
 						depth = 0;
-						x = _obj_player.x + (_obj_player.xscale * -10);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * -10);
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 5)
+					if (floor(obj_player.image_index) == 5)
 					{
 						depth = -8;
-						x = _obj_player.x + (_obj_player.xscale * -5);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * -5);
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 6)
+					if (floor(obj_player.image_index) == 6)
 					{
 						depth = -8;
-						x = _obj_player.x;
-						y = _obj_player.y;
+						x = obj_player.x;
+						y = obj_player.y;
 					}
-					if (floor(_obj_player.image_index) == 7)
+					if (floor(obj_player.image_index) == 7)
 					{
 						depth = -8;
-						x = _obj_player.x + (_obj_player.xscale * 5);
-						y = _obj_player.y;
+						x = obj_player.x + (obj_player.xscale * 5);
+						y = obj_player.y;
 					}
-					check_grabbed_solid(_obj_player);
+					check_grabbed_solid(obj_player);
 				}
 				else
 				{
-					x = _obj_player.x + (_obj_player.xscale * 10);
-					y = _obj_player.y;
-					check_grabbed_solid(_obj_player);
+					x = obj_player.x + (obj_player.xscale * 10);
+					y = obj_player.y;
+					check_grabbed_solid(obj_player);
 				}
 			}
 			else
 			{
 				depth = -7;
-				x = _obj_player.x;
-				y = _obj_player.y - 54;
-				if (_obj_player.sprite_index == spr_playerN_piledriverland)
+				x = obj_player.x;
+				y = obj_player.y - 54;
+				if (obj_player.sprite_index == spr_playerN_piledriverland)
 				{
-					x = _obj_player.x;
-					y = _obj_player.y + 4;
+					x = obj_player.x;
+					y = obj_player.y + 4;
 				}
 			}
 		}
-		if (_obj_player.sprite_index == _obj_player.spr_piledriverland && floor(_obj_player.image_index) == (_obj_player.image_number - 1))
+		if (obj_player.sprite_index == obj_player.spr_piledriverland && floor(obj_player.image_index) == (obj_player.image_number - 1))
 		{
 			var lag = 5;
 			hitLag = lag;
-			_obj_player.hitLag = lag;
-			_obj_player.hitX = _obj_player.x;
-			_obj_player.hitY = _obj_player.y;
-			instance_create(_obj_player.x, _obj_player.y, obj_parryeffect);
-			check_grabbed_solid(_obj_player);
+			obj_player.hitLag = lag;
+			obj_player.hitX = obj_player.x;
+			obj_player.hitY = obj_player.y;
+			instance_create(obj_player.x, obj_player.y, obj_parryeffect);
+			check_grabbed_solid(obj_player);
 			hitX = x;
 			hitY = y;
 			alarm[3] = 3;
@@ -403,7 +402,7 @@ function scr_enemy_grabbed()
 				mach3destroy = true;
 			}
 			state = states.hit;
-			image_xscale = -_obj_player.xscale;
+			image_xscale = -obj_player.xscale;
 			instance_create(x, y, obj_slapstar);
 			instance_create(x, y, obj_slapstar);
 			instance_create(x, y, obj_slapstar);
@@ -415,7 +414,7 @@ function scr_enemy_grabbed()
 				shake_mag = 3;
 				shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 			}
-			with (_obj_player)
+			with (obj_player)
 			{
 				if (state != states.chainsaw)
 				{
@@ -429,60 +428,60 @@ function scr_enemy_grabbed()
 				other.hitvsp = -11;
 			}
 		}
-		if (_obj_player.state == states.grab && _obj_player.sprite_index == _obj_player.spr_swingding)
+		if (obj_player.state == states.grab && obj_player.sprite_index == obj_player.spr_swingding)
 		{
-			if (floor(_obj_player.image_index) == 0)
+			if (floor(obj_player.image_index) == 0)
 			{
 				depth = -8;
-				x = _obj_player.x + (_obj_player.xscale * 25);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * 25);
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 1)
+			if (floor(obj_player.image_index) == 1)
 			{
 				depth = -8;
-				x = _obj_player.x;
-				y = _obj_player.y;
+				x = obj_player.x;
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 2)
+			if (floor(obj_player.image_index) == 2)
 			{
 				depth = -8;
-				x = _obj_player.x + (_obj_player.xscale * -25);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * -25);
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 3)
+			if (floor(obj_player.image_index) == 3)
 			{
 				depth = 0;
-				x = _obj_player.x + (_obj_player.xscale * -50);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * -50);
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 4)
+			if (floor(obj_player.image_index) == 4)
 			{
 				depth = 0;
-				x = _obj_player.x + (_obj_player.xscale * -25);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * -25);
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 5)
+			if (floor(obj_player.image_index) == 5)
 			{
 				depth = 0;
-				x = _obj_player.x;
-				y = _obj_player.y;
+				x = obj_player.x;
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 6)
+			if (floor(obj_player.image_index) == 6)
 			{
 				depth = 0;
-				x = _obj_player.x + (_obj_player.xscale * 25);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * 25);
+				y = obj_player.y;
 			}
-			if (floor(_obj_player.image_index) == 7)
+			if (floor(obj_player.image_index) == 7)
 			{
 				depth = 0;
-				x = _obj_player.x + (_obj_player.xscale * 50);
-				y = _obj_player.y;
+				x = obj_player.x + (obj_player.xscale * 50);
+				y = obj_player.y;
 			}
 		}
-		if (state != states.grabbed || _obj_player.state != states.grab)
+		if (state != states.grabbed || obj_player.state != states.grab)
 		{
-			check_grabbed_solid(_obj_player);
+			check_grabbed_solid(obj_player);
 			if (state == states.hit)
 			{
 				hitX = x;
@@ -492,7 +491,7 @@ function scr_enemy_grabbed()
 	}
 	if (pepperman_grab)
 	{
-		var _player = (grabbedby == 1) ? obj_player1.id : obj_player2.id;
+		var _player = obj_player.id;
 		image_xscale = _player.xscale;
 		if (!thrown)
 		{

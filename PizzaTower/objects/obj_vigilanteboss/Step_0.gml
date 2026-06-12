@@ -2,7 +2,7 @@ if (room == rm_editor)
 {
 	exit;
 }
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 wastedhits = 9 - elitehit;
 if (pizzahead && elitehit <= 1)
 {
@@ -106,9 +106,9 @@ if (state == states.revolver || state == states.wait || state == states.dynamite
 	}
 }
 boss_hurt_gustavo();
-if (!pizzahead && obj_player1.state != states.actor && obj_player1.state != states.chainsaw && obj_player1.state != states.supergrab && !obj_player1.instakillmove && obj_player1.y >= (y - 20) && obj_player1.state != states.animation && state != states.hit && state != states.stun && state != states.phase1hurt && state != states.supergrab && hsp == 0)
+if (!pizzahead && obj_player.state != states.actor && obj_player.state != states.chainsaw && obj_player.state != states.supergrab && !obj_player.instakillmove && obj_player.y >= (y - 20) && obj_player.state != states.animation && state != states.hit && state != states.stun && state != states.phase1hurt && state != states.supergrab && hsp == 0)
 {
-	if (place_meeting(x, y, obj_player1))
+	if (place_meeting(x, y, obj_player))
 	{
 		with (obj_player)
 		{
@@ -164,7 +164,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -15, obj_hppickup);
+			instance_create(obj_player.x, -15, obj_hppickup);
 		}
 	}
 	prevhp = elitehit;
@@ -238,7 +238,7 @@ if (((phase == 1 && elitehit <= 0) || (phase == 2 && elitehit <= 0)) && !pizzahe
 			instance_destroy(obj_vigilantedynamite);
 			instance_destroy(obj_vigilanteshot);
 			instance_destroy(obj_ladderhorizontal);
-			with (obj_player1)
+			with (obj_player)
 			{
 				pistolanim = noone;
 				state = states.duel;

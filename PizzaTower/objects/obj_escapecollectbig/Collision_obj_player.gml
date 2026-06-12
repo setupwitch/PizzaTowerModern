@@ -6,7 +6,7 @@ if (image_alpha == 1)
 {
 	if (other.state != states.gotoplayer)
 	{
-		if (obj_player1.character == "V")
+		if (obj_player.character == "V")
 		{
 			global.playerhealth = clamp(global.playerhealth + 10, 0, 100);
 		}
@@ -20,7 +20,7 @@ if (image_alpha == 1)
 		fmod_event_one_shot_3d("event:/sfx/misc/bellcollectbig", x, y);
 		instance_destroy();
 		var val = heat_calculate(value);
-		if (other.object_index == obj_player1)
+		if (other.object_index == obj_player)
 		{
 			global.collect += val;
 		}

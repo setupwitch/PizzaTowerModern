@@ -36,7 +36,7 @@ function scr_player_Sjump()
 			piledrivereffect = 15;
 		}
 	}
-	if ((sprite_index == spr_superjump || sprite_index == spr_superspringplayer) && (character == "N" || character == "P"))
+	if ((sprite_index == spr_superjump || sprite_index == spr_superspringplayer) && (character == CHAR_NOISE || character == CHAR_PEPPINO))
 	{
 		vsp = sjumpvsp;
 	}
@@ -87,7 +87,7 @@ function scr_player_Sjump()
 		state = states.Sjumpland;
 		machhitAnim = false;
 	}
-	else if ((key_attack2 || input_buffer_slap > 0) && character == "P" && sprite_index != spr_superspringplayer && sprite_index != spr_player_Sjumpcancelstart)
+	else if ((key_attack2 || input_buffer_slap > 0) && character == CHAR_PEPPINO && sprite_index != spr_superspringplayer && sprite_index != spr_player_Sjumpcancelstart)
 	{
 		if (ispeppino)
 		{
@@ -145,7 +145,7 @@ function scr_player_Sjump()
 			}
 		}
 	}
-	if (character == "N" && key_jump2)
+	if (character == CHAR_NOISE && key_jump2)
 	{
 		jumpstop = false;
 		vsp = -15;
@@ -157,7 +157,7 @@ function scr_player_Sjump()
 			image_xscale = other.xscale;
 		}
 	}
-	if (!ispeppino && character == "P" && sprite_index == spr_superjump)
+	if (!ispeppino && character == CHAR_PEPPINO && sprite_index == spr_superjump)
 	{
 		hsp = move * 3;
 	}

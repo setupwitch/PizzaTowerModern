@@ -1,4 +1,4 @@
-playerid = obj_player1;
+playerid = obj_player;
 image_speed = 0;
 image_blend = choose(global.mach_color1, global.mach_color2);
 alarm[1] = 3;

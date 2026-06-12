@@ -16,7 +16,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
 		with (obj_player)
 		{
 			var _obj_player = id;
-			var _playerindex = (object_index == obj_player1) ? 1 : 2;
+			var _playerindex = (object_index == obj_player) ? 1 : 2;
 			if (instance_exists(other.baddieID) && y < other.baddieID.y && other.baddieID.stompbuffer <= 0 && attacking == false && !global.kungfu && sprite_index != spr_player_mach2jump && ((state == states.boots && vsp > 0) || state == states.jump || (isgustavo && ratmount_movespeed < 12 && state == states.ratmountjump) || state == states.mach1 || state == states.grab) && vsp > 0 && sprite_index != spr_stompprep && !other.baddieID.invincible && other.baddieID.stompable)
 			{
 				fmod_event_one_shot_3d("event:/sfx/enemies/stomp", x, y);
@@ -316,7 +316,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
 						}
 					}
 				}
-				if (other.baddieID.thrown == false && (character == "P" || character == "N") && !other.baddieID.invincible)
+				if (other.baddieID.thrown == false && (character == CHAR_PEPPINO || character == CHAR_NOISE) && !other.baddieID.invincible)
 				{
 					movespeed = 0;
 					image_index = 0;

@@ -1,6 +1,6 @@
 function cutscene_title_start()
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		state = states.actor;
 	}
@@ -26,13 +26,13 @@ function cutscene_title_middle()
 
 function cutscene_title_end()
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		sprite_index = spr_idle;
 	}
 	if (obj_inputAssigner.device_selected[0])
 	{
-		with (obj_player1)
+		with (obj_player)
 		{
 			state = states.normal;
 		}

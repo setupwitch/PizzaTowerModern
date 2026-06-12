@@ -11,7 +11,7 @@ scene_info =
 	[cutscene_change_room, hub_pubentrance],
 	[cutscene_superpinball_middle5],
 	[cutscene_set_player_pos, 576, -10],
-	[cutscene_player_check_ground, obj_player1],
+	[cutscene_player_check_ground, obj_player],
 	[cutscene_soundeffect, sfx_groundpound],
 	[cutscene_camera_shake, 4, 3 / game_get_speed(gamespeed_fps)],
 	[cutscene_wait, 100],

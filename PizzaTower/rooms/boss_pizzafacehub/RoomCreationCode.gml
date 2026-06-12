@@ -5,7 +5,7 @@ ini_open_from_string(obj_savesystem.ini_str);
 ini_write_real("w5stick", "bosskey", true);
 obj_savesystem.ini_str = ini_close();
 gamesave_async_save();
-if (obj_player1.ispeppino && !global.swapmode)
+if (obj_player.ispeppino && !global.swapmode)
 {
 	layer_set_visible("Backgrounds_Ring2", true);
 	layer_set_visible("Backgrounds_Ring3", false);
@@ -15,7 +15,7 @@ else
 	layer_set_visible("Backgrounds_Ring3", true);
 	layer_set_visible("Backgrounds_Ring2", false);
 }
-with (obj_player1)
+with (obj_player)
 {
 	tauntstoredstate = states.normal;
 	landAnim = true;

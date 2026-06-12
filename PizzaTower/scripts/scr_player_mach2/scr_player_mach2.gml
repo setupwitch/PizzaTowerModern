@@ -45,7 +45,7 @@ function scr_player_mach2()
 		}
 		vsp = jumpspeed;
 	}
-	if (input_buffer_jump > 0 && !can_jump && !ispeppino && key_up && character == "P" && noisedoublejump && !skateboarding && sprite_index != spr_clownjump)
+	if (input_buffer_jump > 0 && !can_jump && !ispeppino && key_up && character == CHAR_PEPPINO && noisedoublejump && !skateboarding && sprite_index != spr_clownjump)
 	{
 		scr_player_do_noisecrusher();
 	}

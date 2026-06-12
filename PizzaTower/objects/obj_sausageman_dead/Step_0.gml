@@ -15,7 +15,7 @@ x += hsp;
 y += floor(vsp);
 if (buffer <= 0)
 {
-	var p = obj_player1.id;
+	var p = obj_player.id;
 	if (p.instakillmove && place_meeting(x, y, p))
 	{
 		vsp = random_range(-10, -18);

@@ -111,13 +111,13 @@ function tv_default_condition()
 
 function tv_get_palette()
 {
-	if (!instance_exists(obj_player1))
+	if (!instance_exists(obj_player))
 	{
 		exit;
 	}
-	var _info = obj_player1.ispeppino ? get_pep_palette_info() : get_noise_palette_info();
+	var _info = obj_player.ispeppino ? get_pep_palette_info() : get_noise_palette_info();
 	spr_palette = _info.spr_palette;
-	if (obj_player1.isgustavo && obj_player1.ispeppino)
+	if (obj_player.isgustavo && obj_player.ispeppino)
 	{
 		spr_palette = spr_ratmountpalette;
 	}
@@ -169,18 +169,18 @@ function tv_do_expression(_spr, _reset_palette = false, _make_peppino = false)
 						expressionsprite = spr_tv_happyG;
 						if (irandom(100) <= 50)
 						{
-							fmod_event_one_shot_3d("event:/sfx/voice/brickok", obj_player1.x, obj_player1.y);
+							fmod_event_one_shot_3d("event:/sfx/voice/brickok", obj_player.x, obj_player.y);
 						}
 					}
 					if (irandom(100) <= 50)
 					{
-						scr_fmod_soundeffect(obj_player1.snd_voiceok, obj_player1.x, obj_player1.y);
+						scr_fmod_soundeffect(obj_player.snd_voiceok, obj_player.x, obj_player.y);
 					}
 					break;
 			}
-			if (!_make_peppino && instance_exists(obj_player1) && !obj_player1.ispeppino)
+			if (!_make_peppino && instance_exists(obj_player) && !obj_player.ispeppino)
 			{
-				var n = asset_get_index(sprite_get_name(_spr) + "N");
+				var n = asset_get_index(sprite_get_name(_spr) + CHAR_NOISE);
 				if (n > -1)
 				{
 					expressionsprite = n;
@@ -200,10 +200,10 @@ function tv_do_expression(_spr, _reset_palette = false, _make_peppino = false)
 
 function scr_tv_get_transfo_sprite()
 {
-	var _state = obj_player1.state;
+	var _state = obj_player.state;
 	if (_state == states.backbreaker || _state == states.chainsaw)
 	{
-		_state = obj_player1.tauntstoredstate;
+		_state = obj_player.tauntstoredstate;
 	}
 	var _spr = noone;
 	if (instance_exists(obj_bucketfollower))
@@ -224,17 +224,17 @@ function scr_tv_get_transfo_sprite()
 			break;
 		case states.fireass:
 			_spr = spr_tv_fireass;
-			if (obj_player1.sprite_index == obj_player1.spr_scaredjump1 || obj_player1.sprite_index == obj_player1.spr_scaredjump2)
+			if (obj_player.sprite_index == obj_player.spr_scaredjump1 || obj_player.sprite_index == obj_player.spr_scaredjump2)
 			{
 				_spr = spr_tv_scaredjump;
 			}
 			break;
 		case states.tumble:
-			if (obj_player1.sprite_index == obj_player1.spr_tumble || obj_player1.sprite_index == obj_player1.spr_tumblestart || obj_player1.sprite_index == obj_player1.spr_tumbleend)
+			if (obj_player.sprite_index == obj_player.spr_tumble || obj_player.sprite_index == obj_player.spr_tumblestart || obj_player.sprite_index == obj_player.spr_tumbleend)
 			{
 				_spr = spr_tv_tumble;
 			}
-			else if (obj_player1.shotgunAnim)
+			else if (obj_player.shotgunAnim)
 			{
 				_spr = spr_tv_shotgun;
 			}
@@ -247,7 +247,7 @@ function scr_tv_get_transfo_sprite()
 			_spr = spr_tv_ghost;
 			break;
 		case states.stunned:
-			if (obj_player1.sprite_index == obj_player1.spr_squished)
+			if (obj_player.sprite_index == obj_player.spr_squished)
 			{
 				_spr = spr_tv_squished;
 			}
@@ -260,7 +260,7 @@ function scr_tv_get_transfo_sprite()
 		case states.mach3:
 		case states.machslide:
 		case states.bump:
-			with (obj_player1)
+			with (obj_player)
 			{
 				if (shotgunAnim)
 				{
@@ -275,7 +275,7 @@ function scr_tv_get_transfo_sprite()
 		case states.freefallprep:
 		case states.freefall:
 		case states.freefallland:
-			if (obj_player1.shotgunAnim)
+			if (obj_player.shotgunAnim)
 			{
 				_spr = spr_tv_shotgun;
 			}
@@ -336,17 +336,17 @@ function scr_tv_get_transfo_sprite()
 		case states.climbwall:
 		case states.machroll:
 		case states.grind:
-			if (obj_player1.skateboarding)
+			if (obj_player.skateboarding)
 			{
 				_spr = spr_tv_clown;
 			}
-			else if (obj_player1.shotgunAnim)
+			else if (obj_player.shotgunAnim)
 			{
 				_spr = spr_tv_shotgun;
 			}
 			break;
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (state == states.actor && sprite_index == spr_tumble)
 		{

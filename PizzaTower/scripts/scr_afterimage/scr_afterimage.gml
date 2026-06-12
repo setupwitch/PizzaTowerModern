@@ -34,7 +34,7 @@ function create_mach3effect(_x, _y, _spr, _subimg, _not_mach3 = false)
 		image_yscale: 1,
 		visible: true,
 		identifier: afterimagetype.mach3effect,
-		playerid: obj_player1,
+		playerid: obj_player,
 		alpha: 1
 	};
 	if (_not_mach3)

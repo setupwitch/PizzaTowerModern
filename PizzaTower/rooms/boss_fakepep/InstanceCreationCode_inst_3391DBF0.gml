@@ -21,7 +21,7 @@ boss_hpsprite = spr_bossfight_fakepephp;
 boss_palette = spr_bossfight_fakepeppalette;
 boss_columnmax = 3;
 boss_hp_x += 50;
-if (!obj_player1.ispeppino || global.swapmode)
+if (!obj_player.ispeppino || global.swapmode)
 {
 	bossspr = spr_vsfakepep;
 	vstitle = spr_vstitle_fakepep2;

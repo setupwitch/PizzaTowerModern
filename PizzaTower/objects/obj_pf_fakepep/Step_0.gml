@@ -2,7 +2,7 @@ if (room == rm_editor)
 {
 	exit;
 }
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 switch (state)
 {
 	case states.idle:

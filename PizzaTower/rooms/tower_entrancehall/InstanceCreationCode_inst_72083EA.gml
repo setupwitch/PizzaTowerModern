@@ -1,5 +1,5 @@
 targetRoom = tower_tutorial1;
-if (!obj_player1.ispeppino)
+if (!obj_player.ispeppino)
 {
 	targetRoom = tower_tutorial1N;
 }

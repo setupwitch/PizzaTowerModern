@@ -1,6 +1,6 @@
 var _x = x;
 var _y = y;
-if (obj_player1.state == states.arenaintro)
+if (obj_player.state == states.arenaintro)
 {
 	var _sprite = spr_player_levelcomplete;
 	if (!ispeppino)
@@ -86,9 +86,9 @@ else
 {
 	image_speed = 0.6;
 }
-image_blend = obj_player1.image_blend;
-image_xscale = obj_player1.xscale * obj_player1.scale_xs;
-image_yscale = obj_player1.yscale * obj_player1.scale_ys;
+image_blend = obj_player.image_blend;
+image_xscale = obj_player.xscale * obj_player.scale_xs;
+image_yscale = obj_player.yscale * obj_player.scale_ys;
 following_moonwalk_fix();
 visible = true;
 usable = true;
@@ -96,7 +96,7 @@ if (instance_exists(obj_titlecard))
 {
 	usable = false;
 }
-if (!obj_player1.visible || room == rank_room)
+if (!obj_player.visible || room == rank_room)
 {
 	visible = false;
 	usable = false;
@@ -153,21 +153,21 @@ if (instance_exists(obj_pizzafaceboss_p3intro) || instance_exists(obj_pizzahead_
 	usable = false;
 }
 var spr = noone;
-switch (obj_player1.sprite_index)
+switch (obj_player.sprite_index)
 {
-	case obj_player1.spr_walkfront:
+	case obj_player.spr_walkfront:
 		spr = spr_walkfront;
 		break;
-	case obj_player1.spr_Timesup:
+	case obj_player.spr_Timesup:
 		spr = spr_Timesup;
 		break;
-	case obj_player1.spr_uppizzabox:
+	case obj_player.spr_uppizzabox:
 		spr = spr_uppizzabox;
 		break;
-	case obj_player1.spr_downpizzabox:
+	case obj_player.spr_downpizzabox:
 		spr = spr_downpizzabox;
 		break;
-	case obj_player1.spr_deathend:
+	case obj_player.spr_deathend:
 		spr = spr_deathend;
 		break;
 	case spr_player_ratmountgameover:
@@ -178,9 +178,9 @@ if (spr != noone)
 {
 	usable = false;
 	sprite_index = spr;
-	image_index = obj_player1.image_index;
-	image_speed = obj_player1.image_speed;
-	x = obj_player1.x;
+	image_index = obj_player.image_index;
+	image_speed = obj_player.image_speed;
+	x = obj_player.x;
 	if (spr == spr_Timesup || spr == spr_walkfront || spr == spr_deathend)
 	{
 		x += round(xoffset * space);
@@ -189,21 +189,21 @@ if (spr != noone)
 	{
 		image_index = sprite_get_number(sprite_index) - 1;
 	}
-	y = obj_player1.y;
+	y = obj_player.y;
 	if (spr == spr_deathend)
 	{
 		x += (sign(space) * 40);
 		y -= 10;
 	}
 }
-if (instance_exists(obj_backtohub_fadeout) || (obj_player1.state == states.backtohub && obj_player1.y < camera_get_view_y(view_camera[0])))
+if (instance_exists(obj_backtohub_fadeout) || (obj_player.state == states.backtohub && obj_player.y < camera_get_view_y(view_camera[0])))
 {
 	visible = false;
 	usable = false;
 }
 if (instance_exists(obj_bosscontroller))
 {
-	if ((obj_player1.state == states.actor && obj_player1.sprite_index != spr_noise_duelend) || obj_player1.state == states.taxi || obj_player1.state == states.phase1hurt)
+	if ((obj_player.state == states.actor && obj_player.sprite_index != spr_noise_duelend) || obj_player.state == states.taxi || obj_player.state == states.phase1hurt)
 	{
 		is_visible = false;
 		visible = false;
@@ -220,15 +220,15 @@ if (room == characterselect)
 {
 	usable = false;
 }
-if (obj_player1.state == states.duel || instance_exists(obj_vigilante_duelintro))
+if (obj_player.state == states.duel || instance_exists(obj_vigilante_duelintro))
 {
 	usable = false;
 }
-if (obj_player1.sprite_index == obj_player1.spr_fightball)
+if (obj_player.sprite_index == obj_player.spr_fightball)
 {
-	x = obj_player1.x;
-	y = obj_player1.y;
-	image_index = obj_player1.image_index;
+	x = obj_player.x;
+	y = obj_player.y;
+	image_index = obj_player.image_index;
 	sprite_index = spr_fightball;
 	usable = false;
 }
@@ -246,7 +246,7 @@ with (obj_sausageman_dead)
 		other.usable = false;
 	}
 }
-if (obj_player1.key_slap_p2 && sprite_index != spr_fightball && usable && grabbuffer <= 0 && visible && !instance_exists(obj_swapmodegrab) && !instance_exists(obj_swapdeatheffect) && !instance_exists(obj_noiseanimatroniceffect) && !instance_exists(obj_swapplayergrabbable) && animatronic <= 0)
+if (obj_player.key_slap_p2 && sprite_index != spr_fightball && usable && grabbuffer <= 0 && visible && !instance_exists(obj_swapmodegrab) && !instance_exists(obj_swapdeatheffect) && !instance_exists(obj_noiseanimatroniceffect) && !instance_exists(obj_swapplayergrabbable) && animatronic <= 0)
 {
 	with (instance_create(x, y, obj_swapmodegrab))
 	{
@@ -257,9 +257,9 @@ if (obj_player1.key_slap_p2 && sprite_index != spr_fightball && usable && grabbu
 		spr_fall = other.spr_fall;
 		ispeppino = other.ispeppino;
 		isgustavo = other.isgustavo;
-		if (x != obj_player1.x)
+		if (x != obj_player.x)
 		{
-			image_xscale = sign(obj_player1.x - x);
+			image_xscale = sign(obj_player.x - x);
 		}
 		else
 		{
@@ -306,4 +306,4 @@ if (visible && usable && grabbuffer > 0)
 {
 	grabbuffer--;
 }
-image_alpha = obj_player1.image_alpha;
+image_alpha = obj_player.image_alpha;

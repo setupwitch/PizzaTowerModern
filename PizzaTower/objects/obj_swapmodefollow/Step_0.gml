@@ -6,18 +6,18 @@ else
 {
 	visible = true;
 }
-if (ispeppino == obj_player1.ispeppino)
+if (ispeppino == obj_player.ispeppino)
 {
-	ispeppino = !obj_player1.ispeppino;
-	if (!obj_player1.ispeppino && obj_player1.noisecrusher)
+	ispeppino = !obj_player.ispeppino;
+	if (!obj_player.ispeppino && obj_player.noisecrusher)
 	{
 		isgustavo = true;
 	}
 	alarm[0] = 1;
 }
-playerid = obj_player1.id;
+playerid = obj_player.id;
 image_speed = 0.35;
-if (obj_player1.key_taunt_p2 && taunttimer <= 0 && usable)
+if (obj_player.key_taunt_p2 && taunttimer <= 0 && usable)
 {
 	taunttimer = 20;
 	sprite_index = spr_taunt;
@@ -27,7 +27,7 @@ if (obj_player1.key_taunt_p2 && taunttimer <= 0 && usable)
 	fmod_event_one_shot_3d("event:/sfx/pep/taunt", x, y);
 	image_index = irandom(sprite_get_number(spr_taunt) - 1);
 }
-if (!isgustavo && obj_player1.key_taunt2_p2)
+if (!isgustavo && obj_player.key_taunt2_p2)
 {
 	breakdance_pressed++;
 }

@@ -12,10 +12,10 @@ function scr_anybutton_pressed(_device)
 		{
 			if (gamepad_button_check_pressed(_index, i))
 			{
-				if (i == gp_face1 && instance_exists(obj_player1))
+				if (i == gp_face1 && instance_exists(obj_player))
 				{
-					obj_player1.key_jump = true;
-					obj_player1.key_jump2 = true;
+					obj_player.key_jump = true;
+					obj_player.key_jump2 = true;
 				}
 				return _index;
 			}

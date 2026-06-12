@@ -15,7 +15,7 @@ if ((!instance_exists(obj_secretportalstart) || obj_secretportalstart.drop) && (
 		}
 		else if (room != rank_room)
 		{
-			with (obj_player1)
+			with (obj_player)
 			{
 				instance_destroy(obj_fadeout);
 				targetDoor = "A";

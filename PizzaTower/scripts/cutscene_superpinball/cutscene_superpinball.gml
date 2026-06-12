@@ -1,7 +1,7 @@
 function cutscene_superpinball_start()
 {
 	var _finish = false;
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (state != states.door && state != states.comingoutdoor)
 		{
@@ -55,7 +55,7 @@ function cutscene_superpinball_middle2()
 			hsp = -10;
 		}
 	}
-	if (obj_player1.x < 0)
+	if (obj_player.x < 0)
 	{
 		cutscene_end_action();
 	}
@@ -76,7 +76,7 @@ function cutscene_superpinball_middle3()
 
 function cutscene_superpinball_middle4()
 {
-	if (obj_player1.y > 540)
+	if (obj_player.y > 540)
 	{
 		cutscene_end_action();
 	}
@@ -111,5 +111,5 @@ function cutscene_superpinball_end()
 
 function check_player_coop()
 {
-	return object_index != obj_player2 || global.coop;
+	return false;
 }

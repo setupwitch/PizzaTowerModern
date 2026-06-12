@@ -18,7 +18,7 @@ switch (state)
 			image_index = image_number - 1;
 			state = states.fall;
 			obj_camera.lock = false;
-			with (obj_player1)
+			with (obj_player)
 			{
 				if (other.spr == spr_backtopeppino || other.spr == spr_backtonoise)
 				{
@@ -47,8 +47,8 @@ switch (state)
 			with (obj_followcharacter)
 			{
 				ds_queue_clear(followqueue);
-				x = obj_player1.x;
-				y = obj_player1.y;
+				x = obj_player.x;
+				y = obj_player.y;
 			}
 		}
 		break;

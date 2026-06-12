@@ -1,6 +1,6 @@
 function swap_is_player2()
 {
-	return global.swapmode && obj_player1.ispeppino != obj_savesystem.ispeppino;
+	return global.swapmode && obj_player.ispeppino != obj_savesystem.ispeppino;
 }
 
 function swap_player(_hurtswap = false, _jumpscare = false)
@@ -119,10 +119,10 @@ function swap_player(_hurtswap = false, _jumpscare = false)
 		with (obj_swapmodefollow)
 		{
 			taunttimer = 0;
-			if (ispeppino == obj_player1.ispeppino)
+			if (ispeppino == obj_player.ispeppino)
 			{
-				ispeppino = !obj_player1.ispeppino;
-				if (!obj_player1.ispeppino && obj_player1.noisecrusher)
+				ispeppino = !obj_player.ispeppino;
+				if (!obj_player.ispeppino && obj_player.noisecrusher)
 				{
 					isgustavo = true;
 				}

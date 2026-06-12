@@ -4,7 +4,7 @@ if (grounded && vsp > 0)
 	hsp = Approach(hsp, 0, 0.5);
 }
 grabindex += 0.35;
-if (!obj_player1.ispeppino || (global.swapmode && global.pistol))
+if (!obj_player.ispeppino || (global.swapmode && global.pistol))
 {
 	create_particle(x, y, particletypes.genericpoofeffect);
 	instance_destroy(id, false);

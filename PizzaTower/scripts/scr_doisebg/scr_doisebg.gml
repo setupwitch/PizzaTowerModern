@@ -1,9 +1,9 @@
 function doisebg_start()
 {
-	if (event_type == ev_draw && event_number == 0 && instance_exists(obj_player1))
+	if (event_type == ev_draw && event_number == 0 && instance_exists(obj_player))
 	{
 		shader_set(global.Pal_Shader);
-		if (!obj_player1.ispeppino || global.swapmode)
+		if (!obj_player.ispeppino || global.swapmode)
 		{
 			pal_swap_set(spr_noiseboss_palette, 1, false);
 		}
@@ -16,7 +16,7 @@ function doisebg_start()
 
 function doisebg_end()
 {
-	if (event_type == ev_draw && event_number == 0 && instance_exists(obj_player1))
+	if (event_type == ev_draw && event_number == 0 && instance_exists(obj_player))
 	{
 		shader_reset();
 	}

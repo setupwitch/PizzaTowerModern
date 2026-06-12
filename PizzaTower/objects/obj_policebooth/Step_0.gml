@@ -12,8 +12,8 @@ if (!released && global.panic)
 }
 else if (floor(image_index) == 3 && !instance_exists(inst))
 {
-	inst = instance_create(obj_player1.x, y + 13, obj_policecar);
-	inst.targetplayer = obj_player1;
+	inst = instance_create(obj_player.x, y + 13, obj_policecar);
+	inst.targetplayer = obj_player;
 	inst.targetRoom = targetRoom;
 	inst.targetDoor = targetDoor;
 }

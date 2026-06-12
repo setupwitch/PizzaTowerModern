@@ -7,7 +7,7 @@ if (global.levelcompletename == "FOREST")
 		scene_info =
 		[
 			[cutscene_entrance_start],
-			[cutscene_waitfor_sprite, obj_player1],
+			[cutscene_waitfor_sprite, obj_player],
 			[cutscene_player_idleanim],
 			[cutscene_change_room, hub_camp],
 			[cutscene_set_player_visible, false],
@@ -33,7 +33,7 @@ else if (global.levelcomplete && !global.beachcutscene && global.levelcompletena
 	scene_info =
 	[
 		[cutscene_entrance_start],
-		[cutscene_waitfor_sprite, obj_player1],
+		[cutscene_waitfor_sprite, obj_player],
 		[cutscene_player_idleanim],
 		[cutscene_change_room, hub_sewer],
 		[cutscene_set_player_visible, false],

@@ -3,7 +3,7 @@ depth = 50;
 idlespr = spr_lonegustavo_idle;
 dancespr = spr_gusdance;
 palinfo = get_pep_palette_info();
-if (!obj_player1.ispeppino || global.swapmode)
+if (!obj_player.ispeppino || global.swapmode)
 {
 	idlespr = spr_noisette_idle;
 	dancespr = spr_noisettedance;

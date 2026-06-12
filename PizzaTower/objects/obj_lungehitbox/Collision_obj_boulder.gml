@@ -1,7 +1,7 @@
 if (other.state != states.grabbed && playerid.state != states.grab)
 {
 	other.state = states.grabbed;
-	if (playerid.object_index == obj_player1)
+	if (playerid.object_index == obj_player)
 	{
 		other.grabbedby = 1;
 	}

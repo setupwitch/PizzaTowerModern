@@ -2,7 +2,7 @@ if (room == rm_editor)
 {
 	exit;
 }
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 wastedhits = 8 - elitehit;
 if (elitehit <= 1 && pizzahead)
 {
@@ -145,7 +145,7 @@ if (!doise)
 if (state == states.phase1hurt && doise)
 {
 	image_speed = 0.35;
-	image_index = obj_player1.image_index;
+	image_index = obj_player.image_index;
 }
 if (droptrap && (state == states.walk || state == states.stun))
 {
@@ -234,7 +234,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3)
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -32, obj_hppickup);
+			instance_create(obj_player.x, -32, obj_hppickup);
 		}
 	}
 	prevhp = elitehit;

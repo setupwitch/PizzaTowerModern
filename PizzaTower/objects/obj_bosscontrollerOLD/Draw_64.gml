@@ -82,7 +82,7 @@ if (super > supermax)
 }
 draw_healthbar(64, 240, 200, 252, sp, c_dkgray, c_aqua, c_aqua, 0, true, true);
 shader_set(global.Pal_Shader);
-pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
+pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, false);
 draw_sprite(portrait1_sprite, portrait1_index, 113, 104);
 shader_reset();
 draw_sprite_ext(portrait2_sprite, portrait2_index, 848, 104, -1, 1, 0, c_white, 1);

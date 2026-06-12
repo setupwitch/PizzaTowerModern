@@ -1,5 +1,5 @@
 start = true;
-if (obj_player1.x > x)
+if (obj_player.x > x)
 {
 	instance_destroy();
 }

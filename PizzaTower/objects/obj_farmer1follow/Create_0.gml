@@ -16,7 +16,7 @@ switch (object_index)
 		break;
 }
 following_add_to_front();
-dir = obj_player1.xscale;
+dir = obj_player.xscale;
 space = 0;
 maxspace = 1;
 spaceaccel = 0.2;

@@ -30,7 +30,7 @@ if (drop && global.panic)
 	switch (dropstate)
 	{
 		case states.normal:
-			if (distance_to_object(obj_player1) < 300)
+			if (distance_to_object(obj_player) < 300)
 			{
 				dropstate = states.hook;
 				handsprite = spr_grabbiehand_fall;
@@ -54,7 +54,7 @@ if (drop && global.panic)
 			var _ty = drop_y - 100;
 			y = Approach(y, _ty, 3);
 			hand_y = y - 128;
-			if (y == _ty && distance_to_object(obj_player1) < 200)
+			if (y == _ty && distance_to_object(obj_player) < 200)
 			{
 				dropstate = states.fall;
 				handindex = 0;

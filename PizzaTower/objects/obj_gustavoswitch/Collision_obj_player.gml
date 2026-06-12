@@ -21,7 +21,7 @@ if (global.switchbuffer == 0 && global.panic == escape)
 	with (instance_create(0, 0, obj_charswitch_intro))
 	{
 		spr = spr_backtopeppino;
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			spr = spr_backtonoise;
 		}

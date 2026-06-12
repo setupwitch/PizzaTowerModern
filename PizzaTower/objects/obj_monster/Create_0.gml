@@ -1,6 +1,6 @@
 fake = false;
-targetRoom = obj_player1.lastroom;
-targetDoor = obj_player1.targetDoor;
+targetRoom = obj_player.lastroom;
+targetDoor = obj_player.targetDoor;
 touched = false;
 spr_dead = spr_monstershroom_dead;
 destroy = true;

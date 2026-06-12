@@ -2,7 +2,7 @@ switch (state)
 {
 	case 1:
 		var p = 4;
-		var t = bg_chateauscrolldeco;
+		var t = 0;
 		if (yy > p)
 		{
 			yy -= 32;
@@ -24,7 +24,7 @@ switch (state)
 		{
 			screen_clear(make_color_rgb(88, 192, 0));
 			draw_sprite(spr_oktoberfestbg, 0, obj_screensizer.normal_size_fix_x, obj_screensizer.normal_size_fix_y);
-			if (obj_player1.ispeppino)
+			if (obj_player.ispeppino)
 			{
 				draw_sprite(spr_oktoberfest, 0, obj_screensizer.normal_size_fix_x, obj_screensizer.normal_size_fix_y);
 			}

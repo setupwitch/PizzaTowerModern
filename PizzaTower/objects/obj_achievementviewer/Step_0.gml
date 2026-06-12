@@ -1,4 +1,4 @@
-if (place_meeting(x, y, obj_player1))
+if (place_meeting(x, y, obj_player))
 {
 	collision = true;
 }
@@ -9,7 +9,7 @@ else
 var d = distance_to_object(obj_player);
 with (obj_achievementviewer)
 {
-	if (id != other.id && collision && distance_to_object(obj_player1) <= d)
+	if (id != other.id && collision && distance_to_object(obj_player) <= d)
 	{
 		other.collision = false;
 	}

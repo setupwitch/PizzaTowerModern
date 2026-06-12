@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	if (hsp != 0 && grounded && !place_meeting(x, y + 1, obj_nosand) && !place_meeting(x, y + 1, obj_current) && !place_meeting(x, y + 1, obj_water) && (floor(image_index) % 10) == 0)
 	{

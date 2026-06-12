@@ -18,7 +18,7 @@ function scr_player_keyget()
 	if (!keysound && floor(image_index) >= 16)
 	{
 		keysound = true;
-		scr_fmod_soundeffect(snd_voiceok, obj_player1.x, obj_player1.y);
+		scr_fmod_soundeffect(snd_voiceok, obj_player.x, obj_player.y);
 	}
 	if (ANIMATION_END)
 	{

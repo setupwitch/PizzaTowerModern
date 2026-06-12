@@ -2,7 +2,7 @@ if (other.state == states.gotoplayer)
 {
 	exit;
 }
-if (!instance_exists(obj_deliverytimer) && obj_player1.ispeppino && !global.swapmode)
+if (!instance_exists(obj_deliverytimer) && obj_player.ispeppino && !global.swapmode)
 {
 	exit;
 }

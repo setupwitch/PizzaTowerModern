@@ -26,7 +26,7 @@ if (image_alpha < 1)
 {
 	image_alpha += 0.1;
 }
-if (visible && !gotowardsplayer && distance_to_object(obj_player1) < 25 && !place_meeting(x, y, obj_destructibles) && !place_meeting(x, y, obj_iceblock))
+if (visible && !gotowardsplayer && distance_to_object(obj_player) < 25 && !place_meeting(x, y, obj_destructibles) && !place_meeting(x, y, obj_iceblock))
 {
 	gotowardsplayer = true;
 	movespeed = movespeedstart;

@@ -1,4 +1,4 @@
-var p = obj_player1;
+var p = obj_player;
 with (other)
 {
 	if (team != 1)
@@ -50,11 +50,11 @@ with (other)
 				{
 					if (direction < 90 || direction > 270)
 					{
-						obj_player1.xscale = -1;
+						obj_player.xscale = -1;
 					}
 					else
 					{
-						obj_player1.xscale = 1;
+						obj_player.xscale = 1;
 					}
 				}
 				if (((direction < 90 || direction > 270) && x < other.x) || ((direction > 90 || direction < 270) && x > other.x))

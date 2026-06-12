@@ -13,7 +13,7 @@ if (y >= ystart)
 		sprite_index = spr_playerN_animatronic;
 		if (!global.swapmode)
 		{
-			with (obj_player1)
+			with (obj_player)
 			{
 				state = states.normal;
 				landAnim = true;

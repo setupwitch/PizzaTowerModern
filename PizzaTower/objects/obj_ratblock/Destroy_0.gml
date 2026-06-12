@@ -41,7 +41,7 @@ if (ds_list_find_index(global.saveroom, id) == -1)
 		shake_mag = 3;
 		shake_mag_acc = 3 / game_get_speed(gamespeed_fps);
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		supercharge += 1;
 	}

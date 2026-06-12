@@ -6,7 +6,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
 	}
 	instance_create(x, y, obj_bangeffect);
 	ds_list_add(global.baddieroom, id);
-	with (obj_player1)
+	with (obj_player)
 	{
 		supercharge += 1;
 	}

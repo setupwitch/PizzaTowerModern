@@ -146,7 +146,7 @@ function boss_vigilante_decide_attack()
 				}
 				with (obj_player)
 				{
-					if (object_index == obj_player1 || global.coop)
+					if (object_index == obj_player)
 					{
 						state = states.superattackstart;
 						movespeed = 0;
@@ -1057,7 +1057,7 @@ function boss_vigilante_superattackstart()
 	var tx2;
 	with (lastplayerid)
 	{
-		if (object_index == obj_player1 || global.coop)
+		if (object_index == obj_player)
 		{
 			tx2 = room_width / 3;
 			x = Approach(x, tx2, movespeed);
@@ -1090,12 +1090,12 @@ function boss_vigilante_superattackstart()
 			}
 		}
 	}
-	if (x == tx && obj_player1.x == tx2)
+	if (x == tx && obj_player.x == tx2)
 	{
 		state = states.superattack;
 		with (lastplayerid)
 		{
-			if (object_index == obj_player1 || global.coop)
+			if (object_index == obj_player)
 			{
 				state = states.superattack;
 			}

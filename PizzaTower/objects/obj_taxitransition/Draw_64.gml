@@ -6,11 +6,11 @@ if (start)
 	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, 1, 1, global.palettetexture);
 	if (sprite_index != spr_taxitransition_gus)
 	{
-		pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
+		pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, false);
 	}
 	else
 	{
-		pal_swap_set(spr_ratmountpalette, obj_player1.paletteselect, false);
+		pal_swap_set(spr_ratmountpalette, obj_player.paletteselect, false);
 	}
 	draw_sprite(sprite_index, image_index, 0, cy);
 	pattern_reset();

@@ -7,15 +7,15 @@ switch (state)
 		{
 			image_xscale *= -1;
 		}
-		if (obj_player1.state == states.freefallland)
+		if (obj_player.state == states.freefallland)
 		{
 			state = states.jump;
 			hsp = 0;
 			vsp = -12;
 			sprite_index = spr_meatball_dead;
-			if (x != obj_player1.x)
+			if (x != obj_player.x)
 			{
-				image_xscale = sign(obj_player1.x - x);
+				image_xscale = sign(obj_player.x - x);
 			}
 		}
 		break;

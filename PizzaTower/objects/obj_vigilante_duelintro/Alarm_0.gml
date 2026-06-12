@@ -26,7 +26,7 @@ else if (state == 2)
 }
 else if (state == 3)
 {
-	camx = obj_player1.x - 100;
+	camx = obj_player.x - 100;
 	camdir = 1;
 	camzoom = 0.5;
 	fadein = false;

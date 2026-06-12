@@ -1,4 +1,4 @@
-if (!pause && obj_player1.key_start)
+if (!pause && obj_player.key_start)
 {
 	var _cutscenehandler = false;
 	with (obj_cutscene_handler)
@@ -28,7 +28,7 @@ if (!pause && obj_player1.key_start)
 		}
 	}
 }
-with (obj_player1)
+with (obj_player)
 {
 	other.paletteselect = paletteselect;
 	other.spr_palette = spr_palette;
@@ -90,13 +90,8 @@ if (pause && !instance_exists(obj_option))
 						global.levelreset = true;
 						scr_room_goto(rm);
 						pause = false;
-						obj_player1.targetDoor = "A";
-						obj_player1.restartbuffer = 15;
-						obj_player2.restartbuffer = 15;
-						if (instance_exists(obj_player2))
-						{
-							obj_player2.targetDoor = "A";
-						}
+						obj_player.targetDoor = "A";
+						obj_player.restartbuffer = 15;
 					}
 					else
 					{
@@ -115,23 +110,17 @@ if (pause && !instance_exists(obj_option))
 					pause = false;
 					instance_activate_all();
 					room = Realtitlescreen;
-					with (obj_player1)
+					with (obj_player)
 					{
-						character = "P";
+						character = CHAR_PEPPINO;
 						scr_characterspr();
 					}
 					global.leveltosave = noone;
 					scr_playerreset();
 					alarm[0] = 2;
-					obj_player1.state = states.titlescreen;
-					obj_player2.state = states.titlescreen;
-					obj_player1.targetDoor = "A";
-					if (instance_exists(obj_player2))
-					{
-						obj_player2.targetDoor = "A";
-					}
+					obj_player.state = states.titlescreen;
+					obj_player.targetDoor = "A";
 					global.cowboyhat = false;
-					global.coop = false;
 				}
 				else
 				{
@@ -143,11 +132,7 @@ if (pause && !instance_exists(obj_option))
 					}
 					scr_playerreset();
 					global.levelreset = true;
-					obj_player1.targetDoor = "HUB";
-					if (instance_exists(obj_player2))
-					{
-						obj_player2.targetDoor = "HUB";
-					}
+					obj_player.targetDoor = "HUB";
 					global.leveltorestart = noone;
 					global.leveltosave = noone;
 				}

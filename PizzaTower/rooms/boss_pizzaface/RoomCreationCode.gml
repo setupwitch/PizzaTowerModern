@@ -10,7 +10,7 @@ with (obj_player)
 	backtohubstartx = 522;
 	backtohubstarty = 2328;
 }
-if (obj_player1.ispeppino && !global.swapmode)
+if (obj_player.ispeppino && !global.swapmode)
 {
 	layer_set_visible("Backgrounds_Ring2", true);
 	layer_set_visible("Backgrounds_Ring3", false);

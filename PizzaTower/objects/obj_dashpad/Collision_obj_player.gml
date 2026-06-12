@@ -35,7 +35,7 @@ with (other)
 			}
 			vsp = 0;
 			create_particle(x, y, particletypes.jumpdust, 0);
-			if (character == "P")
+			if (character == CHAR_PEPPINO)
 			{
 				if (sprite_index != spr_dashpadmach)
 				{
@@ -43,7 +43,7 @@ with (other)
 					image_index = 0;
 				}
 			}
-			else if (character == "N")
+			else if (character == CHAR_NOISE)
 			{
 				if (sprite_index != spr_crazyrun)
 				{

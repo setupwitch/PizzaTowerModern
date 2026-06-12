@@ -6,7 +6,7 @@ if (((state == states.walk || (state == states.stun && !savedthrown)) && flicker
 		{
 			sprite_index = spr_bombexplosion;
 		}
-		scr_boss_do_hurt_phase2(obj_player1);
+		scr_boss_do_hurt_phase2(obj_player);
 		if (x != other.x)
 		{
 			image_xscale = sign(other.x - x);

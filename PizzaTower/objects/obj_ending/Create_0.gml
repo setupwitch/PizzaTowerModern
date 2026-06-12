@@ -38,7 +38,7 @@ for (var i = 0; i < array_length(credits); i++)
 		break;
 	}
 }
-if (!obj_player1.ispeppino || global.swapmode)
+if (!obj_player.ispeppino || global.swapmode)
 {
 	credits = [];
 }
@@ -96,7 +96,7 @@ spawn_arr =
 	spr_shrimp_walk,
 	spr_treasureguy_escape
 ];
-var _noise = !obj_player1.ispeppino;
+var _noise = !obj_player.ispeppino;
 if (global.swapmode)
 {
 	_noise = true;
@@ -162,7 +162,7 @@ else
 	}
 	if (global.swapmode)
 	{
-		with (obj_player1)
+		with (obj_player)
 		{
 			if (ispeppino)
 			{

@@ -1,7 +1,7 @@
-if (distance_to_object(obj_player1) < 50)
+if (distance_to_object(obj_player) < 50)
 {
 	var str = "";
-	if (obj_player1.state == states.bombdelete)
+	if (obj_player.state == states.bombdelete)
 	{
 		str = "DELETE ";
 	}

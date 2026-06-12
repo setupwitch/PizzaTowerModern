@@ -33,12 +33,10 @@ for (var i = 0; i < array_length(bg_alpha); i++)
 }
 bg_x -= 1;
 bg_y -= 1;
-if (timeout > 0)
+
+if (instance_exists(obj_keyconfig) || instance_exists(obj_screenconfirm) || instance_exists(obj_langselect) || timeout)
 {
-	timeout -= 1
-}
-if (instance_exists(obj_keyconfig) || instance_exists(obj_screenconfirm) || instance_exists(obj_langselect) || timeout > 0)
-{
+    timeout = false;
 	exit;
 }
 scr_menu_getinput();
@@ -170,6 +168,11 @@ if (slidebuffer > 0)
 }
 if ((key_back || key_slap2 || keyboard_check_pressed(vk_escape)) && !instance_exists(obj_keyconfig) && !instance_exists(obj_audioconfig))
 {
+    // if we are paused
+    if (obj_pause.pause)
+    {
+        obj_pause.timeout = true;
+    }
 	fmod_event_one_shot("event:/sfx/ui/back");
 	if (menu == menuids.categories)
 	{

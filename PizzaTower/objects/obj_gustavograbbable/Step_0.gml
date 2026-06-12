@@ -99,7 +99,7 @@ if (boundbox == false)
 		other.boundbox = true;
 	}
 }
-if (state == states.pizzaheadjump && obj_player1.state != states.handstandjump && place_meeting(x, y, obj_solid))
+if (state == states.pizzaheadjump && obj_player.state != states.handstandjump && place_meeting(x, y, obj_solid))
 {
 	invincible = true;
 }

@@ -367,7 +367,7 @@ function scr_player_bombpep()
 		hurted = true;
 		scr_losepoints();
 		instance_create(x, y, obj_bombexplosion);
-		GamepadSetVibration((object_index == obj_player1) ? 0 : 1, 1, 1, 0.9);
+		GamepadSetVibration((object_index == obj_player) ? 0 : 1, 1, 1, 0.9);
 		sprite_index = spr_bombpepend;
 	}
 	if (bombpeptimer > 0)
@@ -378,13 +378,13 @@ function scr_player_bombpep()
 	{
 		instance_create(x + 10, y + 10, obj_bumpeffect);
 		xscale *= -1;
-		GamepadSetVibration((object_index == obj_player1) ? 0 : 1, 0.2, 0.2, 0.4);
+		GamepadSetVibration((object_index == obj_player) ? 0 : 1, 0.2, 0.2, 0.4);
 	}
 	if (scr_solid(x - 1, y) && xscale == -1 && hsp != 0 && (!place_meeting(x + sign(hsp), y, obj_slope) || scr_solid_slope(x + sign(hsp), y)))
 	{
 		instance_create(x - 10, y + 10, obj_bumpeffect);
 		xscale *= -1;
-		GamepadSetVibration((object_index == obj_player1) ? 0 : 1, 0.2, 0.2, 0.4);
+		GamepadSetVibration((object_index == obj_player) ? 0 : 1, 0.2, 0.2, 0.4);
 	}
 	if (input_buffer_jump > 0 && can_jump && hsp != 0)
 	{

@@ -129,7 +129,7 @@ function scr_pizzaface_p2_fall()
 {
 	image_speed = 0.35;
 	hsp = 0;
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (ANIMATION_END)
 		{
@@ -201,7 +201,7 @@ function scr_pizzaface_p2_fall()
 					boss_hpsprite = spr_bossfight_pizzaheadHP;
 					boss_palette = spr_bossfight_pizzaheadpalette;
 				}
-				with (obj_player1)
+				with (obj_player)
 				{
 					sprite_index = spr_player_gnomecutscene3;
 					if (!ispeppino)
@@ -236,7 +236,7 @@ function scr_pizzaface_p2_fall()
 			{
 				state = states.walk;
 				image_xscale = 1;
-				with (obj_player1)
+				with (obj_player)
 				{
 					state = states.animation;
 					tauntstoredstate = states.normal;
@@ -248,7 +248,7 @@ function scr_pizzaface_p2_fall()
 					}
 					landAnim = false;
 				}
-				if (!obj_player1.ispeppino)
+				if (!obj_player.ispeppino)
 				{
 					with (obj_music)
 					{
@@ -278,7 +278,7 @@ function scr_pizzaface_p2_normal()
 	}
 	else
 	{
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			with (obj_music)
 			{
@@ -650,10 +650,10 @@ function boss_pizzahead_throwing()
 					var s1 = 14 + other.wastedhits;
 					var s2 = 23 + other.wastedhits;
 					grav += (other.wastedhits * 0.1);
-					calculate_jump_velocity(obj_player1.x, obj_player1.y, s1, grav);
+					calculate_jump_velocity(obj_player.x, obj_player.y, s1, grav);
 					if (abs(hsp) <= 1 && (abs(vsp) <= 1 || vsp > 0))
 					{
-						calculate_jump_velocity(obj_player1.x, obj_player1.y, s2, grav);
+						calculate_jump_velocity(obj_player.x, obj_player.y, s2, grav);
 					}
 					movespeed = abs(hsp);
 					if (movespeed <= 4)

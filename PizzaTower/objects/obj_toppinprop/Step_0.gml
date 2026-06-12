@@ -1,5 +1,5 @@
 mask_index = spr_player_mask;
-if (obj_player1.state == states.backbreaker && state != states.backbreaker)
+if (obj_player.state == states.backbreaker && state != states.backbreaker)
 {
 	storedstate = state;
 	storedsprite = sprite_index;
@@ -32,7 +32,7 @@ switch (state)
 	case states.backbreaker:
 		hsp = 0;
 		vsp = 0;
-		if (obj_player1.state != states.backbreaker)
+		if (obj_player.state != states.backbreaker)
 		{
 			state = storedstate;
 			sprite_index = storedsprite;

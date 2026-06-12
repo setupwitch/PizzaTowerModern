@@ -636,13 +636,13 @@ add_achievement_update("pal_boise", 1, function()
 	}
 	var _state = achievement_get_variable("boise_prevstate");
 	var _count = achievement_get_variable("boise_count");
-	if (obj_player1.state != _state.value && obj_player1.state != states.chainsaw)
+	if (obj_player.state != _state.value && obj_player.state != states.chainsaw)
 	{
-		if (obj_player1.state == states.ratmountbounce)
+		if (obj_player.state == states.ratmountbounce)
 		{
 			_count.value += 0.5;
 		}
-		else if (_count.value > 0 && (obj_player1.sprite_index == spr_playerN_sidewayspin || obj_player1.sprite_index == spr_playerN_sidewayspinend))
+		else if (_count.value > 0 && (obj_player.sprite_index == spr_playerN_sidewayspin || obj_player.sprite_index == spr_playerN_sidewayspinend))
 		{
 			_count.value += 0.5;
 		}
@@ -650,9 +650,9 @@ add_achievement_update("pal_boise", 1, function()
 		{
 			palette_unlock(name, "boise", 3, noone, false);
 		}
-		_state.value = obj_player1.state;
+		_state.value = obj_player.state;
 	}
-	if (obj_player1.grounded || (obj_player1.state != states.ratmountbounce && obj_player1.state != states.chainsaw && obj_player1.sprite_index != spr_playerN_sidewayspin && obj_player1.sprite_index != spr_playerN_sidewayspinend))
+	if (obj_player.grounded || (obj_player.state != states.ratmountbounce && obj_player.state != states.chainsaw && obj_player.sprite_index != spr_playerN_sidewayspin && obj_player.sprite_index != spr_playerN_sidewayspinend))
 	{
 		_count.value = 0;
 	}
@@ -673,7 +673,7 @@ add_achievement_notify("pal_roise", function()
 	{
 		count.value = 0;
 	}
-	else if (type == notifications.generic_killed && (obj_player1.sprite_index == spr_playerN_divebomb || obj_player1.sprite_index == spr_playerN_divebombfall || obj_player1.sprite_index == spr_playerN_divebombland))
+	else if (type == notifications.generic_killed && (obj_player.sprite_index == spr_playerN_divebomb || obj_player.sprite_index == spr_playerN_divebombfall || obj_player.sprite_index == spr_playerN_divebombland))
 	{
 		count.value++;
 		if (count.value >= 4)
@@ -784,7 +784,7 @@ add_achievement_update("pal_realdoise", 2, noone, function()
 	{
 		exit;
 	}
-	if (obj_player1.state == states.normal && obj_player1.sprite_index == obj_player1.spr_breakdance && room == boss_pizzaface && instance_exists(obj_noiseboss))
+	if (obj_player.state == states.normal && obj_player.sprite_index == obj_player.spr_breakdance && room == boss_pizzaface && instance_exists(obj_noiseboss))
 	{
 		palette_unlock(name, "realdoise", 17, noone, false);
 	}
@@ -854,7 +854,7 @@ add_achievement_update("pal_comedian", 1, function()
 		count.value = 0;
 		exit;
 	}
-	if (obj_player1.sprite_index == obj_player1.spr_breakdance)
+	if (obj_player.sprite_index == obj_player.spr_breakdance)
 	{
 		count.value++;
 		if (count.value >= 600)
@@ -1206,7 +1206,7 @@ add_achievement_notify("medieval3", function()
 }, function(_array)
 {
 	var type = _array[0];
-	if (type == notifications.generic_killed && global.leveltosave == "medieval" && (obj_player1.state == states.tumble || (obj_player1.tauntstoredstate == states.tumble && obj_player1.state == states.chainsaw)) && (obj_player1.sprite_index == obj_player1.spr_tumblestart || obj_player1.sprite_index == obj_player1.spr_tumbleend || obj_player1.sprite_index == obj_player1.spr_tumble))
+	if (type == notifications.generic_killed && global.leveltosave == "medieval" && (obj_player.state == states.tumble || (obj_player.tauntstoredstate == states.tumble && obj_player.state == states.chainsaw)) && (obj_player.sprite_index == obj_player.spr_tumblestart || obj_player.sprite_index == obj_player.spr_tumbleend || obj_player.sprite_index == obj_player.spr_tumble))
 	{
 		achievement_unlock(name, "Spherical", spr_achievement_medieval, 2);
 	}
@@ -1365,7 +1365,7 @@ add_achievement_notify("graveyard2", function()
 	var arr = _array[1];
 	if (global.leveltosave == "graveyard")
 	{
-		if (type == notifications.generic_killed && (obj_player1.state == states.ghost || (obj_player1.state == states.chainsaw && obj_player1.tauntstoredstate == states.ghost)))
+		if (type == notifications.generic_killed && (obj_player.state == states.ghost || (obj_player.state == states.chainsaw && obj_player.tauntstoredstate == states.ghost)))
 		{
 			achievement_get_variable("grav2count").value += 1;
 			if (achievement_get_variable("grav2count").value >= 20)
@@ -1582,7 +1582,7 @@ add_achievement_update("space1", 1, function()
 	{
 		if (instance_exists(obj_fadeout))
 		{
-			if (obj_player1.targetDoor == "B")
+			if (obj_player.targetDoor == "B")
 			{
 				achievement_get_variable("sp1_hit").value = false;
 			}
@@ -1600,7 +1600,7 @@ add_achievement_update("space1", 1, function()
 			achievement_get_variable("sp1_hit").value = true;
 		}
 		var _q = false;
-		with (obj_player1)
+		with (obj_player)
 		{
 			if (y < 608)
 			{
@@ -1682,7 +1682,7 @@ add_achievement_notify("minigolf2", function()
 {
 	var type = _array[0];
 	var arr = _array[1];
-	if (type == notifications.pizzaball_shot && (arr[0] == obj_player1 || arr[0] == obj_player1))
+	if (type == notifications.pizzaball_shot && (arr[0] == obj_player || arr[0] == obj_player))
 	{
 		achievement_get_variable("g2_count").value = 0;
 	}

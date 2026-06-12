@@ -17,14 +17,14 @@ else
 		{
 			var snd = fmod_event_create_instance("event:/sfx/voice/swap");
 			var s = 0;
-			if (scorewins == "N")
+			if (scorewins == CHAR_NOISE)
 			{
 				s = 1;
 			}
 			with (instance_create(SCREEN_WIDTH + 200, 0, obj_cooploss))
 			{
 				depth = other.depth - 1;
-				if (other.scorewins == "N")
+				if (other.scorewins == CHAR_NOISE)
 				{
 					sprite_index = spr_cooplossP;
 				}

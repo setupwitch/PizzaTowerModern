@@ -16,5 +16,5 @@ followqueue = ds_queue_create();
 LAG_STEPS = 50;
 touched = false;
 targetRoom = room;
-targetDoor = obj_player1.targetDoor;
+targetDoor = obj_player.targetDoor;
 steppy = false;

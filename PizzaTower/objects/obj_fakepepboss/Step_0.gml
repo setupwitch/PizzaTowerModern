@@ -5,7 +5,7 @@ if (room == rm_editor)
 var palinfo = get_pep_palette_info();
 spr_palette = palinfo.spr_palette;
 paletteselect = palinfo.paletteselect;
-targetplayer = obj_player1.id;
+targetplayer = obj_player.id;
 if (!pizzahead)
 {
 	wastedhits = 6 - elitehit;
@@ -133,9 +133,9 @@ if (state == states.stun)
 {
 	instance_destroy(obj_grabmarker);
 }
-if (instance_exists(obj_player1))
+if (instance_exists(obj_player))
 {
-	if (!obj_player1.ispeppino || global.swapmode)
+	if (!obj_player.ispeppino || global.swapmode)
 	{
 		instance_destroy(obj_grabmarker);
 	}
@@ -174,7 +174,7 @@ if (prevhp != elitehit)
 		if (global.playerhit >= 3 && (pizzahead || phase != 2 || wastedhits < 6))
 		{
 			global.playerhit = 0;
-			instance_create(obj_player1.x, -15, obj_hppickup);
+			instance_create(obj_player.x, -15, obj_hppickup);
 		}
 	}
 	prevhp = elitehit;

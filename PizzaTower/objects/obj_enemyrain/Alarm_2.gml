@@ -1,10 +1,6 @@
-if (obj_player1.spotlight == true)
+if (obj_player.spotlight == true)
 {
-	playerid = obj_player1;
-}
-else
-{
-	playerid = obj_player2;
+	playerid = obj_player;
 }
 spawn = true;
 if (instance_number(obj_baddie) < 20)

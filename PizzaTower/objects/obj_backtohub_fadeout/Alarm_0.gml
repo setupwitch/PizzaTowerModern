@@ -1,7 +1,7 @@
-if (!instance_exists(obj_player1))
+if (!instance_exists(obj_player))
 {
 	alarm[0] = 1;
-	instance_activate_object(obj_player1);
+	instance_activate_object(obj_player);
 }
 else
 {
@@ -15,9 +15,9 @@ else
 		}
 	}
 	pos_player = true;
-	obj_player1.x = obj_player1.backtohubstartx;
-	obj_player1.y = obj_player1.backtohubstarty - (SCREEN_HEIGHT * 2);
-	obj_player1.state = states.backtohub;
-	obj_player1.sprite_index = obj_player1.spr_slipbanan1;
-	obj_player1.image_index = 10;
+	obj_player.x = obj_player.backtohubstartx;
+	obj_player.y = obj_player.backtohubstarty - (SCREEN_HEIGHT * 2);
+	obj_player.state = states.backtohub;
+	obj_player.sprite_index = obj_player.spr_slipbanan1;
+	obj_player.image_index = 10;
 }

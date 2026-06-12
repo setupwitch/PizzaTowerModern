@@ -6,13 +6,9 @@ if (obj_player.state == states.pizzathrow)
 {
 	visible = false;
 }
-if (obj_player1.spotlight == true)
+if (obj_player.spotlight == true)
 {
-	playerid = obj_player1;
-}
-else
-{
-	playerid = obj_player2;
+	playerid = obj_player;
 }
 if (global.miniboss == false)
 {

@@ -1,8 +1,8 @@
 highest_y = -270;
-var _instY = collision_line(obj_player1.x, obj_player1.y, obj_player1.x, obj_player1.y - 270, obj_solid, false, true);
+var _instY = collision_line(obj_player.x, obj_player.y, obj_player.x, obj_player.y - 270, obj_solid, false, true);
 if (_instY != noone)
 {
-	highest_y = -abs(obj_player1.y - (_instY.y + _instY.sprite_height)) - 32;
+	highest_y = -abs(obj_player.y - (_instY.y + _instY.sprite_height)) - 32;
 }
 if (random_buffer > 0)
 {
@@ -10,7 +10,7 @@ if (random_buffer > 0)
 }
 else
 {
-	var _col = collision_line(x, y, obj_player1.x, obj_player1.y, obj_solid, false, true);
+	var _col = collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true);
 	if (!place_meeting(x, y, obj_solid) && !place_meeting(x, y, obj_slope) && _col == noone)
 	{
 		var n = irandom(array_length(content) - 1);
@@ -25,5 +25,5 @@ else
 }
 hsp = Wave(-288, 288, 10, 0);
 vsp = Wave(highest_y + 78, highest_y + 152, 1, 0);
-x = obj_player1.x + hsp;
-y = obj_player1.y + obj_player1.vsp + vsp;
+x = obj_player.x + hsp;
+y = obj_player.y + obj_player.vsp + vsp;

@@ -5,7 +5,7 @@ if (room == rm_editor)
 switch (state)
 {
 	case states.walk:
-		var targetplayer = obj_player1.id;
+		var targetplayer = obj_player.id;
 		if (hamspotted == true)
 		{
 			targetplayer = obj_ham;

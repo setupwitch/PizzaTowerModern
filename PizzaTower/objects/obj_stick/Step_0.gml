@@ -75,9 +75,9 @@ switch (state)
 			if (sprite_index == spr_stick_idle)
 			{
 				idle++;
-				if (obj_player1.x != x)
+				if (obj_player.x != x)
 				{
-					image_xscale = sign(obj_player1.x - x);
+					image_xscale = sign(obj_player.x - x);
 				}
 			}
 			if (idle >= 200)
@@ -107,7 +107,7 @@ switch (state)
 		{
 			drawing = false;
 		}
-		if (drawing && obj_player1.key_up && (global.pigtotal - global.pigreduction) >= maxscore)
+		if (drawing && obj_player.key_up && (global.pigtotal - global.pigreduction) >= maxscore)
 		{
 			fmod_event_one_shot_3d("event:/sfx/misc/kashing", x, y);
 			instance_destroy(arrowID);
@@ -150,16 +150,16 @@ switch (state)
 	case states.jump:
 		if (shot || noisette)
 		{
-			with (obj_player1)
+			with (obj_player)
 			{
 				hsp = Approach(hsp, 0, 0.1);
 			}
 		}
 		if (sprite_index == spr_noisettestick_takemoney1)
 		{
-			if (obj_player1.hsp == 0)
+			if (obj_player.hsp == 0)
 			{
-				with (obj_player1)
+				with (obj_player)
 				{
 					sprite_index = spr_idle;
 				}
@@ -170,7 +170,7 @@ switch (state)
 				else
 				{
 					sprite_index = spr_noisettestick_takemoney2;
-					if (obj_player1.ispeppino)
+					if (obj_player.ispeppino)
 					{
 						fmod_event_one_shot_3d("event:/sfx/noisette/voice2", x, y);
 						sprite_index = spr_noisettestick_helicopterstart;
@@ -182,7 +182,7 @@ switch (state)
 		}
 		else if (sprite_index == spr_noisettestick_takemoney2)
 		{
-			var tx = obj_player1.x + (obj_player1.xscale * 16);
+			var tx = obj_player.x + (obj_player.xscale * 16);
 			x = lerp(x, tx, 0.07);
 			if (abs(x - tx) <= 15)
 			{
@@ -195,20 +195,20 @@ switch (state)
 					wet_buffer = 2;
 					repeat (random(2) + 1)
 					{
-						create_debris(obj_player1.x + ((tx - obj_player1.x) / 2), y + 10, spr_waterdrop);
+						create_debris(obj_player.x + ((tx - obj_player.x) / 2), y + 10, spr_waterdrop);
 					}
 				}
 				if (!shot)
 				{
 					fmod_event_instance_play(kiss_snd);
 					fmod_event_instance_set_3d_attributes(kiss_snd, x, y);
-					with (obj_player1)
+					with (obj_player)
 					{
 						sprite_index = spr_bump;
 					}
 					shot = true;
 					buffer = 150;
-					instance_create(obj_player1.x + ((tx - obj_player1.x) / 2), y, obj_noisetteheart);
+					instance_create(obj_player.x + ((tx - obj_player.x) / 2), y, obj_noisetteheart);
 				}
 			}
 			if (buffer == 10)
@@ -225,7 +225,7 @@ switch (state)
 				sprite_index = spr_noisettestick_helicopterstart;
 				image_index = 0;
 				fmod_event_one_shot_3d("event:/sfx/pep/bumpwall", x, y);
-				with (obj_player1)
+				with (obj_player)
 				{
 					hsp = -xscale * 4;
 					sprite_index = spr_bump;
@@ -245,7 +245,7 @@ switch (state)
 			{
 				shot = true;
 				fmod_event_one_shot_3d("event:/sfx/pep/bumpwall", x, y);
-				with (obj_player1)
+				with (obj_player)
 				{
 					hsp = -xscale * 4;
 					sprite_index = spr_bump;
@@ -310,7 +310,7 @@ switch (state)
 					}
 					instance_destroy();
 				}
-				with (obj_player1)
+				with (obj_player)
 				{
 					state = states.normal;
 					landAnim = false;

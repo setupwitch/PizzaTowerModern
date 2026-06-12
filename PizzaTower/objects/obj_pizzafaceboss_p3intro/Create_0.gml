@@ -33,7 +33,7 @@ if (room == rm_testing4)
 peppinoID = noone;
 if (global.swapmode)
 {
-	with (obj_player1)
+	with (obj_player)
 	{
 		if (ispeppino)
 		{

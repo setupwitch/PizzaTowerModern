@@ -23,7 +23,7 @@ scr_random_granny();
 var lay_id = layer_get_id("Assets_1");
 var pep = layer_sprite_get_id(lay_id, "pep_graffiti");
 var noise = layer_sprite_get_id(lay_id, "noise_graffiti");
-if (obj_player1.ispeppino)
+if (obj_player.ispeppino)
 {
 	layer_sprite_alpha(pep, 1);
 	layer_sprite_alpha(noise, 0);

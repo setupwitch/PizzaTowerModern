@@ -1,10 +1,6 @@
-if (obj_player1.spotlight == true)
+if (obj_player.spotlight == true)
 {
-	playerid = obj_player1;
-}
-else
-{
-	playerid = obj_player2;
+	playerid = obj_player;
 }
 if (playerid.mort == false)
 {
@@ -19,7 +15,7 @@ if (room == rank_room)
 	visible = false;
 }
 image_speed = 0.35;
-if (obj_player1.hsp != 0)
+if (obj_player.hsp != 0)
 {
 	sprite_index = spr_mortwalk;
 }

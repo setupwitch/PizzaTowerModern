@@ -11,11 +11,11 @@ if (!noise_grabbed)
 		if (place_meeting(x + sign(hithsp), y, obj_solid) || (place_meeting(x, y, obj_player) && obj_player.state != states.handstandjump))
 		{
 			instance_destroy();
-			if (obj_player1.flash)
+			if (obj_player.flash)
 			{
-				obj_player1.flash = false;
+				obj_player.flash = false;
 			}
-			scr_hurtplayer(obj_player1);
+			scr_hurtplayer(obj_player);
 		}
 	}
 	event_inherited();
@@ -39,11 +39,11 @@ if (!noise_grabbed)
 	if (!linethrown && !thrown && noise && grounded && vsp > 0)
 	{
 		instance_destroy();
-		if (obj_player1.flash)
+		if (obj_player.flash)
 		{
-			obj_player1.flash = false;
+			obj_player.flash = false;
 		}
-		scr_hurtplayer(obj_player1);
+		scr_hurtplayer(obj_player);
 	}
 }
 else

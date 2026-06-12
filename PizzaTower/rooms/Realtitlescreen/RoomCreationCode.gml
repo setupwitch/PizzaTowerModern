@@ -318,8 +318,9 @@ enum states
 }
 
 #macro ANIMATION_END floor(image_index) == (image_number - 1)
+#macro CHAR_PEPPINO "P"
+#macro CHAR_NOISE "N"
 
-global.coop = false;
 global.currentsavefile = 1;
 var achievement_arr = ["sranks1", "sranks2", "sranks3", "sranks4", "sranks5"];
 var data_arr = [get_save_folder() + "/saveData1", get_save_folder() + "/saveData2", get_save_folder() + "/saveData3"];
@@ -428,7 +429,7 @@ global.mrstickcutscene3 = noone;
 global.chateauswap = noone;
 global.warcutscene = noone;
 pal_swap_init_system(shd_pal_swapper);
-with (obj_player1)
+with (obj_player)
 {
 	state = states.normal;
 }

@@ -7,7 +7,7 @@ if (start)
 	var cx = irandom_range(-shake_mag, shake_mag);
 	var cy = irandom_range(-shake_mag, shake_mag);
 	pattern_set(global.Base_Pattern_Color, sprite_index, image_index, 1, 1, global.palettetexture);
-	pal_swap_set(obj_player1.spr_palette, obj_player1.paletteselect, false);
+	pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, false);
 	draw_sprite(sprite_index, image_index, cx, cy);
 	pattern_reset();
 	reset_shader_fix();

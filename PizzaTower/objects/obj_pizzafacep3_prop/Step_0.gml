@@ -5,7 +5,7 @@ if (use_collision)
 		sprite_index = stunspr;
 		if (grounded && vsp > 0)
 		{
-			with (obj_player1)
+			with (obj_player)
 			{
 				sprite_index = spr_player_gnomecutscene1;
 				if (!ispeppino)

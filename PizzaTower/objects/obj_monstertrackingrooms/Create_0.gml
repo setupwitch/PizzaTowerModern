@@ -116,7 +116,7 @@ function robot_create(_is_triggered, _is_fake)
 				}
 				if (!instance_exists(_doorInst))
 				{
-					_doorInst = asset_get_index("obj_door" + obj_player1.targetDoor);
+					_doorInst = asset_get_index("obj_door" + obj_player.targetDoor);
 				}
 				if (_dir.x != 0)
 				{
@@ -175,7 +175,7 @@ function blob_create(_is_triggered, _is_fake)
 				}
 				if (!instance_exists(_doorInst))
 				{
-					_doorInst = asset_get_index("obj_door" + obj_player1.targetDoor);
+					_doorInst = asset_get_index("obj_door" + obj_player.targetDoor);
 				}
 				if (_dir.x != 0)
 				{
@@ -255,7 +255,7 @@ function hillbilly_create(_is_triggered, _is_fake)
 				}
 				if (!instance_exists(_doorInst))
 				{
-					_doorInst = asset_get_index("obj_door" + obj_player1.targetDoor);
+					_doorInst = asset_get_index("obj_door" + obj_player.targetDoor);
 				}
 				if (_dir.x != 0)
 				{

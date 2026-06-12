@@ -11,7 +11,7 @@ if (state != states.arenaround)
 		else
 		{
 			wave_seconds = 0;
-			with (obj_player1)
+			with (obj_player)
 			{
 				if (state != states.ejected)
 				{

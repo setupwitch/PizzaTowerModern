@@ -1,12 +1,12 @@
 if (room == Titlescreen && obj_player.state == states.titlescreen)
 {
-	obj_player1.sprite_index = spr_player_machfreefall;
-	obj_player1.state = states.backbreaker;
-	obj_player1.movespeed = 6;
-	obj_player1.vsp = 5;
-	obj_player1.xscale = 1;
-	obj_player1.player_x = 50;
-	obj_player1.player_y = 50;
+	obj_player.sprite_index = spr_player_machfreefall;
+	obj_player.state = states.backbreaker;
+	obj_player.movespeed = 6;
+	obj_player.vsp = 5;
+	obj_player.xscale = 1;
+	obj_player.player_x = 50;
+	obj_player.player_y = 50;
 }
 if (obj_player.state == states.taxi)
 {
@@ -14,10 +14,10 @@ if (obj_player.state == states.taxi)
 	{
 		with (instance_create(obj_stopsign.x - (SCREEN_WIDTH / 2), obj_stopsign.y, obj_taxidud))
 		{
-			playerid = obj_player1;
-			if (obj_player1.policetaxi)
+			playerid = obj_player;
+			if (obj_player.policetaxi)
 			{
-				obj_player1.policetaxi = false;
+				obj_player.policetaxi = false;
 				sprite_index = spr_taxicop;
 			}
 		}
@@ -26,7 +26,7 @@ if (obj_player.state == states.taxi)
 	{
 		with (instance_create(obj_checkpoint.x - (SCREEN_WIDTH / 2), obj_checkpoint.y - 50, obj_taxidud))
 		{
-			playerid = obj_player1;
+			playerid = obj_player;
 		}
 		with (obj_player)
 		{

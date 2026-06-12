@@ -1,5 +1,5 @@
 var b = false;
-var p = (player_num == 1) ? obj_player1.id : obj_player2.id;
+var p = obj_player.id;
 with (other)
 {
 	if (defused)
@@ -14,7 +14,7 @@ with (other)
 		image_xscale = -_dir;
 		if (!other.collisioned)
 		{
-			obj_player1.xscale = -_dir;
+			obj_player.xscale = -_dir;
 		}
 		if (current_hspd == 0)
 		{

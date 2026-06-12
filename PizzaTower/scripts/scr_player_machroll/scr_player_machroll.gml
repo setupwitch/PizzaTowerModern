@@ -14,7 +14,7 @@ function scr_player_machroll()
 	move = key_right + key_left;
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			if (scr_solid(x + xscale, y) && (!place_meeting(x + sign(hsp), y, obj_slope) || scr_solid_slope(x + sign(hsp), y)) && !place_meeting(x + sign(hsp), y, obj_destructibles))
 			{
 				hsp = 0;
@@ -144,7 +144,7 @@ function scr_player_machroll()
 				sprite_index = spr_rollgetup;
 			}
 			break;
-		case "N":
+		case CHAR_NOISE:
 			if ((scr_solid(x + 1, y) && xscale == 1) && !place_meeting(x + sign(hsp), y, obj_slope) && !place_meeting(x + sign(hsp), y, obj_destructibles))
 			{
 				hsp = 0;

@@ -1,8 +1,8 @@
-if (obj_player1.character == "V")
+if (obj_player.character == "V")
 {
 	global.playerhealth = clamp(global.playerhealth + 5, 0, 100);
 }
-if (other.object_index == obj_player1)
+if (other.object_index == obj_player)
 {
 	global.collect += 25;
 }

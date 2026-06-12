@@ -13,7 +13,7 @@ else
 {
 	sprite_index = baddieID.mask_index;
 }
-if (!obj_player1.ispeppino)
+if (!obj_player.ispeppino)
 {
 	sprite_index = spr_pizzaface_attackend;
 }

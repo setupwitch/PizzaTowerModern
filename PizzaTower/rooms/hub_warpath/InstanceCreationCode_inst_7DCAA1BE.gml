@@ -18,7 +18,7 @@ vmovespeed = 0;
 hmovespeed = 4;
 hscale = -1;
 active = false;
-if (poweredon && obj_player1.x < (room_width / 2))
+if (poweredon && obj_player.x < (room_width / 2))
 {
 	active = true;
 }

@@ -24,14 +24,14 @@ else
 if (global.panic == true || instance_exists(obj_wartimer))
 {
 	image_alpha = 1;
-	if (!gotowardsplayer && distance_to_object(obj_player1) < 25)
+	if (!gotowardsplayer && distance_to_object(obj_player) < 25)
 	{
 		gotowardsplayer = true;
 		scr_ghostcollectible();
 	}
 	if (gotowardsplayer == true)
 	{
-		move_towards_point(obj_player1.x, obj_player1.y, movespeed);
+		move_towards_point(obj_player.x, obj_player.y, movespeed);
 		movespeed++;
 	}
 }

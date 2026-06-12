@@ -1,13 +1,6 @@
 if (player == 1)
 {
-	if (got && obj_player1.state != states.gottreasure)
-	{
-		instance_destroy();
-	}
-}
-if (player == 2)
-{
-	if (got && obj_player2.state != states.gottreasure)
+	if (got && obj_player.state != states.gottreasure)
 	{
 		instance_destroy();
 	}
@@ -49,7 +42,7 @@ if (player == 0 && place_meeting(x, y, obj_player))
 				obj_tv.showtext = true;
 				obj_tv.message = "YOU GOT A TOWER SECRET TREASURE!!!";
 				obj_tv.alarm[0] = 200;
-				other.player = (object_index == obj_player1) ? 1 : 2;
+				other.player = (object_index == obj_player) ? 1 : 2;
 				ds_list_clear(global.instancelist);
 				break;
 			}

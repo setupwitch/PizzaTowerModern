@@ -1,7 +1,7 @@
 if (global.levelcomplete && !global.freezercutscene)
 {
 	global.levelcomplete = false;
-	with (obj_player1)
+	with (obj_player)
 	{
 		other.backx = backtohubstartx;
 		other.backy = backtohubstarty;
@@ -11,7 +11,7 @@ if (global.levelcomplete && !global.freezercutscene)
 	scene_info =
 	[
 		[cutscene_medieval_start],
-		[cutscene_waitfor_sprite, obj_player1],
+		[cutscene_waitfor_sprite, obj_player],
 		[function()
 		{
 			with (obj_actor)
@@ -151,12 +151,9 @@ if (global.levelcomplete && !global.freezercutscene)
 			instance_destroy(obj_actor);
 			with (obj_player)
 			{
-				if (object_index != obj_player2 || global.coop)
-				{
-					state = states.normal;
-					x = backtohubstartx;
-					y = backtohubstarty;
-				}
+				state = states.normal;
+				x = backtohubstartx;
+				y = backtohubstarty;
 			}
 			global.levelcomplete = false;
 			global.freezercutscene = true;

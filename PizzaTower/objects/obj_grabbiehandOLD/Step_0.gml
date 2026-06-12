@@ -4,20 +4,17 @@ if (sprite_index == spr_grabbiehand_hifive && ANIMATION_END)
 	thumbingup = false;
 	image_xscale = 1;
 }
-for (var i = 0; i < 2; i++)
+
+if (distance_to_pos(x, y, xstart, ystart, 6, 6) && obj_player.sprite_index != spr_player_catched && obj_player.x > (x - 50) && obj_player.x < (x + 50) && obj_player.y > y && obj_player.y < (y + 200) && !thumbingup)
 {
-	var targetplayer = asset_get_index(concat("obj_player", i + 1));
-	if (distance_to_pos(x, y, xstart, ystart, 6, 6) && targetplayer.sprite_index != spr_player_catched && targetplayer.x > (x - 50) && targetplayer.x < (x + 50) && targetplayer.y > y && targetplayer.y < (y + 200) && !thumbingup)
-	{
-		delay--;
-		if (delay <= 0)
-		{
-			grav = 0.35;
-			vsp = 10;
-			sprite_index = spr_grabbiehand_fall;
-			delay = 5;
-		}
-	}
+    delay--;
+    if (delay <= 0)
+    {
+        grav = 0.35;
+        vsp = 10;
+        sprite_index = spr_grabbiehand_fall;
+        delay = 5;
+    }
 }
 if (grabbing)
 {

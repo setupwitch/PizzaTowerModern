@@ -85,7 +85,7 @@ function state_player_jump()
 			jumpstop = true;
 		}
 	}
-	if (character == "N")
+	if (character == CHAR_NOISE)
 	{
 		if (key_jump && wallclingcooldown == 10)
 		{
@@ -169,7 +169,7 @@ function state_player_jump()
 		particle_set_scale(particletypes.highjumpcloud2, xscale, 1);
 		create_particle(x, y, particletypes.highjumpcloud2, 0);
 	}
-	if (!can_jump && character == "P" && !ispeppino && key_up && noisedoublejump && input_buffer_jump > 0 && !key_down && !key_attack)
+	if (!can_jump && character == CHAR_PEPPINO && !ispeppino && key_up && noisedoublejump && input_buffer_jump > 0 && !key_down && !key_attack)
 	{
 		freefallstart = 0;
 		railmomentum = false;
@@ -416,10 +416,6 @@ function state_player_jump()
 			{
 				parry_inst = instance_create(x, y, obj_parryhitbox);
 				var _playerid = 1;
-				if (object_index == obj_player2)
-				{
-					_playerid = 2;
-				}
 				with (parry_inst)
 				{
 					player_num = _playerid;
@@ -481,7 +477,7 @@ function state_player_jump()
 	}
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			if (key_attack && grounded && fallinganimation < 40)
 			{
 				sprite_index = spr_mach1;
@@ -547,7 +543,7 @@ function state_player_jump()
 				fmod_event_one_shot_3d("event:/sfx/enemies/killingblow", x, y);
 			}
 			break;
-		case "N":
+		case CHAR_NOISE:
 			if (key_attack2 && (pogochargeactive || pizzapepper > 0))
 			{
 				if (!key_up)

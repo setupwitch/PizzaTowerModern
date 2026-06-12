@@ -1,19 +1,15 @@
 event_inherited();
 image_speed = 0.1;
 yoffset = 0;
-if (obj_player1.spotlight == true)
+if (obj_player.spotlight == true)
 {
-	playerid = obj_player1;
-}
-else
-{
-	playerid = obj_player2;
+	playerid = obj_player;
 }
 toppinwarrior = 1;
 set = false;
 global.toppinwarriorattackcountdown = 0;
 space = 0;
-dir = obj_player1.xscale;
+dir = obj_player.xscale;
 steppy = 20;
 mask_index = spr_player_mask;
 depth = -5;

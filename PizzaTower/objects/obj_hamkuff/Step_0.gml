@@ -152,7 +152,7 @@ switch (state)
 		}
 		else
 		{
-			if (!obj_player1.isgustavo)
+			if (!obj_player.isgustavo)
 			{
 				state = states.walk;
 				sprite_index = spr_hamkuff_idle;
@@ -213,12 +213,12 @@ if (state != states.walk && state != states.blockstance)
 	attract_player = false;
 }
 var _dis = 300;
-if (state == states.walk && obj_player1.isgustavo && !obj_player1.cutscene && obj_player1.state != states.spaceshuttle && obj_player1.state != states.taxi && ((distance_to_object(obj_player) < _dis && obj_player1.brick) || distance_to_object(obj_ratmountgroundpound) < _dis || (distance_to_object(obj_brickcomeback) < _dis && instance_exists(obj_brickcomeback) && !obj_brickcomeback.trapped) || distance_to_object(obj_brickball) < _dis))
+if (state == states.walk && obj_player.isgustavo && !obj_player.cutscene && obj_player.state != states.spaceshuttle && obj_player.state != states.taxi && ((distance_to_object(obj_player) < _dis && obj_player.brick) || distance_to_object(obj_ratmountgroundpound) < _dis || (distance_to_object(obj_brickcomeback) < _dis && instance_exists(obj_brickcomeback) && !obj_brickcomeback.trapped) || distance_to_object(obj_brickball) < _dis))
 {
 	state = states.blockstance;
 	sprite_index = spr_hamkuff_chain1;
-	var x1 = obj_player1.x;
-	var y1 = obj_player1.y;
+	var x1 = obj_player.x;
+	var y1 = obj_player.y;
 	if (instance_exists(obj_ratmountgroundpound))
 	{
 		x1 = obj_ratmountgroundpound.x;
@@ -247,7 +247,7 @@ if (state == states.walk && obj_player1.isgustavo && !obj_player1.cutscene && ob
 		baddieID = other.id;
 		other.playerid = id;
 	}
-	with (obj_player1)
+	with (obj_player)
 	{
 		fmod_event_one_shot_3d("event:/sfx/enemies/hamkuffgrab", other.x, other.y);
 		fmod_event_one_shot_3d("event:/sfx/rat/ratdead", x, y);

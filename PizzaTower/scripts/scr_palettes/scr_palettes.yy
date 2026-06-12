@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_getinput2",
+  "%Name":"scr_palettes",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_getinput2",
+  "name":"scr_palettes",
   "parent":{
-    "name":"Input",
-    "path":"folders/Scripts/Input.yy",
+    "name":"Modern",
+    "path":"folders/Scripts/Modern.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

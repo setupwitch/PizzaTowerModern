@@ -9,7 +9,7 @@ with (obj_bosskeyspawn)
 	ini_close();
 	if (_spawn)
 	{
-		with (obj_player1)
+		with (obj_player)
 		{
 			if (state == states.arenaintro)
 			{

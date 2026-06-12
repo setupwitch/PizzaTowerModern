@@ -1,4 +1,4 @@
-playerid = obj_player1;
+playerid = obj_player;
 x = playerid.x;
 y = playerid.y - 50;
 depth = -10;

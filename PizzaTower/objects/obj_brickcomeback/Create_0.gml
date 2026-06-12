@@ -7,4 +7,4 @@ trapped = false;
 baddieID = noone;
 alarm[0] = 25;
 image_speed = 0.4;
-depth = obj_player1.depth + 1;
+depth = obj_player.depth + 1;

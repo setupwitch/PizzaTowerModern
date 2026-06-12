@@ -88,10 +88,6 @@ if (obj_player.state != states.gameover)
 	reset_shader_fix();
 	draw_sprite_ext(spr_pizzascore, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha);
 	var _score = global.collect;
-	if (global.coop)
-	{
-		_score += global.collectN;
-	}
 	if (_score >= global.crank)
 	{
 		draw_sprite_ext(spr_pizzascore_pepper, pizzascore_index, hud_xx, hud_yy, 1, 1, 0, c_white, alpha);
@@ -241,7 +237,7 @@ if (obj_player.state != states.gameover)
 	draw_set_font(lang_get_font("bigfont"));
 	draw_set_halign(fa_center);
 	draw_set_color(c_white);
-	if (obj_player1.character == "V")
+	if (obj_player.character == "V")
 	{
 		draw_text(200 + healthshake, 125 + healthshake, global.playerhealth);
 	}

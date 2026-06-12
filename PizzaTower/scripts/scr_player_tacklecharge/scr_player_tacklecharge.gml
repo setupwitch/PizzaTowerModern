@@ -42,7 +42,7 @@ function scr_player_tacklecharge()
 	{
 		if (baddiegrabbedID != obj_null)
 		{
-			if (baddiegrabbedID.object_index == obj_player1 || baddiegrabbedID.object_index == obj_player2)
+			if (baddiegrabbedID.object_index == obj_player)
 			{
 				with (baddiegrabbedID)
 				{
@@ -74,7 +74,7 @@ function scr_player_tacklecharge()
 	if (key_down && grounded)
 	{
 		sprite_index = spr_crouchslip;
-		if (character == "P")
+		if (character == CHAR_PEPPINO)
 		{
 			machhitAnim = false;
 		}

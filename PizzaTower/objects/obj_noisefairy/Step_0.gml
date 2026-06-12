@@ -23,7 +23,7 @@ switch (state)
 	case 2:
 		x = lerp(x, tx, 0.2);
 		y = lerp(y, ty, 0.2);
-		if (obj_player1.grounded && obj_player1.vsp > 0)
+		if (obj_player.grounded && obj_player.vsp > 0)
 		{
 			state++;
 		}

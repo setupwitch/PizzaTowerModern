@@ -1,4 +1,4 @@
-if (obj_player1.character == "V")
+if (obj_player.character == "V")
 {
 	with (all)
 	{

@@ -8,7 +8,7 @@ function scr_player_mach3()
 	var mach3_spr;
 	switch (character)
 	{
-		case "P":
+		case CHAR_PEPPINO:
 			var slopeaccel = 0.1;
 			var slopedeccel = 0.2;
 			var mach4movespeed = 20;
@@ -80,19 +80,6 @@ function scr_player_mach3()
 			momemtum = true;
 			move = key_right + key_left;
 			move2 = key_right2 + key_left2;
-			if (fightball == true && global.coop == true)
-			{
-				if (object_index == obj_player1)
-				{
-					x = obj_player2.x;
-					y = obj_player2.y;
-				}
-				if (object_index == obj_player2)
-				{
-					x = obj_player1.x;
-					y = obj_player1.y;
-				}
-			}
 			if (sprite_index == spr_crazyrun)
 			{
 				if (flamecloud_buffer > 0)
@@ -138,7 +125,7 @@ function scr_player_mach3()
 					image_index = 0;
 					sprite_index = spr_mach3jump;
 				}
-				if (character == "P")
+				if (character == CHAR_PEPPINO)
 				{
 					vsp = jumpspeed;
 				}
@@ -147,7 +134,7 @@ function scr_player_mach3()
 					vsp = -13;
 				}
 			}
-			if (input_buffer_jump > 0 && !can_jump && key_up && !ispeppino && character == "P" && noisedoublejump)
+			if (input_buffer_jump > 0 && !can_jump && key_up && !ispeppino && character == CHAR_PEPPINO && noisedoublejump)
 			{
 				scr_player_do_noisecrusher();
 			}
@@ -208,7 +195,7 @@ function scr_player_mach3()
 			{
 				image_speed = 0.4;
 			}
-			if (((!key_attack && fightball == false && !launched) && sprite_index != spr_dashpadmach && grounded && vsp > 0 && (character == "P" || character == "N")) || ((character == "S" && (move == 0 || move != xscale) && grounded) && fightball == false))
+			if (((!key_attack && fightball == false && !launched) && sprite_index != spr_dashpadmach && grounded && vsp > 0 && (character == CHAR_PEPPINO || character == CHAR_NOISE)) || ((character == "S" && (move == 0 || move != xscale) && grounded) && fightball == false))
 			{
 				sprite_index = spr_machslidestart;
 				if (ispeppino)
@@ -223,7 +210,7 @@ function scr_player_mach3()
 				image_index = 0;
 				launched = false;
 			}
-			if (move == -xscale && grounded && vsp > 0 && !launched && (character == "P" || character == "N") && fightball == false && sprite_index != spr_dashpadmach)
+			if (move == -xscale && grounded && vsp > 0 && !launched && (character == CHAR_PEPPINO || character == CHAR_NOISE) && fightball == false && sprite_index != spr_dashpadmach)
 			{
 				if (ispeppino)
 				{

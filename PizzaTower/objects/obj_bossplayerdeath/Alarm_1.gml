@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	global.player_damage = 0;
 	global.swap_damage[0] = 0;

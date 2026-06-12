@@ -10,6 +10,7 @@ image_speed = 0;
 depth = -500;
 backbuffer = 2;
 savedmusicmuffle = 0;
+timeout = false;
 offload_textures = false;
 offload_arr = noone;
 pause_menu = ["pause_resume", "pause_options", "pause_restart", "pause_exit"];
@@ -99,9 +100,9 @@ var exit_function = function()
 	{
 		hub = false;
 		arr = ["menugroup"];
-		with (obj_player1)
+		with (obj_player)
 		{
-			character = "P";
+			character = CHAR_PEPPINO;
 			ispeppino = true;
 			scr_characterspr();
 		}

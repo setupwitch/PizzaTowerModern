@@ -44,7 +44,7 @@ else
 		layer_hspeed(lay2, 0);
 		layer_vspeed(lay2, 0);
 		instance_destroy(obj_doisecreature);
-		if (!obj_player1.ispeppino)
+		if (!obj_player.ispeppino)
 		{
 			with (instance_create(0, 0, obj_pizzahead_whitefade))
 			{

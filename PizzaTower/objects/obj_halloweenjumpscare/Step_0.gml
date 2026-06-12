@@ -1,7 +1,7 @@
 if (!active)
 {
 	y = ystart + sprite_height;
-	if (distance_to_object(obj_player1) < 250)
+	if (distance_to_object(obj_player) < 250)
 	{
 		active = true;
 		fmod_event_one_shot_3d("event:/sfx/misc/pepbotkick", x, y);

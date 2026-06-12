@@ -1,4 +1,4 @@
-with (obj_player1)
+with (obj_player)
 {
 	if (shotgunAnim == true)
 	{

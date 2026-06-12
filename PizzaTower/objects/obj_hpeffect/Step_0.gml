@@ -15,7 +15,7 @@ if (!finish)
 		}
 	}
 }
-if (!obj_player1.ispeppino)
+if (!obj_player.ispeppino)
 {
 	sprite_index = spr_bossfight_noiseHP;
 }
@@ -23,6 +23,6 @@ else
 {
 	sprite_index = spr_bossfight_playerhp;
 }
-spr_palette = obj_player1.spr_palette;
-paletteselect = obj_player1.paletteselect;
+spr_palette = obj_player.spr_palette;
+paletteselect = obj_player.paletteselect;
 patterntexture = global.palettetexture;

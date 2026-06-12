@@ -12,6 +12,6 @@ shader_reset();
 if (room == boss_pizzaface && instance_exists(obj_pizzaface_thunderdark) && !ispeppino)
 {
 	shader_set(shd_supernoise);
-	draw_sprite_ext(sprite_index, image_index, x, y + yoffset, image_xscale, image_yscale, image_angle, image_blend, obj_player1.supernoisefade);
+	draw_sprite_ext(sprite_index, image_index, x, y + yoffset, image_xscale, image_yscale, image_angle, image_blend, obj_player.supernoisefade);
 	shader_reset();
 }
