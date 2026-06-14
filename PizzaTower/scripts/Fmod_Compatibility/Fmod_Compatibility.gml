@@ -60,7 +60,7 @@ function fmod_event_instance_release(_event_instance)
 	return fmod_studio_event_instance_release(_event_instance);
 }
 
-function fmod_event_instance_stop(_event_instance, _immediate)
+function fmod_event_instance_stop(_event_instance, _immediate = true)
 {
 	// compatibility
 	return fmod_studio_event_instance_stop(_event_instance, _immediate ? FMOD_STUDIO_STOP_MODE.IMMEDIATE : FMOD_STUDIO_STOP_MODE.ALLOWFADEOUT);
